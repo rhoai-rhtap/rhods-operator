@@ -10,10 +10,10 @@ metadata:
       == "rhoai-2.12"
   creationTimestamp: null
   labels:
-    appstudio.openshift.io/application: rhoai-operator
-    appstudio.openshift.io/component: rhods-operator-v-2-12
+    appstudio.openshift.io/application: rhoai-v-2-12
+    appstudio.openshift.io/component: rhoai-operator-v-2-12
     pipelines.appstudio.openshift.io/type: build
-  name: rhods-operator-v-2-12-on-push
+  name: rhoai-operator-v-2-12-on-push
   namespace: rhoai-tenant
 spec:
   params:

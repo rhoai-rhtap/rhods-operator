@@ -1,0 +1,1205 @@
+{
+  "repositories": [
+    {
+      "namespace": "modh",
+      "name": "odh-deployer",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 7627189931,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-image",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3265176528,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "opendatahub-operator",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 183429620,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-manifests",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1710612327,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-deployer-container",
+      "description": "EULA: [https://github.com/red-hat-data-services/legal/raw/main/eula.docx](https://github.com/red-hat-data-services/legal/raw/main/eula.docx)",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 12172714723,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-container",
+      "description": "EULA: [https://github.com/red-hat-data-services/legal/raw/main/eula.docx](https://github.com/red-hat-data-services/legal/raw/main/eula.docx)",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 5377317693,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-test-harness",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 359624521,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-dashboard",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3485740702,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-jupyterhub-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 82982306449,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-dashboard-container",
+      "description": "EULA: [https://github.com/red-hat-data-services/legal/raw/main/eula.docx](https://github.com/red-hat-data-services/legal/raw/main/eula.docx)",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 61367245268,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-minimal-notebook-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 150033232960,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "s2i-minimal-notebook-anaconda",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3062863981,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-manifests-test",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 628159277,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "grafana",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 68524342,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "jupyterhub-db-probe",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 977278506,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "modh",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 240511834,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "must-gather",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 793708259,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "jupyterhub-img",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1139268733,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "qe-catalog-source",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 972771160,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-generic-data-science-notebook",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 263803558670,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "cloud-resource-operator-container",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 278096071,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-traefik-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3337114766,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-cmap-puller-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3220965304,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "ubi-cuda-tf",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3407992372,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "ubi-cuda-tf-mnist",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3407995788,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "ubi-cuda-pytorch",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 4375075178,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "ubi-cuda-pytorch-mnist",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 4375078998,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "ods-ci",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 19038253998,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-leader-election-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 4397251249,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "s2i-python-anaconda-base",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 4678877183,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "rhods-bundle",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1829260,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "rhods-catalog",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 338460198,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-test-harness-cleanup",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 153068967,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-deployer-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 11852076541,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 6868083056,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-dashboard-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 38814862665,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-cmap-puller-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1621961936,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-leader-election-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1593076523,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-jupyter-base-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 18583077568,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-jupyterhub-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 46603739926,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-s2i-thoth-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 24267806509,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-minimal-notebook-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 55633453748,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-traefik-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2863086165,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "rhods-operator-live-bundle",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 10344991,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "rhods-operator-live-catalog",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 426933852,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "s2i-minimal-py38-notebook",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 4724590315,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "rhods-cleanup",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 364614764,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-notebook-controller-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1400237108,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-kf-notebook-controller-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1322714080,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-kf-notebook-controller-container",
+      "description": "EULA: [https://github.com/red-hat-data-services/legal/raw/main/eula.docx](https://github.com/red-hat-data-services/legal/raw/main/eula.docx)",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 790470475,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-notebook-controller-container",
+      "description": "EULA: [https://github.com/red-hat-data-services/legal/raw/main/eula.docx](https://github.com/red-hat-data-services/legal/raw/main/eula.docx)",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 769817811,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-modelmesh-serving-controller-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1029412437,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-model-controller-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 697845716,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-mm-rest-proxy-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 439871486,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-modelmesh-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 14845507290,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "self-managed-rhods-index",
+      "description": "EULA: [https://github.com/red-hat-data-services/legal/raw/main/eula.docx](https://github.com/red-hat-data-services/legal/raw/main/eula.docx)",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 199112580,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-modelmesh-runtime-adapter-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2025153856,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-persistenceagent",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 63550961,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-api-server",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2916811,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-cache-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1124010718,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-scheduledworkflow-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 8550843488,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-viewercontroller-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 759334883,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "ods-ci-idp",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 402579038,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-visualizationserver",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 0,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-persistenceagent-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1221420940,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-visualizationserver-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 7927394163,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-api-server-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 11771002641,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-mm-rest-proxy-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 146024014,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-model-controller-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 441045718,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-modelmesh-runtime-adapter-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 412063854,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-modelmesh-serving-controller-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 524445347,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-api-server-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3672121907,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-cache-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 471334676,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-persistenceagent-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 519492801,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-scheduledworkflow-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3516692459,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-viewercontroller-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 429440611,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-artifact-manager-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2750664724,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-ml-pipelines-artifact-manager-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2309617038,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "etcd-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 97584417,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-base-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3462190617,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-prometheus-bundle-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 39980,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "cuda-notebooks",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 3012948094971,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-modelmesh-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1636732153,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-openvino-servingruntime-container",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 5535247658,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-pytorch-notebook",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2138011893245,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-data-science-pipelines-operator-container-live",
+      "description": null,
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 139978446,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-trustyai-notebook",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 166675436971,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "openvino-model-server",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 2939797947,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-data-science-pipelines-operator-controller-container-live",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 538927840,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-trustyai-service-container-live",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1606202685,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "runtime-images",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 4130840209604,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-anaconda-notebook",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 356137198576,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-base-v2-container-live",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 696380748,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odh-operator-v2-container-live",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 1576960122,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "rhods-operator-live-v2-bundle",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 415307186,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "odsci-jenkins",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 18352612001,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "text-generation-inference",
+      "description": "License file is located [here](https://github.com/IBM/text-generation-inference/blob/main/LICENSE).",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 145034341162,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "caikit-tgis-serving",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 95177476773,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "kserve-controller",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 8411657478,
+        "configured_quota": null
+      }
+    },
+    {
+      "namespace": "modh",
+      "name": "kserve-storage-initializer",
+      "description": "",
+      "is_public": true,
+      "kind": "image",
+      "state": "NORMAL",
+      "quota_report": {
+        "quota_bytes": 44348793747,
+        "configured_quota": null
+      }
+    }
+  ],
+  "next_page": "gAAAAABmztKChQdHu_Wim1Ox8suRzpDDyY3LN3xHvg4zxh48WhuTAqk_icy3FBA0ZoM1Qzru5b5BSMmyS1TuPV7f9AnDWcphjAAqZ7Dmt7AUUqp-mHAGxziYvt9vlUheG08sbVNHVPcLHWdPWZ1XaYe08s93lyjfSH1A55P6oXyfR5rHoYcUt9ctMsXolATxwuzOTY9awKRk"
+}

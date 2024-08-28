@@ -154,7 +154,22 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-    - name: my-custom-task
+    - name: my-custom-bundle-task
+      params:
+      - name: username
+        value: Deepak
+      taskRef:
+        params:
+        - name: name
+          value: init
+        - name: bundle
+          value: quay.io/rhoai-konflux/my-custom-task:latest
+        - name: kind
+          value: task
+        resolver: bundles
+      runAfter:
+      - init
+    - name: my-custom-git-task
       params:
       - name: username
         value: Deepak

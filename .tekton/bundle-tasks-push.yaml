@@ -161,7 +161,7 @@ spec:
       taskRef:
         params:
         - name: name
-          value: init
+          value: my-custom-task
         - name: bundle
           value: quay.io/rhoai-konflux/my-custom-task:latest
         - name: kind

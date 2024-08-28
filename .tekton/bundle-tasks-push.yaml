@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
-  #test6
+  #test7
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/rhoai-rhtap/rhods-operator?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
@@ -163,7 +163,7 @@ spec:
         - name: name
           value: my-custom-task
         - name: bundle
-          value: quay.io/rhoai-konflux/my-custom-task:latest
+          value: quay.io/rhoai-konflux/my-custom-task:latest1
         - name: kind
           value: task
         resolver: bundles

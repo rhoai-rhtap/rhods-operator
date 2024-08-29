@@ -154,21 +154,21 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-    - name: my-custom-bundle-task
-      params:
-      - name: username
-        value: Deepak
-      taskRef:
-        params:
-        - name: name
-          value: my-custom-task
-        - name: bundle
-          value: quay.io/rhoai-konflux/my-custom-task:latest1
-        - name: kind
-          value: task
-        resolver: bundles
-      runAfter:
-      - init
+#    - name: my-custom-bundle-task
+#      params:
+#      - name: username
+#        value: Deepak
+#      taskRef:
+#        params:
+#        - name: name
+#          value: my-custom-task
+#        - name: bundle
+#          value: quay.io/rhoai-konflux/my-custom-task:latest1
+#        - name: kind
+#          value: task
+#        resolver: bundles
+#      runAfter:
+#      - init
     - name: my-custom-git-task
       params:
       - name: username
@@ -183,7 +183,7 @@ spec:
             value: tekton/my-custom-task.yaml
         resolver: "git"
       runAfter:
-      - my-custom-bundle-task
+      - init
     - name: clone-repository
       params:
       - name: url

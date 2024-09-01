@@ -176,10 +176,10 @@ spec:
       taskSpec:
         steps:
         - name: fetch-snapshot
-          image: 'quay.io/your-registry/fetch-snapshot:latest'
+          image: curlimages/curl:latest
           script: |
-            # Fetch the latest snapshot of all components
-            curl -s ${SNAPSHOT_URL} -o snapshot.json
+            # Fetch the latest snapshot of all components using the provided URL
+            curl -s https://console.redhat.com/application-pipeline/workspaces/rhoai/applications/rhoai-operator/snapshots/rhoai-operator-qnbvm -o snapshot.json
             cat snapshot.json
 
     

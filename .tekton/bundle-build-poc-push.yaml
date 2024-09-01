@@ -27,6 +27,14 @@ spec:
     value: Dockerfiles/Dockerfile
   - name: path-context
     value: .
+  - name: snapshot-url
+    value: "https://console.redhat.com/application-pipeline/workspaces/rhoai/applications/rhoai-operator/snapshots/rhoai-operator-qnbvm"
+  - name: registry-replacement
+    value: "registry.redhat.io"
+  - name: repo-replacement
+    value: "registry/rhoai-path"
+  - name: csv-file-path
+    value: "bundle/manifests/rhods-operator.clusterserviceversion.yaml"
   pipelineSpec:
     finally:
     - name: show-sbom
@@ -160,6 +168,41 @@ spec:
             script: |
               #!/bin/sh
               echo "Hello Iram!"
+    taskRunSpecs:
+      - pipelineTaskName: update-bundle-csv
+        taskSpec:
+          params:
+          - name: snapshot-url
+            value: "https://console.redhat.com/application-pipeline/workspaces/rhoai/applications/rhoai-operator/snapshots/rhoai-operator-qnbvm"
+          - name: registry-replacement
+            value: "registry.redhat.io"
+          - name: repo-replacement
+            value: "registry/rhoai-path"
+          - name: csv-file-path
+            value: "bundle/manifests/rhods-operator.clusterserviceversion.yaml"
+          steps:
+            - name: fetch-snapshot
+              image: 'quay.io/your-registry/fetch-snapshot:latest'
+              script: |
+                # Fetch the latest snapshot of all components
+                curl -s ${SNAPSHOT_URL} -o snapshot.json
+                cat snapshot.json
+
+            - name: process-images
+              image: 'quay.io/your-registry/process-images:latest'
+              script: |
+                # Extract and replace image URIs in the CSV
+                jq -r '.components[] | .image' snapshot.json | while read -r image; do
+                  new_image=$(echo $image | sed "s|registryproxy|${REGISTRY_REPLACEMENT}|; s|modh|${REPO_REPLACEMENT}|")
+                  sed -i "s|$image|$new_image|" ${CSV_FILE_PATH}
+                done
+
+            - name: update-csv
+              image: 'quay.io/your-registry/update-csv:latest'
+              script: |
+                # Update the CSV file with the new image URIs
+                echo "CSV file at ${CSV_FILE_PATH} has been updated with the latest images."
+    - name: clone-repository
     - name: clone-repository
       params:
       - name: url

@@ -173,19 +173,14 @@ spec:
       params:
       - name: snapshot-url
         value: $(params.snapshot-url)
-      taskRunSpecs:
-      - pipelineTaskName: update-bundle-csv
-        taskSpec:
-          params:
-          - name: snapshot-url
-            value: "https://console.redhat.com/application-pipeline/workspaces/rhoai/applications/rhoai-operator/snapshots/rhoai-operator-qnbvm"
-          steps:
-            - name: fetch-snapshot
-              image: 'quay.io/your-registry/fetch-snapshot:latest'
-              script: |
-                # Fetch the latest snapshot of all components
-                curl -s ${SNAPSHOT_URL} -o snapshot.json
-                cat snapshot.json
+      taskSpec:
+        steps:
+        - name: fetch-snapshot
+          image: 'quay.io/your-registry/fetch-snapshot:latest'
+          script: |
+            # Fetch the latest snapshot of all components
+            curl -s ${SNAPSHOT_URL} -o snapshot.json
+            cat snapshot.json
 
     
     - name: clone-repository

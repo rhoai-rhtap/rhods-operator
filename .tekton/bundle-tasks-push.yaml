@@ -173,6 +173,8 @@ spec:
       params:
       - name: username
         value: Deepak
+      - name: PIPELINERUN_NAME
+        value: $(context.pipelineRun.name)
       taskRef:
         params:
           - name: url

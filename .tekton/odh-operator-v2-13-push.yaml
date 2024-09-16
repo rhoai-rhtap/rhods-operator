@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhoai/odh-rhel8-operator:{{revision}}
+    value: quay.io/rhoai/odh-rhel8-operator:{{target_branch}}
   - name: dockerfile
     value: Dockerfiles/Dockerfile
   pipelineSpec:
@@ -416,6 +416,9 @@ spec:
       params:
       - name: IMAGE
         value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: ADDITIONAL_TAGS
+        value: 
+          - '{{target_branch}}-{{revision}}'
       runAfter:
       - build-image-index
       taskRef:

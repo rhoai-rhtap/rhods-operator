@@ -34,4 +34,6 @@ var (
 
 	// AddToScheme adds the types in this group-version to the given scheme.
 	AddToScheme = SchemeBuilder.AddToScheme
+
+	AddToSchemeV2 = SchemeBuilder.AddToScheme
 )

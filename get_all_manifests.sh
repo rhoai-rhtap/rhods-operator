@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-
+# test
 GITHUB_URL="https://github.com/"
 # update to use different git repo for legacy manifests
 MANIFEST_ORG="red-hat-data-services"

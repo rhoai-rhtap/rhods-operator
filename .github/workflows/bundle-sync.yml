@@ -17,12 +17,19 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate github-app token
+        id: app-token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: ${{ secrets.RHOAI_DEVOPS_APP_ID }}
+          private_key: ${{ secrets.RHOAI_DEVOPS_APP_PRIVATE_KEY }}
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
           repository: rhoai-rhtap/rhods-operator
           path: source_repo
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Checkout target repo
         uses: actions/checkout@v3
@@ -30,6 +37,7 @@ jobs:
           repository: rhoai-rhtap/RHOAI-Build-Config
           path: target_repo
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Remove unnecessary fields from CSV
         run: |
@@ -95,12 +103,6 @@ jobs:
           else
             echo "No changes in Dockerfile"
           fi
-      - name: Generate github-app token
-        id: app-token
-        uses: getsentry/action-github-app-token@v2
-        with:
-          app_id: ${{ secrets.RHOAI_DEVOPS_APP_ID }}
-          private_key: ${{ secrets.RHOAI_DEVOPS_APP_PRIVATE_KEY }}
       - name: Commit and push the changes to release branch
         uses: actions-js/push@master
         with:
@@ -109,8 +111,8 @@ jobs:
           message: "Sync changes from source repo"
           repository: rhoai-rhtap/RHOAI-Build-Config
           directory: target_repo
-#          author_name: Openshift-AI DevOps
-#          author_email: openshift-ai-devops@redhat.com
+          author_name: Openshift-AI DevOps
+          author_email: openshift-ai-devops@redhat.com
 #      - name: Commit and Push Changes to Target Repo
 #        run: |
 #          cd target_repo

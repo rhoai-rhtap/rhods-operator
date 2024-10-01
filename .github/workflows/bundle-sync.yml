@@ -47,7 +47,7 @@ jobs:
       - name: Retain current image digests in the RBC repo
         run: |
           # Backup current image digests
-          cp target_repo/bundle/manifests/*.clusterserviceversion.yaml /tmp/rbc_csv.y*ml
+          cp target_repo/bundle/manifests/*.clusterserviceversion.y*ml /tmp/rbc_csv.y*ml
           # Replace image digests in the source CSV with the ones from the target repo
           for image in $(grep -oP 'image:\s*\K\S+' /tmp/rbc_csv.yaml); do
             sed -i "s|image: .*|image: $image|g" source_repo/bundle/manifests/*.clusterserviceversion.y*ml

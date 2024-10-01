@@ -33,8 +33,8 @@ jobs:
 
       - name: Remove unnecessary fields from CSV
         run: |
-          sed -i '/olm.skipRange/d' source_repo/bundle/manifests/*.clusterserviceversion.yaml
-          sed -i '/replaces/d' source_repo/bundle/manifests/*.clusterserviceversion.yaml
+          sed -i '/olm.skipRange/d' source_repo/bundle/manifests/*.clusterserviceversion.y*ml
+          sed -i '/replaces/d' source_repo/bundle/manifests/*.clusterserviceversion.y*ml
 
       - name: Remove channels and defaultChannel from annotations.yaml
         run: |
@@ -47,19 +47,19 @@ jobs:
       - name: Retain current image digests in the RBC repo
         run: |
           # Backup current image digests
-          cp target_repo/bundle/manifests/*.clusterserviceversion.yaml /tmp/rbc_csv.yaml
+          cp target_repo/bundle/manifests/*.clusterserviceversion.yaml /tmp/rbc_csv.y*ml
           # Replace image digests in the source CSV with the ones from the target repo
           for image in $(grep -oP 'image:\s*\K\S+' /tmp/rbc_csv.yaml); do
-            sed -i "s|image: .*|image: $image|g" source_repo/bundle/manifests/*.clusterserviceversion.yaml
+            sed -i "s|image: .*|image: $image|g" source_repo/bundle/manifests/*.clusterserviceversion.y*ml
           done
 
       - name: Sync RELATED_IMAGE values
         run: |
           # Sync RELATED_IMAGE values from source CSV to target CSV
-          for related_image in $(grep -oP 'RELATED_IMAGE_\w+:\s*\K\S+' source_repo/bundle/manifests/*.clusterserviceversion.yaml); do
+          for related_image in $(grep -oP 'RELATED_IMAGE_\w+:\s*\K\S+' source_repo/bundle/manifests/*.clusterserviceversion.y*ml); do
             key=$(echo $related_image | cut -d= -f1)
             value=$(echo $related_image | cut -d= -f2)
-            sed -i "s|$key=.*|$key=$value|g" target_repo/bundle/manifests/*.clusterserviceversion.yaml
+            sed -i "s|$key=.*|$key=$value|g" target_repo/bundle/manifests/*.clusterserviceversion.y*ml
           done
 
       - name: Compare and Sync Changes

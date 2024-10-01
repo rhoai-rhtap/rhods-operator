@@ -21,7 +21,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: rhoai-rhtap/rhods-operator.git
-          token: ${{ secrets.PAT_TOKEN }}
           path: source_repo
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
 
@@ -29,7 +28,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: rhoai-rhtap/RHOAI-Build-Config.git
-          token: ${{ secrets.PAT_TOKEN }}
           path: target_repo
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
 
@@ -97,12 +95,27 @@ jobs:
           else
             echo "No changes in Dockerfile"
           fi
-
-      - name: Commit and Push Changes to Target Repo
-        run: |
-          cd target_repo
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Sync changes from source repo" || echo "No changes to commit"
-          git push origin ${{ github.ref_name }}  # Push to the same branch in the target repo
+      - name: Generate github-app token
+        id: app-token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: ${{ secrets.RHOAI_DEVOPS_APP_ID }}
+          private_key: ${{ secrets.RHOAI_DEVOPS_APP_PRIVATE_KEY }}
+      - name: Commit and push the changes to release branch
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ steps.app-token.outputs.token }}
+          branch: ${{ github.ref_name }}
+          message: "Sync changes from source repo"
+          repository: rhoai-rhtap/RHOAI-Build-Config
+          directory: target_repo
+          author_name: Openshift-AI DevOps
+          author_email: openshift-ai-devops@redhat.com
+#      - name: Commit and Push Changes to Target Repo
+#        run: |
+#          cd target_repo
+#          git config user.name "GitHub Actions"
+#          git config user.email "actions@github.com"
+#          git add .
+#          git commit -m "Sync changes from source repo" || echo "No changes to commit"
+#          git push origin ${{ github.ref_name }}  # Push to the same branch in the target repo

@@ -20,14 +20,14 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
-          repository: rhoai-rhtap/rhods-operator.git
+          repository: rhoai-rhtap/rhods-operator
           path: source_repo
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
 
       - name: Checkout target repo
         uses: actions/checkout@v3
         with:
-          repository: rhoai-rhtap/RHOAI-Build-Config.git
+          repository: rhoai-rhtap/RHOAI-Build-Config
           path: target_repo
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
 

@@ -109,8 +109,8 @@ jobs:
           message: "Sync changes from source repo"
           repository: rhoai-rhtap/RHOAI-Build-Config
           directory: target_repo
-          author_name: Openshift-AI DevOps
-          author_email: openshift-ai-devops@redhat.com
+#          author_name: Openshift-AI DevOps
+#          author_email: openshift-ai-devops@redhat.com
 #      - name: Commit and Push Changes to Target Repo
 #        run: |
 #          cd target_repo

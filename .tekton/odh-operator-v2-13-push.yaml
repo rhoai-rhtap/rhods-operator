@@ -7,7 +7,7 @@ metadata:
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    build.appstudio.openshift.io/build-nudge-files: ".*.yaml"
+    build.appstudio.openshift.io/build-nudge-files: "config/build-config.yaml"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
       == "rhoai-2.13" && !"bundle/**".pathChanged() && !"Dockerfiles/bundle.Dockerfile".pathChanged()
   creationTimestamp: null
@@ -89,7 +89,7 @@ spec:
       description: Force rebuild image
       name: rebuild
       type: string
-    - default: "false"
+    - default: "true"
       description: Skip checks against built image
       name: skip-checks
       type: string
@@ -142,7 +142,7 @@ spec:
       - name: rebuild
         value: $(params.rebuild)
       - name: skip-checks
-        value: $(params.skip-checks)
+        value: "false" #$(params.skip-checks)
       taskRef:
         params:
         - name: name
@@ -302,117 +302,117 @@ spec:
       workspaces:
       - name: workspace
         workspace: workspace
-#    - name: deprecated-base-image-check
-#      params:
-#      - name: IMAGE_URL
-#        value: $(tasks.build-image-index.results.IMAGE_URL)
-#      - name: IMAGE_DIGEST
-#        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
-#      runAfter:
-#      - build-image-index
-#      taskRef:
-#        params:
-#        - name: name
-#          value: deprecated-image-check
-#        - name: bundle
-#          value: quay.io/konflux-ci/tekton-catalog/task-deprecated-image-check:0.4@sha256:d98fa9daf5ee12dfbf00880b83d092d01ce9994d79836548d2f82748bb0c64a2
-#        - name: kind
-#          value: task
-#        resolver: bundles
-#      when:
-#      - input: $(params.skip-checks)
-#        operator: in
-#        values:
-#        - "false"
-#    - name: clair-scan
-#      params:
-#      - name: image-digest
-#        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
-#      - name: image-url
-#        value: $(tasks.build-image-index.results.IMAGE_URL)
-#      runAfter:
-#      - build-image-index
-#      taskRef:
-#        params:
-#        - name: name
-#          value: clair-scan
-#        - name: bundle
-#          value: quay.io/konflux-ci/tekton-catalog/task-clair-scan:0.1@sha256:baea4be429cf8d91f7c758378cea42819fe324f25a7f957bf9805409cab6d123
-#        - name: kind
-#          value: task
-#        resolver: bundles
-#      when:
-#      - input: $(params.skip-checks)
-#        operator: in
-#        values:
-#        - "false"
-#    - name: ecosystem-cert-preflight-checks
-#      params:
-#      - name: image-url
-#        value: $(tasks.build-image-index.results.IMAGE_URL)
-#      runAfter:
-#      - build-image-index
-#      taskRef:
-#        params:
-#        - name: name
-#          value: ecosystem-cert-preflight-checks
-#        - name: bundle
-#          value: quay.io/konflux-ci/tekton-catalog/task-ecosystem-cert-preflight-checks:0.1@sha256:5131cce0f93d0b728c7bcc0d6cee4c61d4c9f67c6d619c627e41e3c9775b497d
-#        - name: kind
-#          value: task
-#        resolver: bundles
-#      when:
-#      - input: $(params.skip-checks)
-#        operator: in
-#        values:
-#        - "false"
-#    - name: sast-snyk-check
-#      params:
-#      - name: image-digest
-#        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
-#      - name: image-url
-#        value: $(tasks.build-image-index.results.IMAGE_URL)
-#      runAfter:
-#      - build-image-index
-#      taskRef:
-#        params:
-#        - name: name
-#          value: sast-snyk-check
-#        - name: bundle
-#          value: quay.io/konflux-ci/tekton-catalog/task-sast-snyk-check:0.2@sha256:82c42d27c9c59db6cf6c235e89f7b37f5cdfc75d0d361ca0ee91ae703ba72301
-#        - name: kind
-#          value: task
-#        resolver: bundles
-#      when:
-#      - input: $(params.skip-checks)
-#        operator: in
-#        values:
-#        - "false"
-#      workspaces:
-#      - name: workspace
-#        workspace: workspace
-#    - name: clamav-scan
-#      params:
-#      - name: image-digest
-#        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
-#      - name: image-url
-#        value: $(tasks.build-image-index.results.IMAGE_URL)
-#      runAfter:
-#      - build-image-index
-#      taskRef:
-#        params:
-#        - name: name
-#          value: clamav-scan
-#        - name: bundle
-#          value: quay.io/konflux-ci/tekton-catalog/task-clamav-scan:0.1@sha256:7bb17b937c9342f305468e8a6d0a22493e3ecde58977bd2ffc8b50e2fa234d58
-#        - name: kind
-#          value: task
-#        resolver: bundles
-#      when:
-#      - input: $(params.skip-checks)
-#        operator: in
-#        values:
-#        - "false"
+    - name: deprecated-base-image-check
+      params:
+      - name: IMAGE_URL
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: IMAGE_DIGEST
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: name
+          value: deprecated-image-check
+        - name: bundle
+          value: quay.io/konflux-ci/tekton-catalog/task-deprecated-image-check:0.4@sha256:d98fa9daf5ee12dfbf00880b83d092d01ce9994d79836548d2f82748bb0c64a2
+        - name: kind
+          value: task
+        resolver: bundles
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - "false"
+    - name: clair-scan
+      params:
+      - name: image-digest
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: image-url
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: name
+          value: clair-scan
+        - name: bundle
+          value: quay.io/konflux-ci/tekton-catalog/task-clair-scan:0.1@sha256:baea4be429cf8d91f7c758378cea42819fe324f25a7f957bf9805409cab6d123
+        - name: kind
+          value: task
+        resolver: bundles
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - "false"
+    - name: ecosystem-cert-preflight-checks
+      params:
+      - name: image-url
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: name
+          value: ecosystem-cert-preflight-checks
+        - name: bundle
+          value: quay.io/konflux-ci/tekton-catalog/task-ecosystem-cert-preflight-checks:0.1@sha256:5131cce0f93d0b728c7bcc0d6cee4c61d4c9f67c6d619c627e41e3c9775b497d
+        - name: kind
+          value: task
+        resolver: bundles
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - "false"
+    - name: sast-snyk-check
+      params:
+      - name: image-digest
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: image-url
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: name
+          value: sast-snyk-check
+        - name: bundle
+          value: quay.io/konflux-ci/tekton-catalog/task-sast-snyk-check:0.2@sha256:82c42d27c9c59db6cf6c235e89f7b37f5cdfc75d0d361ca0ee91ae703ba72301
+        - name: kind
+          value: task
+        resolver: bundles
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - "false"
+      workspaces:
+      - name: workspace
+        workspace: workspace
+    - name: clamav-scan
+      params:
+      - name: image-digest
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: image-url
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: name
+          value: clamav-scan
+        - name: bundle
+          value: quay.io/konflux-ci/tekton-catalog/task-clamav-scan:0.1@sha256:7bb17b937c9342f305468e8a6d0a22493e3ecde58977bd2ffc8b50e2fa234d58
+        - name: kind
+          value: task
+        resolver: bundles
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - "false"
     - name: apply-tags
       params:
       - name: IMAGE

@@ -1,6 +1,8 @@
 name: Bundle Sync CI
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - 'rhoai-*'  # Trigger the workflow on pushes to any rhoai-* branch

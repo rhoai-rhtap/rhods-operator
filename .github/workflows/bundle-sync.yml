@@ -41,6 +41,15 @@ jobs:
           ref: ${{ github.ref_name }}  # Use the same branch name as in the event
           token: ${{ steps.app-token.outputs.token }}
           
+      - name: Install rsync and yq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync
+          # Install yq
+          VERSION=v4.34.2  # Specify the version of yq to install
+          sudo wget https://github.com/mikefarah/yq/releases/download/${VERSION}/yq_linux_amd64 -O /usr/bin/yq
+          # Set permissions for yq
+          sudo chmod +x /usr/bin/yq 
 
       - name: Remove unnecessary fields from CSV
         run: |
@@ -57,47 +66,62 @@ jobs:
           sed -i '/LABEL operators.operatorframework.io.bundle.channels.v1=/d' source_repo/Dockerfiles/bundle.Dockerfile
           sed -i '/LABEL operators.operatorframework.io.bundle.channel.default.v1=/d' source_repo/Dockerfiles/bundle.Dockerfile
 
+      - name: Backup RELATED_IMAGE fields and relatedImages section
+        run: |
+          # Backup RELATED_IMAGE fields
+          grep '^RELATED_IMAGE_' target_repo/bundle/manifests/*.clusterserviceversion.yaml > /tmp/backup_related_image.txt || true
+          
+          # Backup relatedImages section
+          sed -n '/relatedImages:/,/]/p' target_repo/bundle/manifests/*.clusterserviceversion.yaml > /tmp/backup_relatedImages.txt || true
+          
       - name: Retain current image digests in the RBC repo
         run: |
-          yq eval '.spec.relatedImages[] | select(.name == "rhods-operator")' target_repo/bundle/manifests/*.clusterserviceversion.yaml > /tmp/rbc_csv.yaml
-          for image in $(yq eval '.image' /tmp/rbc_csv.yaml); do
-            yq eval ".spec.relatedImages[] |= (.image = \"$image\")" -i source_repo/bundle/manifests/*.clusterserviceversion.yaml
+          # Backup current image digests
+          cp target_repo/bundle/manifests/*.clusterserviceversion.yaml /tmp/rbc_csv.yaml
+          
+          # Replace image digests in the source CSV with the ones from the target repo
+          for image in $(grep -oP 'image:\s*\K\S+' /tmp/rbc_csv.yaml); do
+            sed -i "s|image: .*|image: $image|g" source_repo/bundle/manifests/*.clusterserviceversion.yaml
           done
-
-      - name: Retain RELATED_IMAGE and relatedImages sections
+          
+      - name: Sync RELATED_IMAGE values (excluding annotations)
         run: |
-          yq eval '.spec.relatedImages' source_repo/bundle/manifests/*.clusterserviceversion.yaml > /tmp/relatedImages_section.yaml
-          yq eval 'del(.spec.relatedImages)' -i source_repo/bundle/manifests/*.clusterserviceversion.yaml
-          yq eval-all 'select(fileIndex == 0) | .spec.relatedImages = load("/tmp/relatedImages_section.yaml")' source_repo/bundle/manifests/*.clusterserviceversion.yaml > /tmp/new_csv.yaml
-          mv /tmp/new_csv.yaml source_repo/bundle/manifests/*.clusterserviceversion.yaml
-
-      - name: Verify RELATED_IMAGE Values
+          # Extract RELATED_IMAGE_* values from the target CSV
+          while IFS= read -r related_image; do
+            value=$(grep "$related_image:" /tmp/backup_related_image.txt | cut -d: -f2- | xargs) # Trim leading spaces from the value
+            yq eval -i ".metadata.annotations[\"$related_image\"] = \"$value\"" source_repo/bundle/manifests/*.clusterserviceversion.yaml
+          done < /tmp/backup_related_image.txt
+          
+      - name: Sync Files Using rsync
         run: |
-          yq eval '.spec.relatedImages[] | .name + ": " + .image' source_repo/bundle/manifests/*.clusterserviceversion.yaml
-
-      - name: Compare and Sync Changes
+          # Sync bundle directory from source to target using rsync
+          rsync -av --progress source_repo/bundle/ target_repo/bundle/
+          # Sync Dockerfile
+          rsync -av --progress source_repo/Dockerfiles/bundle.Dockerfile target_repo/bundle/Dockerfile
+          
+      - name: Restore RELATED_IMAGE fields and relatedImages section
         run: |
-          sync_files() {
-            local source_dir=$1
-            local target_dir=$2
-            for file in $(find $source_dir -type f); do
-              relative_path=$(realpath --relative-to="$source_dir" "$file")
-              target_file="$target_dir/$relative_path"
-              if [ -f "$target_file" ]; then
-                if ! diff -q "$file" "$target_file" > /dev/null 2>&1; then
-                  echo "Updating $target_file"
-                  cp "$file" "$target_file"
-                else
-                  echo "No changes in $target_file"
-                fi
-              else
-                echo "New file detected, copying $file to target repo"
-                mkdir -p "$(dirname "$target_file")"
-                cp "$file" "$target_file"
-              fi
-            done
-          }
-          sync_files "source_repo/bundle" "target_repo/bundle"
+          # Restore the RELATED_IMAGE fields
+          while IFS= read -r line; do
+            key=$(echo "$line" | cut -d: -f1)
+            value=$(echo "$line" | cut -d: -f2- | xargs) # Trim leading spaces from the value
+            
+            # Use yq to only set the RELATED_IMAGE field if it does not already exist
+            if ! yq eval "has(.spec.containers[].env[] | select(.name == \"$key\"))" target_repo/bundle/manifests/*.clusterserviceversion.yaml; then
+              yq eval -i ".spec.containers[].env += [{name: \"$key\", value: \"$value\"}]" target_repo/bundle/manifests/*.clusterserviceversion.yaml
+            fi
+            
+          done < /tmp/backup_related_image.txt
+          # Restore the relatedImages section if it exists
+          if [[ -s /tmp/backup_relatedImages.txt ]]; then
+            # Use yq to ensure the relatedImages section is present and append the data
+            yq eval -i '.spec.relatedImages = load("/tmp/backup_relatedImages.txt")' target_repo/bundle/manifests/*.clusterserviceversion.yaml
+          fi
+          
+      - name: Debug Target YAML File
+        run: |
+          echo "Target CSV after restoration:"
+          cat target_repo/bundle/manifests/*.clusterserviceversion.yaml
 
       # Sync Dockerfile
       - name: Sync Dockerfile
@@ -109,16 +133,17 @@ jobs:
             echo "No changes in Dockerfile"
           fi
 
-      - name: Commit and push the changes to release branch
-        uses: actions-js/push@master
-        with:
-          github_token: ${{ steps.app-token.outputs.token }}
-          branch: ${{ github.ref_name }}
-          message: "Sync changes from source repo"
-          repository: rhoai-rhtap/RHOAI-Build-Config
-          directory: target_repo
-          author_name: Openshift-AI DevOps
-          author_email: openshift-ai-devops@redhat.com
+#      - name: Commit and push the changes to release branch
+#        uses: actions-js/push@master
+#        with:
+#          github_token: ${{ steps.app-token.outputs.token }}
+#          branch: ${{ github.ref_name }}
+#          message: "Sync changes from source repo"
+#          repository: rhoai-rhtap/RHOAI-Build-Config
+#          directory: target_repo
+#          author_name: Openshift-AI DevOps
+#          author_email: openshift-ai-devops@redhat.com
+
 #      - name: Commit and Push Changes to Target Repo
 #        run: |
 #          cd target_repo

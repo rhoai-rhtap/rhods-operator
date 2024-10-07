@@ -1,4 +1,5 @@
 {
+  "baseBranches": ["main", "rhoai-2.13"],
   "enabledManagers": ["dockerfile", "tekton"],
   "dockerfile": {
     "enabled": true,

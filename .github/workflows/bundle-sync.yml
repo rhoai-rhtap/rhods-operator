@@ -43,6 +43,7 @@ jobs:
 
       - name: Sync Bundle Files
         run: |
+          mkdir -p target_repo/raw/bundle
           echo "Updating bundle related files"
           cp -r source_repo/bundle/* target_repo/raw/bundle
           echo "Updating Dockerfile"

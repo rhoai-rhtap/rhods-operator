@@ -4,7 +4,7 @@ ARG USE_LOCAL=false
 ARG OVERWRITE_MANIFESTS=""
 
 ################################################################################
-FROM registry.access.redhat.com/ubi8/go-toolset@sha256:742ae6ec1aef3e7faae488c47695fb64964d342aefecf52d23bd9d5e6731d0b6 as builder_local_false
+FROM registry.access.redhat.com/ubi8/go-toolset@sha256:430d5a57522fe66201cfe5391d339fa8926eee37b0697449a9a44adfe9d7be80 as builder_local_false
 ARG OVERWRITE_MANIFESTS
 # Get all manifests from remote git repo to builder_local_false by script
 USER root
@@ -13,7 +13,7 @@ COPY get_all_manifests.sh get_all_manifests.sh
 RUN ./get_all_manifests.sh ${OVERWRITE_MANIFESTS}
 
 ################################################################################
-FROM registry.access.redhat.com/ubi8/go-toolset@sha256:742ae6ec1aef3e7faae488c47695fb64964d342aefecf52d23bd9d5e6731d0b6 as builder_local_true
+FROM registry.access.redhat.com/ubi8/go-toolset@sha256:430d5a57522fe66201cfe5391d339fa8926eee37b0697449a9a44adfe9d7be80 as builder_local_true
 # Get all manifests from local to builder_local_true
 USER root
 WORKDIR /opt
@@ -49,7 +49,7 @@ COPY config/osd-configs/ /opt/manifests/osd-configs/
 RUN CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -a -o manager main.go
 
 ################################################################################
-FROM registry.access.redhat.com/ubi8/ubi-minimal@sha256:7583ca0ea52001562bd81a961da3f75222209e6192e4e413ee226cff97dbd48c
+FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
 WORKDIR /
 COPY --from=builder /workspace/manager .
 COPY --chown=1001:0 --from=builder /opt/manifests /opt/manifests

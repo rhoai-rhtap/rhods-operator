@@ -51,11 +51,13 @@ jobs:
           SUFFIX=${VERSION/./-}
           echo "SUFFIX=$SUFFIX"
           echo "HEAD_BRANCH=$HEAD_BRANCH"
-          REGEX=
+
           TITLE="${{ github.event.pull_request.title }}"
+          
           if [[ $TITLE == chore\(deps\)* ]]
           then 
             TITLE=${TITLE/chore\(deps\): u/U}
+          fi
           REGEX="^Update.*-$SUFFIX to [0-9a-z]{1,40}$"
 
           FEASIBLE=No

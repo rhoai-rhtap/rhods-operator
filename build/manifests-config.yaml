@@ -1,0 +1,15 @@
+map:
+  notebooks:
+    git.url: https://github.com/red-hat-data-services/notebooks
+    git.commit: latest
+    src: manifests
+    dest: /opt/manifests/jupyterhub/notebooks
+    sync: always
+  odh-kf-notebook-controller:
+    src: components/notebook-controller/config
+    dest: /opt/manifests/odh-notebook-controller/kf-notebook-controller
+  odh-notebook-controller:
+    src: components/odh-notebook-controller/config
+    dest: /opt/manifests/odh-notebook-controller/odh-notebook-controller
+
+

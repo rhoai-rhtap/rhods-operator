@@ -127,7 +127,7 @@ jobs:
                   echo "current dir = $(pwd)"
                   
                   mkdir -p ${{ github.workspace }}/rhods-operator/prefetched-manifests/$dest
-                  cp -r manifests/$src/* ${{ github.workspace }}/rhods-operator/prefetched-manifests/$dest
+                  cp -r $component/$src/* ${{ github.workspace }}/rhods-operator/prefetched-manifests/$dest
               fi
           done < <(yq e '.map | keys' ${MANIFEST_CONFIG_PATH} )
           

@@ -27,6 +27,7 @@ jobs:
           path: notebooks
           sparse-checkout: |
             manifests
+          sparse-checkout-cone-mode: false
 
       - name: List all files
         run: |

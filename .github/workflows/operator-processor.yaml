@@ -30,23 +30,97 @@ jobs:
           sparse-checkout: |
             bundle/bundle-patch.yaml
           sparse-checkout-cone-mode: false
-      - name: Sparse Checkout Notebooks
+      - name: Git checkout utils
         uses: actions/checkout@v4
         with:
-          repository: ${{ env.GITHUB_ORG }}/notebooks
-          ref: ${{ github.ref_name }}
-          path: notebooks
+          repository: ${{ env.GITHUB_ORG }}/RHOAI-Konflux-Automation
+          ref: main
+          path: utils
           sparse-checkout: |
-            manifests
+            utils/operator-processor
           sparse-checkout-cone-mode: false
-
-      - name: List all files
+      - name: Git checkout utils
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.GITHUB_ORG }}/rhods-operator
+          ref: ${{ github.ref_name }}
+          path: rhods-operator
+          sparse-checkout: |
+            build
+          sparse-checkout-cone-mode: false
+      - name: Install dependencies
         run: |
-          echo "AUTHOR=$AUTHOR"
-          cd notebooks
+          os="$(uname -s | tr '[:upper:]' '[:lower:]')"
+          arch="$(uname -m | sed 's/x86_64/amd64/')"
+          yq_version="v4.44.3"
+          yq_filename="yq-$yq_version"
+          echo "-> Downloading yq" >&2
+          curl -sSfLo "$yq_filename" "https://github.com/mikefarah/yq/releases/download/$yq_version/yq_${os}_${arch}"
+          chmod +x $yq_filename
+          ln -s $yq_filename yq
+          cp $yq_filename /usr/local/bin/yq
+  
+          pip install -r utils/utils/operator-processor/requirements.txt
+      - name: Execute Operator Processor
+        env:
+          BRANCH: ${{ github.ref_name }}
+          RHOAI_QUAY_API_TOKEN: ${{ secrets.RHOAI_QUAY_API_TOKEN }}
+        run: |
+          RHOAI_VERSION=v${BRANCH/rhoai-/}
+          PATCH_YAML_PATH=RBC/bundle/bundle-patch.yaml
+          OPERANDS_MAP_PATH=rhods-operator/build/operands-map.yaml
+          NUDGING_YAML_PATH=rhods-operator/build/operator-nudging.yaml
+          MANIFEST_CONFIG_PATH=rhods-operator/build/manifests-config.yaml
+          
+          python3 utils/utils/operator-processor/operator-processor.py  -op process-operator-yamls --patch-yaml-path ${PATCH_YAML_PATH} --operands-map-path ${OPERANDS_MAP_PATH} --nudging-yaml-path ${NUDGING_YAML_PATH} --manifest-config-path ${MANIFEST_CONFIG_PATH} --rhoai-version ${RHOAI_VERSION}
+          
+          echo "----- NUDGING_YAML ------"
+          cat $NUDGING_YAML_PATH
+          echo "----- OPERANDS_MAP ------"
+          cat $OPERANDS_MAP_PATH
+          echo "----- MANIFEST_CONFIG ------"
+          cat $MANIFEST_CONFIG_PATH
+      - name: Fetch all manifests
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          MANIFEST_CONFIG_PATH=rhods-operator/build/manifests-config.yaml
+          mkdir -p manifests
+          cd manifests
+          while IFS= read -r value;
+          do
+              value=${value/- /}
+              component=$value
+              if [[ -n $component ]]
+              then	
+                  git_url=$(value="$value" yq '.map[strenv(value)]["git.url"]' ${MANIFEST_CONFIG_PATH})
+                  git_commit=$(value="$value" yq '.map[strenv(value)]["git.commit"]' ${MANIFEST_CONFIG_PATH})
+                  src=$(value="$value" yq '.map[strenv(value)]["src"]' ${MANIFEST_CONFIG_PATH})
+                  dest=$(value="$value" yq '.map[strenv(value)]["dest"]' ${MANIFEST_CONFIG_PATH})
+                  
+                  echo "component = $component"
+                  echo "git_url = $git_url"
+                  echo "git_commit = $git_commit"
+                  echo "src = $src"
+                  echo "dest = $dest"
+          
+                  mkdir -p $component
+                  cd $component
+          
+                  git init
+                  git remote add origin $git_url
+                  git config core.sparseCheckout true
+                  git config core.sparseCheckoutCone false
+                  echo "$src" >> .git/info/sparse-checkout
+                  git fetch --depth=1 origin ${BRANCH}
+                  git checkout $git_commit
+                  cd ../
+                  echo "current dir = $(pwd)"
+              fi
+          done < <(yq e '.map | keys' ${MANIFEST_CONFIG_PATH} )
           tree
-          cd ../RBC 
-          tree
+          
+          
 
 #      - name: Merge Feasibility Check
 #        if: ${{ steps.changed-files.outputs.all_changed_files == 'build/operator-nudging.yaml' }}

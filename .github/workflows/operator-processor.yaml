@@ -8,9 +8,11 @@ on:
     paths:
       - build/operator-nudging.yaml
 
+
 env:
   GITHUB_ORG: rhoai-rhtap
   RESOLVE_CONFLICTS_FOR: build/operator-nudging.yaml
+  AUTHOR: ${{ github.event.pusher.name }}
 
 permissions:
   contents: write
@@ -19,6 +21,15 @@ jobs:
   operator-processor:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout RBC repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.GITHUB_ORG }}/RHOAI-Build-Config
+          ref: ${{ github.ref_name }}
+          path: RBC
+          sparse-checkout: |
+            bundle/bundle-patch.yaml
+          sparse-checkout-cone-mode: false
       - name: Sparse Checkout Notebooks
         uses: actions/checkout@v4
         with:
@@ -31,7 +42,10 @@ jobs:
 
       - name: List all files
         run: |
+          echo $AUTHOR
           cd notebooks
+          tree
+          cd ../RBC 
           tree
 
 #      - name: Merge Feasibility Check

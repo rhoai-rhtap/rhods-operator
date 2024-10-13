@@ -66,13 +66,12 @@ jobs:
           BRANCH: ${{ github.ref_name }}
           RHOAI_QUAY_API_TOKEN: ${{ secrets.RHOAI_QUAY_API_TOKEN }}
         run: |
-          RHOAI_VERSION=v${BRANCH/rhoai-/}
           PATCH_YAML_PATH=RBC/bundle/bundle-patch.yaml
           OPERANDS_MAP_PATH=rhods-operator/build/operands-map.yaml
           NUDGING_YAML_PATH=rhods-operator/build/operator-nudging.yaml
           MANIFEST_CONFIG_PATH=rhods-operator/build/manifests-config.yaml
           
-          python3 utils/utils/operator-processor/operator-processor.py  -op process-operator-yamls --patch-yaml-path ${PATCH_YAML_PATH} --operands-map-path ${OPERANDS_MAP_PATH} --nudging-yaml-path ${NUDGING_YAML_PATH} --manifest-config-path ${MANIFEST_CONFIG_PATH} --rhoai-version ${RHOAI_VERSION}
+          python3 utils/utils/operator-processor/operator-processor.py  -op process-operator-yamls --patch-yaml-path ${PATCH_YAML_PATH} --operands-map-path ${OPERANDS_MAP_PATH} --nudging-yaml-path ${NUDGING_YAML_PATH} --manifest-config-path ${MANIFEST_CONFIG_PATH} --rhoai-version ${BRANCH}
           
           echo "----- NUDGING_YAML ------"
           cat $NUDGING_YAML_PATH

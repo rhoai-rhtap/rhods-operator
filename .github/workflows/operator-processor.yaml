@@ -89,6 +89,7 @@ jobs:
           set -e
           echo "current dir = $(pwd)"
           MANIFEST_CONFIG_PATH=${{ github.workspace }}/rhods-operator/build/manifests-config.yaml
+          mkdir -p rhods-operator/prefetched-manifests
           mkdir -p manifests
           cd manifests
           while IFS= read -r value;
@@ -121,60 +122,25 @@ jobs:
                   echo "$src" >> .git/info/sparse-checkout
                   git fetch --depth=1 origin ${BRANCH}
                   git checkout $git_commit
+          
                   cd ../
                   echo "current dir = $(pwd)"
+                  
+                  mkdir -p rhods-operator/prefetched-manifests/$dest
+                  cp -r manifests/$src/* rhods-operator/prefetched-manifests/$dest
               fi
           done < <(yq e '.map | keys' ${MANIFEST_CONFIG_PATH} )
+          
+          cd rhods-operator/prefetched-manifests
           tree
-          
-          
 
-#      - name: Merge Feasibility Check
-#        if: ${{ steps.changed-files.outputs.all_changed_files == 'build/operator-nudging.yaml' }}
-#        id: merge-feasibility-check
-#        run: |
-#          # Declare variables
-#          BASE_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
-#          HEAD_BRANCH=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
-#          VERSION=v${BASE_BRANCH/rhoai-/}
-#          SUFFIX=${VERSION/./-}
-#          echo "SUFFIX=$SUFFIX"
-#          echo "HEAD_BRANCH=$HEAD_BRANCH"
-#          REGEX="^Update.*-$SUFFIX to [0-9a-z]{1,40}$"
-#
-#          FEASIBLE=No
-#          #Check if PR title is as per the convention
-#          if [[ "${{ github.event.pull_request.title }}" =~ $REGEX ]]
-#          then
-#            FEASIBLE=Yes
-#            echo "It's a valid PR to merge!"
-#          else
-#            echo "Insta-merge not configured to merge this PR, skipping."
-#          fi
-#          echo "FEASIBLE=$FEASIBLE" >> $GITHUB_OUTPUT
-#          echo "BASE_BRANCH=$BASE_BRANCH" >> $GITHUB_OUTPUT
-#          echo "HEAD_BRANCH=$HEAD_BRANCH" >> $GITHUB_OUTPUT
-#
-#      - name: Generate github-app token
-#        id: app-token
-#        uses: getsentry/action-github-app-token@v2
+#      - name: Commit and push the changes to release branch
+#        uses: actions-js/push@master
 #        with:
-#          app_id: ${{ secrets.RHOAI_DEVOPS_APP_ID }}
-#          private_key: ${{ secrets.RHOAI_DEVOPS_APP_PRIVATE_KEY }}
-#
-#      - uses: Wandalen/wretry.action@master
-#        if: ${{ steps.merge-feasibility-check.outputs.FEASIBLE == 'Yes' }}
-#        with:
-#          action: red-hat-data-services/insta-merge@main
-#          retry_condition: steps._this.outputs.code == 0
-#          attempt_limit: 5
-#          github_token: ${{ steps.app-token.outputs.token }}
-#          with: |
-#            upstream_repo: "https://github.com/${GITHUB_ORG}/rhods-operator.git"
-#            upstream_branch: "${{ steps.merge-feasibility-check.outputs.BASE_BRANCH }}"
-#            downstream_repo: "https://github.com/${GITHUB_ORG}/rhods-operator.git"
-#            downstream_branch: "${{ steps.merge-feasibility-check.outputs.HEAD_BRANCH }}"
-#            token: ${{ steps.app-token.outputs.token }}
-#            resolve_conflicts_for: "${RESOLVE_CONFLICTS_FOR}"
-#            merge_args: "--no-edit"
-#            pr_url: "${{ github.event.pull_request.html_url }}"
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          branch: ${{ github.ref_name }}
+#          message: "Updating the operator repo with latest images and manifests"
+#          repository: ${{ env.GITHUB_ORG }}/rhods-operator
+#          directory: rhods-operator
+#          author_name: Openshift-AI DevOps
+#          author_email: openshift-ai-devops@redhat.com

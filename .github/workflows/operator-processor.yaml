@@ -99,7 +99,7 @@ jobs:
               then	
                   git_url=$(value="$value" yq '.map[strenv(value)]["git.url"]' ${MANIFEST_CONFIG_PATH})
                   git_commit=$(value="$value" yq '.map[strenv(value)]["git.commit"]' ${MANIFEST_CONFIG_PATH})
-                  git_commit=$(echo "$git_commit")
+                  if [[ $git_commit == "${{ github.ref_name }}" ]]; then git_commit=${BRANCH}; fi
                   
                   src=$(value="$value" yq '.map[strenv(value)]["src"]' ${MANIFEST_CONFIG_PATH})
                   dest=$(value="$value" yq '.map[strenv(value)]["dest"]' ${MANIFEST_CONFIG_PATH})

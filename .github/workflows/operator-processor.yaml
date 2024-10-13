@@ -22,7 +22,7 @@ jobs:
       - name: Sparse Checkout Notebooks
         uses: actions/checkout@v4
         with:
-          repository: ${GITHUB_ORG}/notebooks
+          repository: ${{ env.GITHUB_ORG }}/notebooks
           ref: ${{ github.ref_name }}
           path: notebooks
 

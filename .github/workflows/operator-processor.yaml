@@ -25,11 +25,13 @@ jobs:
           repository: ${{ env.GITHUB_ORG }}/notebooks
           ref: ${{ github.ref_name }}
           path: notebooks
+          sparse-checkout: |
+            manifests
 
       - name: List all files
         run: |
           cd notebooks
-          ls
+          tree
 
 #      - name: Merge Feasibility Check
 #        if: ${{ steps.changed-files.outputs.all_changed_files == 'build/operator-nudging.yaml' }}

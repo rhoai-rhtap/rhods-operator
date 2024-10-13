@@ -14,35 +14,55 @@ map:
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: odh-notebook-controller/kf-notebook-controller
+    git.url: https://github.com/rhoai-rhtap/kubeflow
+    git.commit: 43b35d27226b1348151e740b2e18c07af422d8b8
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: odh-notebook-controller/odh-notebook-controller
+    git.url: https://github.com/rhoai-rhtap/kubeflow
+    git.commit: 43b35d27226b1348151e740b2e18c07af422d8b8
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: data-science-pipelines-operator
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-operator
+    git.commit: e7fa82c90f25b377441b7f27e6bdc3e39bd38175
   odh-codeflare-operator:
     src: config
     dest: codeflare
+    git.url: https://github.com/rhoai-rhtap/codeflare-operator
+    git.commit: b33d5ae42828901a4bf936008d5c136794b02e39
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
+    git.url: https://github.com/rhoai-rhtap/kuberay
+    git.commit: ffc56995b9aa59deab6d37323a5ec196318b9d51
   odh-kueue-controller:
     src: config
     dest: kueue
+    git.url: https://github.com/rhoai-rhtap/kueue
+    git.commit: f6ab24ce5228d6eff4bca68944a68720beaf6b3c
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator
+    git.url: https://github.com/rhoai-rhtap/trustyai-service-operator
+    git.commit: 7d55aa1f975d8853a08f1ec65a95ec64eb55e507
   odh-model-controller:
     src: config
     dest: odh-model-controller
+    git.url: https://github.com/rhoai-rhtap/odh-model-controller
+    git.commit: 7902a26efab785a170f2a46e17065a8719a0c64a
   odh-modelmesh:
     src: config
     dest: model-mesh
+    git.url: https://github.com/rhoai-rhtap/modelmesh
+    git.commit: 4fbe7c78fc7d05490cd0bd11be7577c9931d1c62
   odh-dashboard:
     src: manifests
     dest: dashboard
+    git.url: https://github.com/rhoai-rhtap/odh-dashboard
+    git.commit: 1bc6730685b137494b8c56639a096bbd6e157a1d
   odh-training-operator:
     src: manifests
     dest: trainingoperator
-
-
+    git.url: https://github.com/rhoai-rhtap/training-operator
+    git.commit: e85c72750f409aa4be0fb7fea9a6ae5af3e2c657

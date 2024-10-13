@@ -105,7 +105,7 @@ jobs:
           BRANCH: ${{ github.ref_name }}
         run: |
           echo "current dir = $(pwd)"
-          MANIFEST_CONFIG_PATH=rhods-operator/build/manifests-config.yaml
+          MANIFEST_CONFIG_PATH=${{ github.workspace }}/rhods-operator/build/manifests-config.yaml
           mkdir -p manifests
           cd manifests
           while IFS= read -r value;

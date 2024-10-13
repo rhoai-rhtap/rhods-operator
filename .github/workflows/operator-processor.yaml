@@ -47,6 +47,7 @@ jobs:
           path: rhods-operator
           sparse-checkout: |
             build
+            prefetched-manifests
           sparse-checkout-cone-mode: false
       - name: Install dependencies
         run: |

@@ -1,13 +1,13 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 'github.ref_name'
+    git.commit: '${{ github.ref_name }}'
     src: manifests
     dest: jupyterhub/notebooks
     ref_type: branch
   kserve:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 'github.ref_name'
+    git.commit: '${{ github.ref_name }}'
     src: config
     dest: kserve
     ref_type: branch

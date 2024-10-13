@@ -12,14 +12,13 @@ on:
 env:
   GITHUB_ORG: rhoai-rhtap
   RESOLVE_CONFLICTS_FOR: build/operator-nudging.yaml
-  AUTHOR: 'konflux-internal-p02[bot]'
 
 permissions:
   contents: write
 
 jobs:
   operator-processor:
-    if: ${{ github.event.commits[0].author.name == env.AUTHOR }}
+    if: ${{ github.event.commits[0].author.name == 'konflux-internal-p02[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout RBC repo

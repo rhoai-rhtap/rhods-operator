@@ -134,13 +134,13 @@ jobs:
           cd ${{ github.workspace }}/rhods-operator/prefetched-manifests
           tree
 
-#      - name: Commit and push the changes to release branch
-#        uses: actions-js/push@master
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          branch: ${{ github.ref_name }}
-#          message: "Updating the operator repo with latest images and manifests"
-#          repository: ${{ env.GITHUB_ORG }}/rhods-operator
-#          directory: rhods-operator
-#          author_name: Openshift-AI DevOps
-#          author_email: openshift-ai-devops@redhat.com
+      - name: Commit and push the changes to release branch
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
+          message: "Updating the operator repo with latest images and manifests"
+          repository: ${{ env.GITHUB_ORG }}/rhods-operator
+          directory: rhods-operator
+          author_name: Openshift-AI DevOps
+          author_email: openshift-ai-devops@redhat.com

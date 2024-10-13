@@ -1,6 +1,7 @@
 name: Operator Processor
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'rhoai-*'
@@ -18,18 +19,17 @@ jobs:
   operator-processor:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v45
-      - name: List all changed files
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+      - name: Sparse Checkout Notebooks
+        uses: actions/checkout@v4
+        with:
+          repository: ${GITHUB_ORG}/notebooks
+          ref: ${{ github.ref_name }}
+          path: notebooks
+
+      - name: List all files
         run: |
-          echo $ALL_CHANGED_FILES
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file was changed"
-          done
+          cd notebooks
+          ls
 
 #      - name: Merge Feasibility Check
 #        if: ${{ steps.changed-files.outputs.all_changed_files == 'build/operator-nudging.yaml' }}

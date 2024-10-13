@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   operator-processor:
-    if: ${{ github.event.commits[0].author.name == 'konflux-internal-p02[bot]' }}
+    if: ${{ github.event.commits[0].author.name == 'konflux-internal-p02' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout RBC repo

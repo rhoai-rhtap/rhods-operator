@@ -21,6 +21,10 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' || ( github.event_name == 'push' && github.event.commits[0].author.name == 'konflux-internal-p02' ) }}
     runs-on: ubuntu-latest
     steps:
+      - name: Fetch all manifests
+        run: |
+          echo "current dir = $(pwd)"
+          ls
       - name: Checkout RBC repo
         uses: actions/checkout@v4
         with:
@@ -30,6 +34,10 @@ jobs:
           sparse-checkout: |
             bundle/bundle-patch.yaml
           sparse-checkout-cone-mode: false
+      - name: Fetch all manifests
+        run: |
+          echo "current dir = $(pwd)"
+          ls
       - name: Git checkout utils
         uses: actions/checkout@v4
         with:
@@ -39,6 +47,10 @@ jobs:
           sparse-checkout: |
             utils/operator-processor
           sparse-checkout-cone-mode: false
+      - name: Fetch all manifests
+        run: |
+          echo "current dir = $(pwd)"
+          ls
       - name: Git checkout utils
         uses: actions/checkout@v4
         with:
@@ -48,6 +60,10 @@ jobs:
           sparse-checkout: |
             build
           sparse-checkout-cone-mode: false
+      - name: Fetch all manifests
+        run: |
+          echo "current dir = $(pwd)"
+          ls
       - name: Install dependencies
         run: |
           os="$(uname -s | tr '[:upper:]' '[:lower:]')"
@@ -61,6 +77,10 @@ jobs:
           cp $yq_filename /usr/local/bin/yq
   
           pip install -r utils/utils/operator-processor/requirements.txt
+      - name: Fetch all manifests
+        run: |
+          echo "current dir = $(pwd)"
+          ls
       - name: Execute Operator Processor
         env:
           BRANCH: ${{ github.ref_name }}

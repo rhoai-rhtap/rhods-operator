@@ -7,30 +7,31 @@ FROM registry.redhat.io/ubi8/go-toolset:1.21 as builder
 USER root
 WORKDIR /workspace
 
-## Copy the manifests
-RUN cp -r prefetched-manifests/* /opt/manifests/
+
 
 ## Copy the Go Modules manifests
-RUN cp go.mod go.mod && \
-    cp go.sum go.sum
+RUN cp ${SOURCE_CODE}/go.mod go.mod && \
+    cp ${SOURCE_CODE}/go.sum go.sum
 
+## Copy the manifests
+RUN cp -r ${SOURCE_CODE}/prefetched-manifests/* /opt/manifests/
 
 ## Copy the go source
-RUN cp main.go main.go && \
-    cp -r apis/ apis/ && \
-    cp -r controllers/ controllers/ && \
-    cp -r pkg/ pkg/ && \
-    cp -r components/ components/
+RUN cp ${SOURCE_CODE}/main.go main.go && \
+    cp -r ${SOURCE_CODE}/apis/ apis/ && \
+    cp -r ${SOURCE_CODE}/controllers/ controllers/ && \
+    cp -r ${SOURCE_CODE}/pkg/ pkg/ && \
+    cp -r ${SOURCE_CODE}/components/ components/
 
 ## Copy manifests
 RUN mkdir -p /opt/manifests/monitoring/ /opt/manifests/partners/ /opt/manifests/osd-configs && \
-    cp -r config/monitoring/ /opt/manifests/ && \
-    cp -r config/partners/ /opt/manifests/ && \
-    cp -r config/osd-configs/ /opt/manifests/
+    cp -r ${SOURCE_CODE}/config/monitoring/ /opt/manifests/ && \
+    cp -r ${SOURCE_CODE}/config/partners/ /opt/manifests/ && \
+    cp -r ${SOURCE_CODE}/config/osd-configs/ /opt/manifests/
 
 # Build
 ENV CGO_ENABLED=1
-RUN source ${REMOTE_SOURCES_DIR}/operator/cachito.env && GOOS=linux GOARCH=amd64 go build -a -o manager main.go
+RUN GOOS=linux GOARCH=amd64 go build -a -o manager main.go
 
 FROM registry.redhat.io/ubi8/ubi-minimal:latest
 

@@ -15,12 +15,12 @@ map:
     src: components/notebook-controller/config
     dest: odh-notebook-controller/kf-notebook-controller
     git.url: https://github.com/rhoai-rhtap/kubeflow
-    git.commit: 43b35d27226b1348151e740b2e18c07af422d8b8
+    git.commit: 5ddbfd6485cf5dab5942fd21125ef4433c40e7d1
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: odh-notebook-controller/odh-notebook-controller
     git.url: https://github.com/rhoai-rhtap/kubeflow
-    git.commit: 43b35d27226b1348151e740b2e18c07af422d8b8
+    git.commit: 5ddbfd6485cf5dab5942fd21125ef4433c40e7d1
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: data-science-pipelines-operator
@@ -40,7 +40,7 @@ map:
     src: config
     dest: kueue
     git.url: https://github.com/rhoai-rhtap/kueue
-    git.commit: f6ab24ce5228d6eff4bca68944a68720beaf6b3c
+    git.commit: c3b0cc97004b28365f8ebaa293174faea342256e
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator

@@ -6,7 +6,7 @@ FROM registry.redhat.io/ubi8/go-toolset:1.21 as builder
 
 USER root
 WORKDIR /workspace
-
+ARG SOURCE_CODE
 
 
 ## Copy the Go Modules manifests
@@ -36,7 +36,6 @@ RUN GOOS=linux GOARCH=amd64 go build -a -o manager main.go
 FROM registry.redhat.io/ubi8/ubi-minimal:latest
 
 ## Build args to be used at this step
-ARG CI_CONTAINER_VERSION
 
 ## Add package for useradd util
 RUN microdnf install -y shadow-utils &&\

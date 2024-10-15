@@ -39,7 +39,7 @@ jobs:
           sparse-checkout: |
             utils/operator-processor
           sparse-checkout-cone-mode: false
-      - name: Git checkout utils
+      - name: Git checkout operator repo
         uses: actions/checkout@v4
         with:
           repository: ${{ env.GITHUB_ORG }}/rhods-operator
@@ -135,7 +135,7 @@ jobs:
           cd ${{ github.workspace }}/rhods-operator/prefetched-manifests
           tree
           # Update the schedule file to trigger the nightly build 
-          echo $(date +'%d-%m-%Y %H:%M:%S:%3N') > ${BRANCH}/schedule/operator-tekton-trigger.txt
+          echo $(date +'%d-%m-%Y %H:%M:%S:%3N') > ${BRANCH}/build/schedule/operator-tekton-trigger.txt
       - name: Commit and push the changes to release branch
         uses: actions-js/push@master
         with:

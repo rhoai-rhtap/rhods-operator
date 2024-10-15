@@ -25,7 +25,7 @@ map:
     src: config
     dest: data-science-pipelines-operator
     git.url: https://github.com/rhoai-rhtap/data-science-pipelines-operator
-    git.commit: e8bb2062c6077cf782e46c1b1e9b64ba9ebe1e64
+    git.commit: dad1d7ef5bddfd8b487181332e8cdf59465a3bb9
   odh-codeflare-operator:
     src: config
     dest: codeflare

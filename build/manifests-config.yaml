@@ -25,7 +25,7 @@ map:
     src: config
     dest: data-science-pipelines-operator
     git.url: https://github.com/rhoai-rhtap/data-science-pipelines-operator
-    git.commit: e7fa82c90f25b377441b7f27e6bdc3e39bd38175
+    git.commit: e8bb2062c6077cf782e46c1b1e9b64ba9ebe1e64
   odh-codeflare-operator:
     src: config
     dest: codeflare
@@ -35,7 +35,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/rhoai-rhtap/kuberay
-    git.commit: ffc56995b9aa59deab6d37323a5ec196318b9d51
+    git.commit: a1bb61f247b6d04807f9a950079ee0d8c179b621
   odh-kueue-controller:
     src: config
     dest: kueue
@@ -45,12 +45,12 @@ map:
     src: config
     dest: trustyai-service-operator
     git.url: https://github.com/rhoai-rhtap/trustyai-service-operator
-    git.commit: 7d55aa1f975d8853a08f1ec65a95ec64eb55e507
+    git.commit: bdb24afd1b244d7a511db1891ec8acde073805b4
   odh-model-controller:
     src: config
     dest: odh-model-controller
     git.url: https://github.com/rhoai-rhtap/odh-model-controller
-    git.commit: 7902a26efab785a170f2a46e17065a8719a0c64a
+    git.commit: 8754222ba845a5f3b789ada4def8e28f88c15cf5
   odh-modelmesh:
     src: config
     dest: model-mesh
@@ -65,4 +65,4 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/rhoai-rhtap/training-operator
-    git.commit: e85c72750f409aa4be0fb7fea9a6ae5af3e2c657
+    git.commit: 8bc14e17da4c4c6663d55c60ee37817b2dd81bd9

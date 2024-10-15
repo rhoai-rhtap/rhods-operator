@@ -135,7 +135,7 @@ jobs:
           cd ${{ github.workspace }}/rhods-operator/prefetched-manifests
           tree
           # Update the schedule file to trigger the nightly build 
-          echo $(date +'%d-%m-%Y %H:%M:%S:%3N') > ${{ github.workspace }}/${BRANCH}/build/schedule/operator-tekton-trigger.txt
+          echo $(date +'%d-%m-%Y %H:%M:%S:%3N') > ${{ github.workspace }}/rhods-operator/build/schedule/operator-tekton-trigger.txt
       - name: Commit and push the changes to release branch
         uses: actions-js/push@master
         with:

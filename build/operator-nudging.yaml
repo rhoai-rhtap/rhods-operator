@@ -6,7 +6,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-notebook-controller-rhel8@sha256:4dc7b7d0beae4a1462dc069bb3c6321be5f968be70c76f4fd48a74b496044bf7"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_PERSISTENCEAGENT_IMAGE
-  value: "quay.io/rhoai/odh-ml-pipelines-persistenceagent-rhel8@sha256:8139c5eb94e510b2d4f2097873aad7e5a98910252f90b5da5255ca617b773cde"
+  value: "quay.io/rhoai/odh-ml-pipelines-persistenceagent-rhel8@sha256:51e9961bad52b353a2f0e7d58740eb605056605d83e6cede67e0f13bad87efa9"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_SCHEDULEDWORKFLOW_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-scheduledworkflow-rhel8@sha256:9308a64b498ec41cf31d21918edd4b800565d3d519683642b3c4bd952ba35d2a"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_ARTIFACT_MANAGER_IMAGE

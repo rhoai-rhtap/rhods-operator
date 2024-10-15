@@ -25,10 +25,14 @@ permissions:
 jobs:
   insta-merge:
     #    we also have the author and title check to be on safer side since we are using pull_request_target event,
-    if: ${{ github.event.sender.login == 'konflux-internal-p02[bot]'  && ( startsWith(github.event.pull_request.title, 'Update ') || startsWith(github.event.pull_request.title, 'chore(deps)') ) }}
+    if: ${{ ( github.event.sender.login == 'konflux-internal-p02[bot]' || github.event.sender.login == 'konflux-internal-p02[bot]' )  && ( startsWith(github.event.pull_request.title, 'Update ') || startsWith(github.event.pull_request.title, 'chore(deps)') ) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Get changed files using command
+        id: changes
+        run: |
+          git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | xargs
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v45

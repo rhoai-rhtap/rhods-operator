@@ -71,7 +71,7 @@ jobs:
           RHOAI_VERSION=v${BRANCH/rhoai-/}
           COMPONENT_SUFFIX=${RHOAI_VERSION/./-}
           ODH_OPERATOR_COMPONENT_NAME=odh-operator-${COMPONENT_SUFFIX}
-          PUSH_PIPELINE_PATH=rhods-operator/.tekton/${ODH_OPERATOR_COMPONENT_NAME}.yaml
+          PUSH_PIPELINE_PATH=rhods-operator/.tekton/${ODH_OPERATOR_COMPONENT_NAME}-push.yaml
           
           PATCH_YAML_PATH=RBC/bundle/bundle-patch.yaml
           OPERANDS_MAP_PATH=rhods-operator/build/operands-map.yaml

@@ -48,6 +48,7 @@ jobs:
           sparse-checkout: |
             build
             prefetched-manifests
+            .tekton
           sparse-checkout-cone-mode: false
       - name: Install dependencies
         run: |

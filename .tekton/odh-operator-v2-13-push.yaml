@@ -1,6 +1,5 @@
 apiVersion: tekton.dev/v1
 kind: PipelineRun
-#test11
 metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/rhoai-rhtap/rhods-operator?rev={{revision}}
@@ -9,9 +8,11 @@ metadata:
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     build.appstudio.openshift.io/build-nudge-files: "bundle/bundle-patch.yaml"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "rhoai-2.13" && !"bundle/**".pathChanged() && !"Dockerfiles/bundle.Dockerfile".pathChanged() 
-      && (!"build/**".pathChanged() || "build/operands-map.yaml".pathChanged() || ".tekton/odh-operator-v2-13-push.yaml".pathChanged() ) && !".github/workflows/**".pathChanged()
-  creationTimestamp: null
+      == "rhoai-2.13" && !"bundle/**".pathChanged() && !"Dockerfiles/bundle.Dockerfile".pathChanged()
+      && (!"build/**".pathChanged() || "build/operands-map.yaml".pathChanged() ||
+      ".tekton/odh-operator-v2-13-push.yaml".pathChanged() ) && !".github/workflows/**".pathChanged()
+      && "non-existent-file.non-existent-ext".pathChanged()
+  creationTimestamp:
   labels:
     appstudio.openshift.io/application: rhoai-v2-13
     appstudio.openshift.io/component: odh-operator-v2-13
@@ -147,7 +148,7 @@ spec:
       - name: rebuild
         value: $(params.rebuild)
       - name: skip-checks
-        value: "false" #$(params.skip-checks)
+        value: "false"
       taskRef:
         params:
         - name: name
@@ -234,9 +235,9 @@ spec:
         value: $(params.build-args-file)
       - name: LABELS
         value:
-          - version=v2.13.0
-          - git.url=$(params.git-url)
-          - git.commit=$(params.revision)
+        - version=v2.13.0
+        - git.url=$(params.git-url)
+        - git.commit=$(params.revision)
       runAfter:
       - prefetch-dependencies
       taskRef:
@@ -428,8 +429,8 @@ spec:
       - name: IMAGE
         value: $(tasks.build-image-index.results.IMAGE_URL)
       - name: ADDITIONAL_TAGS
-        value: 
-          - '{{target_branch}}-{{revision}}'
+        value:
+        - '{{target_branch}}-{{revision}}'
       runAfter:
       - build-image-index
       taskRef:
@@ -476,7 +477,7 @@ spec:
   - name: workspace
     volumeClaimTemplate:
       metadata:
-        creationTimestamp: null
+        creationTimestamp:
       spec:
         accessModes:
         - ReadWriteOnce

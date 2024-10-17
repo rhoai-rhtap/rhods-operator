@@ -10,7 +10,8 @@ on:
 
 
 env:
-  GITHUB_ORG: rhoai-rhtap
+  GITHUB_ORG: red-hat-data-services
+  GITHUB_RKA_ORG: rhoai-rhtap
   RESOLVE_CONFLICTS_FOR: build/operator-nudging.yaml
 
 permissions:
@@ -18,7 +19,7 @@ permissions:
 
 jobs:
   operator-processor:
-    if: ${{ github.event_name == 'workflow_dispatch' || ( github.event_name == 'push' && github.event.commits[0].author.name == 'konflux-internal-p02' ) }}
+    if: ${{ github.ref_name != 'main' && (github.event_name == 'workflow_dispatch' || ( github.event_name == 'push' && github.event.commits[0].author.name == 'konflux-internal-p02' )) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout RBC repo
@@ -33,7 +34,7 @@ jobs:
       - name: Git checkout utils
         uses: actions/checkout@v4
         with:
-          repository: ${{ env.GITHUB_ORG }}/RHOAI-Konflux-Automation
+          repository: ${{ env.GITHUB_RKA_ORG }}/RHOAI-Konflux-Automation
           ref: main
           path: utils
           sparse-checkout: |

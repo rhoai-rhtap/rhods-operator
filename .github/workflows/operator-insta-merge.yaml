@@ -3,7 +3,7 @@ name: Insta Merge Operator Nudges
 on:
   pull_request_target:
     branches:
-      - 'rhoai-2.16'  # Trigger the workflow on pushes to any rhoai-* branch
+      - 'rhoai-2.13'  # Trigger the workflow on pushes to any rhoai-* branch
     types:
       - opened
       - reopened
@@ -12,7 +12,8 @@ on:
       - build/operator-nudging.yaml
 
 env:
-  GITHUB_ORG: rhoai-rhtap
+  GITHUB_ORG: red-hat-data-services
+  GITHUB_RKA_ORG: rhoai-rhtap
   RESOLVE_CONFLICTS_FOR: build/operator-nudging.yaml
 
 permissions:

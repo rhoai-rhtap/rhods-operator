@@ -16,7 +16,7 @@ permissions:
   id-token: write
 
 env:
-  GITHUB_ORG: red-hat-data-services
+  GITHUB_ORG: rhoai-rhtap
   GITHUB_RKA_ORG: rhoai-rhtap
 
 jobs:

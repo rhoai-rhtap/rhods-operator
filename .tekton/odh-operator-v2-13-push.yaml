@@ -221,7 +221,7 @@ spec:
       - name: input
         value: $(params.prefetch-input)
       runAfter:
-      - failed-task
+      - custom-task
       taskRef:
         params:
         - name: name

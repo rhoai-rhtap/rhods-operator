@@ -236,8 +236,10 @@ spec:
       - name: LABELS
         value:
         - version=v2.13.0
+        - url=$(params.git-url)
         - git.url=$(params.git-url)
         - git.commit=$(params.revision)
+        - release='$(tasks.clone-repository.results.commit-timestamp)'
       runAfter:
       - prefetch-dependencies
       taskRef:

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 #  push:
 #    branches:
-#      - 'rhoai-2.16'
+#      - 'rhoai-2.13'
 #    paths:
 #      - build/operator-nudging.yaml
 

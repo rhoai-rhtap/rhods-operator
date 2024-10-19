@@ -207,13 +207,17 @@ spec:
       - name: basic-auth
         workspace: git-auth
     - name: custom-task
+      params:
+        - name: pipelinerun-name
+          value: "$(context.pipelineRun.name)"
       taskSpec:
         steps:
         - image: alpine
           name: hello
           script: |
             echo "Hello World!"
-            exit 0
+            echo "$(params.pipelinerun-name)
+            exit 1
       runAfter:
       - clone-repository
     - name: prefetch-dependencies

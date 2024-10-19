@@ -1,8 +1,12 @@
 name: Trigger Nightly Operator Build
+run-name: Workflow Name [${{ inputs.distinct_id && inputs.distinct_id || '' }}]
 
 on:
   workflow_dispatch:
-
+    inputs:
+      distinct_id:
+        description: 'Distinct ID'
+        required: false
 
 env:
   GITHUB_ORG: rhoai-rhtap

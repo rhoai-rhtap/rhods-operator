@@ -206,14 +206,14 @@ spec:
         workspace: workspace
       - name: basic-auth
         workspace: git-auth
-    - name: failed-task
+    - name: custom-task
       taskSpec:
         steps:
         - image: alpine
           name: hello
           script: |
             echo "Hello World!"
-            exit 1
+            exit 0
       runAfter:
       - clone-repository
     - name: prefetch-dependencies

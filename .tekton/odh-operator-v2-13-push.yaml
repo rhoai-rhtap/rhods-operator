@@ -216,7 +216,7 @@ spec:
           name: hello
           script: |
             echo "Hello World!"
-            echo "$(params.pipelinerun-name)
+            echo "$(params.pipelinerun-name)"
             exit 1
       runAfter:
       - clone-repository

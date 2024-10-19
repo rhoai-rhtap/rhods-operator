@@ -2,11 +2,6 @@ name: Trigger Nightly Operator Build
 
 on:
   workflow_dispatch:
-#  push:
-#    branches:
-#      - 'rhoai-2.13'
-#    paths:
-#      - build/operator-nudging.yaml
 
 
 env:

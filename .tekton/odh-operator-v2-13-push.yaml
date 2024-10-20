@@ -69,7 +69,6 @@ spec:
       workspaces:
       - name: workspace
         workspace: workspace
-
     - name: send-slack-notification
       params:
       - name: message

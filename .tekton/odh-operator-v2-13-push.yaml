@@ -119,7 +119,7 @@ spec:
     - name: send-slack-notification
       params:
       - name: message
-        value: "$(tasks.prepare-slack-message.results.slack-message-text)"
+        value: $(tasks.prepare-slack-message.results.slack-message-text)
       - name: secret-name
         value: rhoai-konflux-secret
       - name: key-name

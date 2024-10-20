@@ -133,8 +133,8 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-      runAfter:
-      - prepare-slack-message
+#      runAfter:
+#      - prepare-slack-message
 
     params:
     - description: Source Repository URL

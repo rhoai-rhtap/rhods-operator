@@ -210,13 +210,27 @@ spec:
       params:
         - name: pipelinerun-name
           value: "$(context.pipelineRun.name)"
+        - name: pipeline-name
+          value: "$(context.pipeline.name)"
       taskSpec:
         steps:
         - image: alpine
           name: hello
           script: |
             echo "Hello World!"
-            echo "$(params.pipelinerun-name)"
+            pipelinerun_name=$(params.pipelinerun-name)
+            pipeline_name=$(params.pipeline-name)
+            target_branch={{target_branch}}
+            echo "pipelinerun-name = $pipelinerun_name"
+            echo "pipeline-name = $pipeline_name"
+            
+            application_name=${target_branch/rhoai-/}
+            application_name=rhoai-v${application_name/./-}
+            echo "application-name = $application_name"
+            
+            component_name=${pipeline_name/-on-*/}
+            echo "component-name = $component_name"
+            
             exit 1
       runAfter:
       - clone-repository

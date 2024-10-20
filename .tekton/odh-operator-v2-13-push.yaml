@@ -73,7 +73,7 @@ spec:
     - name: send-slack-notification
       params:
       - name: message
-        value: "$(tasks.rhoai-init.results.slack-message-text)"
+        value: "$(tasks.rhoai-init.results.slack-message-failure-text)"
       - name: secret-name
         value: rhoai-konflux-secret
       - name: key-name
@@ -171,7 +171,7 @@ spec:
       taskSpec:
         results:
         - description: Notification text to be posted to slack
-          name: slack-message-text
+          name: slack-message-failure-text
         steps:
         - image: alpine
           name: rhoai-init
@@ -198,7 +198,7 @@ spec:
             slack_message="${alertEmoji} <${build_url}|${pipelinerun_name}> - ${build_time}"
             slack_message=$(echo -e "${slack_message}\nStatus: ${statusText} ${statusEmoji}")
 
-            echo -n "${slack_message}" > "$(results.slack-message-text.path)"
+            echo -n "${slack_message}" > "$(results.slack-message-failure-text.path)"
     - name: init
       params:
       - name: image-url

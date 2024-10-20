@@ -1,10 +1,10 @@
 relatedImages:
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kf-notebook-controller-rhel8@sha256:3861e916bd36fee07396ffbb2d2edc0983f1b404ad66b4c0274d5557d18cd281"
+  value: "quay.io/rhoai/odh-kf-notebook-controller-rhel8@sha256:fc059defb6bd069296c1648621dab5c0c46e7b95d0fdaeeda719f23d3b1318c2"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
   value: "quay.io/rhoai/odh-dashboard-rhel8@sha256:c198952ce6be526da247b448d92285efc47beafd5e372caa1c28aab7edf280e0"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-notebook-controller-rhel8@sha256:13b78484406f294072bf6a2141a7960dec3d687a1f00277180a5ac0ea849d662"
+  value: "quay.io/rhoai/odh-notebook-controller-rhel8@sha256:ac535efcfad2ef1483a10b39551a4e25070074719abc4ef8f756d65b04037573"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_PERSISTENCEAGENT_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-persistenceagent-rhel8@sha256:b0781ad91053e8a1f910fb5e9a712971023ad48932a3f92c06691b5d0b4a5278"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_SCHEDULEDWORKFLOW_IMAGE

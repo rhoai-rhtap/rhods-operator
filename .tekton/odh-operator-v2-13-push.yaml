@@ -77,8 +77,8 @@ spec:
         value: "$(tasks.status)"
       taskSpec:
         results:
-          - description: Notification text to be posted to slack
-            name: slack-message-text
+        - description: Notification text to be posted to slack
+          name: slack-message-text
         steps:
         - image: alpine
           name: slack-message

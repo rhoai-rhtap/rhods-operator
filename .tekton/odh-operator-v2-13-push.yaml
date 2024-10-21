@@ -7,10 +7,11 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     build.appstudio.openshift.io/build-nudge-files: "bundle/bundle-patch.yaml"
-    pipelinesascode.tekton.dev/on-cel-expression: 'event == "push" && target_branch
-      == "rhoai-2.13" && !"bundle/**".pathChanged() && !"Dockerfiles/bundle.Dockerfile".pathChanged()
-      && (!"build/**".pathChanged() || "build/operands-map.yaml".pathChanged() ||
-      ".tekton/odh-operator-v2-13-push.yaml".pathChanged() ) && !".github/workflows/**".pathChanged()'
+    pipelinesascode.tekton.dev/on-cel-expression: '"non-existent-file.non-existent-ext".pathChanged()
+      && event == "push" && target_branch == "rhoai-2.13" && !"bundle/**".pathChanged()
+      && !"Dockerfiles/bundle.Dockerfile".pathChanged() && (!"build/**".pathChanged()
+      || "build/operands-map.yaml".pathChanged() || ".tekton/odh-operator-v2-13-push.yaml".pathChanged()
+      ) && !".github/workflows/**".pathChanged()'
   creationTimestamp:
   labels:
     appstudio.openshift.io/application: rhoai-v2-13
@@ -185,10 +186,10 @@ spec:
 
             component_name=${pipelinerun_name/-on-*/}
             echo "component-name = $component_name"
-            
+
             KONFLUX_SERVER="https://konflux.apps.stone-prod-p02.hjvn.p1.openshiftapps.com"
             build_url="${KONFLUX_SERVER}/application-pipeline/workspaces/rhoai/applications/${application_name}/pipelineruns/${pipelinerun_name}/logs"
-            
+
             alertEmoji=":alert:"
             statusText="Failed"
             statusEmoji=":failed:"

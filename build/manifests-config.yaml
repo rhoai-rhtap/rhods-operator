@@ -40,7 +40,7 @@ map:
     src: config
     dest: kueue
     git.url: https://github.com/rhoai-rhtap/kueue
-    git.commit: e30244ccbb9582b442ce342c507dd7a855355d39
+    git.commit: 3a4bdfe25961bf19a6d767167fb776826a333a97
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator

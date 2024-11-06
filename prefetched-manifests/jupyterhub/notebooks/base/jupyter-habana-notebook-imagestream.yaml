@@ -1,9 +1,11 @@
 ---
+# This Image is Deprecated and will not be displayed on the Dashboard
+# Keeping this here for satisfying upgrade requirements
 apiVersion: image.openshift.io/v1
 kind: ImageStream
 metadata:
   labels:
-    opendatahub.io/notebook-image: "true"
+    opendatahub.io/notebook-image: "false"
   annotations:
     opendatahub.io/notebook-image-url: "https://github.com/red-hat-data-services/notebooks/tree/main/habana"
     opendatahub.io/notebook-image-name: "HabanaAI"

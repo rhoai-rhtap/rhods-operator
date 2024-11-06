@@ -35,12 +35,12 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/rhoai-rhtap/kuberay
-    git.commit: af90be6e9d8ed803c5bcb19fe93f503f9f912e74
+    git.commit: e3f4612e1e427f98cfdd9f33d46546b3900ee9a7
   odh-kueue-controller:
     src: config
     dest: kueue
     git.url: https://github.com/rhoai-rhtap/kueue
-    git.commit: b4e897518a116670a80ec9d06294a797b5abe9b5
+    git.commit: 3a4bdfe25961bf19a6d767167fb776826a333a97
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator
@@ -65,4 +65,56 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/rhoai-rhtap/training-operator
-    git.commit: 4d814995640fbe48b69b27508f9ab9b5e480d6c6
+    git.commit: 32ae048a38e5d9929d81ed9f10476c072a7e34bd
+additional_meta:
+  odh-ml-pipelines-persistenceagent:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-tekton
+    git.commit: 369b631ff17255dd5284eb4fc8747eab0c349a90
+  odh-ml-pipelines-scheduledworkflow:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-tekton
+    git.commit: 369b631ff17255dd5284eb4fc8747eab0c349a90
+  odh-ml-pipelines-artifact-manager:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-tekton
+    git.commit: 369b631ff17255dd5284eb4fc8747eab0c349a90
+  odh-modelmesh-serving-controller:
+    git.url: https://github.com/rhoai-rhtap/modelmesh-serving
+    git.commit: 56260c0944b6f228d8099fdf46c026ed09e0c871
+  odh-mm-rest-proxy:
+    git.url: https://github.com/rhoai-rhtap/rest-proxy
+    git.commit: de796e6cdff2f4222dedb0d9b7e8ad1cc455425b
+  odh-modelmesh-runtime-adapter:
+    git.url: https://github.com/rhoai-rhtap/modelmesh-runtime-adapter
+    git.commit: 8b029476804fc7c47888133002ad23eaaa8b624b
+  odh-trustyai-service:
+    git.url: ''
+    git.commit: ''
+  odh-mlmd-grpc-server:
+    git.url: https://github.com/rhoai-rhtap/ml-metadata
+    git.commit: 8e798379cf190b5e84e99846209a055df2cd3c9d
+  odh-ml-pipelines-api-server-v2:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-tekton
+    git.commit: 369b631ff17255dd5284eb4fc8747eab0c349a90
+  odh-ml-pipelines-persistenceagent-v2:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-dsp
+    git.commit: 2faa7449bb4d844c894e93876dbd582d64614e60
+  odh-ml-pipelines-scheduledworkflow-v2:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-dsp
+    git.commit: 2faa7449bb4d844c894e93876dbd582d64614e60
+  odh-ml-pipelines-driver:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-dsp
+    git.commit: 2faa7449bb4d844c894e93876dbd582d64614e60
+  odh-ml-pipelines-launcher:
+    git.url: https://github.com/rhoai-rhtap/data-science-pipelines-dsp
+    git.commit: 2faa7449bb4d844c894e93876dbd582d64614e60
+  odh-data-science-pipelines-argo-argoexec:
+    git.url: https://github.com/rhoai-rhtap/argo-workflows
+    git.commit: 92ac5dcfeff6948099b487cdd45e8aeb92a37668
+  odh-data-science-pipelines-argo-workflowcontroller:
+    git.url: https://github.com/rhoai-rhtap/argo-workflows
+    git.commit: 92ac5dcfeff6948099b487cdd45e8aeb92a37668
+  odh-model-registry:
+    git.url: https://github.com/rhoai-rhtap/model-registry
+    git.commit: fe8f77a6dd026313a6a12265debab002e7f4de8a
+  odh-model-registry-operator:
+    git.url: https://github.com/rhoai-rhtap/model-registry-operator
+    git.commit: e66e8e78c5b52e9186929c4320f943f08f39b318

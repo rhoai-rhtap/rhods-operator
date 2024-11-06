@@ -86,11 +86,6 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-#      when:
-#      - input: $(tasks.status)
-#        operator: in
-#        values:
-#        - "Failed"
 
     params:
     - description: Source Repository URL

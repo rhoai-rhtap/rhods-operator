@@ -77,7 +77,7 @@ spec:
       - name: secret-name
         value: rhoai-konflux-secret
       - name: key-name
-        value: slack-webhook
+        value: slack-poc-webhook
       taskRef:
         params:
         - name: name
@@ -87,11 +87,11 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-      when:
-      - input: $(tasks.status)
-        operator: in
-        values:
-        - "Failed"
+#      when:
+#      - input: $(tasks.status)
+#        operator: in
+#        values:
+#        - "Failed"
 
     params:
     - description: Source Repository URL
@@ -173,7 +173,7 @@ spec:
         - description: Notification text to be posted to slack
           name: slack-message-failure-text
         steps:
-        - image: alpine
+        - image: quay.io/rhoai-konflux/alpine:latest
           name: rhoai-init
           script: |
             pipelinerun_name=$(params.pipelinerun-name)
@@ -197,6 +197,8 @@ spec:
             build_time="$(date +%Y-%m-%dT%H:%M:%S)"
             slack_message="${alertEmoji} <${build_url}|${pipelinerun_name}> - ${build_time}"
             slack_message=$(echo -e "${slack_message}\nStatus: ${statusText} ${statusEmoji}")
+            slack_message=$(echo -e "${slack_message}\nCC - <!subteam^S05B904NQ6L|openshift-ai-devops>")
+            
 
             echo -n "${slack_message}" > "$(results.slack-message-failure-text.path)"
     - name: init

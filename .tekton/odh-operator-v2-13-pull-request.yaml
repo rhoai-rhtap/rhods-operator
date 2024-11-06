@@ -160,12 +160,6 @@ spec:
       params:
       - name: pipelinerun-name
         value: "$(context.pipelineRun.name)"
-      env:
-        - name: slack_message
-          valueFrom:
-            secretKeyRef:
-              name: rhoai-konflux-secret
-              key: slack-component-failure-notification
       taskSpec:
         results:
         - description: Notification text to be posted to slack
@@ -173,6 +167,12 @@ spec:
         steps:
         - image: quay.io/rhoai-konflux/alpine:latest
           name: rhoai-init
+          env:
+            - name: slack_message
+              valueFrom:
+                secretKeyRef:
+                  name: rhoai-konflux-secret
+                  key: slack-component-failure-notification
           script: |
             pipelinerun_name=$(params.pipelinerun-name)
             target_branch={{TARGET_BRANCH}}

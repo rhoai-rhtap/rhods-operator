@@ -7,7 +7,8 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     build.appstudio.openshift.io/build-nudge-files: "bundle/bundle-patch.yaml"
-    pipelinesascode.tekton.dev/on-cel-expression: '"event == "push" && target_branch == "rhoai-2.13" && !"bundle/**".pathChanged()
+    pipelinesascode.tekton.dev/on-cel-expression: '"non-existent-file.non-existent-ext".pathChanged()
+      && "event == "push" && target_branch == "rhoai-2.13" && !"bundle/**".pathChanged()
       && !"Dockerfiles/bundle.Dockerfile".pathChanged() && (!"build/**".pathChanged()
       || "build/operands-map.yaml".pathChanged() || ".tekton/odh-operator-v2-13-push.yaml".pathChanged()
       ) && !".github/workflows/**".pathChanged()'
@@ -86,7 +87,6 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-
     params:
     - description: Source Repository URL
       name: git-url
@@ -163,11 +163,11 @@ spec:
       - name: pipelinerun-name
         value: "$(context.pipelineRun.name)"
       env:
-        - name: slack_message
-          valueFrom:
-            secretKeyRef:
-              name: rhoai-konflux-secret
-              key: slack-component-failure-notification
+      - name: slack_message
+        valueFrom:
+          secretKeyRef:
+            name: rhoai-konflux-secret
+            key: slack-component-failure-notification
       taskSpec:
         results:
         - description: Notification text to be posted to slack
@@ -191,11 +191,11 @@ spec:
             build_url="${KONFLUX_SERVER}/application-pipeline/workspaces/rhoai/applications/${application_name}/pipelineruns/${pipelinerun_name}/logs"
 
             build_time="$(date +%Y-%m-%dT%H:%M:%S)"
-            
+
             slack_message=${slack_message/__BUILD__URL__/$build_url}
             slack_message=${slack_message/__PIPELINERUN__NAME__/$pipelinerun_name}
             slack_message=${slack_message/__BUILD__TIME__/$build_time}
-            
+
             echo -n "${slack_message}" > "$(results.slack-message-failure-text.path)"
     - name: init
       params:

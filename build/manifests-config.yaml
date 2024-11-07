@@ -55,7 +55,7 @@ map:
     src: config
     dest: model-mesh
     git.url: https://github.com/rhoai-rhtap/modelmesh
-    git.commit: 4fbe7c78fc7d05490cd0bd11be7577c9931d1c62
+    git.commit: 77eca88f097a614e752d40c798d3d9d6cb1632d9
   odh-dashboard:
     src: manifests
     dest: dashboard

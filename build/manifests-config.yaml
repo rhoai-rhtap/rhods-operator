@@ -60,7 +60,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/rhoai-rhtap/odh-dashboard
-    git.commit: 788e1de148897dfaa9a22d053e77980cb58405d8
+    git.commit: 558f280ba1e8e5cc41683d61db55f137ea58cb6e
   odh-training-operator:
     src: manifests
     dest: trainingoperator

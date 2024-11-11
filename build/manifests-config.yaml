@@ -30,7 +30,7 @@ map:
     src: config
     dest: codeflare
     git.url: https://github.com/rhoai-rhtap/codeflare-operator
-    git.commit: 35746c0a1a7793b59c776d16afb80bc33250e94f
+    git.commit: 8456e42a8de3c8f320bb62241ee7468ebce078f8
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray

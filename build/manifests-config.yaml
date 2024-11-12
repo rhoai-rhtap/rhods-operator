@@ -50,7 +50,7 @@ map:
     src: config
     dest: odh-model-controller
     git.url: https://github.com/rhoai-rhtap/odh-model-controller
-    git.commit: 0740f1ac9b0364360e66a9e2bb712702b1bc2aea
+    git.commit: 5fd07c2c97e9e2accd3795f64b94b20955b5de4d
   odh-modelmesh:
     src: config
     dest: model-mesh

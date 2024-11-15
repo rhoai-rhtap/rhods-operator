@@ -30,7 +30,7 @@ map:
     src: config
     dest: codeflare
     git.url: https://github.com/rhoai-rhtap/codeflare-operator
-    git.commit: 122135ef8945052668502c7e42f48add8b8da72c
+    git.commit: 3d1416bdc15b1e7e80ed7c6f103b8fdaf343d17b
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -50,12 +50,12 @@ map:
     src: config
     dest: odh-model-controller
     git.url: https://github.com/rhoai-rhtap/odh-model-controller
-    git.commit: bd15694a399b384a00479529173a7c3be92c44cd
+    git.commit: 1ecc84e34a04b41939254b402b2001939a46d283
   odh-modelmesh:
     src: config
     dest: model-mesh
     git.url: https://github.com/rhoai-rhtap/modelmesh
-    git.commit: 77eca88f097a614e752d40c798d3d9d6cb1632d9
+    git.commit: 6fa2cede2af40d306a2536e694529d4281f0ce0d
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -81,7 +81,7 @@ additional_meta:
     git.commit: 56260c0944b6f228d8099fdf46c026ed09e0c871
   odh-mm-rest-proxy:
     git.url: https://github.com/rhoai-rhtap/rest-proxy
-    git.commit: c5a1f25ec95db8ee8f39fbf23807c95847faa597
+    git.commit: 1ca7a763d27ac1923240f085628a2290736b1498
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/rhoai-rhtap/modelmesh-runtime-adapter
     git.commit: 8b029476804fc7c47888133002ad23eaaa8b624b

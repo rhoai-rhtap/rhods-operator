@@ -4,11 +4,30 @@
     "config:recommended"
   ],
   "branchPrefix": "renovate/",
-  "baseBranches": ["rhoai-2.13"],
+  "baseBranches": ["main"],
   "ignoreTests": true,
   "automergeType": "pr",
   "automerge": true,
-  "enabledManagers": ["tekton"],
+  "enabledManagers": ["dockerfile", "tekton"],
+  "dockerfile": {
+    "enabled": true,
+    "additionalBranchPrefix": "{{baseBranch}}/",
+    "branchPrefix": "konflux/mintmaker/",
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["*"],
+        "enabled": false
+      },
+      {
+        "matchUpdateTypes": ["digest"],
+        "enabled": true
+      },
+      {
+        "matchFileNames": ["*Dockerfile.konflux*"],
+        "enabled": true
+      }
+    ]
+  },
   "tekton": {
     "fileMatch": [
       "\\.yaml$",
@@ -47,5 +66,5 @@
       }
     ]
   },
-  "prHourlyLimit": 0
+ "prHourlyLimit": 0
 }

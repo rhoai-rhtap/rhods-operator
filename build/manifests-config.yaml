@@ -117,4 +117,4 @@ additional_meta:
     git.commit: fe8f77a6dd026313a6a12265debab002e7f4de8a
   odh-model-registry-operator:
     git.url: https://github.com/rhoai-rhtap/model-registry-operator
-    git.commit: 034f4ae7e9f45e5aaa149110c38e3fb449881a89
+    git.commit: f2d4b1bca42a890918ae7f49bae7890674301ebc

@@ -81,7 +81,7 @@ additional_meta:
     git.commit: 56260c0944b6f228d8099fdf46c026ed09e0c871
   odh-mm-rest-proxy:
     git.url: https://github.com/rhoai-rhtap/rest-proxy
-    git.commit: 089260a83a79e7184e529f6ee0fb63bc900bb2fd
+    git.commit: b4763a21985e4530bdff81887373a6dddf759003
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/rhoai-rhtap/modelmesh-runtime-adapter
     git.commit: 8b029476804fc7c47888133002ad23eaaa8b624b

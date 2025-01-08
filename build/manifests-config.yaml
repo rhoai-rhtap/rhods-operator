@@ -25,7 +25,7 @@ map:
     src: config
     dest: data-science-pipelines-operator
     git.url: https://github.com/rhoai-rhtap/data-science-pipelines-operator
-    git.commit: 7347190d319f7998b2749858dcbd56a01e0daacd
+    git.commit: b470214b597cb26c0c18b37d9d4b4db1a6fa2717
   odh-codeflare-operator:
     src: config
     dest: codeflare
@@ -108,10 +108,10 @@ additional_meta:
     git.commit: 2faa7449bb4d844c894e93876dbd582d64614e60
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/rhoai-rhtap/argo-workflows
-    git.commit: 6d7394859e4a45a3ec39eadfe6691349cf18f25b
+    git.commit: 2a111c6c053bc856ca3a64f0822da2f7744119eb
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/rhoai-rhtap/argo-workflows
-    git.commit: 6d7394859e4a45a3ec39eadfe6691349cf18f25b
+    git.commit: 2a111c6c053bc856ca3a64f0822da2f7744119eb
   odh-model-registry:
     git.url: https://github.com/rhoai-rhtap/model-registry
     git.commit: fe8f77a6dd026313a6a12265debab002e7f4de8a

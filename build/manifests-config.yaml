@@ -50,7 +50,7 @@ map:
     src: config
     dest: odh-model-controller
     git.url: https://github.com/rhoai-rhtap/odh-model-controller
-    git.commit: d2d3c909fcd9d83939d88c9346fafeb1e49f979e
+    git.commit: ba388fdc2fc1aba54563aa8a73d00dc957785583
   odh-modelmesh:
     src: config
     dest: model-mesh
@@ -81,7 +81,7 @@ additional_meta:
     git.commit: 56260c0944b6f228d8099fdf46c026ed09e0c871
   odh-mm-rest-proxy:
     git.url: https://github.com/rhoai-rhtap/rest-proxy
-    git.commit: d6f694bb7b1103b8b4dc0856ee787ac94817dc35
+    git.commit: 6fe78b6dd5df0bd4660c69b8b52ab64da4a6a630
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/rhoai-rhtap/modelmesh-runtime-adapter
     git.commit: 8b029476804fc7c47888133002ad23eaaa8b624b

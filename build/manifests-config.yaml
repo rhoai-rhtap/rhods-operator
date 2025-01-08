@@ -108,10 +108,10 @@ additional_meta:
     git.commit: 2faa7449bb4d844c894e93876dbd582d64614e60
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/rhoai-rhtap/argo-workflows
-    git.commit: 92ac5dcfeff6948099b487cdd45e8aeb92a37668
+    git.commit: 6d7394859e4a45a3ec39eadfe6691349cf18f25b
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/rhoai-rhtap/argo-workflows
-    git.commit: 92ac5dcfeff6948099b487cdd45e8aeb92a37668
+    git.commit: 6d7394859e4a45a3ec39eadfe6691349cf18f25b
   odh-model-registry:
     git.url: https://github.com/rhoai-rhtap/model-registry
     git.commit: fe8f77a6dd026313a6a12265debab002e7f4de8a

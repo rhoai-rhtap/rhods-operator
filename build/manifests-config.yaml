@@ -65,7 +65,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/rhoai-rhtap/training-operator
-    git.commit: 32ae048a38e5d9929d81ed9f10476c072a7e34bd
+    git.commit: 3421e8e780a00b15849725dc084d2ba38dacee98
 additional_meta:
   odh-ml-pipelines-persistenceagent:
     git.url: https://github.com/rhoai-rhtap/data-science-pipelines-tekton

@@ -78,13 +78,13 @@ additional_meta:
     git.commit: 369b631ff17255dd5284eb4fc8747eab0c349a90
   odh-modelmesh-serving-controller:
     git.url: https://github.com/rhoai-rhtap/modelmesh-serving
-    git.commit: 56260c0944b6f228d8099fdf46c026ed09e0c871
+    git.commit: 42998557244cb911f7454d1ad85b4147845e4508
   odh-mm-rest-proxy:
     git.url: https://github.com/rhoai-rhtap/rest-proxy
     git.commit: 6fe78b6dd5df0bd4660c69b8b52ab64da4a6a630
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/rhoai-rhtap/modelmesh-runtime-adapter
-    git.commit: 8b029476804fc7c47888133002ad23eaaa8b624b
+    git.commit: 05c366efdfc847ccc6b05719be435a2c767387db
   odh-trustyai-service:
     git.url: ''
     git.commit: ''

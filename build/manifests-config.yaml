@@ -45,7 +45,7 @@ map:
     src: config
     dest: trustyai-service-operator
     git.url: https://github.com/rhoai-rhtap/trustyai-service-operator
-    git.commit: b64110894b618ac8fc331574f339e8f901063d1b
+    git.commit: 32deb2a794aec477be7f5ad0f2d2cdd5fa776916
   odh-model-controller:
     src: config
     dest: odh-model-controller

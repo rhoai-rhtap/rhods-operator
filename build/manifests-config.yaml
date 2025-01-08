@@ -35,7 +35,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/rhoai-rhtap/kuberay
-    git.commit: e3f4612e1e427f98cfdd9f33d46546b3900ee9a7
+    git.commit: d9a43d11e363cbb715580a7655fe4d42cdc23d15
   odh-kueue-controller:
     src: config
     dest: kueue

@@ -1,7 +1,6 @@
 apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
-  #test2
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/rhoai-rhtap/rhods-operator?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
@@ -154,38 +153,23 @@ spec:
         - name: kind
           value: task
         resolver: bundles
-#    - name: my-custom-bundle-task
-#      params:
-#      - name: username
-#        value: Deepak
-#      taskRef:
-#        params:
-#        - name: name
-#          value: my-custom-task
-#        - name: bundle
-#          value: quay.io/rhoai-konflux/my-custom-task:latest2
-#        - name: kind
-#          value: task
-#        resolver: bundles
-#      runAfter:
-#      - init
     - name: my-custom-git-task
       params:
       - name: username
         value: Deepak
       - name: pipelinerun-name
         value: $(context.pipelineRun.name)
-      taskRef:
-        params:
-          - name: url
-            value: https://github.com/rhoai-rhtap/fbc-utils.git
-          - name: revision
-            value: main
-          - name: pathInRepo
-            value: tekton/my-custom-task.yaml
-        resolver: "git"
       runAfter:
       - init
+      taskRef:
+        params:
+        - name: url
+          value: https://github.com/rhoai-rhtap/fbc-utils.git
+        - name: revision
+          value: main
+        - name: pathInRepo
+          value: tekton/my-custom-task.yaml
+        resolver: git
     - name: clone-repository
       params:
       - name: url
@@ -485,7 +469,8 @@ spec:
       optional: true
     - name: netrc
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-bundle-tasks
   workspaces:
   - name: workspace
     volumeClaimTemplate:

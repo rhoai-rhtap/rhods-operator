@@ -227,7 +227,7 @@ spec:
         - name: name
           value: git-clone
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-git-clone:0.1@sha256:242fa43ae84f22e692c01662ceea1cee18143f66a11a424ae2228472dbfc53cc
+          value: quay.io/konflux-ci/tekton-catalog/task-git-clone:0.1@sha256:d17249eaf50aeb71a98e02125f850fe411d4d3c85d670d871e0cf23b35773a67
         - name: kind
           value: task
         resolver: bundles
@@ -349,7 +349,7 @@ spec:
         - name: name
           value: build-image-index
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-build-image-index:0.1@sha256:d455c28a6ae9f6ed40504e65e69b75ab147bb685c9fd606e6ffc3bad6f722bf4
+          value: quay.io/konflux-ci/tekton-catalog/task-build-image-index:0.1@sha256:04b4414fe0dd5ce0b1fd086b06209d38b52acbdf0968d8fa9bad7c9336f9d8ce
         - name: kind
           value: task
         resolver: bundles

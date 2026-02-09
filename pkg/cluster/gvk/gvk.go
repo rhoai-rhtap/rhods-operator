@@ -667,4 +667,10 @@ var (
 		Version: "v1",
 		Kind:    "MLflow",
 	}
+
+	PersistentVolumeClaim = schema.GroupVersionKind{
+		Group:   corev1.SchemeGroupVersion.Group,
+		Version: corev1.SchemeGroupVersion.Version,
+		Kind:    "PersistentVolumeClaim",
+	}
 )

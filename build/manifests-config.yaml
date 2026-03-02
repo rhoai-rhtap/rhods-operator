@@ -91,7 +91,7 @@ additional_meta:
     git.commit: c97881b21f44a5a164cb96efcd563502206c8993
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: a35b9647a78cdd11d69c6eadf5dd24408f9ed4ab
+    git.commit: d525ef2bc40bbeeecac85c0dfcef9d88c68cdf64
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 2cd6b9bf24a1d0184672060fd2747459f8d7dcf4
@@ -124,7 +124,7 @@ additional_meta:
     git.commit: ce022c9de5f7c0afe1aef1cda3e3f1ecd7036594
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 8397d5147d443d949e2894adbe7b3a9cffaca7fe
+    git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 5c453e72bcddfa2c0ff58b16e604826ad844d942

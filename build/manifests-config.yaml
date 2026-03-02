@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 711e7ac8d72e607f11869b0cd0e35cd6b4bbe500
+    git.commit: 9941b610f4c2589c99e0e0b9b8e31e21bf587e16
   odh-trainer:
     src: manifests
     dest: trainer
@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 684d621e6fba2eb40c86a73da34ac1c081ba2e3a
+    git.commit: c98a2379be9344283559cdb157406743166f6e8a
   odh-maas-api:
     src: deployment
     dest: maas
@@ -91,7 +91,7 @@ additional_meta:
     git.commit: 5c23a910636a74684f3a8089b5de91d2a7629723
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 43b8a25f5b59edc16e55452837991b73a886fb68
+    git.commit: 643aa2f8b6f41aa5efe059b26280662441b63780
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 1cc4404f93e2fb55662cd8ba3ee46b5dba5ba916
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 1cc4404f93e2fb55662cd8ba3ee46b5dba5ba916
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: bf0681c33cf6dbb47049f3f2ed9b52df99e3017c
+    git.commit: c40d01ce3abd6e2d2eb8e646b2f793cc0d0f064c
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: d5a9c5750c10bc4cb6f598f2b6f55806d130b420
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: fef3169b8280183349f5165f50de6d577a9b56aa
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: e8de5fee3c863c0e189c4cd3fe729f42a4c6a842
+    git.commit: 380616d47b539a5ca036fa3900dbdd47f484836b
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 27316749bb519e90235b45ee5293fa5fabdc0d26
@@ -286,4 +286,4 @@ additional_meta:
     git.commit: f7f994b5df89d114965e193aa555307def007062
   odh-workload-variant-autoscaler-controller:
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 2b8bd6c3df01cabaa26b988df359b138ae349356
+    git.commit: 2de7f7da39c958eb04698c803c75f589ec977fee

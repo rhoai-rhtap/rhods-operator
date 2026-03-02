@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 93a61d545ac79af6b05a0a5c05662bd77203d921
+    git.commit: 989221cff271b83afeb02874f658bbf56ce0639b
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 8f843e68b4d1e5d768b69e380570be2039a67fd7
+    git.commit: 684297c35fff1a30f289d0ca57cc218209f652b0
   odh-trainer:
     src: manifests
     dest: trainer
@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 4d9c0535633d148d5b69b46108de86c2afa7c425
+    git.commit: 4ef5f1bfe4cc5ca76acddb39cd6fed820f7d3f7a
   odh-maas-api:
     src: deployment
     dest: maas
@@ -91,7 +91,7 @@ additional_meta:
     git.commit: c97881b21f44a5a164cb96efcd563502206c8993
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 3feea8420e33e0fc408e8778aeaef9a11d99d3d5
+    git.commit: a35b9647a78cdd11d69c6eadf5dd24408f9ed4ab
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 2cd6b9bf24a1d0184672060fd2747459f8d7dcf4
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 2cd6b9bf24a1d0184672060fd2747459f8d7dcf4
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 83b231d0ad4301e30844dc6085dd432609b96a2a
+    git.commit: efea017ca7c5e4be8c0686f37629f5a6e828ff5f
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 4205e055702a7e4439cdfe23a29c0b2f49e3ea63

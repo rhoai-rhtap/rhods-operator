@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: a37960edd8c861c54b8a65f39eca12acbfed1176
+    git.commit: 682ec50555cd28f8c4d79a6a02754ae8aad82d2e
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 75a31dbbd9056933bc5fafc6681d7b7e8e0a15ea
+    git.commit: a4184cf1ddbcdcac6ddeea728bc4c7ccaee958e0
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability

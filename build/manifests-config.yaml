@@ -178,7 +178,7 @@ additional_meta:
     git.commit: ba6195c1db138fcae68af535d261cbdd19abf99d
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: 17a2904ae2a158018a3321e3f293fed8c6bdbccc
+    git.commit: 1890559251323d235fbee130b269617de074cc00
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: d006f63ac8cbf71b732b7611e4c48d64ae58b36b
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: 32a90f1dd3cd4ea9ab902daa840123cacca06f9c
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 176e2659676e45684d9c4fd05997bf7d32210d76
+    git.commit: 68b476f519b31f7863ae05445f8781a3a2cd5a05
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 0afc8f3eb460f5f8513b744300390a9178f1beef

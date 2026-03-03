@@ -2,7 +2,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: quay.io/rhoai/odh-built-in-detector-rhel9@sha256:8ad30a8c3b13c9efb2038550041ba8b5bd7dd541909df7bbe202c975eceb10f5
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
-  value: quay.io/rhoai/odh-cli-rhel9@sha256:ec08248a8d0b3475988e11c6f0caf2595cb25722a0181195d62325e3311237d6
+  value: quay.io/rhoai/odh-cli-rhel9@sha256:67bba22d40c9aebde543633090d9fbfd1fabf01721e34aa766e19f83a4727762
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
   value: quay.io/rhoai/odh-dashboard-rhel9@sha256:1af5ed2e60b837b9199a2cba27e7643111c1d571964ec0af15ee10a2342aa1a5
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE

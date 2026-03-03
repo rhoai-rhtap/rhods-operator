@@ -178,7 +178,7 @@ additional_meta:
     git.commit: 30074dfa8456752d3d87c2c1968b05e5ff79fcbc
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: 1120f245b049bd6da784b91ddee479e771dbdc0d
+    git.commit: 761e3e3b340af0f60bbc4dae2f26f9a4c1a3cfc9
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: 7c763e17396efc204f509ebd25c3a3d7ec68a923

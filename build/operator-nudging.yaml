@@ -68,7 +68,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:581d8283d38fe902061d52391da182d74d45d41c543d7df130f1e0e76fa9fd06
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
-  value: quay.io/rhoai/odh-built-in-detector-rhel9@sha256:0e5c1491e1e31ac6cc993efe78e4a8afa9c2d86635b989eaf4508e18607cf2da
+  value: quay.io/rhoai/odh-built-in-detector-rhel9@sha256:e376ee706b84a31d714eb742912ddc1c65e2066d55bc18ddf0c00446b467c241
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:b772307d7e6409246a26b6fd762b374b14f969f95c91633e29815ce8523b6c3f
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE

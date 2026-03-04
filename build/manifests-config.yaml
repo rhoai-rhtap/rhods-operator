@@ -161,7 +161,7 @@ additional_meta:
     git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: cc8d4d0e4b2c396a15c85e7ae8bb17e56f3ab17e
+    git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
@@ -185,7 +185,7 @@ additional_meta:
     git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: cc8d4d0e4b2c396a15c85e7ae8bb17e56f3ab17e
+    git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
@@ -197,7 +197,7 @@ additional_meta:
     git.commit: ed9148427447da32c94126a30b3a64034e81628e
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 698e2d5804d41047a5fe173ed3028e1475093eb6
+    git.commit: 56e0d9156bb184b980b7e7aec5eac0b2fa829859
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: b3c980d2c0bc6bd63011ad367fd4b4266b48af64

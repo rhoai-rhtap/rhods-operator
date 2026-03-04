@@ -150,7 +150,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
   value: quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:3fac4654733ff87ce84f3d6b9d87974e9a8086c31068663f7667facb2c120e1c
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: quay.io/rhoai/odh-mlflow-rhel9@sha256:79d979b20763eb11508a6185e82a430cda4b166acb5be9f13747d4aaa9a510a9
+  value: quay.io/rhoai/odh-mlflow-rhel9@sha256:d584f4ee427422967cdd1a447855efd6f7398b39307aaa1b2cd38fb42814799d
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:15e62251868b0a1f3e20f1491cb45d7ebb37a8f0b121cba85611864c0a0d90f9
 - name: RELATED_IMAGE_ODH_MLSERVER_IMAGE

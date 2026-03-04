@@ -275,4 +275,4 @@ additional_meta:
     git.commit: 579b598e1ebb38daec15069863d403c2147587fd
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: d86504c3f1b1a74f45bc2c8311f124097807def0
+    git.commit: 1af08b74ac1436dc37723819c7d17badaf29129d

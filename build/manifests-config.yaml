@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: b707d7f2d9396e6307321a843dc4d04b1d1300c3
+    git.commit: 54984fae121caff3156dfc39d60f7cd2f156df8b
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator
@@ -247,7 +247,7 @@ additional_meta:
     git.commit: 11356de8159010425d5bea01839b082b2c63c5c7
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: 9b20ccfd331378bd0dd78d2d4337d26c866c6baf
+    git.commit: c6700d4d10ba4eed4f1e6cecbe8d0cc6644a9c6f
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: c298ce74bda0a6888e30cc8e2cfc7fdc874e6451

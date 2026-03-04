@@ -108,7 +108,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:2cc92f068686b27173fe10d44eab60a11bf69cc8e8a33ae354318bc2a9ee1f10"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
-  value: "quay.io/rhoai/odh-trainer-rhel9@sha256:942bb9373cd9cf6781fcbbfcf1ec26b782ea95c09e32507846aa14c5896d5d9e"
+  value: "quay.io/rhoai/odh-trainer-rhel9@sha256:a890292e14dfe72685dc7d789fcd9886e79d23c45a3244af43067ced4e85c0ed"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:1d3874c60e82e18092e15e8f2d1c0391a945faad8e4f3dce11b3f3cf5f63f7f3"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE
@@ -138,7 +138,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:c4e94632cbbfdc1915fdaea2d11e6ff856626140598aba2b0757609a67494f30"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
-  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:f4b0fe254204357b13096d8123fecda63a975ef7e3e4b73a3f4e5ef9ab129199"
+  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:17ebfbc8d56458e800feca485a5db6afff07d11925f983c21edfe06d1b7b5413"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:6eda080ae0f6cb62dede53fcd7ca4c5de4f167c0126c244f5332e2a3f1fc6f16"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE

@@ -162,4 +162,4 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH29_PY312_IMAGE
   value: quay.io/rhoai/odh-training-cuda128-torch29-py312-rhel9@sha256:ab9dded4ff93d182ceb09ed697a82b67aa12d9c6d04c01602cf6ec43feee012c
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
-  value: quay.io/rhoai/odh-cli-rhel9@sha256:bd19eff816f23500e4f16f57c9128d4b18ede1114cc65a48f628d52c244447f9
+  value: quay.io/rhoai/odh-cli-rhel9@sha256:3c4a4d73d533f409d8d37af709fbe177b7540d13152a84f65a8be651188f079a

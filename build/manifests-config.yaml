@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: fc3805298382dd19e13d1095f26c54dee2ce9b72
+    git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -247,7 +247,7 @@ additional_meta:
     git.commit: f9e465ab494ddc912a6c0558fb504cc8f8a29a69
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: 3c1c14701e4fb12d023cdb891aaefc456316f94f
+    git.commit: bba63122133f8ceb48e6c3fea999bfcd9c864361
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: 6bf7f0c21d6e97207e9398a2e0c135e96ff6e0c6
@@ -262,7 +262,7 @@ additional_meta:
     git.commit: 90b2093ae5cd94f57b3ec5d162de6da72b76df51
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 90b2093ae5cd94f57b3ec5d162de6da72b76df51
+    git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 90b2093ae5cd94f57b3ec5d162de6da72b76df51

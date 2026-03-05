@@ -108,7 +108,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:2cc92f068686b27173fe10d44eab60a11bf69cc8e8a33ae354318bc2a9ee1f10
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
-  value: quay.io/rhoai/odh-trainer-rhel9@sha256:a890292e14dfe72685dc7d789fcd9886e79d23c45a3244af43067ced4e85c0ed
+  value: quay.io/rhoai/odh-trainer-rhel9@sha256:2427c2bb52004956838824b5cba3137b32aab2449318226f07217f55fde4f143
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
   value: quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:1d3874c60e82e18092e15e8f2d1c0391a945faad8e4f3dce11b3f3cf5f63f7f3
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE

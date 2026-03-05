@@ -70,9 +70,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:248120bdf6f2bc5ac6a61c02961333d676816b180e2ed542792f6d2dd9c86b67"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:856f67a02fd00fa2e5e6a3b9ca4c5dd7b82b13d98052f51235e5bef751057d8d"
+  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:cf34832e25112735659f43ccd7b34a473f7412af859ff995acd7adf89cc511e9"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:62cf61e03ea92e699ddb133e985a257500861e6c8424aaab9b3ca07753b9e01a"
+  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:dec114ee0a7c2e2e0226338891b0c5069e9b1772cccfe45bea721f465fe9698d"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:2aca98ab3d831829066cd096ee8989fafe04a61409a399543c8202508af2d65e"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
@@ -88,7 +88,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:bc36a034d543f6e84c075130f10ef9a4a4f401a1ddbd5cb84ab8a1383fe1ba3f"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:689f6040dfa7f13a1663cedcbfcaeb085adf01a9003f85ea3a49781783f07ea8"
+  value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:1d2842a4edcb837823cb46107dcd68858ad09743c7f98a4f81058ddb21716300"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:6736747dd0767fdaabab138d020653908a2a51d07f5382df1677bd07f7458a3e"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE

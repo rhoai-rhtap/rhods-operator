@@ -163,10 +163,10 @@ additional_meta:
     git.commit: 985b082f96cad8652dafa64463479604de63649d
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
+    git.commit: 5e5e665cefb5f5ce2db330477c1efd1260ef3e0e
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 4ba3e76becfc49901f055d706983cf5404d93fcb
+    git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f
@@ -184,7 +184,7 @@ additional_meta:
     git.commit: d560e5d8d16cd0db2bb2c9e6f1759ced04bffffa
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 57aa58deb5cc5f62d7ab71d055d17ebdb3c188ee
+    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d

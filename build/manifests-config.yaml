@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -181,7 +181,7 @@ additional_meta:
     git.commit: 8ecef0d8e8ffbab31eb744ef036437a47f0eac18
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
-    git.commit: 7c763e17396efc204f509ebd25c3a3d7ec68a923
+    git.commit: d560e5d8d16cd0db2bb2c9e6f1759ced04bffffa
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 57aa58deb5cc5f62d7ab71d055d17ebdb3c188ee

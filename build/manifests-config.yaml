@@ -190,7 +190,7 @@ additional_meta:
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
   odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: a35432f4aaeb6e6adc7737ada71bd25ebff2b276
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 8353ee47d82cd962f7b70bf87b32606933a9317c
+    git.commit: 488fde41fc3aa68e8607b4bdfd19728310986328
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: e9437b02c7135fe2b5c34aefd7518bd2da480c30
@@ -268,7 +268,7 @@ additional_meta:
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
@@ -277,7 +277,7 @@ additional_meta:
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d

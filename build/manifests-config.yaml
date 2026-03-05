@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 6ed62dc785e7200944d7efba9161c9dd3468f016
+    git.commit: 88a6189054e0f522322d4c8053db22029efb943d
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -110,7 +110,7 @@ additional_meta:
     git.commit: b3896e4236b2a6cdbb2bd789bf2c514d43e82a3d
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 840f25f4c9e3f25e0f043fca30a17a86f8a2d339
+    git.commit: 4335b5abe481be89b2a41acfdca6d534ea43973b
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 1dc378c5af6993dbcbbc540feb7ddaa545af505c

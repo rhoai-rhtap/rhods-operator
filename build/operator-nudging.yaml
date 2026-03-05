@@ -66,7 +66,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-model-controller-rhel9@sha256:f8b8fa7d76cb7f53b5f136c83a728d230fb652c65f879ddbed84b0d3c5e91736
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
-  value: quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:8f4976f53136b375415da5eb4fcb87fe3f98509a605401a1139d5b40d575f3e3
+  value: quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:2b775aa03f3ef809dc45159bfbf90ab33f946c3d6c712e2c344bab966565c653
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: quay.io/rhoai/odh-model-performance-data-rhel9@sha256:248120bdf6f2bc5ac6a61c02961333d676816b180e2ed542792f6d2dd9c86b67
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE

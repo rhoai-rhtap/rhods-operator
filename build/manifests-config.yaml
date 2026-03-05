@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
+    git.commit: cd32f0573b634a5fae12cd016efeca3e9c8bf2fe
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -9,7 +9,7 @@ map:
     src: config
     dest: kserve
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: ab5f3f055a506ecfa3907e52768216696e942260
+    git.commit: d1d4881ddad910178581a9ab11a9a9a28c181b30
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
@@ -112,10 +112,10 @@ additional_meta:
     git.commit: 1a4cfd3e61253653bd692f1fba0ef856459ec99a
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: ab5f3f055a506ecfa3907e52768216696e942260
+    git.commit: d1d4881ddad910178581a9ab11a9a9a28c181b30
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: ab5f3f055a506ecfa3907e52768216696e942260
+    git.commit: d1d4881ddad910178581a9ab11a9a9a28c181b30
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: ab5f3f055a506ecfa3907e52768216696e942260
@@ -223,13 +223,13 @@ additional_meta:
     git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
   odh-training-rocm62-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: da5d952432530ade965601de6c63d12d20e54426
+    git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
   odh-training-rocm62-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: da5d952432530ade965601de6c63d12d20e54426
+    git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
   odh-training-rocm64-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: da5d952432530ade965601de6c63d12d20e54426
+    git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: da5d952432530ade965601de6c63d12d20e54426

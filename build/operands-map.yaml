@@ -150,7 +150,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:d584f4ee427422967cdd1a447855efd6f7398b39307aaa1b2cd38fb42814799d"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:15e62251868b0a1f3e20f1491cb45d7ebb37a8f0b121cba85611864c0a0d90f9"
+  value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:cefc7199fc8c9e02cb41a166911651c7478f6a066d60f57d7e253ec80f4e92d7"
 - name: RELATED_IMAGE_ODH_MLSERVER_IMAGE
   value: "quay.io/rhoai/odh-mlserver-rhel9@sha256:7987044bb46e6663cc8ecc1719cbb62f4a56635d2a6fd45b645c3c91b4e44659"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE

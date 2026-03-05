@@ -283,4 +283,4 @@ additional_meta:
     git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 90b2093ae5cd94f57b3ec5d162de6da72b76df51
+    git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf

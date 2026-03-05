@@ -103,7 +103,7 @@ additional_meta:
     git.commit: b5cd6c363076e78139de0628a98230c189a41779
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: d5a9c5750c10bc4cb6f598f2b6f55806d130b420
+    git.commit: 523865d2aaeb386ff494ef3e3588349a458eccba
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: 4a7af650018da0e6fade5d3670d50ad2ffb2007e
@@ -217,7 +217,7 @@ additional_meta:
     git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: da5d952432530ade965601de6c63d12d20e54426
+    git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
   odh-training-cuda128-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 82604b30a568405cbadf74f3d2f9607f51f6c3d8
@@ -235,7 +235,7 @@ additional_meta:
     git.commit: da5d952432530ade965601de6c63d12d20e54426
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
-    git.commit: fef3169b8280183349f5165f50de6d577a9b56aa
+    git.commit: a35432f4aaeb6e6adc7737ada71bd25ebff2b276
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
     git.commit: 8353ee47d82cd962f7b70bf87b32606933a9317c

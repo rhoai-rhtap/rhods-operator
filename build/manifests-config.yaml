@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f
+    git.commit: 2db69e36311da862abd6fe2c11aeec96f6c7ea14
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -109,7 +109,7 @@ additional_meta:
     git.commit: 4a7af650018da0e6fade5d3670d50ad2ffb2007e
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 44839af968da6e76dc21b8b3f21b772d322580d5
+    git.commit: 1a4cfd3e61253653bd692f1fba0ef856459ec99a
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: ab5f3f055a506ecfa3907e52768216696e942260
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: b29fb89dfb2c9ec5d568bb99a05c064c9ba0959c
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: b3249f3c1ea7bdf16db8ae0d5e7e7edbaca47f08
+    git.commit: 7117dbd9c555acd44a99ec760e50df46c33cb8fe
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: c7a8191b30e87c7f896d2d975094f4c335567358
@@ -172,7 +172,7 @@ additional_meta:
     git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f
+    git.commit: 2db69e36311da862abd6fe2c11aeec96f6c7ea14
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f
@@ -184,7 +184,7 @@ additional_meta:
     git.commit: d560e5d8d16cd0db2bb2c9e6f1759ced04bffffa
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
@@ -199,7 +199,7 @@ additional_meta:
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d

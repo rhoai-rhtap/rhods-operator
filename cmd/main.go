@@ -57,7 +57,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
-	"sigs.k8s.io/controller-runtime/pkg/manager"
+	crtlmanager "sigs.k8s.io/controller-runtime/pkg/manager"
 	ctrlmetrics "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	ctrlwebhook "sigs.k8s.io/controller-runtime/pkg/webhook"
 	gwapiv1 "sigs.k8s.io/gateway-api/apis/v1"
@@ -81,6 +81,7 @@ import (
 	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/cluster/gvk"
 	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/initialinstall"
 	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/logger"
+	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/manager"
 	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/resources"
 	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/upgrade"
 	"github.com/opendatahub-io/opendatahub-operator/v2/pkg/utils/flags"
@@ -232,6 +233,7 @@ func main() { //nolint:funlen,maintidx,gocyclo
 		os.Exit(1)
 	}
 
+	// This client does not use the cache.
 	setupClient, err := client.New(setupCfg, client.Options{Scheme: scheme})
 	if err != nil {
 		setupLog.Error(err, "error getting client for setup")
@@ -324,7 +326,7 @@ func main() { //nolint:funlen,maintidx,gocyclo
 		},
 	}
 
-	mgr, err := ctrl.NewManager(ctrl.GetConfigOrDie(), ctrl.Options{ // single pod does not need to have LeaderElection
+	ctrlMgr, err := ctrl.NewManager(ctrl.GetConfigOrDie(), ctrl.Options{ // single pod does not need to have LeaderElection
 		Scheme:  scheme,
 		Metrics: ctrlmetrics.Options{BindAddress: oconfig.MetricsAddr},
 		WebhookServer: ctrlwebhook.NewServer(ctrlwebhook.Options{
@@ -367,6 +369,9 @@ func main() { //nolint:funlen,maintidx,gocyclo
 		setupLog.Error(err, "unable to start manager")
 		os.Exit(1)
 	}
+
+	// Wrap the manager to return the wrapped client from GetClient()
+	mgr := manager.New(ctrlMgr)
 
 	// Register all webhooks using the helper
 	if err := webhook.RegisterAllWebhooks(mgr); err != nil {
@@ -470,12 +475,12 @@ func main() { //nolint:funlen,maintidx,gocyclo
 }
 
 //nolint:ireturn
-func LeaderElectionRunnableFunc(fn manager.RunnableFunc) manager.Runnable {
+func LeaderElectionRunnableFunc(fn crtlmanager.RunnableFunc) crtlmanager.Runnable {
 	return &LeaderElectionRunnableWrapper{Fn: fn}
 }
 
 type LeaderElectionRunnableWrapper struct {
-	Fn manager.RunnableFunc
+	Fn crtlmanager.RunnableFunc
 }
 
 func (l *LeaderElectionRunnableWrapper) Start(ctx context.Context) error {
@@ -533,7 +538,7 @@ func createODHGeneralCacheConfig(platform common.Platform) (map[string]cache.Con
 	return namespaceConfigs, nil
 }
 
-func CreateComponentReconcilers(ctx context.Context, mgr manager.Manager) error {
+func CreateComponentReconcilers(ctx context.Context, mgr *manager.Manager) error {
 	l := logf.FromContext(ctx)
 
 	return cr.ForEach(func(ch cr.ComponentHandler) error {
@@ -546,7 +551,7 @@ func CreateComponentReconcilers(ctx context.Context, mgr manager.Manager) error 
 	})
 }
 
-func CreateServiceReconcilers(ctx context.Context, mgr manager.Manager) error {
+func CreateServiceReconcilers(ctx context.Context, mgr *manager.Manager) error {
 	log := logf.FromContext(ctx)
 
 	return sr.ForEach(func(sh sr.ServiceHandler) error {

@@ -280,7 +280,7 @@ additional_meta:
     git.commit: 6a3a1d7aaf373c385f0af1f8b0de9349b2e7b0ae
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee
+    git.commit: 6a3a1d7aaf373c385f0af1f8b0de9349b2e7b0ae
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 690e283cae0c39e5630b8e4b1289238e213d0fee

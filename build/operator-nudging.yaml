@@ -74,7 +74,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
   value: quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:d9c68fd4c2bc63e330dad5283f5cdf2e5b31b3ea9c200e63a17a20cca54cc33e
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
-  value: quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:84a3cc27f2d099d75455f51506fa02a4c088e53c9f1eae8809118a142b384ec7
+  value: quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:bfdfeb528cfed159bcfa7bdd31c653dd77abe68ab8d0c10623020ac6b1d6c976
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:be3dc07291076cad02f405abe400b479f536f8928607a4dc1e7e4df1cccb5478
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE

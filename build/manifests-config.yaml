@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 6a3a1d7aaf373c385f0af1f8b0de9349b2e7b0ae
+    git.commit: 39bbd4fc59888279d9315610bec79f86c43412bf
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: 75f46d88402b2e38012e6abcdbe82259b05e5c22
+    git.commit: 5fdfaa0436037c77f0b415f1fc7280a0bc484588
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -172,7 +172,7 @@ additional_meta:
     git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 65c8a1b9a11fa47c3c3d612be2c0255ebf0eb742
+    git.commit: fa74fa3f07966d683e651c5af399296968b83d85
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 35d44a6811a17a26755bb2b35ac8ee3d017cf66f

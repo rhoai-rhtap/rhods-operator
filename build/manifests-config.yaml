@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: f8c064c04ddab5327c7269e07c9ea496feb98729
+    git.commit: 6a3a1d7aaf373c385f0af1f8b0de9349b2e7b0ae
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: c1f86af3a3a5b63d69fa7ea5f4902560f6c3e385
+    git.commit: a18ae60840f48f66e961f700d67ac6b2c6e11836
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 0f04f02518d2a6482cbacbccd1f09c323f6bbf7a
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: b1202d374976335757c7588aef0c412df5656143
+    git.commit: d3b351fb74136e38df29e866805033acf0586b4a
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 523865d2aaeb386ff494ef3e3588349a458eccba

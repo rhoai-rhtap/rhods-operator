@@ -12,7 +12,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:f2d40721f42fd510d034e46315b96925e4036b005a50c723497bed2090b37be6"
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
-  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:de0af10ba7e1941a66513b31b8f0740e56fbd92513c18ab54a59034dab1d7133"
+  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:fa0ebd77d8bcb8ca343719973f03fa58d2dd25d8bbc6498090240ee3e3329ad3"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:fb1bb5acf400d1b86bc74f93bc19b889599d3d649013fe76ddd3893045bdb775"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
@@ -108,7 +108,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:2cc92f068686b27173fe10d44eab60a11bf69cc8e8a33ae354318bc2a9ee1f10"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
-  value: "quay.io/rhoai/odh-trainer-rhel9@sha256:2427c2bb52004956838824b5cba3137b32aab2449318226f07217f55fde4f143"
+  value: "quay.io/rhoai/odh-trainer-rhel9@sha256:12bdbc0f0f1ea14ff7809a452b8a4ccbd2db6d182c1b778876656f0757adde89"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:094d85f01badf2878147b547896e7c00ce44f836ccbeab98c38d7bc4a8d8a19b"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE

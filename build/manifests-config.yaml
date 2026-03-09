@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: feb7153ebc7092b22c92c7f4ec95a0b01963ae34
+    git.commit: 5337d9d9272fc3267aae38e2ab34f0dad803406f
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: dd8ac41037658231f549486985d281ccf3dfccd4
+    git.commit: 4356ee98a93113a9580d1a78fb7d14ff9e9fc18f
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability

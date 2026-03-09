@@ -22,7 +22,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
   value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:304279a074aec22cd3078d6f80cf9a159281efaec8d344b1c0a40a68579ebbe8"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:b1b4672e9f4b378120aef365d16c26739e72b0905c6004ce3a918cf6f2112594"
+  value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:4b004752e79256bfc5fa967f938662ae94f649eadbed30287d3a1eca833b2942"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
   value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:8afb9ea1746e8f1c2be178e03ef50a2dbf1b41138f297cc763ab1a4b3bbf5431"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
@@ -32,7 +32,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:c6c0bfe4f016088813fe7724d2193c0f12142832a2e7def86f21a939772bf4b6"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:30bd9bfdb01a06164bbe8f23b3c153fa6f2eeb986783a563bcadd2c265f4169e"
+  value: "quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:9010aebf99122b851b61e93700b4d263d2cc53915a815a8dc04bdb6698005bb1"
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:b113d3c4adc2e5456a99c12384d0827cc82e0e3acb2a42adeb75f80f1654f936"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
@@ -84,7 +84,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:5ba186327d1ccc970825b25896d4b952c9cd60a46650449a6da8d7e65551db41"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:bddde3ff79933488a85b1bd829c0f9172741fcee2ed6b83a308749a27a766293"
+  value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:e5b89972f978596a523547341d82cc9027fd3f540f5920af96ecc49185c55e26"
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:1aaaff7909bddfaea4799fa6b29c958b5850bd5ef2c9e94811076e4b692609f3"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE

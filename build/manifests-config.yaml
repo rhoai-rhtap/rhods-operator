@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: eae0a47ef4fde3fa180c87942316ba46dcca047c
+    git.commit: f8634e6158d7cdd18bb866a0392b553979b39648
   odh-maas-api:
     src: deployment
     dest: maas
@@ -91,7 +91,7 @@ additional_meta:
     git.commit: c97881b21f44a5a164cb96efcd563502206c8993
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 8ce8acdf74ed4ac05a731c50fa767278d93cee99
+    git.commit: 8d7a33bf6d2365bcb7405b58014b214b57475d52
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 125f0197e9be667939a404f06e77a09206de5ad3
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 125f0197e9be667939a404f06e77a09206de5ad3
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 87bf5c8bc7c1aeb2858578e05a3bc775a1107ee6
+    git.commit: fc8782a093c4701b320b6736491adeab3143e452
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 4205e055702a7e4439cdfe23a29c0b2f49e3ea63

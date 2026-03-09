@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
+    git.commit: d4bd12917fadfc23bbb4061ab4321f8cd44031c5
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: d8c6faeeef7441520c06c377ad068ce49f0a83af
+    git.commit: a7b3060ffe04a8f3a375e2c2692af0855a915c7a
   odh-trainer:
     src: manifests
     dest: trainer

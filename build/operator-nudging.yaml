@@ -46,7 +46,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
   value: quay.io/rhoai/odh-maas-api-rhel9@sha256:98a7a1378b99e36fd7e1dc7314f6a27b497fb7b6ab5d2887e4a44f6ba04cb82c
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: quay.io/rhoai/odh-mlflow-rhel9@sha256:79ab74559a3d56438603e323ce3be4118b604a90cc4ad2e4fb5abfa5b09988e3
+  value: quay.io/rhoai/odh-mlflow-rhel9@sha256:e3eb188084d4b85abcbb51c54d1b86b5ad80598c3f1fa486c3136705d5cec107
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:417f517a87a6aacbb2716dc2fb7ad38749071306c7da05980a8a51035032a6f9
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE

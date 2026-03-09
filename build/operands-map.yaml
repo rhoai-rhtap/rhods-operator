@@ -78,9 +78,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:21adf7762d6093c1a4fc7b9ae99e4c70a7b938a3803edc0508a62736583b616a"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:4111e87b801925c978f25cfa40c4efed32466c38c34a08fa7d5a5db66c4ff407"
+  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:2c8339366ee566e317989175c01920d2958efa5982a3937ce084f50820b5579b"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:704331ed9896facf9dd26dac75e8ed3d687395ed1a00b8a696f3169ac4f9b6f8"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:fff5097800effa2b7b70f5876faee7076f0ea246b82b29bcd7f8388e3b55ddff"
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:5ba186327d1ccc970825b25896d4b952c9cd60a46650449a6da8d7e65551db41"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE

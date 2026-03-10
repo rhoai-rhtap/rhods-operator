@@ -8,7 +8,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:aa28582ead78a42d84d25590b3bd345eecf8168c6683976ca08e6b78d295794b"
 - name: RELATED_IMAGE_ODH_MODELMESH_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-modelmesh-serving-controller-rhel9@sha256:1ca3b33088e4f59b9865492851f90b897965ab8b3e84a5667298fa4e92b72e74"
+  value: "quay.io/rhoai/odh-modelmesh-serving-controller-rhel9@sha256:2c75f6b156b78192ad61dd7e2ebab3d82916e06423e993545aabf05a104b540a"
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:ed359d7f0fa5b5e99354794fc86adb0f02f1cb297dd1f6f6286fa35351f82e46"
 - name: RELATED_IMAGE_ODH_MM_REST_PROXY_IMAGE
@@ -16,7 +16,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-rhel9@sha256:2973a673254d66cf7cd5dd8c89c13f2baed0207f4017a689689e577625d62e24"
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
-  value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:bae32e307ff89b98e586b1ac45224799756983654591ace299a649bb7babf490"
+  value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:fef207c0cd379da10ea530444d4b3f5a9c8567beae3ee8777d264cff2bffc0cb"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:7619e6bdc2263c692954770d5e62f061d2781e4480c5a6e156d3de90e44e3260"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE

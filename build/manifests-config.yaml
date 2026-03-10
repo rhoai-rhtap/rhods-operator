@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 86934520a25a21a7d9c42f52dbb016bd37d9ad01
+    git.commit: b02565b06066d87710c006a899bf7feecb343736
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -124,7 +124,7 @@ additional_meta:
     git.commit: d70954b3cb003e0c76cfba55a03e13888c081b1e
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 102141a1258673295295bfd874d4b7c686cdeeb5
+    git.commit: 910e74cdeae79ff7f5f183c420699dfd6d54ec4d
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15
@@ -169,10 +169,10 @@ additional_meta:
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 96562ad3bff6dddcdd0e538679eed6042187672a
+    git.commit: b02565b06066d87710c006a899bf7feecb343736
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 86934520a25a21a7d9c42f52dbb016bd37d9ad01
+    git.commit: b02565b06066d87710c006a899bf7feecb343736
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: eccf8784e1da58fe9a10c80c4d9d8d7691cd6903

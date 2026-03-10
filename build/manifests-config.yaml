@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 6d0e8ac154246cb2325373f69bbeabe2f934c329
+    git.commit: 3d800f7087b3894c779ac663dc3d89100ebc6e3e
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 6d0e8ac154246cb2325373f69bbeabe2f934c329
+    git.commit: 3d800f7087b3894c779ac663dc3d89100ebc6e3e
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 967a0355d61a429a1512db7aaaaaa7baa96afd8d
+    git.commit: 8f06c52bb2d1e77030537f0f4e27ee0f3a6396f1
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 5337d9d9272fc3267aae38e2ab34f0dad803406f
+    git.commit: 68150f17cf6144b205eee935fd6bafcb5b23c9f2
   odh-maas-api:
     src: deployment
     dest: maas
@@ -110,7 +110,7 @@ additional_meta:
     git.commit: b3896e4236b2a6cdbb2bd789bf2c514d43e82a3d
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 99b5c65ba4a77d68d58d8a33230b359ca54562f1
+    git.commit: 791f778cbb6f40efb4c493a7ffad5e66b3927774
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 1dc378c5af6993dbcbbc540feb7ddaa545af505c
@@ -275,4 +275,4 @@ additional_meta:
     git.commit: 856e5ff404994aaeed7f4cde57c88cff8cf8839a
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 29fc39ca360f1b57f81a659866809a9423e584b9
+    git.commit: 34f8354485cb7c6cff53a2972eceb5d23dd061f9

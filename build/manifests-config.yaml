@@ -24,17 +24,17 @@ map:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: 475a551e0a7db3c8d4ca6143ad8198b9b5d0c91b
+    git.commit: 367705177f29e333368506fa5b568654de4e38ce
   odh-codeflare-operator:
     src: config
     dest: codeflare
     git.url: https://github.com/red-hat-data-services/codeflare-operator
-    git.commit: 681c5dcc3f95ffcec85c19d3878c717e506f3716
+    git.commit: 355c892123804d190aea0adf531e16ef9a507e28
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 5744f7eed6828867b96daa50992f636ab8d517ec
+    git.commit: bf4f1784e04f193afc1d07a6e7831fb7433585af
   odh-kueue-controller:
     src: config
     dest: kueue
@@ -64,7 +64,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: d6253a7af0cd27b0e5af22b0a2c4f0e83d2e3113
+    git.commit: 961206e8d65df5bdda9ea0a914e8576159f58c0e
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -79,11 +79,11 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 63f05ba323c273be80fb60d2d90bdf45b0f97e84
+    git.commit: 7dc1370fdbf7552808518572ec3234402aa86bd5
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
-    git.commit: 9eda03c4a2890f8280b3231dafb62661370dd8ac
+    git.commit: ea5c01c45833c2f668651a50a322a8540a9c2d5a
   odh-modelmesh:
     git.url: https://github.com/red-hat-data-services/modelmesh
     git.commit: f5fc9d92e452aa19c1f083872121f0671151021f
@@ -98,25 +98,25 @@ additional_meta:
     git.commit: fd49fa7250de86cdfc7ff88e51bf4e2f71023636
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: dd4e9971d22156d5dd399b72df180bb97d61023b
+    git.commit: 0601389fed8f678ee1475dcdfc2943be29b06b09
   odh-ml-pipelines-persistenceagent-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: dd4e9971d22156d5dd399b72df180bb97d61023b
+    git.commit: 0601389fed8f678ee1475dcdfc2943be29b06b09
   odh-ml-pipelines-scheduledworkflow-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: dd4e9971d22156d5dd399b72df180bb97d61023b
+    git.commit: 0601389fed8f678ee1475dcdfc2943be29b06b09
   odh-ml-pipelines-driver:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: dd4e9971d22156d5dd399b72df180bb97d61023b
+    git.commit: 0601389fed8f678ee1475dcdfc2943be29b06b09
   odh-ml-pipelines-launcher:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: dd4e9971d22156d5dd399b72df180bb97d61023b
+    git.commit: 0601389fed8f678ee1475dcdfc2943be29b06b09
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: b8bde75d061ecc8a2219ca7f5ebd42a739507afa
+    git.commit: 275b72e410f26bbfe16868b7d7387f8d58f67bb9
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: b8bde75d061ecc8a2219ca7f5ebd42a739507afa
+    git.commit: 275b72e410f26bbfe16868b7d7387f8d58f67bb9
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 7229af059238412b11deac63e1efd2e43625158f
@@ -239,7 +239,7 @@ additional_meta:
     git.commit: c767fe8b9ffb93fd981f435ce08f4db406dcfc35
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: d6253a7af0cd27b0e5af22b0a2c4f0e83d2e3113
+    git.commit: 961206e8d65df5bdda9ea0a914e8576159f58c0e
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 95cba6dfaa74c29833fba51149b073bfdeaace37

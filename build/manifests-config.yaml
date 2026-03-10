@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 125f0197e9be667939a404f06e77a09206de5ad3
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: fc8782a093c4701b320b6736491adeab3143e452
+    git.commit: 1fbfa7223b9ee43c7d36fda395bb0b53b92d659a
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 4205e055702a7e4439cdfe23a29c0b2f49e3ea63
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: 32a90f1dd3cd4ea9ab902daa840123cacca06f9c
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 56d3f0ae45840f24d71f012755c354aac2e234ea
+    git.commit: c10ad3c12673b12f55644356ba3215ad7fdee701
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 0afc8f3eb460f5f8513b744300390a9178f1beef

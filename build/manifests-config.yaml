@@ -124,7 +124,7 @@ additional_meta:
     git.commit: d70954b3cb003e0c76cfba55a03e13888c081b1e
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: d3b078bf864ad67452237154d955b92e847940e5
+    git.commit: 3ee3b9a6bc97ec25078b27fb941d4fb90a27f876
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 829c01b4289e7cf10b9cd7536ddf12026dfde7b1
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: abc4fa2e7432f9aa3d836d8214704bdaa1f91bdc
+    git.commit: c837d49656c9d7bae2d54a56b2c8ae3357b399ce
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: c7a8191b30e87c7f896d2d975094f4c335567358

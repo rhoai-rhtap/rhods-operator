@@ -233,7 +233,7 @@ additional_meta:
     git.commit: 5dbcae62840913ab91a5563b82225b954774bbb2
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: cceb1ed8d93a68998d44da2d09c0fb6f3e364329
+    git.commit: 9bb03cbb50a71429ddd047f51229b088439b7cff
   odh-llama-stack-core:
     git.url: https://gitlab.com/redhat/rhel-ai/llama-stack/containers
     git.commit: c767fe8b9ffb93fd981f435ce08f4db406dcfc35
@@ -257,7 +257,7 @@ additional_meta:
     git.commit: 1a7abed7989c60088a4a1c13e6611f98349641e3
   odh-training-rocm62-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: a1ae81a20641bd3452109b81042d09be7d3e96b4
+    git.commit: 1a7abed7989c60088a4a1c13e6611f98349641e3
   odh-training-rocm62-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 11562e89612866853c4b3001293fe845340f9002
+    git.commit: 1a7abed7989c60088a4a1c13e6611f98349641e3

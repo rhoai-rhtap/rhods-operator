@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 3c1eee2821e0e7c81a58660e2f4502ed0a32e77c
+    git.commit: 81ce204126ac76d79f50c990c1dd31fa5784a64f
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -172,10 +172,10 @@ additional_meta:
     git.commit: ef593e06e371d6b53115dc9de4668ae7e43ebedd
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 3c1eee2821e0e7c81a58660e2f4502ed0a32e77c
+    git.commit: 81ce204126ac76d79f50c990c1dd31fa5784a64f
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 3c1eee2821e0e7c81a58660e2f4502ed0a32e77c
+    git.commit: 81ce204126ac76d79f50c990c1dd31fa5784a64f
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
     git.commit: d728fa417cbe288e29ee2af3e01ce65ace4b397e
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: 32a90f1dd3cd4ea9ab902daa840123cacca06f9c
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: c10ad3c12673b12f55644356ba3215ad7fdee701
+    git.commit: 44ed19f6fe37996f3353a9a3141d4068e3920939
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 0afc8f3eb460f5f8513b744300390a9178f1beef

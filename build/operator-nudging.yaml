@@ -164,6 +164,6 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:2513beb32fbf32fbcb0739b177d61b418226831dbe642b21ec7944db875b569d
 - name: RELATED_IMAGE_ODH_WORKLOAD_VARIANT_AUTOSCALER_CONTROLLER_IMAGE
-  value: quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:f0fea5a63df1fc08212dffa234636e435797d9ad96ad45b21f9a423f97dee180
+  value: quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:d87ec7b6ae7140bd3c92df939b6c0c9d5326b25dfd1dad1ea20a744dde2c3773
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
   value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:31153509339579f1a8330d8dff4ef82d40e9de8e8e194d24516ac90038fc8efa

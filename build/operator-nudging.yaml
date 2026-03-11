@@ -114,7 +114,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:ed90afa46bf8f8fba3d0b5a78802cab5560aab2b1be4fd66f00c8a157351e59f
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
-  value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:918b8348ef3dc257eaa4f290d45df86b66cc9c76d27dc53abae57c69cf6425d7
+  value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:d89f674a539be895f4473082bde1bbc7ae20f6ce9d6ef39daabdbc00faa66081
 - name: RELATED_IMAGE_ODH_CAIKIT_NLP_IMAGE
   value: quay.io/rhoai/odh-caikit-nlp-rhel9@sha256:e9f0f95660f1ba750a9cd1de3c4304c2ed2d427af88e6a9a77015ec4efc43d45
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE

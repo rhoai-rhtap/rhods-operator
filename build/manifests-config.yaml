@@ -24,7 +24,7 @@ map:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: 571e6efab49e3283074e7093005e687c19a3952a
+    git.commit: d39d896274369b73b74794d566dc5f514a32e19b
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray

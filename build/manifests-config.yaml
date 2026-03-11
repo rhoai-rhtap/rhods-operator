@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 829c01b4289e7cf10b9cd7536ddf12026dfde7b1
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 20776099660ccf3f424d18732a06244b438d7a48
+    git.commit: abc4fa2e7432f9aa3d836d8214704bdaa1f91bdc
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: c7a8191b30e87c7f896d2d975094f4c335567358
@@ -169,10 +169,10 @@ additional_meta:
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: b02565b06066d87710c006a899bf7feecb343736
+    git.commit: f12713513d03916cd483dd271c9fcee493c96dda
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: fe84d91fa8c49e93bfc5ef164618a3825c6f163c
+    git.commit: f12713513d03916cd483dd271c9fcee493c96dda
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: eccf8784e1da58fe9a10c80c4d9d8d7691cd6903

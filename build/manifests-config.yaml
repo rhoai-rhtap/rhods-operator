@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 3f9da1c9951526447b26474dde7d10b2e1cbfe07
+    git.commit: 4fdd8deec7fcc9d227434c86067cfac41b28faaa
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: c2ab68d65993ef1beb6e23d2843f0197b36525e8
+    git.commit: b1383aef9c9ef5739fea9e553c670504289e1db3
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 4974db85fc141dd1a4ac64eece13979788e1f4d2
+    git.commit: 5c96fe827d2986548ae48c9a6a9efe4d9097a4dc
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
@@ -110,7 +110,7 @@ additional_meta:
     git.commit: 46217fd38eb8707a51adade180f4d7c20833d4bd
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 96ca17083d3dba01fa20b618357dcd30c94019ca
+    git.commit: db3b6caeb4d5917acf66b32a46d1916fa8035bb1
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 1dc378c5af6993dbcbbc540feb7ddaa545af505c

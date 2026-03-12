@@ -169,10 +169,10 @@ additional_meta:
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: f12713513d03916cd483dd271c9fcee493c96dda
+    git.commit: 58a4f62bfec700951b98f7bc797d09ff22389733
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: e9c89d00041215a16763e364329adf4815413500
+    git.commit: 58a4f62bfec700951b98f7bc797d09ff22389733
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: eccf8784e1da58fe9a10c80c4d9d8d7691cd6903

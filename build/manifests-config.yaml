@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: e7f24921f30ddc5e37ee658ae7e0e220b10a55c0
+    git.commit: 3a1af78917569aa379b51695f9b8360fa4f527ef
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -98,7 +98,7 @@ additional_meta:
     git.commit: 653a026d6def4463c574ab84892b8f8ef88d0014
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 3e66ee3118c4a7cc4e7458c04408c604b5f76fc7
+    git.commit: 279150956cd0421f2952ab7364b4caba80d4ae3e
   odh-ml-pipelines-persistenceagent-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: 279150956cd0421f2952ab7364b4caba80d4ae3e

@@ -148,7 +148,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:79b8f7f3ed5c6b8fd31ecca9134de0cb432792d45f332dffa88dcfed3b7e564b"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:b6d1838dc70c069f339c9fcc8361abe71fe4ba7ac2be35efd761aff174431a44"
+  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:ee58ac03b30c8d2c15d937a407bf4d9bfe4f7616631b094e640cbbc35d49e42d"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:21f67bfbdce67800b672fc50a4aef6482643546bc0aa89b68edfd8be569968ae"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_CUDA_PY312_IMAGE
@@ -158,10 +158,10 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-rocm-py312-rhel9@sha256:31e06337eb20c3747e19380c8d59b8e0a0534afb416fc159d1ccf74fab59e50f"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-tensorflow-cuda-py312-rhel9@sha256:97cc5ea36c189b8f173b39c03803ae34c89b0ce232e6df9e17052cba5e2d271c"
+  value: "quay.io/rhoai/odh-workbench-jupyter-tensorflow-cuda-py312-rhel9@sha256:295326be1e40fa73e497230946c2fc6c8ec8e1c8c0d9c6ee568adc886ec02e72"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:20bef35472546d0b772bad525785b8fbaf012b932ff41dcf8860b1f21d4f8477"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:3d11390636c6ba7562c22c56251dd0c56de90a4d93c8c5a561e4b85a1879bbee"
+  value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:813c274e8bc2a2511608a432c5df1227dd2a10b58fd05507152020f823f0a82d"
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:b113d3c4adc2e5456a99c12384d0827cc82e0e3acb2a42adeb75f80f1654f936"

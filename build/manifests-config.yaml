@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 4b0be550a83551591cec73f8b51648178800bc77
+    git.commit: 7ffd16b7ce2312f6d6dfe1e6059180343205d0e9
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 0818f32dc6b7a411e6f1ab0b4718331c3dbe9511
+    git.commit: 7b533106990c0e5d5d6a2ee42e7e479234e7302f
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: c4f576a94095ac33b78f38f00682d6d4c3ce7424
+    git.commit: 0ef85d9de8b08c39e0e6a543494c5aae29eab697
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 68672160d8cc6d212641b06493879fe480b25fae
+    git.commit: 26b187065f79776900b341d2989e85e3d0f3209d
   odh-trainer:
     src: manifests
     dest: trainer
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: 71878a0ef3910b4743b867fe17e40f333da91047
+    git.commit: 3339befeb2a3ba475a6d88b2b05eef9d6bf227f9
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 0f04f02518d2a6482cbacbccd1f09c323f6bbf7a
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 776155a9ed5cbf47b24de11180683c32fcf56cce
+    git.commit: 5117e7e6e9094d6995f729b0914798b72fd9106e
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 523865d2aaeb386ff494ef3e3588349a458eccba
@@ -124,7 +124,7 @@ additional_meta:
     git.commit: d70954b3cb003e0c76cfba55a03e13888c081b1e
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 3ee3b9a6bc97ec25078b27fb941d4fb90a27f876
+    git.commit: 65991f558a9c529622b59caae590ead613743459
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15
@@ -286,4 +286,4 @@ additional_meta:
     git.commit: 4b0be550a83551591cec73f8b51648178800bc77
   odh-workload-variant-autoscaler-controller:
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 8686411485ea5f65be38c67b3b921d020c0667cf
+    git.commit: c8e31cd39084e7ca7e047fc0df818e13a49c5b22

@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 43479dde9c3dc220d276352730830f0d6c28b681
+    git.commit: f43034c4a28cabf837ca7d4cd3379ac744d9f9c9
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 43479dde9c3dc220d276352730830f0d6c28b681
+    git.commit: facdca9a8f28bb72cf39159bf7a0d7dde535dbcc
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: dbf63653e8a5b167481d44b69ac0cc68a4e1d564
+    git.commit: 7cf2c5890f9c60d06803217f94ba2606efe4088c
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 04f4db2f9ede35230a3ff6791ecb52f8a5c3cf7f
+    git.commit: 324a35e7a8f12a92b5f3caa5d5c39acb1ea00c58
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 68a7983663f5a04cc259498bff7e747a3bdce1df
+    git.commit: 27d14f421f3e1f536cf64a46b1049ee44ced04ca
   odh-spark-operator:
     src: config
     dest: sparkoperator

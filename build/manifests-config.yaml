@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 47dfcd5fa528b3526da84885e1dde622c76dad63
+    git.commit: e9c89d00041215a16763e364329adf4815413500
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -283,7 +283,7 @@ additional_meta:
     git.commit: 7233c8da60edbaf2481720dbe077280b2deeeb42
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 7233c8da60edbaf2481720dbe077280b2deeeb42
+    git.commit: 4b0be550a83551591cec73f8b51648178800bc77
   odh-workload-variant-autoscaler-controller:
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
     git.commit: 8686411485ea5f65be38c67b3b921d020c0667cf

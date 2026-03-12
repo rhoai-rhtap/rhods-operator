@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: 86e7758842a7767bcb8fe3605a10f8cb9dbaa424
+    git.commit: f0c0cfa3553e28bc6aacb016d3ec55a1b897fdfd
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -265,7 +265,7 @@ additional_meta:
     git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
+    git.commit: d4bd12917fadfc23bbb4061ab4321f8cd44031c5
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
@@ -277,7 +277,7 @@ additional_meta:
     git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf
+    git.commit: d4bd12917fadfc23bbb4061ab4321f8cd44031c5
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 4043dd9da0cb6b10e4c17a62b58ea9f88d53c5cf

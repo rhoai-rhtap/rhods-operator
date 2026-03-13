@@ -34,7 +34,7 @@ map:
     src: config
     dest: trustyai
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 8213a3aa53b0d5d2cda5c66f61fdbe9981a0074c
+    git.commit: 65176dc5326f28bc328351a9b73e975f7237f490
   odh-model-controller:
     src: config
     dest: modelcontroller
@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 2ca2b277f5434e03d6ddaf10c8a99337ce8930cc
+    git.commit: 7aa34d42902dcb1938da795cd299f0033b5f6679
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: b81c9064d06891a152f4b17b34f8d7d06bbb5bba
+    git.commit: 9ee3ca6a14a71f8bd7206663c36444d5c13111cd
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 0f04f02518d2a6482cbacbccd1f09c323f6bbf7a
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: cd79bedf2a91bd14b17191b51e011d8a79d81094
+    git.commit: cba61461feca3afd6630b5f452905571ae1c0ef5
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 523865d2aaeb386ff494ef3e3588349a458eccba
@@ -208,7 +208,7 @@ additional_meta:
     git.commit: 7233c8da60edbaf2481720dbe077280b2deeeb42
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 8213a3aa53b0d5d2cda5c66f61fdbe9981a0074c
+    git.commit: 65176dc5326f28bc328351a9b73e975f7237f490
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
     git.commit: 3b16d5b9a8f78c366c843320d6af28f127bcfa32

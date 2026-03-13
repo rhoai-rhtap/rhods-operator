@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 7ffd16b7ce2312f6d6dfe1e6059180343205d0e9
+    git.commit: f7d1274a6d0e7d24726f417d7e47771a2a21eb62
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 0f04f02518d2a6482cbacbccd1f09c323f6bbf7a
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 5117e7e6e9094d6995f729b0914798b72fd9106e
+    git.commit: cd79bedf2a91bd14b17191b51e011d8a79d81094
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 523865d2aaeb386ff494ef3e3588349a458eccba

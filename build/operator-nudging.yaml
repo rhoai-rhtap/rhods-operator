@@ -14,7 +14,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
   value: quay.io/rhoai/odh-eval-hub-rhel9@sha256:4dd4e094123f6a90292090bdfdf019a0d156c7adccfae4cfe473538d69e0296c
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
-  value: quay.io/rhoai/odh-feast-operator-rhel9@sha256:70226c126b33fb39e221a50cc5eb95963208fea44c12a830f60d2837e7e511a1
+  value: quay.io/rhoai/odh-feast-operator-rhel9@sha256:d2080bd4940832cf576a74aaa92ce5e694754f35781db4a8c6614e0ebc81c5e8
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
   value: quay.io/rhoai/odh-feature-server-rhel9@sha256:dd76a443b36f977704f7f3c880366c261802e1e4612b52624cf37a1d71a31af0
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE

@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 26b187065f79776900b341d2989e85e3d0f3209d
+    git.commit: abbd927172ade9f9bc17fafa7bce0cfba36ad950
   odh-trainer:
     src: manifests
     dest: trainer
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: 9ee3ca6a14a71f8bd7206663c36444d5c13111cd
+    git.commit: 518d1d0de3da2ef2866c5a93dfef54590a9b3460
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors

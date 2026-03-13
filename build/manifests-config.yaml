@@ -289,4 +289,4 @@ additional_meta:
     git.commit: 4b0be550a83551591cec73f8b51648178800bc77
   odh-workload-variant-autoscaler-controller:
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: c8e31cd39084e7ca7e047fc0df818e13a49c5b22
+    git.commit: 880d2a6f295b0207d7298dc076889b32bfdea24d

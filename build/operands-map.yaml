@@ -46,7 +46,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
   value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:d71960f38719a4b15fcb4a7d5d5c3d06396739469a63a47e817eb049e324afaa"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:9ebbc0e1dd25f3610b5eb9220d020f5d75d9bc67b9ee844c860aa94c66d19e88"
+  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:925a59f3768d2eb4945beeef43dc883b226c3bdc24d76d3da74cdeed25f6945b"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:c54c4e575d5c0c8911d40da3efae4002b3157d75d468e34cd89afcfd535d9548"
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
@@ -140,7 +140,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
   value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:7d6d5060d227955b1c2a8c4b741f613eb1c081e6484148b92a3242fd8a1def5c"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
-  value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:4c8b62820b0c7c7e127446c1d4af5fa4c35e0f044e3f1501de3cae0d40121791"
+  value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:143baeb3286c05bc6ee1f077df30ca190048ad6c88ea8b7cd1cb2fee0c1c5e9f"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:ed4103f5375f8d4e110ea88ba34d48cc06d4643c515a9be900464db4e15580d3"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_DATASCIENCE_CPU_PY312_IMAGE

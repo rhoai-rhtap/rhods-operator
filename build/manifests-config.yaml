@@ -118,7 +118,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: fd1ce5d59a6edfcc2556cf369e5adc3e946bb267
+    git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
     git.commit: ce022c9de5f7c0afe1aef1cda3e3f1ecd7036594
@@ -163,7 +163,7 @@ additional_meta:
     git.commit: 3f569b79686074818752e451f2cb8de1c9cb8bbd
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: d5f80740f188f874fc1773794b72dfb206e74836
+    git.commit: 5c619540f33c5278756250cb61a6815e676f44ae
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: dae2e0d540cffdcd75d48418ef484d2afc7c7c2e
@@ -259,7 +259,7 @@ additional_meta:
     git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d4bd12917fadfc23bbb4061ab4321f8cd44031c5
+    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
@@ -283,4 +283,4 @@ additional_meta:
     git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d4bd12917fadfc23bbb4061ab4321f8cd44031c5
+    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f

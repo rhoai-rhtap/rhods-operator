@@ -124,7 +124,7 @@ additional_meta:
     git.commit: d70954b3cb003e0c76cfba55a03e13888c081b1e
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: f3681997fa825e64e50668cc64c11e02fa6f1f39
+    git.commit: ad950c4aefa730b89e077f8cf17b59b349ea038a
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15
@@ -172,7 +172,7 @@ additional_meta:
     git.commit: 58a4f62bfec700951b98f7bc797d09ff22389733
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: b813678dd204121dc9def34dcf87f086fe865f84
+    git.commit: a1d5765c33dcf4edabf8399caf25975d78010793
   odh-mod-arch-mlflow:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 834539693e231758926a15c55023021b4e107006

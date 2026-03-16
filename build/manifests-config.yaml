@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
+    git.commit: 16bc298606b697d2e16d4be1c0d1543a62e5deb8
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -253,7 +253,7 @@ additional_meta:
     git.commit: 6bf7f0c21d6e97207e9398a2e0c135e96ff6e0c6
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
+    git.commit: b2230aa78cf786faa41345b3eb0d56ceeb8b8ae3
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f

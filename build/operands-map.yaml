@@ -40,7 +40,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:4cc815e3a81ecc000b42e61be3ef03b0996a3348d52c127dd8314f04742747ff"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
-  value: "quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:041d5570d3d2e5057ea1970b5344d4bec0481b3a1cf4f924463f9c3031a996f5"
+  value: "quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:9dfca7161b0ee77482c2c47c9943bfdff29920c31c2f7afda2ec2e9f6583d25b"
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
   value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:02a4072af207230f634c5be8d9220fee2000050ae64b0e1bc63c4237016f80ea"
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
@@ -106,7 +106,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:a9f1949b9418a4d45ad8b367f7612828ef4aa5ed4dfa9c1e4746cef62bfea9e4"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:daefc7745aca76b0d6ff9ae535a0237fc180b9bb20055fc8dd7081d4bc48dc5e"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:2238b07d1716194d6385041ea3a2ed8194b76f2e521a48db0bb12168fdd4f9e2"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:208b18bf358e2ac5a8d4ed9a23663d94cc6f0aa8b75fd65c21919416ea482918"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE

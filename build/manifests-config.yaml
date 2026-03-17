@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: cd2b1f3db22bc35e424422187d37d32f61ea42a9
+    git.commit: 64e09be4b3ac92ce81ba09402cfebd03fa0e69cf
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -103,7 +103,7 @@ additional_meta:
     git.commit: cba61461feca3afd6630b5f452905571ae1c0ef5
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: 523865d2aaeb386ff494ef3e3588349a458eccba
+    git.commit: fa7790f44df629c9d66fa0e7f4b1b1761c030e87
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: 4a7af650018da0e6fade5d3670d50ad2ffb2007e

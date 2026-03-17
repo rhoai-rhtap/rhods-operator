@@ -4,7 +4,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
   value: quay.io/rhoai/odh-cli-rhel9@sha256:378628e606df55fc073f876f9efeb3e0180cc8ea3a064f5c165e902ae2c406bd
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
-  value: quay.io/rhoai/odh-dashboard-rhel9@sha256:f3b838ac17176ff2328510391758973abfe36f52d7fbfae391f1e0c6c241cd50
+  value: quay.io/rhoai/odh-dashboard-rhel9@sha256:774485476b2dbf3134733fe09464c18ebd6b9bed5a7189a79139f17cf6917860
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
   value: quay.io/rhoai/odh-data-science-pipelines-argo-argoexec-rhel9@sha256:27bd0f0056f3f5321779a9c57d883b2fbf0ea4cfbe6b7030da86a8e2e1faad97
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE

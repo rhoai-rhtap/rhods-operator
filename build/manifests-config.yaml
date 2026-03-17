@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: aaf384f1ff96bb9a351337c0df1ebe11fb387a4b
+    git.commit: c132e48ab94a6e08651620301dbb1a71ea375fe6
   odh-maas-api:
     src: deployment
     dest: maas
@@ -163,7 +163,7 @@ additional_meta:
     git.commit: 985b082f96cad8652dafa64463479604de63649d
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 1a238bb241df72776b77a6a15a1ad20b9e2e9486
+    git.commit: a9f1c279d59e53bd341f45ca9b8a9acf8a45f868
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca

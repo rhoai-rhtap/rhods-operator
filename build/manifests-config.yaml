@@ -65,12 +65,12 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 88b69eb3aebd67e3feb5e2a6d598f096bfab9a4e
+    git.commit: f48852d505912117281b4a936609d8e51bbd5f64
   odh-training-operator:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: bc999690bc58ab95527dbfe6867ebc346df57f13
+    git.commit: b8feeacf5ecb247efc95fba62252fd18e30d6064
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy

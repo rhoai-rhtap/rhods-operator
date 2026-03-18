@@ -128,7 +128,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
   value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:3464e582f0b741edb0ce31d636f6e13203fdaa88fc1876f8563ab04a829d923c"
 - name: RELATED_IMAGE_ODH_VLLM_CUDA_IMAGE
-  value: "quay.io/rhoai/odh-vllm-cuda-rhel9@sha256:46cffdeb70009f8f901e0dc658c8c499a5d2b4bbcea343741d7d7fda2a12b9b2"
+  value: "quay.io/rhoai/odh-vllm-cuda-rhel9@sha256:69dbc0fd6f75dcba8d9e0f962a08323f5e312bc828af3d5cfdcb8fb866c4a242"
 - name: RELATED_IMAGE_ODH_VLLM_ROCM_IMAGE
   value: "quay.io/rhoai/odh-vllm-rocm-rhel9@sha256:3dc97b16764bfe0e7b4010f08323a9195bce2f5b095d20a654ed4abf29863170"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE

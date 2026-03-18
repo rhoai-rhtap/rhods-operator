@@ -149,7 +149,7 @@ additional_meta:
     git.commit: d113daec4d8cefecb5db120897f60b9c1dc37468
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
-    git.commit: a8fd2b04c7dbb54bf1987852c755d73f29a7fea6
+    git.commit: 066de59ca985b82d67726f1ca6baec04f15cb919
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: 3b1402fbc7a9bd31f5ed2fae6318ac1fb0c80019
@@ -179,7 +179,7 @@ additional_meta:
     git.commit: 29137518d0352210c8c8820c050819ef2f039720
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: fdb7b5ebae92f760b9a94bf9849c08831195ee3a
+    git.commit: 29137518d0352210c8c8820c050819ef2f039720
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 2ea012e9ec30a804c2b424ed52257f82d2927098

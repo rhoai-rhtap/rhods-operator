@@ -15,12 +15,12 @@ map:
     src: components/notebook-controller/config
     dest: odh-notebook-controller/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: af20cee81958862176c087fa5b02d97a1a8d9f74
+    git.commit: 4d0053b9afd5e5ec6caaf54e10cc9645187122ac
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: odh-notebook-controller/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: af20cee81958862176c087fa5b02d97a1a8d9f74
+    git.commit: 4d0053b9afd5e5ec6caaf54e10cc9645187122ac
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: data-science-pipelines-operator
@@ -35,12 +35,12 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 1cf5d669632bb5182388436fa825125df795a748
+    git.commit: 85603b08f80472bbbe176741a33b369a579be459
   odh-kueue-controller:
     src: config
     dest: kueue
     git.url: https://github.com/red-hat-data-services/kueue
-    git.commit: 80f098ab7c49d8ddcc386ef95d9768d64e104e4f
+    git.commit: 8c2921571d6edebacef47bafabf43ce966bac5a4
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator

@@ -124,7 +124,7 @@ additional_meta:
     git.commit: d70954b3cb003e0c76cfba55a03e13888c081b1e
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 74b7a64c3b6355a305001e64ad71fbd271d07aea
+    git.commit: 4c585502c6d825de0b25c9e8a4d150f66c5eb413
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 829c01b4289e7cf10b9cd7536ddf12026dfde7b1
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 56262e7a680a4c2b42e51d46e0b08a3105c63ae4
+    git.commit: 5058cf801bf450b2345d664c97e3d6d6a5768d2e
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: c7a8191b30e87c7f896d2d975094f4c335567358
@@ -163,7 +163,7 @@ additional_meta:
     git.commit: 985b082f96cad8652dafa64463479604de63649d
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 784707dc73953353fd0bee19ff842b456cee2fcd
+    git.commit: 6e2dd92a6964f42fa8dc0d3f3ba10bbdef9daa48
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
@@ -289,4 +289,4 @@ additional_meta:
     git.commit: 4b0be550a83551591cec73f8b51648178800bc77
   odh-workload-variant-autoscaler-controller:
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 880d2a6f295b0207d7298dc076889b32bfdea24d
+    git.commit: df749a80413f6ab7ede9f394f6348a7e15b93c4c

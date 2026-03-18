@@ -130,7 +130,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_ROCM_IMAGE
   value: quay.io/rhoai/odh-vllm-rocm-rhel9@sha256:3dc97b16764bfe0e7b4010f08323a9195bce2f5b095d20a654ed4abf29863170
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
-  value: quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:85cdb2ab3755ef08b1b7c41b621a44f01b15343dc07b9275a5f09514d24e1972
+  value: quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:88a41de8d71423c176b92956fa89e9f60555fff7e13698b2ce64f6aae0270606
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
   value: quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:6efba62405c1ca6208d2d4077540886b96067adc38410e4c1d0b9bc1fbf2d38a
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY

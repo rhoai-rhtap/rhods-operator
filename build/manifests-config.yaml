@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 5b6f51ac2d65c250b6c4aaadf45e7fd009c9dd16
+    git.commit: 87c1f11890953ff2319be003a108c8ea1f88443e
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 7b533106990c0e5d5d6a2ee42e7e479234e7302f
+    git.commit: c1f26ecc77f93ba65c1d0640891fdd699f2c9f27
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 0ef85d9de8b08c39e0e6a543494c5aae29eab697
+    git.commit: 600ce62329d4db819bb397d233928b7826e674b4
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator

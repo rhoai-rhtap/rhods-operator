@@ -128,7 +128,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_CUDA_IMAGE
   value: quay.io/rhoai/odh-vllm-cuda-rhel9@sha256:c387f46708ad1fa6a3b37d7d2a23860b368b573d99ac47fc1e30294adfc5c81e
 - name: RELATED_IMAGE_ODH_VLLM_ROCM_IMAGE
-  value: quay.io/rhoai/odh-vllm-rocm-rhel9@sha256:3dc97b16764bfe0e7b4010f08323a9195bce2f5b095d20a654ed4abf29863170
+  value: quay.io/rhoai/odh-vllm-rocm-rhel9@sha256:d96d669f57c6272b4ae012a330dc83b684369162aa3c043ff5caa1dbdad29f6b
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:bee77730f9a23a46ef8dbf83c7f544c084cc9f20e24a9d484b4e52e8a2788270
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE

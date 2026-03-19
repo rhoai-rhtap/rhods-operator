@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 5c019b55c145a8747799d58f0b4c77dc81132d15
+    git.commit: c8e46e36580f4a77dff54f6e7c923d55dc225d5d
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 5c019b55c145a8747799d58f0b4c77dc81132d15
+    git.commit: c8e46e36580f4a77dff54f6e7c923d55dc225d5d
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 0314548eb8e6c0296948c0d21df7eb7dc95feeb1
+    git.commit: 4abe9fdb234b0d45195563c4c4bfcb14fbd7ca75
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 7167419aa499af71f51f43a96a9592a9f8bc1170
+    git.commit: f4f5442b47701f9c94444fb3862521101cad94fa
   odh-trainer:
     src: manifests
     dest: trainer
@@ -104,10 +104,10 @@ additional_meta:
     git.commit: 0fe9ce31d6d0b87087a3f82a6add401a913b7bb6
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 46217fd38eb8707a51adade180f4d7c20833d4bd
+    git.commit: edc916839ba788cbee52936e259dd5be308a2cd9
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 46217fd38eb8707a51adade180f4d7c20833d4bd
+    git.commit: edc916839ba788cbee52936e259dd5be308a2cd9
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 340d70e69adc68d03845cdbbda04825d7c4a0aa3

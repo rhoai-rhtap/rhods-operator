@@ -64,7 +64,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: c73704825936df3f28181aefa98cf8231f6ac04e
+    git.commit: 171300a72fdcb9c055b4b5f243d6fba3309cc001
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -176,7 +176,7 @@ additional_meta:
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 29137518d0352210c8c8820c050819ef2f039720
+    git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
@@ -206,7 +206,7 @@ additional_meta:
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 29137518d0352210c8c8820c050819ef2f039720
+    git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
   odh-caikit-nlp:
     git.url: https://github.com/red-hat-data-services/caikit-nlp
     git.commit: e2bc1322525ebd8eb8e8bb57957a9608931c06aa
@@ -257,7 +257,7 @@ additional_meta:
     git.commit: 5ab7a07310005cf71cb8fd9f566e0d7f82313af5
   odh-training-rocm62-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 1a7abed7989c60088a4a1c13e6611f98349641e3
+    git.commit: 5ab7a07310005cf71cb8fd9f566e0d7f82313af5
   odh-training-rocm62-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 1a7abed7989c60088a4a1c13e6611f98349641e3
+    git.commit: 5ab7a07310005cf71cb8fd9f566e0d7f82313af5

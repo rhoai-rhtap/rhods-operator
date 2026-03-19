@@ -34,7 +34,7 @@ map:
     src: config
     dest: trustyai
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 95dbef157b08d3c2bbba7d700557ac9943651545
+    git.commit: 41e3005d3b753bdd6b582092b0b224544de187ae
   odh-model-controller:
     src: config
     dest: modelcontroller
@@ -83,7 +83,7 @@ map:
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
-    git.commit: 10ef5804e789adf3c4f16e0697d73e497de858e2
+    git.commit: b3736f629f45b17595e9e2736b3ef2c49ecaee32
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: 76639067af60f8da000fe64f67ead2bcb53d1461
@@ -134,7 +134,7 @@ additional_meta:
     git.commit: 3e9704b83e855d0e50bfa3400034c12e99e4e68b
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 95dbef157b08d3c2bbba7d700557ac9943651545
+    git.commit: 41e3005d3b753bdd6b582092b0b224544de187ae
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
     git.commit: 3fd1d8978ff7a3898ae372adb0da1c8535457539
@@ -152,7 +152,7 @@ additional_meta:
     git.commit: cc8d4d0e4b2c396a15c85e7ae8bb17e56f3ab17e
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: b801e5de0d775aebf4239192a1c42f0d5bc16f4f
+    git.commit: ead8725940ee951ee177e4d8e5b2978d2358c60e
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: ead8725940ee951ee177e4d8e5b2978d2358c60e
@@ -224,7 +224,7 @@ additional_meta:
     git.commit: 6a7db69688cf0861b62554afb921c42c4770e09b
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 7c64599bbc86e2fed76de1cce388db0abe092717
+    git.commit: 652bd547ee2c0854a887dc1796b02444eb51b890
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
     git.commit: fe80a7bb08408f38235c2ee211f2ec7e5d0b60f7

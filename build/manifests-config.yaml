@@ -86,7 +86,7 @@ additional_meta:
     git.commit: 5070109a4e0bb9d07398df435afc8c994c75d009
   odh-modelmesh:
     git.url: https://github.com/red-hat-data-services/modelmesh
-    git.commit: 52605f524a64e1ea2c86c167b4b5d799de537719
+    git.commit: 17b2214270ee9508a5a54931dc1d13d2fe1d4b43
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
     git.commit: 205940d2e819dbfe5c74c60a509b436e75079ab2
@@ -221,7 +221,7 @@ additional_meta:
     git.commit: ab34c1df7594399e27a29ee1a17cc8ea9cb7980e
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: d17935f2e555bd90bc72d249b14ca39b64c5b7bf
+    git.commit: 097c00295c09c75f10eedc738afd3b11ae7a4b26
   odh-vllm-cuda:
     git.url: https://github.com/red-hat-data-services/vllm
     git.commit: e58c8ffa4335287ffbde86721e43f927ab804093

@@ -92,7 +92,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:b6517925390d8fb6c0467535eb6b7be18ffe2ee4f16765f87a23fac747f63a0f
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
-  value: quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:900070c8cfff21f0acce3f3f96529adb56439c571b742d504c5e1c44e35baa9c
+  value: quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:254fe32f00c3ff66c21c86f1631abb38c5f4d1ea71b1b61827415450f5518c49
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-pytorch-cuda-py312-rhel9@sha256:c7a8a841c8f45cd7ace487d73ce6cad94c23e1b803f928120c8506f034019cbc
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

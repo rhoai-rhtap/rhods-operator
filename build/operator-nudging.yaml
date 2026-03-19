@@ -164,7 +164,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:9812484012fa5a3884db70d095703a8836900f0feb463e7ba152cfca247fc8d1
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
-  value: quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:50f494b54abe94239b2d17192fedc09b0f4ea6d7be948e50cd28f54481c46995
+  value: quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:7deb035848dce3752f1bbfe6c1b6312ac03f8fda2a3f6c63f585eae5ccdb6b15
 - name: RELATED_IMAGE_ODH_WORKLOAD_VARIANT_AUTOSCALER_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:480ec36e368054cbe6bffca8603adbd4f51cab508dd707e347653c51d7ffa92a
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE

@@ -59,7 +59,7 @@ map:
     src: infra/feast-operator/config
     dest: feastoperator
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: fa7790f44df629c9d66fa0e7f4b1b1761c030e87
+    git.commit: 40ba9b19a79f29d3ea4d79e4d70174cf0c1e1481
   odh-llama-stack-k8s-operator:
     src: config
     dest: llamastackoperator
@@ -109,7 +109,7 @@ additional_meta:
     git.commit: 1efd581199b709f22a3751503152abda8b7459f7
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 1a4cfd3e61253653bd692f1fba0ef856459ec99a
+    git.commit: 6ed75170cd78f452fee3305d6382e435ca174c7a
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: d1d4881ddad910178581a9ab11a9a9a28c181b30
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 2b679e443e742dbe9a703597f0d7301e0c7fba4b
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: df4c98d9f4750215ea287b702b9eb3dbe4c5d28f
+    git.commit: 59380c3b688138bbc156cb23f90170925c49867c
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: 4e85aca98e0abf723c438732f3c58237fffc2621
@@ -187,7 +187,7 @@ additional_meta:
     git.commit: 728f4605cd6c016a4de109291cc882a7a47f9b22
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 87c1f11890953ff2319be003a108c8ea1f88443e
+    git.commit: 60e374f4f4793e9a755f4887033ac2c048b41d88
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 60e374f4f4793e9a755f4887033ac2c048b41d88
@@ -241,7 +241,7 @@ additional_meta:
     git.commit: 2441bca650be59d65a407e9bd96b75f5bb3cdb60
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 0ed0da45b3f0aaec07e290a17e927a37902642e8
+    git.commit: 6faf70f9538656d9a3e8fdb62a69324d2d87f110
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 2833c715b395522b571bd9a0d12addd397c58316
@@ -250,7 +250,7 @@ additional_meta:
     git.commit: a739dda1fd5ba766ced1edf82351f4b177f92aaa
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: c6700d4d10ba4eed4f1e6cecbe8d0cc6644a9c6f
+    git.commit: e227dd72e6175abceb7a4d1f0ee305604c1ccdd9
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: 016ce56c2b181271ad5318081bc08284bc8f708b

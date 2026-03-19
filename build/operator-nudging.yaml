@@ -98,7 +98,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-cuda-py312-rhel9@sha256:03f1fe8b34d9c35d81f19ad5d5734a9ea31067c9658604cc03d2e459a70143fd
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
-  value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:3be8c474ab37cc117fc07782e018bc9ccc994d4d94230a3ec8a0e1e8c8e10454
+  value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:1383acccea7675a8fb2fcbab4251b556e82f21086a594fbe6b95e3b6e3f91cbf
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:f9671de0c3fb5aa971558319647ca2fd79ee83f1730ea9651e3db6a1f26cdb0c
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE

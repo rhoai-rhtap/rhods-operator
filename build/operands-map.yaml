@@ -76,7 +76,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:e1006410c22a2b48c22456cafae0fca49bea8b27db15984f079a044481852e5b"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:314034ef955e8759c634c0c4671d1f7dd60beea71f545ca8eac7313db451ac8c"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:98b5487d8798b522f4e22b8ffea2989aae850bc1edfd0a5208553e5d1cd95e5b"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:aa3c766eff2990dbaec631c87c67b010de14f4f52bdbba203f392ce957fb9a70"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
@@ -144,9 +144,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:3e96c660b9f79e94c5449b24bba28eb95cb75b33ddb5c807a12b0ccf281e6723"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:165e3d2fc10cca2ee020363b0fffe1ab6301696b2b676172d137c27e6b1e0fb5"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:d420f85ed1e2256c73797e77d762279e23071873ffffa8d54a90fbdd89a14979"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:165e3d2fc10cca2ee020363b0fffe1ab6301696b2b676172d137c27e6b1e0fb5"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:d420f85ed1e2256c73797e77d762279e23071873ffffa8d54a90fbdd89a14979"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:761b6b18101ceade79749eca081f04ced9ff52a557a0e940684e6038c48a8a5e"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

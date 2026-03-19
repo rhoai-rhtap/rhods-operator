@@ -86,7 +86,7 @@ additional_meta:
     git.commit: 5070109a4e0bb9d07398df435afc8c994c75d009
   odh-modelmesh:
     git.url: https://github.com/red-hat-data-services/modelmesh
-    git.commit: 30f31a3ec9cef3778001b1c91bfb294bf9b31133
+    git.commit: 52605f524a64e1ea2c86c167b4b5d799de537719
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
     git.commit: 205940d2e819dbfe5c74c60a509b436e75079ab2
@@ -95,7 +95,7 @@ additional_meta:
     git.commit: ef99c66f523ea22344904853866fe95474856bce
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
-    git.commit: 7d5388dcf1f63f792312271e0cd35b3e35375f01
+    git.commit: fa77e258595821b18722743390045f53f3196ad5
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: c9c6ef5aa0b7fae3ce3a652d89ae69bb2df6e5dc
@@ -239,7 +239,7 @@ additional_meta:
     git.commit: dd703de730855058b68360599d253a050676cd82
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: c73704825936df3f28181aefa98cf8231f6ac04e
+    git.commit: 171300a72fdcb9c055b4b5f243d6fba3309cc001
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e

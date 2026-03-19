@@ -14,7 +14,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MM_REST_PROXY_IMAGE
   value: "quay.io/rhoai/odh-mm-rest-proxy-rhel9@sha256:409d1ab2c0ab5e19fa880e29176bbc2401710716581f1a62677c691219225477"
 - name: RELATED_IMAGE_ODH_MODELMESH_IMAGE
-  value: "quay.io/rhoai/odh-modelmesh-rhel9@sha256:620398d566f68f9a46a1bf96c902a2f558610d419ac8bdf312c221c21ce90d80"
+  value: "quay.io/rhoai/odh-modelmesh-rhel9@sha256:f5630956305f4ede6341ed5853e1e83c966babb9d0045dc8f41f525bfc0f21d3"
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:90c5b80f16eb18cbe5869cf1e2a950ccf6e055efb062a52fde1a1fd5798cc6c7"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
@@ -28,7 +28,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KUEUE_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kueue-controller-rhel9@sha256:13e9158b25b69d52dfb53fe42d3f581e721c2ecc0df3686b2af0c8126c44216b"
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-mlmd-grpc-server-rhel9@sha256:bdd6502568e4eb1f01fe866ff5fda8a0c5eb742db8cf159a4a13c7bd8d760251"
+  value: "quay.io/rhoai/odh-mlmd-grpc-server-rhel9@sha256:4f3e130897d570178e6cf6c8cc96b75ad77757314f376ba74f1af4e78b0c871a"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_API_SERVER_V2_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-api-server-v2-rhel9@sha256:f783966aa78ca8a26e84873d2b2f76e633e6678b65f70b8fb8b642cb625552b8"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_PERSISTENCEAGENT_V2_IMAGE
@@ -144,9 +144,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:3e96c660b9f79e94c5449b24bba28eb95cb75b33ddb5c807a12b0ccf281e6723"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:714db6386ee8f5ed6bcd95d558d08b07449163b2d13b65058e5181707604137a"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:cce16c5f4dc8f85f1a34239cc3eb21cf2b909382b95e40c6cd8c3676e969a271"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:714db6386ee8f5ed6bcd95d558d08b07449163b2d13b65058e5181707604137a"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:cce16c5f4dc8f85f1a34239cc3eb21cf2b909382b95e40c6cd8c3676e969a271"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:9839da864bc036db7bac02eb1aeb4d288e126f32a5b6488ab9a88a500a4739d7"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

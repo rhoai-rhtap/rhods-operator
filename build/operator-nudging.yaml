@@ -60,7 +60,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:ba19282d306ad7ca9514f764ddec72b9492a82e5920af160a9b5915b0534c4bb
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
-  value: quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:f7a3acc97dfd218b82dcefd1b3ac073331a2abed67fe850ed4961faea0790890
+  value: quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:fa42d4de657c849274163fcd51976ce94b047f6b472ab42075ebcdcd664110fe
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:328e0f4c787b7213ce756bc14cbaed36a73d3e1025ce8f98b1bee277cec8d932
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE

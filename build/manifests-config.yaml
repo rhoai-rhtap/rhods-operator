@@ -29,7 +29,7 @@ map:
     src: config
     dest: codeflare
     git.url: https://github.com/red-hat-data-services/codeflare-operator
-    git.commit: af0c1f4b0941dee3177b5afca6f3645a5e6dceb9
+    git.commit: f1c851f929ddf7a19f3061dde00e400af356add2
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -125,7 +125,7 @@ additional_meta:
     git.commit: f87bee60dfc4e4a6805d12cdc59ab50c190e909e
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: aad1ebcd0aabbe6ca8ef42c927415e6b02c9f70e
+    git.commit: 274c59a6f45d11d6027d4edf521e11dadf2d5e7d
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 8bbaac5d61062764ecac8fd5f4b6c56cb97c8259
@@ -170,7 +170,7 @@ additional_meta:
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
   odh-pipeline-runtime-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 29137518d0352210c8c8820c050819ef2f039720
+    git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e

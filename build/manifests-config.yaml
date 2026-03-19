@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: be58b1c2430cdc9e5b092c52309e60df4a144ddb
+    git.commit: 432e2c79079d1caa8630b4ed119463ee38d2e5d5
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: be58b1c2430cdc9e5b092c52309e60df4a144ddb
+    git.commit: 432e2c79079d1caa8630b4ed119463ee38d2e5d5
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: fbea2c6900461dfc1d26ab6f545403145c912aa7
+    git.commit: 8654f248e71698f2497b3be9d5f69ab21839c60f
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 322fd86dc6d7917b642aa17459f30e1d238c393c
+    git.commit: 0ccf32b2b62addad7e8d7c94f21a3e66a7bad8d2
   odh-trainer:
     src: manifests
     dest: trainer
@@ -94,10 +94,10 @@ additional_meta:
     git.commit: 904b099b76a068bafe3f634ba0622f7215ef6dce
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: ccdcbd29ca831a7beaa5a606b9b0dac8ac41a609
+    git.commit: 064135335cec79bcc8e88ea1dd855e90d9e01f36
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: ccdcbd29ca831a7beaa5a606b9b0dac8ac41a609
+    git.commit: 064135335cec79bcc8e88ea1dd855e90d9e01f36
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
     git.commit: c011c91838047fe25142962624d19e069ce4169e
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: d0cc6aee5436709b3d1adad59c07a33b2c543d22
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 0951eff55704ff6621e3666977db1487548701ab
+    git.commit: 2d5a0977a5daa3c1d4671c4b0fefb5cfb65046a1
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: a77ee60b4b6795650b0b9f6c0db397e0034d56b3

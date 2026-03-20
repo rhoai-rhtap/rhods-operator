@@ -44,7 +44,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
   value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:a18e0c92de04c6079dcf4fec8a13bc6b924a182b3113e85e81dfaa203001d3f9"
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
-  value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:ac8da070e03d5f02033262d5ac4ddb792f4b19ee65dc491cc07b1b90fde4e1c2"
+  value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:4bffddfa2c3a772d5fb57fdba4c8eba54d91f3763cf467e121b4397c182cba68"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:6acd81ef003123e599a3ed10366a4d55fd1063aadda99367e1fc00efdc575522"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
@@ -150,7 +150,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:28d8fb46ad102c68a1c67812d06def325e6358b71d2047166b36b67d801e5d70"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:718485aa03118e925562404e8e19da5b067ea53fa48f6b8801ba6b3b06827b77"
+  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:e6df09b8471940a16f4323a7f1fa38e68b94a72a6a8776bb694fe1873ca1d446"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:8ae5152be174ccd820aafcf81a0fabc5baf1be080603fbac2eacaa7b8bb95f67"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_CUDA_PY312_IMAGE
@@ -166,6 +166,6 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:d0cf269e87cdf5efca4538a8f11e2a5ecf3500403498a69b02a42b24b8c252b0"
 - name: RELATED_IMAGE_ODH_WORKLOAD_VARIANT_AUTOSCALER_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:d6b669c54e2a97cfb7fcf425a00dcb3bd0babe373665358b286003f5b7a447d6"
+  value: "quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:9e00bcb72242624e7a24c1e061bc3f629fa83b170eac1dbc80373e1816bf26be"
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:da920bed3ff0e42d2ebd802f01d3f69d8a9266a5e95564771cc6917b0630f9a1"

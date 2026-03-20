@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 11a9d4562edef3e01a3fe5804e5624bd9e87ce05
+    git.commit: 0536b70638862777bd2dbeae24341827d4f9effc
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: a9cf74ffba884c6e191f10179529176a88942584
+    git.commit: f9209a9980b2cda0f943ff95fbad99fb5f96b581
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -265,7 +265,7 @@ additional_meta:
     git.commit: 11a9d4562edef3e01a3fe5804e5624bd9e87ce05
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 11a9d4562edef3e01a3fe5804e5624bd9e87ce05
+    git.commit: 0536b70638862777bd2dbeae24341827d4f9effc
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 11a9d4562edef3e01a3fe5804e5624bd9e87ce05
@@ -289,4 +289,4 @@ additional_meta:
     git.commit: 11a9d4562edef3e01a3fe5804e5624bd9e87ce05
   odh-workload-variant-autoscaler-controller:
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 032bd37c1514c9c0ab6da7a95b7a6c71be009885
+    git.commit: d77d0fffe3dba5be89129871ffa69370228e4ffd

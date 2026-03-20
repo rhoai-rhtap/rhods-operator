@@ -14,17 +14,17 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: e43426c5aa0ec340821b24c68a708ef98c64c8ed
+    git.commit: e234dff0b16ab8ce28ad81e8b50fa3a1b31b5826
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: e43426c5aa0ec340821b24c68a708ef98c64c8ed
+    git.commit: e234dff0b16ab8ce28ad81e8b50fa3a1b31b5826
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: 578ef6229822187e4d93559d7f4cd70238459464
+    git.commit: b2911773cfbfa462f1d6012a09fc26c53b4a050d
   odh-codeflare-operator:
     src: config
     dest: codeflare
@@ -34,12 +34,12 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: b38aef182d4ec6e71c02af1c1ba6e217326db473
+    git.commit: e5052c6dab2a9b5159f7fc37dad79a5881e5108f
   odh-kueue-controller:
     src: config
     dest: kueue
     git.url: https://github.com/red-hat-data-services/kueue
-    git.commit: 8c87f721b60272d79e6a4e4d6e27315beaae89c8
+    git.commit: de76b44090f9adfca9d8c04a49843aa50ef91509
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -64,7 +64,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 171300a72fdcb9c055b4b5f243d6fba3309cc001
+    git.commit: 85769e9c8f91ccd496136ea99042f5f67bf14045
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -79,7 +79,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: ae829ef107c97769b22c9ff8ac5f23d4d56f629b
+    git.commit: 593d074c3e3cef2450a603003d35e38b6d555f6b
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
@@ -98,7 +98,7 @@ additional_meta:
     git.commit: fa77e258595821b18722743390045f53f3196ad5
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: c9c6ef5aa0b7fae3ce3a652d89ae69bb2df6e5dc
+    git.commit: 46259883a3196e29a597531cc6bcd1cc3d352707
   odh-ml-pipelines-persistenceagent-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: 46259883a3196e29a597531cc6bcd1cc3d352707
@@ -110,13 +110,13 @@ additional_meta:
     git.commit: 46259883a3196e29a597531cc6bcd1cc3d352707
   odh-ml-pipelines-launcher:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: c9c6ef5aa0b7fae3ce3a652d89ae69bb2df6e5dc
+    git.commit: 46259883a3196e29a597531cc6bcd1cc3d352707
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 22fac58c77c2a001b74fe44819d5d53b3b71b8ae
+    git.commit: ca119e39d759bf99820ad553153764d54d140961
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 22fac58c77c2a001b74fe44819d5d53b3b71b8ae
+    git.commit: ca119e39d759bf99820ad553153764d54d140961
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 15d4bbb5bbf3ed77793ff3ae2e75b94184be1e98
@@ -239,7 +239,7 @@ additional_meta:
     git.commit: dd703de730855058b68360599d253a050676cd82
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 171300a72fdcb9c055b4b5f243d6fba3309cc001
+    git.commit: 85769e9c8f91ccd496136ea99042f5f67bf14045
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e

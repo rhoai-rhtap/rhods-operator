@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: fda4fed33cf780e002d0529461ddbc810f063cd9
+    git.commit: cdbdc123480b3614bfbe63717690aa1c095e6dae
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -184,7 +184,7 @@ additional_meta:
     git.commit: d006f63ac8cbf71b732b7611e4c48d64ae58b36b
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
+    git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a
@@ -256,10 +256,10 @@ additional_meta:
     git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
+    git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a8d37d9e0eda078e8f2fbf0bd6646996eb74966f
+    git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a

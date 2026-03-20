@@ -34,7 +34,7 @@ map:
     src: config
     dest: trustyai
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: ed22083d438030823850660f2ed1d39e0a8e799d
+    git.commit: 8f390f416199422ebe6786e23ff563e0893ca513
   odh-model-controller:
     src: config
     dest: modelcontroller
@@ -205,7 +205,7 @@ additional_meta:
     git.commit: d0243e5aa4b20b94bb620faf01c9337597ad4d6a
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: ed22083d438030823850660f2ed1d39e0a8e799d
+    git.commit: 8f390f416199422ebe6786e23ff563e0893ca513
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
     git.commit: ca5fd59765591aa9ea01c97a1365590cfdba728b
@@ -232,7 +232,7 @@ additional_meta:
     git.commit: 4ae1b36f78d070f30ae40d031948b57d92e26cfa
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 400ec016297e7f88614e68a872230a4dfc1f267a
+    git.commit: 4ae1b36f78d070f30ae40d031948b57d92e26cfa
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
     git.commit: d0cc6aee5436709b3d1adad59c07a33b2c543d22

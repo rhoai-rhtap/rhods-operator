@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 6152b17020bbc97df60a306b3d8c7d69b66c598b
+    git.commit: e4064adbd852f0d9322c576aaa1021d3a24435ef
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability

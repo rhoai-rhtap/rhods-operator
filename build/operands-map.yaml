@@ -44,13 +44,13 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
   value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:43224a21ad8acc0fb896f8b9b2e5056f1d62f67679a5327bac2dc5e40790e71c"
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
-  value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:c33ce9332ecd3c85200842b2d7cdfd7a9ad86b449f038eb7c550c6ff2323e250"
+  value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:9e11219869db962cd831c7dfb61cad4d40a4aee9be5a4cf25b532459e2d61ea0"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:2d59b7c6b4ca11bb12a963fe6cf324f9fa6381dc05805904b18b7aed5d106090"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:0badebb42713b78c47e96ad80b11aa6e5ab79ae6b262ba1df67b97108a847f0e"
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-mlmd-grpc-server-rhel9@sha256:03463510b5ad0ddb97405ce481214078d5b184267f38ede239182eff0007d40f"
+  value: "quay.io/rhoai/odh-mlmd-grpc-server-rhel9@sha256:43dbd24dbdf938f4d86ce35c18c24f423cc3fc3efec44e3b8dfca2c59315105b"
 - name: RELATED_IMAGE_ODH_MLSERVER_IMAGE
   value: "quay.io/rhoai/odh-mlserver-rhel9@sha256:0924bc343e4b1f863fca9d7445f7a8aa4b6eda019680c9d8edbd1cf3c8c7839d"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_API_SERVER_V2_IMAGE

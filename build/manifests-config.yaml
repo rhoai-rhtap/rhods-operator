@@ -70,7 +70,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 28ae88171e39f72386d946ad65e5eae52b642d1b
+    git.commit: d7186960a1ffad0a6d19c105707d6c86d6453380
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
@@ -80,7 +80,7 @@ additional_meta:
     git.commit: 436f3b7b6a512bc342b6b46c1f5a86d945fe73c6
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
-    git.commit: 838937c68426cd94967cae80275dc972b206e3b9
+    git.commit: 263dc82542698ffbb7396d6ae60d3b500254b744
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 1c668df5a527a52dc896a5d73aa7f83b94fcd958

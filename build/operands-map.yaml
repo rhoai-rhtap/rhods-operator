@@ -4,7 +4,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
   value: "quay.io/rhoai/odh-cli-rhel9@sha256:196bf893be33d4bf274c809968295bea6c29520a1401353093fa0cf73d3c2962"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
-  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:71637426c66df2abfda3d3504b6ec588ee3c4001a7f4d990aa1fc6d8042f0045"
+  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:733fe753209d9774b57941af9a94443fa2e2b11252d1d4b62e55c786ddccf730"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-argo-argoexec-rhel9@sha256:963735134fc58608e2e68c85a615b1eb28274c5954b6c6f9d3c1dfc9baf3aa44"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE
@@ -80,7 +80,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:dc59af58236eefde22d31881319a7691d3fa9ffc6f0bdd9b0a394842f49e3d38"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:0f735a139d7bcb154855a37c3acf740adc2757cdb95ce8f333c08ae794d8acd4"
+  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:5e2a952fe7d325773c2e60ba255591a662561e20133f47017646e192b0d5df4f"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:9e0c258da20b632395ca70a4fa3fdba9e15a3ade2afe0823574b4dc462267f6f"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_EVAL_HUB_IMAGE
@@ -88,7 +88,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:9db6ebe2beecf67badc607e6e1ef5bac8b7d9092dcd300b8e8299b4cce70029e"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:4d4e9d16c6f8f9eb78549a39ad2e0f2121280cdf67b51c60ae5c54b42c146d00"
+  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:c74d0e09c683a9796d9be2b09d50eb638c14f63510961cedca293c4d7bf6a138"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-mlflow-rhel9@sha256:841be17b97d0bb8841601037e4afc6a0953d897fb2477c0bf56a6c57bb0b9a61"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE

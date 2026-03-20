@@ -39,17 +39,17 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: 0e8fe2c0500ef1c9435302766e74001089eb4263
+    git.commit: 027223703f06de5b2b6891d0d9aa91b02073f325
   odh-model-registry-operator:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: fef2f7d2617c5a0c909285f8e4c0b32498c0cadb
+    git.commit: 2cf2a923bf58341ebe0d14b34ad343147711f20f
   odh-dashboard:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 361acba02ad058d9f9a7535e58ff49525b449aec
+    git.commit: 5a2e525a1a8842661cfbab485cb14d6d5c6df1c0
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -110,7 +110,7 @@ additional_meta:
     git.commit: 14f185a65f8353ee3c5949842d0f3cda33c92034
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 340d70e69adc68d03845cdbbda04825d7c4a0aa3
+    git.commit: 6654acbf1b2cab5d3ccf7e051b65698627f48be4
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 98a224e7cfea5f6c71bcdaf77c9784c2da16ce5e

@@ -39,12 +39,12 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: 95fbfbd8f179307ac8cd356d88c0c36a4aeb869c
+    git.commit: 18ce31d3a71e4f9850b60a9ef35e063cbea7e2a1
   odh-model-registry-operator:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: ecd379c81a1b34d0e82c0d4623591cd0a6dd8769
+    git.commit: 5288bd9840d18e66faf691847eab9845bb46b1fa
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -163,7 +163,7 @@ additional_meta:
     git.commit: 3f569b79686074818752e451f2cb8de1c9cb8bbd
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 773766d11da9207a8fe135ac8abec7219f2065a8
+    git.commit: 7c6225560eb88bdb75d182f6666c7d964d8806a1
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: ea2d98ab13efbd9f2692dc58307a062902aca1cb
@@ -226,10 +226,10 @@ additional_meta:
     git.commit: 4ae1b36f78d070f30ae40d031948b57d92e26cfa
   odh-training-rocm62-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 400ec016297e7f88614e68a872230a4dfc1f267a
+    git.commit: 4ae1b36f78d070f30ae40d031948b57d92e26cfa
   odh-training-rocm64-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 400ec016297e7f88614e68a872230a4dfc1f267a
+    git.commit: 4ae1b36f78d070f30ae40d031948b57d92e26cfa
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 400ec016297e7f88614e68a872230a4dfc1f267a

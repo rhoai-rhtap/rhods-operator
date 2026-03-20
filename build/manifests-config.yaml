@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: fc8245be783743e3f8bba1e0ebdab1bd13b30e5d
+    git.commit: 12a9bb2dbe02e598a93af2cc1c08c51c3d77dc10
   odh-maas-api:
     src: deployment
     dest: maas
@@ -95,13 +95,13 @@ additional_meta:
     git.commit: b63486c77dc7758569155015661dcac211b764d7
   odh-ml-pipelines-scheduledworkflow-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: b63486c77dc7758569155015661dcac211b764d7
+    git.commit: 4532ae1db45600ef90125f3f228639b00e03fb8b
   odh-ml-pipelines-driver:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: b63486c77dc7758569155015661dcac211b764d7
+    git.commit: 4532ae1db45600ef90125f3f228639b00e03fb8b
   odh-ml-pipelines-launcher:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: b63486c77dc7758569155015661dcac211b764d7
+    git.commit: 4532ae1db45600ef90125f3f228639b00e03fb8b
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: edc916839ba788cbee52936e259dd5be308a2cd9
@@ -242,7 +242,7 @@ additional_meta:
     git.commit: b838c0cc2db56566ce533be3d2c6c4d673ae1c6a
   odh-training-rocm62-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 856e5ff404994aaeed7f4cde57c88cff8cf8839a
+    git.commit: b838c0cc2db56566ce533be3d2c6c4d673ae1c6a
   odh-training-rocm62-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 856e5ff404994aaeed7f4cde57c88cff8cf8839a

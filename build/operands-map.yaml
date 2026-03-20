@@ -16,7 +16,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-rhel9@sha256:d889b19f3cf3ff08a04312df826df59778717dea75848c5d15cbe49fd16e5dd8"
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
-  value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:90c5b80f16eb18cbe5869cf1e2a950ccf6e055efb062a52fde1a1fd5798cc6c7"
+  value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:bb00be458fd8a3760483063b141d88f4f9a63803c54f8ea3ef8e3d5501efd8a5"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:63c757a1b8af973598401aaaa27f98c8182a7ec5873749f4036a4816f022bab5"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
@@ -44,11 +44,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-argo-workflowcontroller-rhel9@sha256:1fecf0ca5b4da3cde919ad70077411b7917bb930496e967c749413f4793f62cd"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:08e7441fb1114935bb26e9eb8e1114f5ea3789778d61a2fa9468c3eccc2fc72d"
+  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:fa40f1778b73c6cac7dfc01c2a847d8b4350eb4aeeac992de672bfc79a140ef2"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:ba15257614b57ee61982e36355b9359a0a91ef31566f156219921caa48be79e3"
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-training-operator-rhel9@sha256:94a461614896d0625b729e6b205dc2e1c2a98435457e6aa1e1df4c5de796d007"
+  value: "quay.io/rhoai/odh-training-operator-rhel9@sha256:0c071d474750e9cc07bd28682065ac01f8798db7e2f78c763bdd44af1425ef0c"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_RUNTIME_GENERIC_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-runtime-generic-rhel9@sha256:3188a911448a1857f8d888c8b7835419ffb988a8fcd36e8979090aafcbcd81ca"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE

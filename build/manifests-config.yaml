@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 77e52a34ad8060a75d3470d2972958cc39beafd1
+    git.commit: 1971a007f7725af4f90fbe96c507f895daa0b89c
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: 145547da3e7b463c18c148476cf1e821c17eb1a9
+    git.commit: 2b35814c2bbc7669127af1fdd9fb09a931f3d14b
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors

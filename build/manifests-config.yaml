@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 38764b32e4d82fd6c7994df2ef884ca9ebad170d
+    git.commit: 77e52a34ad8060a75d3470d2972958cc39beafd1
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: c236049ee690db0ecbc9d28de2cc39cbbde68c60
+    git.commit: d378070ceb458e9c6589f0a2e4744bee6b51cb22
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: 802a28748fab59bc945296e8bd15ef881e6da38b
+    git.commit: 145547da3e7b463c18c148476cf1e821c17eb1a9
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -169,7 +169,7 @@ additional_meta:
     git.commit: c41b7b2d5770099f5d71609b4f1a3cfebce26875
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 6aee561a21e534b57bc7caafa572b202552e516c
+    git.commit: 00468171dfa930e3bf80037fc78e6722025b9a91
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca

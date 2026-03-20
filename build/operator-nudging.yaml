@@ -106,7 +106,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:b8f243099e016e9648fde63cd2fb43d10a6e7a23e32964811b730919951cf09a
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:90ba5ca14158cb8c99a8ba3682a58e36a0c9b21e816e009be53737ff8ff4ea42
+  value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:5ed85c84c707277a1610a388050f06484af5f90c82282adddf39284b9d486b07
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: quay.io/rhoai/odh-trainer-rhel9@sha256:f52c2f5250a2316c881f88b7bd1c65ab19be7fadedbf228e3a4362b8ec401fdc
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE

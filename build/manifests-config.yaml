@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: e3d9a23226ab7c1ff16d45129c2cb52e99486fe1
+    git.commit: 6a19e6bbe4f3cab0cb3bddbb3cd846cbb6bb381b
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -115,7 +115,7 @@ additional_meta:
     git.commit: 83054b281872ebdf127bb9bb0202909f73746ae2
   odh-kserve-llmisvc-controller:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 83054b281872ebdf127bb9bb0202909f73746ae2
+    git.commit: a349395574d746310d38eb6b0530f56df4672090
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 83054b281872ebdf127bb9bb0202909f73746ae2

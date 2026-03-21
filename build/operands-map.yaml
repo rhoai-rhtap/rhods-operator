@@ -72,11 +72,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
   value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:202233e3921bce27231e27d35a69cf13586549d12d5d2fd34082c396329802ec"
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
-  value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:73a17720fc3720bc4b4f3121802fbd696d7c1406591d4ab38b5a5ed9053eb137"
+  value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:50d97dbce430aa384ea7116958576c7d994799cbf659af9bfc9c6d77d5eda726"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
   value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:9128f57f7341e059cfee7fad7945754fc45fe8b528fadb13f3684333166d6abf"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:66fb1c47ddeee7ff74a0de7784e398e64bd7c1ca48d2adbeec336ebc529f3284"
+  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:67d3b3f5ae9e5595f626f52760c31a93f54fab4745e6c55bcd01f3a8e82362ad"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:d11156919a7a4c1a02f1ffc4cdda4752506e7fa3718c56a54cc6e89db863e084"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE

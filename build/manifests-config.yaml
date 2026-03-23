@@ -88,7 +88,7 @@ map:
   odh-workload-variant-autoscaler-controller:
     src: config
     dest: wva
-    git.url: https://github.com/red-hat-data-services/spark-operator
+    git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
     git.commit: d77d0fffe3dba5be89129871ffa69370228e4ffd
 additional_meta:
   odh-built-in-detector:
@@ -114,7 +114,7 @@ additional_meta:
     git.commit: 1efd581199b709f22a3751503152abda8b7459f7
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 6ed75170cd78f452fee3305d6382e435ca174c7a
+    git.commit: bf0419451b55c22a61641e50278971c46221d54e
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: d1d4881ddad910178581a9ab11a9a9a28c181b30

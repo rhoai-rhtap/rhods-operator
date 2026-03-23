@@ -53,3 +53,6 @@ map:
   odh-spark-operator:
     src: config
     dest: sparkoperator
+  odh-workload-variant-autoscaler-controller:
+    src: config
+    dest: workloadvariantautoscaler

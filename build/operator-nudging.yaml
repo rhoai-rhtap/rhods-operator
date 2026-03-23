@@ -150,7 +150,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
   value: quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:067a92e02e360c7e9e32bba954bdd1bcdd9314981b7c898f50070ab91b32d72a
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: quay.io/rhoai/odh-trustyai-service-rhel9@sha256:2b3809b0068f0bb4ee8b67bd6147931a9452b09f8d4c9bbe65d91c4227e4ed5f
+  value: quay.io/rhoai/odh-trustyai-service-rhel9@sha256:f466ab1ced1035f165a67b33c1de482d361dc96483d910535aedf719ef2c426e
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:c800891b35a5ceb935c52c163dbf23946b76083400db54579c159179329f7453
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE

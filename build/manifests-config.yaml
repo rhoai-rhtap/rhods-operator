@@ -219,7 +219,7 @@ additional_meta:
     git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-pipeline-runtime-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bed3afa4bab630acef50862199ce99d1dedc9a51
+    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
@@ -249,7 +249,7 @@ additional_meta:
     git.commit: d56138474de83dbd5992f404a9a431cf041f10eb
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 41b1283e3c0e1c53ccf735f27efc0171a934e722
+    git.commit: d56138474de83dbd5992f404a9a431cf041f10eb
   odh-training-cuda128-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: d56138474de83dbd5992f404a9a431cf041f10eb
@@ -303,16 +303,16 @@ additional_meta:
     git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bed3afa4bab630acef50862199ce99d1dedc9a51
+    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bed3afa4bab630acef50862199ce99d1dedc9a51
+    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bed3afa4bab630acef50862199ce99d1dedc9a51
+    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7

@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d241d890edfe880e663070792771fed90bee687b
+    git.commit: 29c195eb8ffb6c3a8c663617ad8a88e2911ecf6a
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch

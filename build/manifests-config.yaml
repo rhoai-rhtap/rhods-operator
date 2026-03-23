@@ -85,6 +85,11 @@ map:
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
     git.commit: 2b35814c2bbc7669127af1fdd9fb09a931f3d14b
+  odh-workload-variant-autoscaler-controller:
+    src: config
+    dest: wva
+    git.url: https://github.com/red-hat-data-services/spark-operator
+    git.commit: d77d0fffe3dba5be89129871ffa69370228e4ffd
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -311,6 +316,3 @@ additional_meta:
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0536b70638862777bd2dbeae24341827d4f9effc
-  odh-workload-variant-autoscaler-controller:
-    git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: d77d0fffe3dba5be89129871ffa69370228e4ffd

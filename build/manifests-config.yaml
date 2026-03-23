@@ -119,7 +119,7 @@ additional_meta:
     git.commit: ca119e39d759bf99820ad553153764d54d140961
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 58b383f53343fb9713729dc5c8aadcb9d8fe378c
+    git.commit: 721359eed7532b393dabd4b7b4bdc8abb11ab0db
   odh-ml-pipelines-runtime-generic:
     git.url: https://github.com/red-hat-data-services/ilab-on-ocp
     git.commit: f87bee60dfc4e4a6805d12cdc59ab50c190e909e
@@ -239,7 +239,7 @@ additional_meta:
     git.commit: dd703de730855058b68360599d253a050676cd82
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 85769e9c8f91ccd496136ea99042f5f67bf14045
+    git.commit: d707bb202e223e6a2ae4ec483fe4292feec8ca07
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e

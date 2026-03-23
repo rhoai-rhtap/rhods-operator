@@ -87,7 +87,7 @@ map:
     git.commit: 2b35814c2bbc7669127af1fdd9fb09a931f3d14b
   odh-workload-variant-autoscaler-controller:
     src: config
-    dest: workloadvariantautoscaler
+    dest: wva
     git.url: https://github.com/red-hat-data-services/spark-operator
     git.commit: 6a19e6bbe4f3cab0cb3bddbb3cd846cbb6bb381b
 additional_meta:

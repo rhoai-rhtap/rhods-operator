@@ -55,4 +55,4 @@ map:
     dest: sparkoperator
   odh-workload-variant-autoscaler-controller:
     src: config
-    dest: workloadvariantautoscaler
+    dest: wva

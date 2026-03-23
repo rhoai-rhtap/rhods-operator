@@ -46,7 +46,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLM_D_KV_CACHE_IMAGE
   value: "quay.io/rhoai/odh-llm-d-kv-cache-rhel9@sha256:3b624f00b73bcb5818ac799257c57a370338667f94daa7df59fb74bce8b2300a"
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
-  value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:e1e9e7ab9fd24d427d4e2d799a5c080dd89b516c51955cef4e1aa7794f688b36"
+  value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:0445e267b6c925c8dc03aac14f6208dcdd633e75e25227b82aa7317869bc1ca2"
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
   value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:0a2a37688c4fbf6e2f8a847d7edbc96d690c4bdbd99dc030dcde50a7f3ac02c8"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
@@ -122,7 +122,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:e2cb1860ee12af68f48d60c283d05b25437b0a120c0fae7baead7fb82fe3d90b"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:2f03037c56f94a6d633a5d14d1a7d03c1a7aa94b219dc8bc3ae02c70dec9b872"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:b8e3cfd408f8871fbfe1ac3961bc2708f7a69009ca4aa250210e584701648731"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:bcf1d1bab20c7e417e93a8613828ea02275aba52c219231349e009ce41b3e0bf"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE

@@ -141,7 +141,7 @@ additional_meta:
     git.commit: e0e6ec111aa339d3a30421f6362e977d29b67cb3
   odh-llm-d-routing-sidecar:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
-    git.commit: f3373fe993d8b67db7e95c34391f24615b692c36
+    git.commit: 8cb77cdc4caccde4d686c9921b2c8fe2f8c4aa48
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
     git.commit: 9540a6ad02cc4b5e4e6dacd2643c7f29995d13ba
@@ -237,7 +237,7 @@ additional_meta:
     git.commit: d56138474de83dbd5992f404a9a431cf041f10eb
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: c3c793c84d716f7e039b3aff328029529dea03a5
+    git.commit: 64739691547b3f906790b45daa5ca09d3c01dae0
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 94b108923d735af09f8b61d2b41749e46f9fe0c0

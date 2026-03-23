@@ -15,99 +15,99 @@ map:
     src: components/notebook-controller/config
     dest: odh-notebook-controller/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: aab5dbe7e06a601c5c5f613d2f84151fa88f4eb4
+    git.commit: a6bfcd0469ed80311ab4c7c524ae358d94bfa733
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: odh-notebook-controller/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: aab5dbe7e06a601c5c5f613d2f84151fa88f4eb4
+    git.commit: a6bfcd0469ed80311ab4c7c524ae358d94bfa733
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: data-science-pipelines-operator
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: bd927f64be1e11817b5229108ea229a604943e6c
+    git.commit: 710adb91ed2e070043836d4ef853fad0a2ef69a6
   odh-codeflare-operator:
     src: config
     dest: codeflare
     git.url: https://github.com/red-hat-data-services/codeflare-operator
-    git.commit: 1fcf245f1a02280b2b540e30e0f1be39a4bb6b11
+    git.commit: bbd8dd4a3535221ae77fc7edbd64883e77e2a555
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 54be75c6a61b2854e2eb28dcb4569dd6d89ce37c
+    git.commit: 9c0f0f2eab8ea77f6db06e1dbfa9dba8f09ee878
   odh-kueue-controller:
     src: config
     dest: kueue
     git.url: https://github.com/red-hat-data-services/kueue
-    git.commit: caff3f95e1cacae679adeed5ff38275269b86d94
+    git.commit: 4df66d97d3b6699f3ade173b4d624d8feebed748
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 9a7750d387a845b0bfd6ff596662704199de01c3
+    git.commit: 4f31a7780b286e96a86427e6feb664512a95a0fb
   odh-model-controller:
     src: config
     dest: odh-model-controller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: b26db6fe64ba513a67e066a30060c6efe5b28533
+    git.commit: f72b8a18d3f443a825dc0e8323ccc596d4022f6b
   odh-model-registry-operator:
     src: config
     dest: model-registry-operator
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 00826f1c16e83cebb7b37d4c49300de841f52441
+    git.commit: e9cc825b9eeb375caff09956c2ea4885fbd1ba47
   odh-modelmesh-serving-controller:
     src: config
     dest: model-mesh
     git.url: https://github.com/red-hat-data-services/modelmesh-serving
-    git.commit: 5c76f59bf24b61fb3392d3eadf1fb6fe28211034
+    git.commit: be3a55992cbc8d2513c3c9ab7fa03ba26b09b412
   odh-dashboard:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: b0fc0a69726ce4668257f69b6a170e84618c4404
+    git.commit: 51b47ecb25b7c5566cb110697a000bacc498dc49
   odh-training-operator:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: d7186960a1ffad0a6d19c105707d6c86d6453380
+    git.commit: bf50e3b6720b592b051d6e14a737ad24c86f9e59
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
-    git.commit: adfa267a6c8d42d06f59c0c3886c4bb252601e28
+    git.commit: 66aea150c2a0279c809625493a0071105b1455e6
   odh-modelmesh:
     git.url: https://github.com/red-hat-data-services/modelmesh
-    git.commit: 436f3b7b6a512bc342b6b46c1f5a86d945fe73c6
+    git.commit: 955a9885bc0f98c0cceed19b9604ae16376f667d
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
-    git.commit: 7883174bdfc0e7e312b26bd4648c4ea75fa51c01
+    git.commit: 2ba730432e3a961e311e70d3d818c7b2c33a5b49
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
-    git.commit: b4038e78ab57033cd62b9c009b01b3c08791a33b
+    git.commit: 8195f02024a6d4b42cf047f1b92e17d067184491
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: fff30a2fa89b3051ca5f006db60f11d9c1e34f66
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 28b492c502151c7df4ea9a3653cb4eab1d7385f9
+    git.commit: 398aa293981a3d3af09d331853246325a0dca506
   odh-ml-pipelines-persistenceagent-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 28b492c502151c7df4ea9a3653cb4eab1d7385f9
+    git.commit: 398aa293981a3d3af09d331853246325a0dca506
   odh-ml-pipelines-scheduledworkflow-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 28b492c502151c7df4ea9a3653cb4eab1d7385f9
+    git.commit: 398aa293981a3d3af09d331853246325a0dca506
   odh-ml-pipelines-driver:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 28b492c502151c7df4ea9a3653cb4eab1d7385f9
+    git.commit: 398aa293981a3d3af09d331853246325a0dca506
   odh-ml-pipelines-launcher:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 28b492c502151c7df4ea9a3653cb4eab1d7385f9
+    git.commit: 398aa293981a3d3af09d331853246325a0dca506
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 234849b6b07149c5b829d126756c37f7d184f3e7
+    git.commit: a31db1cd84747b82217abdc79ea94452d64676ff
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 234849b6b07149c5b829d126756c37f7d184f3e7
+    git.commit: a31db1cd84747b82217abdc79ea94452d64676ff
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 4d75a2bc39d023bbbd5399ad29b4b30c5fe15ef2
+    git.commit: 3e6803ff02e46afa5654e0dd3797110fb61b29ff

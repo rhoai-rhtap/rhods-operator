@@ -38,7 +38,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:da920bed3ff0e42d2ebd802f01d3f69d8a9266a5e95564771cc6917b0630f9a1"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
-  value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:8e4c37525e3df89b341ad5407de8c0bd3622c809eea69d769fa93433eca8bd54"
+  value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:25663baaaa16b6baacb832cbf7ce8f90d701b5ef97c42271fe6d9609530d825b"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:0280378a95a53cb8396bee9764bfac18c1261039c238f97acc751e452c013317"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
@@ -114,7 +114,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:95566abc131564ed70addd56110706eab856fcf40f59c1193e233bbb56d74e6d"
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-spark-operator-rhel9@sha256:750a9ea69b92e4c32294f0c2736216af43ed4ea822965c73a781642dbfbf0860"
+  value: "quay.io/rhoai/odh-spark-operator-rhel9@sha256:179dceed47e1501a8c78801a8127e7d2a0e8fce8bd3d4c256ea5017fed7d97ec"
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:7ab5b656dd9fb81a3c0e0daebe24918bd139445540dc1b2a6702fdb92401c14e"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE

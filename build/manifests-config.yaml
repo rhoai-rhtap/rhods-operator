@@ -169,7 +169,7 @@ additional_meta:
     git.commit: dec3a420b33459cdfdc7cc1c502f781eacb840a7
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: bc00733bdc11ff7ca08ceced96def0620aa4d456
+    git.commit: d01079e2e4570f938551ec028336df6dd9356c23
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 01d440398e5f06b014df88417b34a22264ba3bb8

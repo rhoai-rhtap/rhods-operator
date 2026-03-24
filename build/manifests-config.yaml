@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 308e0b4aece648bf894f8173aa3f1962307d69b0
+    git.commit: 6fcf271e926a8df7bf7749d490770ea31bef6d8e
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 98fdcb4f68e9542f1f8f9defa563765db62aab96
+    git.commit: 02463457d237a19f1d6e999d71ec6d8fe32de06c
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -285,7 +285,7 @@ additional_meta:
     git.commit: 403c7b4338de3cc05112a562bbd3565a096a030f
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
+    git.commit: 089edd57fd4706e4bd40e35a795328dd11eb55d6
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7

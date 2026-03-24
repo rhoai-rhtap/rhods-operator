@@ -2,7 +2,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:fd626304727c281e08f44f926510dec5f37029ba594e5fe318c2c2183ea02b9e"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
-  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:023532aea22cad72ec67e292fd2c430b79b91424454d6cb650dadfb12a5bc67b"
+  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:cfb3a2ccd306fc2295dc8a1e6689e8c8def3f6b4777cd097f45f3a803755aba9"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:713e9df0b2b2e6d30daf5ff1450e65e34f975853f7aaa16b780c7aa6e99c320a"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
@@ -144,9 +144,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:3e96c660b9f79e94c5449b24bba28eb95cb75b33ddb5c807a12b0ccf281e6723"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:64f725ee184a3eaca1cf7cd0e31b7afa17434b5bcac7c987d6a403d4cc5e5790"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:5211b1032545bdfd62a67b26ff21d7c31383c7cb11e691d3cbeebd394432507a"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:64f725ee184a3eaca1cf7cd0e31b7afa17434b5bcac7c987d6a403d4cc5e5790"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:5211b1032545bdfd62a67b26ff21d7c31383c7cb11e691d3cbeebd394432507a"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:9839da864bc036db7bac02eb1aeb4d288e126f32a5b6488ab9a88a500a4739d7"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

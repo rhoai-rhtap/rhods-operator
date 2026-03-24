@@ -74,7 +74,7 @@ map:
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
-    git.commit: 66aea150c2a0279c809625493a0071105b1455e6
+    git.commit: 3db70bbd1e7d63d63bc2672dadf8eb08dd18130f
   odh-modelmesh:
     git.url: https://github.com/red-hat-data-services/modelmesh
     git.commit: 955a9885bc0f98c0cceed19b9604ae16376f667d

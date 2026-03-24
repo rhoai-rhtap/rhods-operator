@@ -239,7 +239,7 @@ additional_meta:
     git.commit: dd703de730855058b68360599d253a050676cd82
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 6698ae7d5ebff3a3fbcacadf8af5cfac7840b7be
+    git.commit: 51cc780bc9d831180d1d44a30cfa6116ac611c5d
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e

@@ -144,9 +144,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:3e96c660b9f79e94c5449b24bba28eb95cb75b33ddb5c807a12b0ccf281e6723"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:ceb8595d996e50c21f80497092c18330b877981b70ffb1884f76e77f686ef1e1"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:64f725ee184a3eaca1cf7cd0e31b7afa17434b5bcac7c987d6a403d4cc5e5790"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:ceb8595d996e50c21f80497092c18330b877981b70ffb1884f76e77f686ef1e1"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:64f725ee184a3eaca1cf7cd0e31b7afa17434b5bcac7c987d6a403d4cc5e5790"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:9839da864bc036db7bac02eb1aeb4d288e126f32a5b6488ab9a88a500a4739d7"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: cdd5be132051a46941f425c949c0d30c07da337c
+    git.commit: 4b17c5e439ad2ae61f6880fd722b56ed09e42388
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: cdd5be132051a46941f425c949c0d30c07da337c
+    git.commit: 4b17c5e439ad2ae61f6880fd722b56ed09e42388
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 9b6ac944ca2cb23eb14ab13ab1c92be0bd58e3e3
+    git.commit: ec7db8e242f760b0cdf92921c9f14ca7acbd7ded
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: d378070ceb458e9c6589f0a2e4744bee6b51cb22
+    git.commit: 37e744a373af84e276033b1ae8af1e63052d5b46
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -201,7 +201,7 @@ additional_meta:
     git.commit: eccf8784e1da58fe9a10c80c4d9d8d7691cd6903
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: 6d29c4eb58935f0d859e07ecf0579382838e6853
+    git.commit: 55d10483d2ed10e2928fdcb454c0f06f6097a4e3
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: 728f4605cd6c016a4de109291cc882a7a47f9b22

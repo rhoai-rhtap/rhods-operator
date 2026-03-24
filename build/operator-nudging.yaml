@@ -84,7 +84,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
   value: quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:9e52eda39704b9910f699da7e62ccc6a4c041be1deb709e3c32ca5556a6faafd
 - name: RELATED_IMAGE_ODH_MOD_ARCH_EVAL_HUB_IMAGE
-  value: quay.io/rhoai/odh-mod-arch-eval-hub-rhel9@sha256:3000633d16825174fa3e710adba6e03cd5f3db2ab75676d1b44717b4f980867d
+  value: quay.io/rhoai/odh-mod-arch-eval-hub-rhel9@sha256:0bae3d0c843196aed415811f0d752c5bd3c54d737117a73e72a99e09fffae2ec
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:23381f037101ac5447f78a4eba002d600d5d306ab361d22bdd2d80d450cfc8a3
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE

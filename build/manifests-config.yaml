@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 41c94dccc669582a5614ec309bf98d1ad95b9d63
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: ba73681707df28c91129787a3bad7202db3d99d8
+    git.commit: 9336976b514d94f0c39983c377763d2e289feca4
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 4205e055702a7e4439cdfe23a29c0b2f49e3ea63
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 899f065fdbee448239336467b135d59b42315f9a
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 9448ddc59f62996631f3fdf5bb4b092ab8f6bf1e
+    git.commit: df7f2acd0cc6c49af7c26522927810454756651b
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: 00df7d307406d33c7720785506f8ceb3503d59e5

@@ -251,7 +251,7 @@ additional_meta:
     git.commit: b838c0cc2db56566ce533be3d2c6c4d673ae1c6a
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: b379efc864312f1f47155156c136157f9b3453c4
+    git.commit: 305b3c41bccca4cd8fdd89231bf63fa45b02ac6a
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
     git.commit: f3bcde95b4319d2a6853742c4ea5c538efcb8e0e
@@ -260,7 +260,7 @@ additional_meta:
     git.commit: 266b335427958e534c43496d690fa5ce65cad742
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 1a32689a3086671e45968db84cf9d496269d9a6b
+    git.commit: f36b06992b983fc905a9f719da775f39d2f1e867
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
     git.commit: 37c4dff5d62b45cd5dbebcd13c5d452d5ce7208c

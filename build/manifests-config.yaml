@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 932ee25b71c4da1f5d5048d6d8d3cd8023bda2b8
+    git.commit: 4e9227ea423ea3cefe3a7337e0a606f18435aff9
   odh-trainer:
     src: manifests
     dest: trainer
@@ -198,7 +198,7 @@ additional_meta:
     git.commit: 773019e992b8f09c5f3b13e1198d7f7707281a20
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: d49f3466af17dc3aca85c0b0e78d97ecaa7af9f4
+    git.commit: cb0bd4e9b5a1cf5edef0d98cd336069e86fdf32e
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
     git.commit: 9d38f0d665e71868a65d91d8704bf719997ee27c

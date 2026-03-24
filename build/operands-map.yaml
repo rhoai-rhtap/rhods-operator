@@ -16,9 +16,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-rhel8@sha256:528ca059977607955bef35f3c45d89441c7b67e980ae4cfedf4d7807be0b6e8b"
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
-  value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel8@sha256:cd8c4bdd42b8bbe82dfc45b83c7bf714831fba2b227c62dd89382a1c6de68687"
+  value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel8@sha256:f4accbc154f10264018064cbec79dcef5ca90863da3061ed0d3be4345031b78e"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-rhel8@sha256:46d23786d7fc999015542227922d7652376b33170fa3801ef74763306e557325"
+  value: "quay.io/rhoai/odh-trustyai-service-rhel8@sha256:49f6366fdca083743c4e56e49b80d62504065e26aa09921d6fccac878d90d272"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-operator-rhel8@sha256:1430d55386fc0f5e3816f8960e9ce98052c7768236be4b4853d7b2d479916f2a"
 - name: RELATED_IMAGE_ODH_CODEFLARE_OPERATOR_IMAGE
@@ -48,8 +48,8 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel8@sha256:145528b0fcfa8d27b4f4dbb64c8127fa2182711120455ae55e0e40fb0c6556e5"
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-training-operator-rhel8@sha256:ae7d761cc6e4c534344497ef3839a92b4b52bf790a61b92117dc9a01b71a47ee"
+  value: "quay.io/rhoai/odh-training-operator-rhel8@sha256:7cb5e379bb035eafd28e8483b09a15d36df26d2250db33b9b8478e5d89c73299"
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-training-operator-rhel8@sha256:ae7d761cc6e4c534344497ef3839a92b4b52bf790a61b92117dc9a01b71a47ee"
+  value: "quay.io/rhoai/odh-training-operator-rhel8@sha256:7cb5e379bb035eafd28e8483b09a15d36df26d2250db33b9b8478e5d89c73299"
 - name: RELATED_IMAGE_ODH_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-rhel8-operator@sha256:ad6fbd5502d4507629d25cb5f4dfff6db4f14bdc801e73f4e43e8f00a26476be

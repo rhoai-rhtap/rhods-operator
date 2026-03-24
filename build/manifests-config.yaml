@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 9be796ffa6ddf99ad0bc010f4d1a22004dbc762d
+    git.commit: e725438a3325ce40343b818e03e1a5541efcff08
   odh-spark-operator:
     src: config
     dest: sparkoperator

@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 089edd57fd4706e4bd40e35a795328dd11eb55d6
+    git.commit: b9d78342be260b479a448135ffde815fd26e280d
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -201,7 +201,7 @@ additional_meta:
     git.commit: d49f3466af17dc3aca85c0b0e78d97ecaa7af9f4
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: afc92949f6a630678bf067f0b787d2fb8d404906
+    git.commit: 9d38f0d665e71868a65d91d8704bf719997ee27c
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: 420e0c357929c13a19b64b1c013107016e24f519

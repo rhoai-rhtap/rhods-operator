@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: cb48eaa6571b286bae44b0f4e2484f9b1c94e45a
+    git.commit: 27d70e73bdbdfbc228e1c56bc669dbde80e25d81
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 1ef3dfc9e47f8ab0ac9f7c0762772577fc9e001a
+    git.commit: 27d70e73bdbdfbc228e1c56bc669dbde80e25d81
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: a96d5692ba1646d945042ab6d55673571ec582cc
+    git.commit: bf8d84478dfca9b4114d4e397e88686de87b63ae
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: e24fbf7686166c7d01ad8e5b788eff511f543799
+    git.commit: 4a59bf63cce088c38e4b668d0f413e09a1b407d3
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: e725438a3325ce40343b818e03e1a5541efcff08
+    git.commit: 374ac483ad7aafb6c03b3e53ec3b681fbcbb1baa
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -129,7 +129,7 @@ additional_meta:
     git.commit: 06edb6431ccffa0b3254384eb0a20f079bb4d1eb
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: ef465554fd86fad312d361198de0c319bb205e46
+    git.commit: 8f4cc87fb448010a191e2770b817ba71c28a7fe2
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: cc8928e9d1ca6150d958073fad4377c6f01d2352

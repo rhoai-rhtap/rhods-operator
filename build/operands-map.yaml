@@ -60,13 +60,13 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_API_SERVER_V2_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-api-server-v2-rhel9@sha256:b39a66242b16d0f3393a04a924703a34b1ba9c2474c92fd4c6b4c442d5599ccb"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_DRIVER_IMAGE
-  value: "quay.io/rhoai/odh-ml-pipelines-driver-rhel9@sha256:a389abc67fc556e08beac0fc7aa01e36a9c0bb7f7f157e335bc29561f7e5c190"
+  value: "quay.io/rhoai/odh-ml-pipelines-driver-rhel9@sha256:5095547ed313c1e5264b3f83a327c5a04b1ec04c8a2a569b6dffb67e47f5e75b"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_LAUNCHER_IMAGE
-  value: "quay.io/rhoai/odh-ml-pipelines-launcher-rhel9@sha256:5c7d4ef4525ed4f933c98005bc04adebb721cede7b61938c021a67681a58ae68"
+  value: "quay.io/rhoai/odh-ml-pipelines-launcher-rhel9@sha256:c218cebbe042aea60f9ba9f3e2e21f9e8dc55246cbfb9a15ff7f4106d5eebf33"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_PERSISTENCEAGENT_V2_IMAGE
-  value: "quay.io/rhoai/odh-ml-pipelines-persistenceagent-v2-rhel9@sha256:75ba245f7c825cdefb71cdef24f294b473e055d4a93f7bbb8cd472c550331190"
+  value: "quay.io/rhoai/odh-ml-pipelines-persistenceagent-v2-rhel9@sha256:5d12f5a2ef9ab51695214c30726623673cf2a50d296abe712ea3eaf17bee07ca"
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_SCHEDULEDWORKFLOW_V2_IMAGE
-  value: "quay.io/rhoai/odh-ml-pipelines-scheduledworkflow-v2-rhel9@sha256:97447e17854405dadccd8b2127c1f1004be9f5c60b7489a322f78698feb844ca"
+  value: "quay.io/rhoai/odh-ml-pipelines-scheduledworkflow-v2-rhel9@sha256:9f486f422a47b5098ca69ce54cd2e18c0f17862e9adc8b017ec995427776acd8"
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:8129e314b7c1e3a5affe57be15f93210d4731b828af5b5a00b2bbba547a1ce23"
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
@@ -80,7 +80,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:43bbeebb380b810a2f84c54eb4001b8c2519551f30a038a200806d9bffabacce"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:fbb3c68c75bc896fa1a4351c8d7735d845f55ec446d676b20146183ad7f6e64c"
+  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:6793655cfed85a0dac2842b02e72606977c44bc2b8798fb38c9bb508a467ee92"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:34d029cf690e25516025c702759e0976532b790d654052f745f347cd83ed5db2"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_EVAL_HUB_IMAGE

@@ -82,11 +82,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:3c2b026618262f11ee8037fbab9f4aa41fcec57a21a6dd617a87ed7ac2b27694"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:44330c586f21a2feb2f0b35f6065ec232597b3927d94cb23f0a29fef8c42dd91"
+  value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:9745530f9562be5c4c982fd88be9866cf52fb0068213608234eb4726ed2ae3eb"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_EVAL_HUB_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-eval-hub-rhel9@sha256:0bae3d0c843196aed415811f0d752c5bd3c54d737117a73e72a99e09fffae2ec"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:813ef8b4844a8d67ce10b62a0d5b52ae76d279c27881e6f0b70c545cb6e88d11"
+  value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:cfb554b4ca661bfd3cb42772625ab318644797a902e2856860a9636d387e1d61"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:24f2cd75dfbd616c37528da91bc58e3ea5997ce086a19a08a7cceecdb1391544"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MLFLOW_IMAGE

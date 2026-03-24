@@ -234,7 +234,7 @@ additional_meta:
     git.commit: 3b16d5b9a8f78c366c843320d6af28f127bcfa32
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 5e02d2fb65ddc058ddd315593d3aa1a775b017e4
+    git.commit: 84b75e1aa10043a05e12567056dc75c64b533fa7
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 9d5e8565d0a12d6c97f02da7794d8f77d15db6d5
@@ -270,7 +270,7 @@ additional_meta:
     git.commit: 2441bca650be59d65a407e9bd96b75f5bb3cdb60
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 6faf70f9538656d9a3e8fdb62a69324d2d87f110
+    git.commit: f7d0cef859c49c2657e87d534dda5c7a084aac03
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 2833c715b395522b571bd9a0d12addd397c58316
@@ -288,7 +288,7 @@ additional_meta:
     git.commit: f3bb823e2a5654f1b29f29a4f4ba0021cf66ccc8
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0536b70638862777bd2dbeae24341827d4f9effc
+    git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf

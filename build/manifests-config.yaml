@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 8a54fe6e288c78e6d261fc280ad926f9cc51e75e
+    git.commit: 97a5a53e9e8b12ed05ad1fa2907dd061991a71a1
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 3508a64cb70e82acf699e3a8ad461904259fe2c8
+    git.commit: d6014585efec2267950d19f42a547d16515d2dad
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: 21bbc3e6f5a5dc02a00b011d206a38ed08d6a6c5
+    git.commit: c7a6e81061f63ce5e2fd940e0126dc5ac9e20072
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 899f065fdbee448239336467b135d59b42315f9a
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 2b958ba5d8ff483143a99289a29a9460e699aab3
+    git.commit: bd57425ec803142168acc7bdcf7d57900b386e14
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: 00df7d307406d33c7720785506f8ceb3503d59e5

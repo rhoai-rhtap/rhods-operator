@@ -39,7 +39,7 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: 65a5b10dd41b55a1b4f61c405323a8bbe97f7c95
+    git.commit: fa3cf4a1a8a3d22b178a6ad51f915432334461e6
   odh-model-registry-operator:
     src: config
     dest: modelregistry
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 64d89042e9d9e0d270a4d6b8861b069a04b35d14
+    git.commit: 98fdcb4f68e9542f1f8f9defa563765db62aab96
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors

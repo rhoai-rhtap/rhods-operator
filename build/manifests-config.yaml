@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 7929e51b352ac19ad8051ead9e73580a3b13cd70
+    git.commit: a869d1dfc3b481927973aaa1a0d7ed59107f0eb4
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -91,7 +91,7 @@ additional_meta:
     git.commit: c97881b21f44a5a164cb96efcd563502206c8993
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 904b099b76a068bafe3f634ba0622f7215ef6dce
+    git.commit: 63c4ef7ea795ec64d495e76e0b70217773bb326f
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 41c94dccc669582a5614ec309bf98d1ad95b9d63

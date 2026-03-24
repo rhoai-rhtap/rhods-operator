@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: a6a31968df7d1f58723d2b23784a27e7dcd83604
+    git.commit: b090d5aeb33bbae19691d6e18d0e9413d95fded9
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: a6a31968df7d1f58723d2b23784a27e7dcd83604
+    git.commit: 2c85ab7f12ab23a19fe2e069ac961c14e896fad8
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: a869d1dfc3b481927973aaa1a0d7ed59107f0eb4
+    git.commit: 789f6f744e355833fbbe13e39faa44b7179fada5
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 780bbe167b518099ef266c0bab2ac4c30b52d85a
+    git.commit: 5da5ba11084d56ed74b73e0a90c082de070773cd
   odh-trainer:
     src: manifests
     dest: trainer
@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: bf34f910a3b4d6aa37a47369cbca7d90a190d895
+    git.commit: e6f17267d8d2bf297adae02b53806be5adff8380
   odh-maas-api:
     src: deployment
     dest: maas
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: ce022c9de5f7c0afe1aef1cda3e3f1ecd7036594
+    git.commit: 21bbc3e6f5a5dc02a00b011d206a38ed08d6a6c5
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8

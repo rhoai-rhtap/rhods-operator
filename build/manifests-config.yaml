@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: e6bfca94435c104854734a0471f516b876b82620
+    git.commit: d36c2b9418f6b9d0e62f05f5afb97d5a12a45a9f
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: ca4d09dddc8eda494203577b025dae92aff42584
+    git.commit: 308e0b4aece648bf894f8173aa3f1962307d69b0
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -174,7 +174,7 @@ additional_meta:
     git.commit: dec3a420b33459cdfdc7cc1c502f781eacb840a7
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: d01079e2e4570f938551ec028336df6dd9356c23
+    git.commit: e05f1c8e23786dba2c22ddd98e039420590cb4ad
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: d01079e2e4570f938551ec028336df6dd9356c23

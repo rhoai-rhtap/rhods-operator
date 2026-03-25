@@ -60,7 +60,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:123fb866b3033de5f11db61a4325d092f3afb1464c9cd73d438aadd8b7b5fddc"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:50de15a3ff7e803c19c2d2e89b60c69e60f19ccbec5204a45db62233fd380ca8"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:918fd46815dc6e8abd5fe7596748ccbe28d7ae3d237941257166fa390f967ad5"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:c194fea3e7005f3aa8043efeb3a89d036cc46c923c50719b49a7a47d90b1140c"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
@@ -132,9 +132,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH28_PY312_IMAGE
   value: "quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:ec26ebe551f0295bf08598aae62cd731a976d56da9bfc2a70dd3a9269097d207"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH24_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-rocm62-torch24-py311-rhel9@sha256:4aecbd72780c657911d4058bc656b27922b53fc8bc248acc475d4b0fb16d6414"
+  value: "quay.io/rhoai/odh-training-rocm62-torch24-py311-rhel9@sha256:ebe3a6b60e699ec81ab039d206e7ac43ebb1b92338ea0e3c2ed5494ef94607fe"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH25_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-rocm62-torch25-py311-rhel9@sha256:efcd2301c4bfecaeac76ebbaaa3235a37af0dc986034a533876b01c06a029bf1"
+  value: "quay.io/rhoai/odh-training-rocm62-torch25-py311-rhel9@sha256:9924e992aa9c6c7440fdf2e8b3abef4ea5feb44e3eaefb0bb9fcc7d84a85d2d7"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM64_TORCH28_PY312_IMAGE
   value: "quay.io/rhoai/odh-training-rocm64-torch28-py312-rhel9@sha256:2a5eae4b68e74ef9f6e753a6b86a184f0af7741140e907c9c545fe3018b0b2fe"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE

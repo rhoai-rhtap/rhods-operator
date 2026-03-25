@@ -180,7 +180,7 @@ additional_meta:
     git.commit: b6b810441bf700dd8fe780d38a49bfad31d83f05
   odh-mod-arch-automl:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: cb0bd4e9b5a1cf5edef0d98cd336069e86fdf32e
+    git.commit: e43381158a5b54856233170b6f9f5f92ed8be203
   odh-mod-arch-autorag:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: cb0bd4e9b5a1cf5edef0d98cd336069e86fdf32e
@@ -237,7 +237,7 @@ additional_meta:
     git.commit: 54c58cd189338da8f59128aeb9aae52add9cbd7e
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 77bd83f568b69a5ac24e75c82e7a3afd5d09c616
+    git.commit: 54c58cd189338da8f59128aeb9aae52add9cbd7e
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 15431697d39043961b09cbc2e0720184291fa59e

@@ -136,7 +136,7 @@ additional_meta:
     git.commit: bd57425ec803142168acc7bdcf7d57900b386e14
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
-    git.commit: 00df7d307406d33c7720785506f8ceb3503d59e5
+    git.commit: 5ee5b573dc3a6c9fc7adc49ed00fe62439110b36
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
     git.commit: 2ca5d0ac5498bb03d7067cb080b02ae5430d090e
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: d0cc6aee5436709b3d1adad59c07a33b2c543d22
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 2d5a0977a5daa3c1d4671c4b0fefb5cfb65046a1
+    git.commit: 94bb548bde380da4c01b9a13bbc71d1502923c14
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: a77ee60b4b6795650b0b9f6c0db397e0034d56b3

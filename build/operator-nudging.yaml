@@ -128,7 +128,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: quay.io/rhoai/odh-model-performance-data-rhel9@sha256:9871abb688d8bda446b7fd65d02fb20ba1a74b15fbb6aa587e60a9e31736462a
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
-  value: quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:5d2bf8e06f99b5fbad27f3e346c2138b737a0e59f13a0c253c0e68306d99b237
+  value: quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:ed0ce0340c26b7c7e3af2b9cd28729a023f8107d529945471192b210f23b0ada
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE
   value: quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:de25bea6be3803156e20f6494a0aad65be19246f68e31aa004e913805a24c343
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH28_PY312_IMAGE

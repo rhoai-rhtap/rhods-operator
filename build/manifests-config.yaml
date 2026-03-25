@@ -225,7 +225,7 @@ additional_meta:
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
+    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
     git.commit: 2b91fa2ff3d35bb70388797b20cf4bc1df996a4b
@@ -234,7 +234,7 @@ additional_meta:
     git.commit: 3b16d5b9a8f78c366c843320d6af28f127bcfa32
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 84b75e1aa10043a05e12567056dc75c64b533fa7
+    git.commit: af7f053f52937a96b3744c7a4fd3bb66d1a6e3e5
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 9d5e8565d0a12d6c97f02da7794d8f77d15db6d5
@@ -297,7 +297,7 @@ additional_meta:
     git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
+    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
@@ -306,10 +306,10 @@ additional_meta:
     git.commit: 0d219259941dab696a44577ad4536e72d60b707d
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
+    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
+    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf

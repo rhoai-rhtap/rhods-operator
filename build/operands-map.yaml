@@ -20,7 +20,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:a5352ac3c9923f3c922159d6ca7203ff56507cb365e549a43d44ad1d07668c87"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:7a78a36b84bc1620410b4ca4a816a35a13bf001cb204f4d155ca6453b8ed7035"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:9adc68c0d5369557d20f543ae2651278a6cbf05f32a87aedb76449a52805c7f3"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:435cad2842f7d6626779eb6dff23719d6d09b2584f3e6a7077d09b9e1484673b"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
@@ -76,7 +76,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
   value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:fedc5f165ac1551cfc05958593f30e4fe112080848a49e39f68970d51c76c415"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:a92d688c1b8f62c2faf9ff27e7d7b730187b7759248652a5734f8c38a285728f"
+  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:19bde86834b3824d340bc7da90d7f183612b8dbe3d6fb30d3a63b01f1abe1fc5"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:4e0364d03d61b2e650a74fb55b5d5e2972fa0a0b1811557a36f8f783be7eec90"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE

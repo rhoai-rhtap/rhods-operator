@@ -18,7 +18,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:b3cb0b9089c5a2a919fe65b9cb4cac06c4a5e71fc154c54a7f637417090e791d"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:f9745daf0700a13379bdc58e8d90f768ff2d8fb945083b51e9fc41cd90c2a3d9"
+  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:9c05afa16f3fe4b94bb2708073d4b34725abed6ba3b4f71a098d05ed6f7a6025"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:3ecc57137621450e0b99771b5c7c0499ea8f759d104a9e4a2aafe0c5b6009ced"
 - name: RELATED_IMAGE_ODH_CODEFLARE_OPERATOR_IMAGE
@@ -80,13 +80,13 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:f8de7b6a85930772abcc7ce1d3d37a0fb71b1feda22171abbd6b804a1deeb7a2"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:47498dcccbe66148d4b1836536bf0b61d2b43a7e0f5625d3ad185fc05ec6274b"
+  value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:d7879cb81376f29b42efc7152246b97591998a8bd46300a6ebc9ca73928d115b"
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:b98fa727c401c2022923269a63544078e5b2f43e9c0b89930ca2443c94556626"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:a1e769959e8e516b54ee2db09c83b6b80b4effb4d51079069bdbe1bfeaa439cc"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:9c2b3807c7dcc7af22d60b60d897af181d491e2d5e982c847389ae81a034fa95"
+  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:a17ebc28f78d83c24f1294506826d534ae3c11e1df17171aa54d8b24d4a061a6"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-pytorch-cuda-py312-rhel9@sha256:3258c59a8c2bf2a495bc2fa55c07e55a2e03eebece63d82c3753a2a82419a2e0"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_ROCM_PY312_IMAGE
@@ -104,7 +104,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:1b6e306d9ef6508a3144534e99f1cffe75cc9ef08667c66a3ae8fa7a7878f5d2"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py312-rhel9@sha256:0e317bacdb7d644b3e241c7a26c6614a94f93379862415dbc905f857a4acffee"
+  value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py312-rhel9@sha256:4d158e9ada91dcc55c96288187749d9c0903b40f45311fd89d60cf49fcf17ad2"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-rocm-py312-rhel9@sha256:f0237e18ff693dc64e4c8355b829cec7ba8dc86bf7562821c4b9f008418fcb9f"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_CUDA_PY312_IMAGE
@@ -122,7 +122,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE
   value: "quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:dc1230175012efcec130a6c73cae769c0b65807bc8904654bd9d0cc283de23f8"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:4fd8cb717a76a85d1b2e241c0502f0fbc1be90796597ba11b09c4bd21dcb5303"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:a2a0cdf47f7f23183b66b68cdb540dd73f3451a9d8b959dbf49d6d280ed0fa7e"
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:f0286acc559efb8dbc599395e454f0ab33ce3eb40f3f9dc5ecc36568cef0e91a"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE

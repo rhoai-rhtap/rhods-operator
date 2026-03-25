@@ -308,8 +308,7 @@ func (tc *GatewayTestCtx) ValidateAuthProxyDeployment(t *testing.T) {
 			// auth proxy behavior flags
 			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--skip-provider-button")`),
 			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--skip-jwt-bearer-tokens=true")`),
-			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--pass-authorization-header=true")`),
-			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--set-authorization-header=true")`),
+			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--pass-access-token=true")`),
 			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--set-xauthrequest=true")`),
 			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--email-domain=*")`),
 			jq.Match(`.spec.template.spec.containers[0].args | any(. == "--upstream=static://200")`),
@@ -439,12 +438,14 @@ func (tc *GatewayTestCtx) ValidateEnvoyFilter(t *testing.T) {
 			jq.Match(`.spec.configPatches[0].patch.value.typed_config.http_service.authorization_response.allowed_client_headers.patterns[0].exact == "set-cookie"`),
 			jq.Match(`.spec.configPatches[0].patch.value.typed_config.http_service.authorization_response.allowed_upstream_headers.patterns | any(.exact == "x-auth-request-user")`),
 			jq.Match(`.spec.configPatches[0].patch.value.typed_config.http_service.authorization_response.allowed_upstream_headers.patterns | any(.exact == "x-auth-request-email")`),
+			jq.Match(`.spec.configPatches[0].patch.value.typed_config.http_service.authorization_response.allowed_upstream_headers.patterns | any(.exact == "x-auth-request-access-token")`),
 			jq.Match(`.spec.configPatches[0].patch.value.typed_config.http_service.authorization_response.allowed_upstream_headers.patterns | any(.exact == "authorization")`),
 
-			// Patch 2: Lua filter cookie stripping
+			// Patch 2: Lua filter for token forwarding and cookie stripping
 			jq.Match(`.spec.configPatches[1].applyTo == "HTTP_FILTER"`),
 			jq.Match(`.spec.configPatches[1].patch.value.name == "envoy.lua"`),
 			jq.Match(`.spec.configPatches[1].patch.value.typed_config.inline_code | contains("authorization")`),
+			jq.Match(`.spec.configPatches[1].patch.value.typed_config.inline_code | contains("x-auth-request-access-token")`),
 			jq.Match(`.spec.configPatches[1].patch.value.typed_config.inline_code | contains("x-forwarded-access-token")`),
 		)),
 		WithCustomErrorMsg("EnvoyFilter should be properly configured for authentication"),

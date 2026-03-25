@@ -10,7 +10,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:a1efe808787f20199772288661a40c6c486a24f52689fd92dcf6e138ccc42df9"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:9b01ac45cb89a9f370506b25549e12a0c7210a4c72bcd05010b3bebd06218b5e"
+  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:f206f7bb3260e52eb60d5ad691b652e57eccee3871261a85d413021d79d25f0b"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:93d43af44fe9d8e7662dae664d5cd814f623c406ff1c65ee2036a22f0b7d6a9f"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE

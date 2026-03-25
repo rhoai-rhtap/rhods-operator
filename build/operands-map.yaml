@@ -118,7 +118,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:38f4833f49e412f5629848e10b170099782b9b352d9d54e0125703acfda80f43"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:7f9288f4afbaa6782c12cadc12750ecb994632152d2e6778487c086163a5faa3"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:78f545e517df621d641d3f103ed74dcf09a7bc52a83a0e6e9f549f716fb854d3"
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:47088945b5a217e5fd91919c2ede08f035064647dedf41a4a86ba8a1d7dcea34"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
@@ -156,7 +156,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:e5c867b90ca6c0d6ffaeeda6ef4ac705ab573d99b330c862f9ef39e7c779b35d"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
-  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:506c90a3919273f82cb672e3aac91ebebfb7ef34f05519f1caa4765dc539e6b7"
+  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:6f7f04fe3745b5b67ac2f0415986c402eb9ce2cae3827dc7310360b17488ae1a"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:7b672887a9425d2806deb4394de21c358d7c85da7297423934651118bab53641"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE

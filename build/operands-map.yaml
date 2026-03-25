@@ -68,9 +68,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:af63ead670f5c866112106687ea8306ce8fd5e3fb08e7dc89a1789fe6077981e"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:1ec206978b9e701c0c1f0fca4f401fe996c468de1a69d9b56760afcb6e2ece3f"
+  value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:0e2f74bce6c35042310085551ed50036aea7719538fa863d27499de14d942e40"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:13e3d7881f4e15ec9822f90e79aa79284a380d2b7b1bc3ec23dfc43a37fa6e79"
+  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:c30209a7c264e28ab898e607bdc5bff691f21268ffdcf661743f2cd95328160c"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-pytorch-cuda-py312-rhel9@sha256:27380c3dc13788fa919b04c4b8577064891f4df3643698fba1c3aea39fe12ec0"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_ROCM_PY312_IMAGE

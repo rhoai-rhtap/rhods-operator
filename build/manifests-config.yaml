@@ -261,10 +261,10 @@ additional_meta:
     git.commit: 89128621f40e2aef75c27497fe2f9170362c2cf9
   odh-training-rocm64-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: d56138474de83dbd5992f404a9a431cf041f10eb
+    git.commit: 89128621f40e2aef75c27497fe2f9170362c2cf9
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: d56138474de83dbd5992f404a9a431cf041f10eb
+    git.commit: 89128621f40e2aef75c27497fe2f9170362c2cf9
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
     git.commit: 985c9dcabbf6786d3fe1b62cb637a39a7f8c27c6
@@ -288,7 +288,7 @@ additional_meta:
     git.commit: 089edd57fd4706e4bd40e35a795328dd11eb55d6
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
+    git.commit: b9d78342be260b479a448135ffde815fd26e280d
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: b9d78342be260b479a448135ffde815fd26e280d
@@ -315,4 +315,4 @@ additional_meta:
     git.commit: b9d78342be260b479a448135ffde815fd26e280d
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: a47295d08f4d34cf8cf32ed12b2a3e02789aa2f7
+    git.commit: b9d78342be260b479a448135ffde815fd26e280d

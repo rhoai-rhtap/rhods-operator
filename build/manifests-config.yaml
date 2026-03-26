@@ -108,7 +108,7 @@ additional_meta:
     git.commit: ef1e2e7e487b160eba36c2fe2f53f3d7eee922ad
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: 40ba9b19a79f29d3ea4d79e4d70174cf0c1e1481
+    git.commit: 58cea72c3d8ee4eb87cec9de6b23a9aa10a50476
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: 1efd581199b709f22a3751503152abda8b7459f7
@@ -249,7 +249,7 @@ additional_meta:
     git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b
+    git.commit: 9e56859c410e6412917b3d4af1775f532798fdd7
   odh-training-cuda128-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b

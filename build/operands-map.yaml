@@ -54,9 +54,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:4cafda2bdcfde0f313c41d2f88aae5c7cf1e45c46bb8dd5dea0265422a9464f0"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:4a1cdd279bf45e6dad2bbbf71121c9b1db023fec30cbed27313af6d040ef5482"
+  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:0b141d792d88a6cb5ceedc5b3147ec5a87c948946d28908c61c1ded321d98eb7"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:4a1cdd279bf45e6dad2bbbf71121c9b1db023fec30cbed27313af6d040ef5482"
+  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:0b141d792d88a6cb5ceedc5b3147ec5a87c948946d28908c61c1ded321d98eb7"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
   value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:f60b23b91d988fc3e96a2851098315630fd765b6330f64c538fff1baab05df5a"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE

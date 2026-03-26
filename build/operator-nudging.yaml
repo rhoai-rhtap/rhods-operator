@@ -36,7 +36,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:d659b8856b619072adc4005ad2026ed34115ddb329ce39cb9ef2880ac96d59d0
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE
-  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:569032294073870057e815f035caf75cb028e0f8d973d99a2d873b77bcde15fd
+  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:c505f2e4da23db2814de39d6afacef942a43718cec5e139f4a010b2c12b5e273
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: quay.io/rhoai/odh-llama-stack-core-rhel9@19697942f84cb8aa281bf6f49195a2af10bdaebd8bcf5522407b2e5665094c21
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
@@ -184,4 +184,4 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKLOAD_VARIANT_AUTOSCALER_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:77efda61f965619bf60609acfda2c6d3d56ef631d075edf817f614f9b9309084
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
-  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:569032294073870057e815f035caf75cb028e0f8d973d99a2d873b77bcde15fd
+  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:c505f2e4da23db2814de39d6afacef942a43718cec5e139f4a010b2c12b5e273

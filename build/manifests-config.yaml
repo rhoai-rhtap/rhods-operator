@@ -79,7 +79,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 6bb9160352aa7ec757e64d1d26ba35f5beb98b22
+    git.commit: bc112ffd842a1ec65f8ae0c8695c79d95ceb8bb2
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
@@ -113,10 +113,10 @@ additional_meta:
     git.commit: 8a00ea6b6d041256408ac8a788f8886a1bc380dd
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 9219f95f3d8d71a6e96896fa74f8cec114484ee3
+    git.commit: 7ed67005a10b7df0802d56dc59de4a846e240370
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 9219f95f3d8d71a6e96896fa74f8cec114484ee3
+    git.commit: 7ed67005a10b7df0802d56dc59de4a846e240370
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 328fbaf2e2be5dc91513a5aa023a09b4f582b583

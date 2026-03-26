@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 6fcf271e926a8df7bf7749d490770ea31bef6d8e
+    git.commit: 251323ee81bf9861211bfe4c16fa8ed55eb9026d
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -198,7 +198,7 @@ additional_meta:
     git.commit: cb0bd4e9b5a1cf5edef0d98cd336069e86fdf32e
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: a82622e8c84d90c7dd9e255ad093a579bf78f123
+    git.commit: 0057c1b36932aa01c286157c3d030d434237d852
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
     git.commit: 9d38f0d665e71868a65d91d8704bf719997ee27c

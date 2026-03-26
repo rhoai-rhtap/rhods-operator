@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 5da5ba11084d56ed74b73e0a90c082de070773cd
+    git.commit: 58dc1a1180cab9ba0bd4525ba9f71f196d839578
   odh-trainer:
     src: manifests
     dest: trainer
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: c7a6e81061f63ce5e2fd940e0126dc5ac9e20072
+    git.commit: f63c950ec5461eff8fc731811de97aba2cde2224
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8

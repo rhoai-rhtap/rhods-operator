@@ -225,7 +225,7 @@ additional_meta:
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
+    git.commit: 9b05bec0ad58e54379f2db248db62f5b44ee92ce
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
     git.commit: 2b91fa2ff3d35bb70388797b20cf4bc1df996a4b
@@ -270,7 +270,7 @@ additional_meta:
     git.commit: 2441bca650be59d65a407e9bd96b75f5bb3cdb60
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: f7d0cef859c49c2657e87d534dda5c7a084aac03
+    git.commit: 8cf41f87f7dc19ea7125e95c831b7d4cb5b83c31
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 2833c715b395522b571bd9a0d12addd397c58316

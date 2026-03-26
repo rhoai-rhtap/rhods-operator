@@ -112,7 +112,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:f45f9a32db981d37c6527f284db8d7533edafb38bdc94adf41cc52a6da1267d4"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:4902d46260d642027f2179446a013accdabb9a0126c7114d2f3e1201547237eb"
+  value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:133814f00b56081bb301da302b5bdc728f82e05b5262fd3242a58c966a0967d1"
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-spark-operator-rhel9@sha256:c9c9b7e61fad3af1f7732544c86d5a60e4c622563a1418410fd28b49eea17729"
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
@@ -148,7 +148,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
   value: "quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:2bda2f5b0e437b130f747a1fd3f9d79c43148331c95b838caecda72456a286a3"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:d9dbb5613d9287c2ed73a3da34769691ba4afc46064757504127785820ab8294"
+  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:90e02888496fa465b5a537db764dc662c831d3079f89bfed5746b5c3a8cd7160"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:5585f60e958b170703f20c453fa57ca33f096601bd779e163c753aced85c9e45"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE

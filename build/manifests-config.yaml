@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: af9eb894f6f3c99fb33bec4c9520e6e8fdd0fdab
+    git.commit: 9b05bec0ad58e54379f2db248db62f5b44ee92ce
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: 1e72859ee081ecff349e73995d6fc1ae7d115adb
+    git.commit: fda21d2d81a3d900ded0236ccded6a02bd375597
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: cffde106b9e9654c48a80b0e5e0e66e4a11c0133
+    git.commit: f5a23462a5b533770829f31d225bbcc49e5afbdb
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors

@@ -1,0 +1,7 @@
+map:
+  rhaii-helm-chart:
+    git.url: https://github.com/red-hat-data-services/odh-gitops
+    git.commit: github.ref_name
+    src: charts/dependencies
+    dest: charts
+    ref_type: branch

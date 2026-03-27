@@ -10,9 +10,10 @@ RUN echo "GOOS=${TARGETOS} GOARCH=${TARGETARCH}"
 
 USER root
 WORKDIR /opt
-# copy local manifests to build
-COPY opt/manifests/ /opt/manifests/
+# copy local manifests and charts to build
+COPY opt/ /opt/
 COPY prefetched-manifests/ /opt/manifests/
+COPY prefetched-charts/ /opt/charts/
 
 WORKDIR /workspace
 # Copy the Go Modules manifests

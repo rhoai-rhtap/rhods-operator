@@ -240,7 +240,7 @@ additional_meta:
     git.commit: 54c58cd189338da8f59128aeb9aae52add9cbd7e
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 15431697d39043961b09cbc2e0720184291fa59e
+    git.commit: c031f2c37e038d5cfe35174d61c23bc9432f4ee3
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 89128621f40e2aef75c27497fe2f9170362c2cf9
@@ -285,7 +285,7 @@ additional_meta:
     git.commit: 403c7b4338de3cc05112a562bbd3565a096a030f
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: b9d78342be260b479a448135ffde815fd26e280d
+    git.commit: e87b2c7e7b732b20c3b4731ae62d050f2bed0426
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: e87b2c7e7b732b20c3b4731ae62d050f2bed0426

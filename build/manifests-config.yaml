@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 325bc8fa456ccdbee122524831aed6e4f9d0c7fd
+    git.commit: eac3b084522056b3fed2de8642e51819332a693e
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -168,7 +168,7 @@ additional_meta:
     git.commit: ae851b738c4cfa9d3ae6b22c0e18bd8c663f5277
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
-    git.commit: 85259926070f75ea3b3e339626733a6fee30429a
+    git.commit: f23566bb3e2d392863c3c27215189ce24143441a
   odh-model-performance-data:
     git.url: https://github.com/red-hat-data-services/models-perf-benchmark-data
     git.commit: c41b7b2d5770099f5d71609b4f1a3cfebce26875
@@ -303,7 +303,7 @@ additional_meta:
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0d219259941dab696a44577ad4536e72d60b707d
+    git.commit: 325bc8fa456ccdbee122524831aed6e4f9d0c7fd
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276

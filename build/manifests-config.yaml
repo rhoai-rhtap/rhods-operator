@@ -79,7 +79,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: bc112ffd842a1ec65f8ae0c8695c79d95ceb8bb2
+    git.commit: be4dbbb4add3e2f5cc105da0bbb23e0805901e32
 additional_meta:
   odh-mm-rest-proxy:
     git.url: https://github.com/red-hat-data-services/rest-proxy
@@ -221,7 +221,7 @@ additional_meta:
     git.commit: ab34c1df7594399e27a29ee1a17cc8ea9cb7980e
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: 097c00295c09c75f10eedc738afd3b11ae7a4b26
+    git.commit: 4894b7125381804a2bd3344d60e2fdcdf3c2672f
   odh-vllm-cuda:
     git.url: https://github.com/red-hat-data-services/vllm
     git.commit: e58c8ffa4335287ffbde86721e43f927ab804093

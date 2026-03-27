@@ -66,7 +66,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:dfc9a74a8876dc9b3e97971a102f2d7380758c05e58f33d7e794bdbacd8bb17f"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:c03608368780f2e93915bff0911af69946e3a922ec2ef0c498a455135c044432"
+  value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:255209a97861e1e042296139b02b826a13f270806f5cbc764d67517af6c15fa8"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
   value: "quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:c5d5e24a33c7d91d75954ea82771d24327f5c4f3882441b55bb75c3e411040db"
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
@@ -126,7 +126,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:f0286acc559efb8dbc599395e454f0ab33ce3eb40f3f9dc5ecc36568cef0e91a"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
-  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:3c812bddca80e9fa3bb344b34b480baacab00ee84eaafbbd777bc2c02e521bee"
+  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:983ffbb6f607b57edb8945e4eea462b6cceaf75d677a8fd5ff30e19b8ffae5c9"
 - name: RELATED_IMAGE_ODH_VLLM_CUDA_IMAGE
   value: "quay.io/rhoai/odh-vllm-cuda-rhel9@sha256:f9585480206bdb89df40df2d7ae42485b6b006ecc6081bc8b52de9f14507a13f"
 - name: RELATED_IMAGE_ODH_VLLM_ROCM_IMAGE

@@ -222,7 +222,7 @@ additional_meta:
     git.commit: b9d78342be260b479a448135ffde815fd26e280d
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: b9d78342be260b479a448135ffde815fd26e280d
+    git.commit: e87b2c7e7b732b20c3b4731ae62d050f2bed0426
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: b9d78342be260b479a448135ffde815fd26e280d

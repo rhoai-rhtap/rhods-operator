@@ -30,7 +30,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_LLMISVC_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kserve-llmisvc-controller-rhel9@sha256:8e3e12e49408eb555bf2867eb80d5916319963379d910863a19e6a326c31432f
 - name: RELATED_IMAGE_ODH_KSERVE_ROUTER_IMAGE
-  value: quay.io/rhoai/odh-kserve-router-rhel9@sha256:6c58d769d3058a71a9662523f0d7cbea7972dd885918fd119ab4153b5b77bb0a
+  value: quay.io/rhoai/odh-kserve-router-rhel9@sha256:451c503fb8555f8679a0f810c7760a59238a7effb9a4289fb201ec0314a0badc
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:eec49cf92c1d4dfacc34fddce089fdc44c030cc170987f9ed241399431d8cdba
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE

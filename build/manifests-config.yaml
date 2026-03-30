@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: a9492a1d6f75456d2032ecefcac6d65de88f7b3b
+    git.commit: fa14fe63f062a329dbe552770b6a70d756f0ae89
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors

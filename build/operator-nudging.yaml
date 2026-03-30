@@ -112,7 +112,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:eb5825321405e81104502220af676cfe05a3cb774fd7b725dc9c03b528a7ec1c
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
-  value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:133814f00b56081bb301da302b5bdc728f82e05b5262fd3242a58c966a0967d1
+  value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:dca6c6489e428fa35ff2f8dc2e3a4ee8dc16c3d7bd222a476d5abe17ef4a2cfd
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-spark-operator-rhel9@sha256:0862a3aca7bcfde8c93e528305d1134df507aad3b9a3824c91ebb2a0df4f64b9
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE

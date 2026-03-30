@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: a8a751782f7cabb91c8f034013f3cf427b7c2653
+    git.commit: 39b7c660f454aab4e626b9f895b250a7a4482196
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: a8a751782f7cabb91c8f034013f3cf427b7c2653
+    git.commit: 39b7c660f454aab4e626b9f895b250a7a4482196
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: beeee22e2ca945553e929eed159031606ee884d6
+    git.commit: f834eb17e042a7b5b923c643164bb52bc9362acc
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -64,7 +64,7 @@ map:
     src: config
     dest: llamastackoperator
     git.url: https://github.com/red-hat-data-services/llama-stack-k8s-operator
-    git.commit: 58dc1a1180cab9ba0bd4525ba9f71f196d839578
+    git.commit: 2eabe75bf42c37b69a84b4128e2dc7c1cf509b80
   odh-trainer:
     src: manifests
     dest: trainer
@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 27c805174ad4df196e656353400a3d04b2bdd333
+    git.commit: 7632be7384f58da062c8df59d72d7b00c40a9c52
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 11c29cef87299b97be7086e38dffc60039c325b4
+    git.commit: 1ddc055ad9bb9b580eaaa697a54322a229de1b6b
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: f63c950ec5461eff8fc731811de97aba2cde2224
+    git.commit: ad8c543a181a0fc83967f264d5e56b3874140882
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8

@@ -89,14 +89,14 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 9158a4c507690d53fee6c718d1521851e2e5390f
+    git.commit: a9492a1d6f75456d2032ecefcac6d65de88f7b3b
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: 0fc610f9c7d1245abe26d30f8690071063d25592
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 6935854874cc4f67b3bcfebc38f37a0a026b601c
+    git.commit: 4edee88ea4b5a5b87dc808d8c5151bdfc6b65783
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: ac76bf6c1794ea8099f90b6a371d979775db5158
@@ -105,7 +105,7 @@ additional_meta:
     git.commit: ac76bf6c1794ea8099f90b6a371d979775db5158
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: e7c2cc3d374d0029402421b21c77e07b39c8e5c1
+    git.commit: d0afffa4cbbaa1b1a0030f09a6eaa9cec01b267a
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: ba57cf509265c440aa1e85cd74a7079f2c8165b8
@@ -129,7 +129,7 @@ additional_meta:
     git.commit: 06edb6431ccffa0b3254384eb0a20f079bb4d1eb
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: 91aa507f0b47c0619e8db3fd9d5f5060eb88270f
+    git.commit: c2cc8a5567406d8c35d3513bd4653d3c772a0426
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: cc8928e9d1ca6150d958073fad4377c6f01d2352

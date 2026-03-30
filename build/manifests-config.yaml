@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 9434becf9cd779b7b3d33e5762af1a540a5f5dce
+    git.commit: 51a8aea6588384204b133c2e5812daa30a82ba28
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -279,7 +279,7 @@ additional_meta:
     git.commit: ad704f62ce47bd1b57c3e1c898636a34ccfc4627
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: f3d5082319a58375581cd21796af56d95defb283
+    git.commit: 0979a2cfbf2eed3a03a388001682368f009a0ae3
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: da9cb21c4d86f8cab9ae0a314e1ca8ce02f9bb68

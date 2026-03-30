@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: db1cb9048bd252ab1585280f9e3b03616146cf77
+    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: baf97123b48d736da297aff6c3ba762304461b75
+    git.commit: 8df1cb637169d0889f1f10da80e7806d5ae6bbc7
   odh-workload-variant-autoscaler-controller:
     src: config
     dest: wva
@@ -105,7 +105,7 @@ additional_meta:
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: b5eae9889b60c356aa5b120f620685f215f97ecb
+    git.commit: 103411516ca9e9caa4bf35403fe040dcdf54d109
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 58cea72c3d8ee4eb87cec9de6b23a9aa10a50476

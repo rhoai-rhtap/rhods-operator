@@ -20,7 +20,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:138ada427656bd10ee92805fab3247abf3899c0cdb3d8a2f968ca94b573a3020"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:abde90e3b97b08dd6df95b5ebd6c43d377c9ee82fb7273a373f2d02011288813"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:b878de8531da54e21686a7470abc5928ebdbec58eb77f41bb8cac8660a80011a"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:a65377e8e54274951dcbae8b0de88cc74fbc349a064e1b9f16e6771106fd6ef4"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE

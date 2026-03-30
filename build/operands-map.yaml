@@ -12,7 +12,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:8d78af094ce765ee2b40e3f5e784618df8bc8819670060093e44b26ecc7a24dd"
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
-  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:bb1228e2e63c26c1a3b5bdbe12140e41a1dd472afb7472012590712c3266159d"
+  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:3b7218c6457233023202c3cfe0c1c86587ed7964dec04a9f43cc059abc1eb712"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:9b529242ece57c7e080df6fbb080abd5ac4b34c2dc9053ec6fa5482423035cb0"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE

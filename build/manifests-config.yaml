@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 5d73e9e08cdaff0f56dd10e526a188ea17cf07ba
+    git.commit: 810267855dfa6a60f69437ce676eeb8900f8d69b
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -96,7 +96,7 @@ additional_meta:
     git.commit: 6ed75170cd78f452fee3305d6382e435ca174c7a
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 78076677aee3e9844b1cdc9e3dd758c157d2df39
+    git.commit: c482fae1b6e8fb8f19e79cf29e9ac2dc6525df22
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
@@ -168,7 +168,7 @@ additional_meta:
     git.commit: 1225fddf0d0db236c8a6f8f59656980c92503650
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
-    git.commit: db8056e0dc148e99e19fed55baef4987d9c1a06e
+    git.commit: cec4434667ea286c65ceadbfd00e7175fdc5e2d6
   odh-model-performance-data:
     git.url: https://github.com/red-hat-data-services/models-perf-benchmark-data
     git.commit: a7d99298046ee61eb9797135519685403e7cbd90

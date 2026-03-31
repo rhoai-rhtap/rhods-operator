@@ -2,7 +2,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:96ec9b183f9d176ac794a59e8bd853993a5c102e22c6f05ce09a7d05c589bfff"
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
-  value: "quay.io/rhoai/odh-cli-rhel9@sha256:a19cf476b4cdb8c8c81905187926b4861a4d0a820aa652486f8e9ed8c02ece08"
+  value: "quay.io/rhoai/odh-cli-rhel9@sha256:d6ac75b886029d654387d2f2b1758fb604b99abea7d80de7a9f35f537862475e"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
   value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:2b5bdae6f5920f5f88e352e80de95670750f2333a0210758b32eb46ee4c1e778"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
@@ -70,7 +70,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:fc6c910a7d7b6217a5359ee9a8f7ddccf21c60e2abe97b18cf10e11c806c598f"
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
-  value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:7b1825e8a6b88b549f9144b1fdee3b1d5ca0f41d484d4646efec35483449bc14"
+  value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:488676a68c9a6280769728e08657f3a540e1f5e1d7babfefe570673e376609d2"
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:080938bad56a4bfcf0defdf0bd661a5ed70dadce6620d664c12e4fec5bedcefb"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE

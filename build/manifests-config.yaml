@@ -125,7 +125,7 @@ additional_meta:
     git.commit: 3d2d7fc38ee1bb15e68a418f76b4f09e120ae762
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: f470cbd53d6f2dca87d982a2c493792abc7b17c7
+    git.commit: d010034d86d152f2f0f1d2ca82dc07081f723342
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 2c23d7b87835910d621d86cef3c3e158a234d86e

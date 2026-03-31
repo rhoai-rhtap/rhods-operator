@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 8e24b8b7f14ae4c712c8f426090b06854b46a7a5
+    git.commit: eb1e6bffd85361da9393bb772f4b210d99d19347
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -132,7 +132,7 @@ additional_meta:
     git.commit: edf93a86c82a76cdd2ba57aea508d2c41e95f5b9
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: afb11282b1397c67336982cb420421e5e2c7f61a
+    git.commit: 4ddbfa1d11cd42446149ce41b512cce366460340
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15
@@ -207,13 +207,13 @@ additional_meta:
     git.commit: ae57b92eff519f62483409317a50db8163b8fb68
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 60e374f4f4793e9a755f4887033ac2c048b41d88
@@ -222,7 +222,7 @@ additional_meta:
     git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
@@ -288,22 +288,22 @@ additional_meta:
     git.commit: 74254397eef7c89e290e0ddc8aa79553dc50aedf
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 3203afbff91c98b760b6204a3d5ab740be262471
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: da24d0e584acbe77099603b13c4dea969bb609f1
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
@@ -315,4 +315,4 @@ additional_meta:
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
+    git.commit: 1713b783a064407b78fed70d6ed5b6906b811285

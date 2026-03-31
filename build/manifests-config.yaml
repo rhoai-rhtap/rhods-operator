@@ -39,7 +39,7 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: a264b3215a28d75741f9afaab60e695f5fadd08d
+    git.commit: 9bdce3742de097871f8cd53c59d6eca06e9cb833
   odh-model-registry-operator:
     src: config
     dest: modelregistry
@@ -237,10 +237,10 @@ additional_meta:
     git.commit: af7f053f52937a96b3744c7a4fd3bb66d1a6e3e5
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 9d5e8565d0a12d6c97f02da7794d8f77d15db6d5
+    git.commit: fecf549aa1a407633b5c1c215060928e9a4bcc8d
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 28dbf559b6a6128672f48f0bd4de7c5364de6bcc
+    git.commit: fecf549aa1a407633b5c1c215060928e9a4bcc8d
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b

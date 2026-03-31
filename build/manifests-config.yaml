@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: df8c5ca988af6fe0da3565929601a99dea7ad30a
+    git.commit: 9bf67af5dc729fe1c06f0c5758bebc250b42b3db
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -132,7 +132,7 @@ additional_meta:
     git.commit: edf93a86c82a76cdd2ba57aea508d2c41e95f5b9
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 30d4d766697f55cac8ae2dd43d2882f16c8208b5
+    git.commit: 390fcefcd81123b7ead72a4ac0cdccaee8d3405b
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 7d6bbdd8398c402007a93148af43ab9053b17d15

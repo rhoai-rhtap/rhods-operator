@@ -132,7 +132,7 @@ additional_meta:
     git.commit: edf93a86c82a76cdd2ba57aea508d2c41e95f5b9
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 8d016b1f48de73ca46596022e9a46b0b26135454
+    git.commit: ebfb11cd0c5181a3d2f087a84987ea992973eac2
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 37609e5ad23e1e777b592636a935d826ad265e11
@@ -213,7 +213,7 @@ additional_meta:
     git.commit: 46910ac6c4b7ee8d73183ba55f8bc19770efa2f1
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 5d73e9e08cdaff0f56dd10e526a188ea17cf07ba
+    git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 5d73e9e08cdaff0f56dd10e526a188ea17cf07ba
@@ -270,7 +270,7 @@ additional_meta:
     git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
-    git.commit: 15e26e073d152a093cafb8b9f53f5d96e17329a5
+    git.commit: 507a19cde84b8c0facf25406329b2f7dd7cd6c78
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
     git.commit: 5798af2c6034e2bff9dfb8603c22c7337655d4da
@@ -297,10 +297,10 @@ additional_meta:
     git.commit: 0f37b37224dd5f4cfe32ee5724ca2dee8bba8276
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 46910ac6c4b7ee8d73183ba55f8bc19770efa2f1
+    git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 46910ac6c4b7ee8d73183ba55f8bc19770efa2f1
+    git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 5d73e9e08cdaff0f56dd10e526a188ea17cf07ba
@@ -318,4 +318,4 @@ additional_meta:
     git.commit: 5d73e9e08cdaff0f56dd10e526a188ea17cf07ba
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 5d73e9e08cdaff0f56dd10e526a188ea17cf07ba
+    git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503

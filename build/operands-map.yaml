@@ -20,7 +20,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:803f5e2e3370ba6bfb6e2db98842469c0ae2ae63c45da8baf8fe92c12d2b32f1"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:3ecc57137621450e0b99771b5c7c0499ea8f759d104a9e4a2aafe0c5b6009ced"
+  value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:6bbd514b591c2236a1d0de25f84ec952b69a9d919a49660f7e331c5edf0e37b2"
 - name: RELATED_IMAGE_ODH_CODEFLARE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-codeflare-operator-rhel9@sha256:a3c89821694770f1b3d9f9b21c0d60a710b98c81699ef39b6df3e1245be49b07"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
@@ -74,7 +74,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:096bb0af0598e48bec380ab13a3a2cca003e077f39eef2011510335fc7ad28fe"
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:61ae3d04beee6558dd22201000075d101339258881065a71ec0dd5da9776296a"
+  value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:1e198a45bd18b43ac9f55ff2efbe9133d57f5897fd5b39bbea673f2fa0b88291"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:5050dd904dc438e828760dd0902d2d349c3caf507e70d498e48387933488b2bd"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE

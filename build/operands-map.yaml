@@ -4,7 +4,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
   value: "quay.io/rhoai/odh-cli-rhel9@sha256:7a657375350bfe9dc37409b581eb875c53b14e60e9ebf529d0ed7ad436f0e2f0"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
-  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:689e52ec4e1287fa647b00569ee07daf48cf317ca8208834abbc4f6b991656b5"
+  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:f8f768213fe405159128bf633c919420b96d28420114625e1affbaf9253b3d01"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-argo-argoexec-rhel9@sha256:c40177084a7ad5d9febde6e0efbf6f3de45deb5b325fb10313bc834cf07e76e8"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE
@@ -20,7 +20,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:b1f978d96013bf9c6e05c02f7a88fb918c633432ca6654ec85e0c958f0a0db72"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:b878de8531da54e21686a7470abc5928ebdbec58eb77f41bb8cac8660a80011a"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:468706239beda4929a560b1acf70a335ab23910bd78e7ff8d4e5c8e7e0746c2b"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:3a4d937b905163ea5b3a7ed3046be11dd8de711f2f5a833487d738df42ffa7a4"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE

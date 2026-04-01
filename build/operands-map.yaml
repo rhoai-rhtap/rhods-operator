@@ -82,9 +82,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:05bb5b48311a06d58db96feb35d85227de5d93a2340cf2444d8e96a53dfcb25f"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:dc3985a532432b6fa1aebd3bf8c140c1b7d2fbcfd438f9b66ff896220d6128d4"
+  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:74059f81d9b9d5604b157ef530ca2e4e3da1bc64932eb08d1e12133e88c8fbe9"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:f6597d79354207b8fbd16f8a443ffca6798d834613955e0682899a1d0c2b0bd7"
+  value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:a2dff709492bcde9669013aef99ef09ffbe564ed9714bf2aa76d3bdaf23f12e2"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_EVAL_HUB_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-eval-hub-rhel9@sha256:060d49e1ae22a9b277938555fcc2dd5bdd8afb9ca1a81d6244cd5c5871d8ff0f"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
@@ -124,9 +124,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:5865d773dff70d63cbe2788b5b1e53baa5f6634d7fa0c92674cd568ac017c863"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:7471cfc0b1cf18e55ed9ee1d870d75dc1c752ba7496658bb11c163da270baa44"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:b1a0b11730b5f2f469d2f8080f309365c9ae2a968c87d0f983fc2dca5298995f"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:ddb5056190d8c7d0806918237644c28bf7c8dad209edab88112c158b28159dd9"
+  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:10b6766b206ddc8e6beebc176b2b18c868771f09a3c2df715462950c49d09934"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:52cf1f095fda9d3a5db566f9741663e027bc5db25a3d1640dee0e1af83331e76"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE

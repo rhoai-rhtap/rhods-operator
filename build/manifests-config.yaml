@@ -141,7 +141,10 @@ additional_meta:
     git.commit: 116ba9d40c73e8a8b36fa1d38a1449ccabf3f14b
   odh-llm-d-routing-sidecar:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
-    git.commit: 2b679e443e742dbe9a703597f0d7301e0c7fba4b
+    git.commit: b21a9a556b60ec81c68c8d1c71b18b41a72de295
+  odh-maas-controller:
+    git.url: https://github.com/red-hat-data-services/models-as-a-service
+    git.commit: c97e3c60a1830bbc9b1a4c9091b90d468b08d8d7
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
     git.commit: f46c3641ca3e1a033619650dd9fca236c6141db5

@@ -82,7 +82,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:66c94c6bf5aa5852ef6cf9b17a5423d70bdc0d0531267c7cd4f2376289db13ef
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE
-  value: quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:71282ad3ee22c02bfdf46b4a27280cef669a7e081188cd6c9f5056e26cf6d137
+  value: quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:5c8875bc74d3a9989ed79a36db9fbe6aace44d4837adc0cdc5f2de08d1983084
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_DATASCIENCE_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-datascience-cpu-py312-rhel9@sha256:06936258e93f1904d40a00a69a5f4d517a944e1ceb5656224f22bc00ac4f1dd6
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CPU_PY312_IMAGE

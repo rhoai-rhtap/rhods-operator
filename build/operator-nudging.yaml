@@ -24,7 +24,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:cb6703f01f6ef633d3b10e9334263ec9f694e26f2e38ab55f81f1207073f6869
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
-  value: quay.io/rhoai/odh-kserve-agent-rhel9@sha256:6567293312987f823e1709d4a611ece714909bec865eb3ec19cd385ecbd17322
+  value: quay.io/rhoai/odh-kserve-agent-rhel9@sha256:9212f8a9217d890143e905d876faf7a7f3f216b29c61f90c4673170f3127e7b0
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kserve-controller-rhel9@sha256:82f2d5deee11e2b978bd8e8e037a3dd87f6567ebb7776f4b27a7db9b653342c2
 - name: RELATED_IMAGE_ODH_KSERVE_LLMISVC_CONTROLLER_IMAGE

@@ -248,7 +248,7 @@ additional_meta:
     git.commit: bc2c5c6d88cf2b77653f00705e054b9cc28a6a35
   odh-training-rocm64-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: bc2c5c6d88cf2b77653f00705e054b9cc28a6a35
+    git.commit: b9546a3e305d38918c06d9881b44590494325c5e
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 14310ca6377fe39705cf547ffed17af5a8eb28e4

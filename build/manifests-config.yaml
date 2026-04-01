@@ -9,7 +9,7 @@ map:
     src: config
     dest: kserve
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 2c23d7b87835910d621d86cef3c3e158a234d86e
+    git.commit: 46bfc863abc32792b23473334d161ce6376ce288
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
@@ -92,7 +92,7 @@ additional_meta:
     git.commit: bf30bc111e27c29416dcab2f5bbe4715de3a8b7d
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
-    git.commit: 9ff6ba15c88aac16a370eb0b6a94bb1bd23f66eb
+    git.commit: 15cfb81cd482b69149e6cc731a6ab3cbe3b81435
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: badb6a1a88a5c08d531c27df772022875d622ba9
@@ -128,10 +128,10 @@ additional_meta:
     git.commit: d010034d86d152f2f0f1d2ca82dc07081f723342
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 2c23d7b87835910d621d86cef3c3e158a234d86e
+    git.commit: 46bfc863abc32792b23473334d161ce6376ce288
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 2c23d7b87835910d621d86cef3c3e158a234d86e
+    git.commit: 46bfc863abc32792b23473334d161ce6376ce288
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 2c23d7b87835910d621d86cef3c3e158a234d86e
@@ -215,7 +215,7 @@ additional_meta:
     git.commit: 8f39ddd9b4bdb5ba75609f70feec1a0d4577f1dd
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 45207efe3d18918f739f60ecb179668c18c40c90
+    git.commit: 0d9a9d68d8556f8e3ac58aa21ae72b273ecd738f
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: ab34c1df7594399e27a29ee1a17cc8ea9cb7980e

@@ -18,7 +18,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:826237a03aae8c00c7cf4fb9915a6073820e022e4393345f07d02cb09b839288"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:d11c942d985220244b2c2fd6a9b20bc00fb107ac323cf2adc8788341b09c24e8"
+  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:803f5e2e3370ba6bfb6e2db98842469c0ae2ae63c45da8baf8fe92c12d2b32f1"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:3ecc57137621450e0b99771b5c7c0499ea8f759d104a9e4a2aafe0c5b6009ced"
 - name: RELATED_IMAGE_ODH_CODEFLARE_OPERATOR_IMAGE
@@ -58,11 +58,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
   value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:04df6edcd89715af3e606abe1193c14b25fce9063efa02841470bf18c0a94c7d"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
-  value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:f60b23b91d988fc3e96a2851098315630fd765b6330f64c538fff1baab05df5a"
+  value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:d3686c092156ce3983c074af56dee3b040cb261a50e7c999aeeab14436ce4275"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:cc8889e3f727a8d857918bbee39c5e227630cb224fd7c9c7367fcc463dd488e9"
+  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:88cb3610ae2d0872750ff5b9304db51364edb240312c86f100138ccce91bdc6d"
 - name: RELATED_IMAGE_ODH_KSERVE_ROUTER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:cc926a59964b8c84891f3f8c2cda80fd860d013d3ae2fee52885e97c47065ba9"
+  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:7a879d8c56d8526e76cbd64407f3a374430e509655f6ab0f32bdb6898d349a23"
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:dfc9a74a8876dc9b3e97971a102f2d7380758c05e58f33d7e794bdbacd8bb17f"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
@@ -122,7 +122,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE
   value: "quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:dc1230175012efcec130a6c73cae769c0b65807bc8904654bd9d0cc283de23f8"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:a2a0cdf47f7f23183b66b68cdb540dd73f3451a9d8b959dbf49d6d280ed0fa7e"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:56ba61b08def19edf9eb7dee7efac0402375fce2a92f6b6aec5c8d77af6af96c"
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:f0286acc559efb8dbc599395e454f0ab33ce3eb40f3f9dc5ecc36568cef0e91a"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE

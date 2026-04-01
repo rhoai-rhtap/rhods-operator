@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 400b2078ca80b05a0bdca8d1ef33610878f21666
+    git.commit: a738647934044ae1f2924b6c844bd0ed0f2d00c8
   odh-maas-api:
     src: deployment
     dest: maas

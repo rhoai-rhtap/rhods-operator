@@ -38,7 +38,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:2fedd4242cfc4dd1e3220ef71fee1089f4374b87ce645e89b8fd661c08b32664"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
-  value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:589ea24b067b11e9c579bde57a0caa5292122deb4b013b36f7d928ff5ba09dc3"
+  value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:66d2666e0aadd5dc9dabf5899b013cfdcab0fdf111059907e8f931854eb43fb9"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:528692dd1bc7e2e809d1a6b5fd32b7b86824ae440df72fb5eb0a59ac9a902720"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
@@ -76,7 +76,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
   value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:bbc1dc293364faef70906b358473cc8b2766b33da946deb040e6ed6a056e6139"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:f570f3a938220aa75e03072a28676f3c665c27353ca446d9f58a78ff1e675461"
+  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:8e9ec72ca97d4c8214fdb8bc37dea13eaa4a075f10fe8a9a1724cca4ff3ad6e1"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:b70c0d070b321023e748129c8b68027cde89efffd17f23a77c9a79f4d9c45ff6"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE

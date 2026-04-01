@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 46910ac6c4b7ee8d73183ba55f8bc19770efa2f1
+    git.commit: 8e1b7caa0a3496d46e9a17b8e0815c3bb302e7ce
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: d7aad64383c70d4044a51e8fd065c87c56224b25
+    git.commit: 6e55cde3100e580f2b1fa1444105ca4c4d3443a2
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: d7aad64383c70d4044a51e8fd065c87c56224b25
+    git.commit: 6e55cde3100e580f2b1fa1444105ca4c4d3443a2
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -261,10 +261,10 @@ additional_meta:
     git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-training-rocm64-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b
+    git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b
+    git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
     git.commit: 15e26e073d152a093cafb8b9f53f5d96e17329a5

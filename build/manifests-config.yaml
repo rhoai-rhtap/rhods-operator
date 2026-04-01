@@ -158,7 +158,7 @@ additional_meta:
     git.commit: ed153ab58761618acce820b0d8d2ab6d61947f4d
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 45207efe3d18918f739f60ecb179668c18c40c90
+    git.commit: 0d9a9d68d8556f8e3ac58aa21ae72b273ecd738f
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e

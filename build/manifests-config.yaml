@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 320f5213f698cf548ad33617dc0b7c626971e4c4
+    git.commit: 788c7d37d300cdc8eeb000d29607abf727594180
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 95260105fc9261307ed8f62756a40d4f1e3a4619
+    git.commit: dd50adc254e625bd21cb10f7a60c418fca56ba2c
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -59,7 +59,7 @@ map:
     src: infra/feast-operator/config
     dest: feastoperator
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: 8283b4feb4065cf0e7fbb005c9f1be26f62199bc
+    git.commit: b1c39400bd7381d8d29d90958bb795a13c3e1a39
   odh-llama-stack-k8s-operator:
     src: config
     dest: llamastackoperator
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: d783734557c6c6b1f76b06a1d1a96dc7357f715a
+    git.commit: 229057b38d7d07a0bcdf04011c6cca52c40c1a8c
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator

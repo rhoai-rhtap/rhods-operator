@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 810267855dfa6a60f69437ce676eeb8900f8d69b
+    git.commit: 46910ac6c4b7ee8d73183ba55f8bc19770efa2f1
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -96,7 +96,7 @@ additional_meta:
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: c482fae1b6e8fb8f19e79cf29e9ac2dc6525df22
+    git.commit: 0a113afe70fd6b7d77b600aa94d5727980d1c330
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
@@ -108,7 +108,7 @@ additional_meta:
     git.commit: 1aad0fe158a0befc0a94feee6d02334ba227608d
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: 58cea72c3d8ee4eb87cec9de6b23a9aa10a50476
+    git.commit: 8283b4feb4065cf0e7fbb005c9f1be26f62199bc
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: bf6c7951c5e113ef40085029e7bfc8d96d4e6d83
@@ -249,10 +249,10 @@ additional_meta:
     git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 9e56859c410e6412917b3d4af1775f532798fdd7
+    git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-training-cuda128-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b
+    git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
   odh-training-rocm62-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 3a5472f3ceda2a48651be53ef3ed78abc5a4982b

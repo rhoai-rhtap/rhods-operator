@@ -118,7 +118,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312-rhel9@sha256:3ea80165cd6ed02ab53ac27e00b5c105bc606c29a69ca15485475b7fcd079727
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
-  value: quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:15e0792814e6246286502893608ce4e00513fc035628e7523569298b168611f9
+  value: quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:3f4b258d0f5481a70f1033c32af19c631eb83568e1bdd6b71d1500da85e9fed3
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:441e3eaf1982521deea7fec17e9960f7990147de91457c1bffcf1955ac912d72
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE

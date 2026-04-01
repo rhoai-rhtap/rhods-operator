@@ -134,7 +134,7 @@ additional_meta:
     git.commit: 46bfc863abc32792b23473334d161ce6376ce288
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 2c23d7b87835910d621d86cef3c3e158a234d86e
+    git.commit: 46bfc863abc32792b23473334d161ce6376ce288
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 68da30b9074f5a706f1fb2a9caf08a899bbe25d5

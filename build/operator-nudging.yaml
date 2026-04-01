@@ -126,7 +126,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
   value: quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:b1a0b11730b5f2f469d2f8080f309365c9ae2a968c87d0f983fc2dca5298995f
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
-  value: quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:84bcf5e422ec5dcfe75092dff219e5b146bec6885a6c4650ce1056713a4da7dc
+  value: quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:a4226554715fc343d610d3bbe892bdbecc18558e50c4aad508fcc53420d2b87f
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: quay.io/rhoai/odh-trainer-rhel9@sha256:f0eff7b42fbbca33cbcb8bd0c87c78fc5dbb101ea1386432bf2fcc5c714b53e2
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE

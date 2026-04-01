@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: ead8725940ee951ee177e4d8e5b2978d2358c60e
+    git.commit: c625e36534931669d938ba30bd9b19ca77454a1d
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -233,10 +233,10 @@ additional_meta:
     git.commit: 5b0d6601027991f956010e76e859d7b571fbf8e6
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: bc2c5c6d88cf2b77653f00705e054b9cc28a6a35
+    git.commit: b9546a3e305d38918c06d9881b44590494325c5e
   odh-training-cuda124-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: bc2c5c6d88cf2b77653f00705e054b9cc28a6a35
+    git.commit: b9546a3e305d38918c06d9881b44590494325c5e
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: bc2c5c6d88cf2b77653f00705e054b9cc28a6a35

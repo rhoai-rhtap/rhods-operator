@@ -76,7 +76,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-pytorch-rocm-py312-rhel9@sha256:219bdd5011be7a8d52bcc5c4030465f83cd255b2635c93c471670dc725163830"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:f3752263164b53e377a5abf91259a6298216175399aa9830965538c70b331f44"
+  value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:e8bb148cc43aafc90fcfcf8681179c6e170ae726711bced51e8197a7696f6159"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:66c94c6bf5aa5852ef6cf9b17a5423d70bdc0d0531267c7cd4f2376289db13ef"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE
@@ -128,9 +128,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:c3af95bb83500d5e477cf7f2d9912608b4d828bc0906ec4822c4b5501d7a1657"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:bd058e367ced56ed03217868e1ee5dbf46e96bdafe03b44afefd71757d4cd5da"
+  value: "quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:c20833a85efc25c1f29d36d422b509b03d14bac643ea7983ab25d62ca3e3475c"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH28_PY312_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:931f38d828204b15bd5ebc60b9a3aa3f86cd01947c955e1939de6cbc7797cde5"
+  value: "quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:a204257d335e7a33d94dc839ef42052ac7137d3c211d321ee51c1f4992e2b3dc"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH24_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-rocm62-torch24-py311-rhel9@sha256:f96e3565f6a819d0ff0bf47c7d3cda18029e9c9fb71f57aef05d9ef06c6760ee"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH25_PY311_IMAGE
@@ -144,7 +144,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:8c31381b0e726e92ff3969b827ded0d8cf92de0b7ef75cfa3fd37637c9d7506f"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:ea85b549cba7d883c0450b13b4cabde0d61d3c6065ba09d6f9a0b9cb94230ac8"
+  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:13446dde13b447b758f9e30eb67c4a8209fd113395d2597abc9e27924d857af3"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
   value: "quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:b686c108724ce51a9d34f44c3d0875af62ca849c4acffccd3cef90fa8aa9ee05"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE

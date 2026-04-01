@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 8e1b7caa0a3496d46e9a17b8e0815c3bb302e7ce
+    git.commit: 320f5213f698cf548ad33617dc0b7c626971e4c4
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: 887b70eac566f30ca2c07c828e7e59a81ee8e872
+    git.commit: d783734557c6c6b1f76b06a1d1a96dc7357f715a
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator

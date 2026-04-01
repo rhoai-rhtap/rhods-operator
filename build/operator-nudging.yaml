@@ -102,7 +102,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:fdc1f0cdae0b0bcfa29bb7c632869f5311c2476539259d9221fec513d3aed555
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
-  value: quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:c21817289b637cfc8366dd20c0c21f480cfb66479479167693f114de1c546146
+  value: quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:30a3c71ddd418ba5c60334a6fd77fe0e1bfb90d97a70a23df6362d6b0d878014
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:2c75252248b6207c3ab1da41409d4dbd38544e7b745417f5bf6d213381abaad6
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE

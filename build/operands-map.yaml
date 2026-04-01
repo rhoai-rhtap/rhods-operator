@@ -156,7 +156,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:e9c75270fd8f8ae9ec151607afeacdd5887fa02277c272f27338aaf4c2548faa"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
-  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:66c6ae88321461542455845a54e4622d9a330edd7463db89fc3403120f6d3933"
+  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:6998f1119b9b78e84319a79077754f9832e1c5203bdc26990f76176b89bf8848"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:051f482b256f1beeb8749a04a7ac13b98c72f2097098b3735d1b1758bfaca27e"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE

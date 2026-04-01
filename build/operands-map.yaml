@@ -20,7 +20,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:b1f978d96013bf9c6e05c02f7a88fb918c633432ca6654ec85e0c958f0a0db72"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:468706239beda4929a560b1acf70a335ab23910bd78e7ff8d4e5c8e7e0746c2b"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:8e6b4d799d9dd30c400751259a00f69331fe650a65f856e5c97c32acefab4a42"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:3a4d937b905163ea5b3a7ed3046be11dd8de711f2f5a833487d738df42ffa7a4"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
@@ -122,9 +122,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:5865d773dff70d63cbe2788b5b1e53baa5f6634d7fa0c92674cd568ac017c863"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:95383de16a321e55d152b1b8f2e50f0c90a4ed0b4256a6f9d611e8f19f5d8fd0"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:7471cfc0b1cf18e55ed9ee1d870d75dc1c752ba7496658bb11c163da270baa44"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:f6b208a11bf0077ab58ba7aae48299555cba8a9e18d10d2d75e3bd8363523725"
+  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:ddb5056190d8c7d0806918237644c28bf7c8dad209edab88112c158b28159dd9"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:331b8def7bac41f93576dc176dcec0747d2bf56c3563b90227c53a85434d101f"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
@@ -148,7 +148,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
   value: "quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:8ed6213b176303fca7d615883a0fa0ff111f563fd8708166154c2357b652b117"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:92fe8231ea8f961a28e8aa480d9180fb8bd61c2b5cb4e6573bb7cb7f4bb76449"
+  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:ce808263f25b3bdfc288743f2593ca33654f4c8c5b07d7ecbdf660a7d160b1e5"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:b50f0e9adf5444321203baaf217d1f80e004ec8c1449bc261e31c9403460fbc6"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE

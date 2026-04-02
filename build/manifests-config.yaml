@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 5311805644c1e639a1124a159e61c9d8f8c550fc
+    git.commit: caff868b6c4cabd965eea8396f67aa17552297ba
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -144,7 +144,7 @@ additional_meta:
     git.commit: 37609e5ad23e1e777b592636a935d826ad265e11
   odh-llm-d-kv-cache:
     git.url: https://github.com/red-hat-data-services/llm-d-kv-cache
-    git.commit: rhoai-3.4
+    git.commit: 4521821a73e610f49da3a932df87c5b77bf8750b
   odh-llm-d-routing-sidecar:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 37609e5ad23e1e777b592636a935d826ad265e11
@@ -159,7 +159,7 @@ additional_meta:
     git.commit: 23b48aca85cdd2371c12dccf72a8b465b1436481
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
-    git.commit: 9f3aabdfedcfa228040920d7b3fd3ab8ee56f54d
+    git.commit: 10e55628f140ae29446cd248d6298e5d047f3f4d
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: 1225fddf0d0db236c8a6f8f59656980c92503650
@@ -189,10 +189,10 @@ additional_meta:
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
   odh-mod-arch-automl:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 5311805644c1e639a1124a159e61c9d8f8c550fc
+    git.commit: caff868b6c4cabd965eea8396f67aa17552297ba
   odh-mod-arch-autorag:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 5311805644c1e639a1124a159e61c9d8f8c550fc
+    git.commit: caff868b6c4cabd965eea8396f67aa17552297ba
   odh-mod-arch-eval-hub:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 06b568c8eec81f1b6de1263920695399d812c44e

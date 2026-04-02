@@ -93,7 +93,7 @@ map:
 additional_meta:
   odh-automl:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: f3d636e54c09089fc95c16af68c6344ab440c9a2
+    git.commit: f772379c002a70aa4d20f4b71daf22b437aeada2
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
     git.commit: f3d636e54c09089fc95c16af68c6344ab440c9a2
@@ -207,7 +207,7 @@ additional_meta:
     git.commit: 06b568c8eec81f1b6de1263920695399d812c44e
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 06b568c8eec81f1b6de1263920695399d812c44e
+    git.commit: 349a4d2b1af689ac99bc5784c03f4b527a3bc2e4
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
     git.commit: 53eb81fb1bc53056d107e77ea4197284f8684948
@@ -243,7 +243,7 @@ additional_meta:
     git.commit: 3b16d5b9a8f78c366c843320d6af28f127bcfa32
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 66296148a8eb66b5d3ab29729ccfd409f753b0a4
+    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 60b0ae816587838308419a07ce765f9ffc51cd0b
@@ -252,10 +252,10 @@ additional_meta:
     git.commit: 12349a6f12b221212429025e6934c69342c68942
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 66296148a8eb66b5d3ab29729ccfd409f753b0a4
+    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-training-cuda124-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 66296148a8eb66b5d3ab29729ccfd409f753b0a4
+    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 66296148a8eb66b5d3ab29729ccfd409f753b0a4

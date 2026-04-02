@@ -150,9 +150,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
   value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:db06924507d187e5e844fb896683087863a5ad5829788e54db9ed9d60a8b3162"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:b34e20fbbbaa8b88335d70b817f17a3c9d63627cc567b5cf2fdb2ca4b81797e0"
+  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:f00ec87916865107bafbe4d066c132a007f3ae97e567c06389b9ca24fdf3d0a7"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:568103e1fca27ff07e9e58cd37d5432587b77297e04e0f298b6393c97d2b112c"
+  value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:a7e912f72742d66f0f5f4902dab295dd4eab772bfec12bd08a1233fef740253e"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:e5c867b90ca6c0d6ffaeeda6ef4ac705ab573d99b330c862f9ef39e7c779b35d"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE

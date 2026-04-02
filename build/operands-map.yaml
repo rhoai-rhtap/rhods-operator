@@ -128,9 +128,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:9e0779d588e677e3cbdad07b25bb483ee735490d2b4b159f190967e47b539789"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:3f3a308ec1e9f86fef7d514600459feedfe6219a919f8026b4536977b07847ed"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:0ce2c6a9163d524047f164b56ae36c3c13e936d04c7f7e0ec12baf5d435a9d34"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:e14ed865240c9272b8769b023db4a1c12146211260966a22a1ec326e76b18284"
+  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:89470014b67f5166f33d97485bfccc943682252e1301e02e23e639751d4d2754"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:f0eff7b42fbbca33cbcb8bd0c87c78fc5dbb101ea1386432bf2fcc5c714b53e2"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
@@ -138,9 +138,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:b87631245e1dcaeae40b91a7df1267d63a17d6bf62bc46fbe71d31f5480295cb"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH28_PY312_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:2fb0d953802af943df50054d82109d58b4541a5ad5b3309eb90a1a22d558aa83"
+  value: "quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:273dc9d1263de0bd197212fa83b861414263ca2784935101644dc6340e0c910b"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH29_PY312_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda128-torch29-py312-rhel9@sha256:75563fa5a68dfd2d905200b53be467a8602e06c8a0751ceb4e0472d73b94ab33"
+  value: "quay.io/rhoai/odh-training-cuda128-torch29-py312-rhel9@sha256:ce99147e692e3e103e430174d70958b5ff3abcadf7a5e2c5e585ac14e8ff63c3"
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-training-operator-rhel9@sha256:98d4f7051046ec77b2c895dfa142b8c2daa774e3bd05e7533f7b2cd817b4b923"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH24_PY311_IMAGE

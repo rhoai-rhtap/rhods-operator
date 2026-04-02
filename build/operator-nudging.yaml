@@ -110,7 +110,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312-rhel9@sha256:53a1f4a86d880c751930ee4ec9c992f111642b5c12b79feeff8fd5c5ba840f2c
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_ROCM_PY312_IMAGE
-  value: quay.io/rhoai/odh-pipeline-runtime-pytorch-rocm-py312-rhel9@sha256:90ed7ac8d7c42bbc0a8da30754d8f7b3e2a61708f0fb5a6afac39135d5a8f87f
+  value: quay.io/rhoai/odh-pipeline-runtime-pytorch-rocm-py312-rhel9@sha256:3fb1a966ba1ff304bd805cf373cc8304e24bd7462304c904ba085476e4d0d5d3
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:648a56b25353089b604509c34a1f541a0cc570fa59faefc53e7c76df63b1bc22
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE

@@ -140,11 +140,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-training-operator-rhel9@sha256:98d4f7051046ec77b2c895dfa142b8c2daa774e3bd05e7533f7b2cd817b4b923"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH24_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-rocm62-torch24-py311-rhel9@sha256:eaf8d12edb783e26b127b1aaaae5ab27736892a2fd5e17e9df1c3810c618ef76"
+  value: "quay.io/rhoai/odh-training-rocm62-torch24-py311-rhel9@sha256:8404adcfa1d51e07e11b517c2138d46ecfdc6f9b2e75ab51e09bb6d0711d1dbf"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH25_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-rocm62-torch25-py311-rhel9@sha256:755059902a28e51a8f7a54ecdbdbe71dcca2b12135f6280edb7ba78181bfb3ef"
+  value: "quay.io/rhoai/odh-training-rocm62-torch25-py311-rhel9@sha256:f7237f390ffe12da97ae9ddc7090357fd8b33948fa281c95516c09ad3380d174"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM64_TORCH28_PY312_IMAGE
-  value: "quay.io/rhoai/odh-training-rocm64-torch28-py312-rhel9@sha256:eff64d6572fb445309d359830296311843ae3172ff5568914f6114613be506ed"
+  value: "quay.io/rhoai/odh-training-rocm64-torch28-py312-rhel9@sha256:6b386e61885d40badfc9541b92abc34fcf9f044b095eec98ce8539b0e11243db"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM64_TORCH29_PY312_IMAGE
   value: "quay.io/rhoai/odh-training-rocm64-torch29-py312-rhel9@sha256:22c70abd65143170df7c387c7cedd1aed6cfb3d920aab64499d4cb3d6049493f"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
@@ -158,7 +158,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:269533a5de08a211ee19b998effa2eb4e5c47331b1f2d4dd5db7150ee4436e64"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
-  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:6998f1119b9b78e84319a79077754f9832e1c5203bdc26990f76176b89bf8848"
+  value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:331b01723885f452778f5bd051f81c89a9bed1f3c01afb7d7a756746b51c9646"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:051f482b256f1beeb8749a04a7ac13b98c72f2097098b3735d1b1758bfaca27e"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE

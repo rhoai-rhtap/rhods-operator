@@ -234,7 +234,7 @@ additional_meta:
     git.commit: 660b291efb31c95788032788da82e61265fb2842
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 954eca20e24095464f8abbcb9864395ddc2fe5fd
+    git.commit: 7e0204c224e26dc90240c3602993064b419ab2ff
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 954eca20e24095464f8abbcb9864395ddc2fe5fd

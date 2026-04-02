@@ -203,7 +203,7 @@ additional_meta:
     git.commit: b3c980d2c0bc6bd63011ad367fd4b4266b48af64
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: b5c11b28c8347a76c1cac54b034aee73491247bd
+    git.commit: 8daeff6fb2936a3564fb1ee6b1dc73d73d169e32
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: ac611008164402ef97a848517d85187bb4ce4cd9

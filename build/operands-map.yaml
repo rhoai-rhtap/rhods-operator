@@ -60,7 +60,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:78d396e3982c7563dd19043d18332e36be73673a36e9d9ef3e7ae3b98e5f443a"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:7e53e49c53703c3e3fc1099c8e79fef3c40d4ab7a12c35d9b17a45ced172d238"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:f96aa0cf7ab2e3f4b6a0cd9fe898a23a90b1c63374d9dc1d3d7f7d7fca25018c"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:6870ad43ad6d90cd499e5ea2a4a438ee0db49b7c63f26c8e11568bcd1433f29c"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
@@ -80,7 +80,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:851ccc0570828873f85f40986ff3cb7f9259dea112bb799c0bc54bff39ac8885"
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:5c8875bc74d3a9989ed79a36db9fbe6aace44d4837adc0cdc5f2de08d1983084"
+  value: "quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:6e2b0c614533bc5f5f65064e1c4812edbeee6d92692d91eabf66fa1daf91850e"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_DATASCIENCE_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-datascience-cpu-py312-rhel9@sha256:06936258e93f1904d40a00a69a5f4d517a944e1ceb5656224f22bc00ac4f1dd6"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CPU_PY312_IMAGE

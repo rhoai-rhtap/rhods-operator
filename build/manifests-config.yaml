@@ -132,7 +132,7 @@ additional_meta:
     git.commit: c2cc8a5567406d8c35d3513bd4653d3c772a0426
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 65ba484874fbf4ba46433fc4ad6c7437cffb3a86
+    git.commit: b1812d706caaa41b59092d55c090f3e02b1d3b2a
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: c9e86a9429dca40909f9363ed5638481993a5847
@@ -225,7 +225,7 @@ additional_meta:
     git.commit: d3622f5f89f24ca31edee5d75ad5f6ca178d9536
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e87b2c7e7b732b20c3b4731ae62d050f2bed0426
+    git.commit: d3622f5f89f24ca31edee5d75ad5f6ca178d9536
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
     git.commit: 625e64e521220bde37d732258b7063f018a98663

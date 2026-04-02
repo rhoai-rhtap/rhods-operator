@@ -2,7 +2,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_AUTOML_IMAGE
   value: "quay.io/rhoai/odh-automl-rhel9@sha256:cfd58e5cbc4a64d669d05264ec785352fe6748075405c811c09174daf0b37d6b"
 - name: RELATED_IMAGE_ODH_AUTORAG_IMAGE
-  value: "quay.io/rhoai/odh-autorag-rhel9@sha256:019287bb117c005dc7c1034cd4ae092edae2adfeee44b3fb76ab0c72c0933dd6"
+  value: "quay.io/rhoai/odh-autorag-rhel9@sha256:8e0214544c6bdda0f34dca254ba3b6f05ea6f2a031ad181b52419278ef380c0e"
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:a8b24cd460c06f7a32f8a0b250ad3939684ff19e3d5152e603297399194f292d"
 - name: RELATED_IMAGE_ODH_CLI_IMAGE

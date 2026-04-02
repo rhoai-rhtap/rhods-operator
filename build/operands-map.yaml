@@ -98,7 +98,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:da0c2325bd80357d145bf9a518f165042b230ef845c4aeb229e306d176f840d3"
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:b7b408fc2dedcc3151a811eab142365103297e949626bb63e2d30e77edce6015"
+  value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:6099fdee1c6d64ad9140d817d924f156669930a965f7210822426205d8125e73"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:249febdb5407c6456a3edddbd5fdeb7416495d74d9e4b812de8d45c7ab5f4a78"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
@@ -128,7 +128,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:de09fd49788eed11b04c3f18412fb3dd3d8d1053feb26b0cb9bc1908fad66e68"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:3a85bf2f261ee30db2508b61f5d46107ac15e099c40d24c25ab58ba33178d414"
+  value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:3433fd3a13c331c668c5936b17118a6674961a1795d9c585a85c546db4829606"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:a7194af1924027fbf08326b0a241c9c0810e1f34cb00699022bcce498680ea92"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH28_PY312_IMAGE

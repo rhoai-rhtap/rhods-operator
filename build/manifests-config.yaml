@@ -267,7 +267,7 @@ additional_meta:
     git.commit: 66296148a8eb66b5d3ab29729ccfd409f753b0a4
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: c0a6ebd1cccc5e2fa275563f55d56e6e832a8305
+    git.commit: 66296148a8eb66b5d3ab29729ccfd409f753b0a4
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
     git.commit: 507a19cde84b8c0facf25406329b2f7dd7cd6c78

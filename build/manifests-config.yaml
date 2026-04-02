@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 7e5c99914a414bced2039374dbc4c6dfe75e4a20
+    git.commit: 6f77aa6654da5b9a01053ca6d48faa59478a6484
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: 229057b38d7d07a0bcdf04011c6cca52c40c1a8c
+    git.commit: 9e2de87f5738feeb6bd3cf21f0af52be49726d49
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator
@@ -210,7 +210,7 @@ additional_meta:
     git.commit: 349a4d2b1af689ac99bc5784c03f4b527a3bc2e4
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: 53eb81fb1bc53056d107e77ea4197284f8684948
+    git.commit: 9c70db7757802f55bff835e1888bb9ee01d4a8e2
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: ae57b92eff519f62483409317a50db8163b8fb68

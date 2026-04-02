@@ -1,6 +1,6 @@
 relatedImages:
 - name: RELATED_IMAGE_ODH_AUTOML_IMAGE
-  value: quay.io/rhoai/odh-automl-rhel9@sha256:67c4233445552c2c4514a1a9437d00666b6301f69bc08e1baaa001b838605b5c
+  value: quay.io/rhoai/odh-automl-rhel9@sha256:cfd58e5cbc4a64d669d05264ec785352fe6748075405c811c09174daf0b37d6b
 - name: RELATED_IMAGE_ODH_AUTORAG_IMAGE
   value: quay.io/rhoai/odh-autorag-rhel9@sha256:9e52e5554478b9910f699da7e62ccc6a4c041be1deb709e3c32ca5556a6faafd
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE

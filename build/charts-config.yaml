@@ -3,5 +3,8 @@ map:
     git.url: https://github.com/red-hat-data-services/odh-gitops
     git.commit: 9cda66f16c6b93cc1803e9d8552389a2434acb9e
     src: charts/dependencies
-    dest: charts
+    # dest is relative to PREFETCHED_CHARTS_DIR_PATH (prefetched-charts/).
+    # The Dockerfile copies prefetched-charts/ contents into /opt/charts/,
+    # so dest must be "." to avoid double nesting (/opt/charts/charts/).
+    dest: .
     ref_type: branch

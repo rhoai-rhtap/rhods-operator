@@ -9,7 +9,7 @@ map:
     src: config
     dest: kserve
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 32717b14fac11c63180ab0cdea9b99dfc2536219
+    git.commit: abd90589aab7403934df2838c04dfc24de51247e
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
@@ -39,7 +39,7 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: 9bdce3742de097871f8cd53c59d6eca06e9cb833
+    git.commit: 98f1941dacc78320b3542c74423c7b463c1055ed
   odh-model-registry-operator:
     src: config
     dest: modelregistry
@@ -96,7 +96,7 @@ additional_meta:
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 0a113afe70fd6b7d77b600aa94d5727980d1c330
+    git.commit: 18320d2b67fdaa93965d0900f58f6fe38f78d253
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
@@ -117,13 +117,13 @@ additional_meta:
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 32717b14fac11c63180ab0cdea9b99dfc2536219
+    git.commit: abd90589aab7403934df2838c04dfc24de51247e
   odh-kserve-llmisvc-controller:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 32717b14fac11c63180ab0cdea9b99dfc2536219
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 32717b14fac11c63180ab0cdea9b99dfc2536219
+    git.commit: abd90589aab7403934df2838c04dfc24de51247e
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 32717b14fac11c63180ab0cdea9b99dfc2536219
@@ -153,7 +153,7 @@ additional_meta:
     git.commit: 23b48aca85cdd2371c12dccf72a8b465b1436481
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
-    git.commit: 27cb91437250ec2ec5cf3543bffb38ddd64018a3
+    git.commit: 9f3aabdfedcfa228040920d7b3fd3ab8ee56f54d
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: 1225fddf0d0db236c8a6f8f59656980c92503650

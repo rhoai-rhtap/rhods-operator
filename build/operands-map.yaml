@@ -16,7 +16,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:907f42a797a2fcf042fc0b62a713c8b0b7f35aa3d18d45e7f1e78dc9684ae969"
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
-  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:228270d8117e21bd365331e58e580527961514e047d66418ec32a5868adf6c3e"
+  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:fb6925c37ded4516751d53b8f61eddb233f402ab2b81f2a9f4b2d48c5c04d6df"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:bd2907375586d77c8e2366fc358c116816f583ed010aba97d9ff1b466be0628f"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
@@ -122,7 +122,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-spark-operator-rhel9@sha256:c4149f130308313875701cde41c8a15b26db5eebb00195afca389aa9cb7b88f3"
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:9849e168b7cb0a0e047fcb1b663e9f2fad7b839b475a7cc40f57cbb46933b3ab"
+  value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:bf279e991eb77738a11706a2f783fac77cb87721ede46a499e53d53c92ee646b"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:750dabce465ce575c9218a2fd0e98635e2dd1fe5207fd795a32e6e55b0aea8b0"
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
@@ -158,7 +158,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:b7755aca9a5c48dc61f1d6b1862d56748f2b344256d83bd46e00adcd61f0e537"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:5cbf22f01209c2edde36cdb53fffdc617a7362ef2dfcebc5e9dbab77406abd9b"
+  value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:1ba3a682a35fe072f60cd17f1e342eaa318af2019e3841957c440136d9bfef90"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:269533a5de08a211ee19b998effa2eb4e5c47331b1f2d4dd5db7150ee4436e64"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE

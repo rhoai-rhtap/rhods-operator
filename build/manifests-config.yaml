@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 7617561ac3b958ebf2313348fa85aa042e71fcb1
+    git.commit: 06a87ffc591978cee998d9ccf32617736558e46a
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -34,7 +34,7 @@ map:
     src: config
     dest: trustyai
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: c8ad41448a14a9f17da19c682643d625b5a0a568
+    git.commit: 5cf2f01189b7c9db7c784bbb5d75f3bf1da394b9
   odh-model-controller:
     src: config
     dest: modelcontroller
@@ -111,7 +111,7 @@ additional_meta:
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 1aad0fe158a0befc0a94feee6d02334ba227608d
+    git.commit: 9ea1b33795642c13428069692d8b9f39da6e101a
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: b1c39400bd7381d8d29d90958bb795a13c3e1a39
@@ -237,7 +237,7 @@ additional_meta:
     git.commit: 6f77aa6654da5b9a01053ca6d48faa59478a6484
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: c8ad41448a14a9f17da19c682643d625b5a0a568
+    git.commit: 5cf2f01189b7c9db7c784bbb5d75f3bf1da394b9
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
     git.commit: 338eeefad30bfdf973dd2b53acea50558ec4e15c

@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 54a045ab8fc7cc54a4c5a115b585d7a4b89b9b78
+    git.commit: 7617561ac3b958ebf2313348fa85aa042e71fcb1
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -183,7 +183,7 @@ additional_meta:
     git.commit: a7d99298046ee61eb9797135519685403e7cbd90
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: a6b909850108a60bf374e4eb9260af5c0169a9e6
+    git.commit: 16adb6b2e65ff7fe4c939540ebe05bb6a880b032
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca

@@ -26,7 +26,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
   value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:b2eaa561770bb41a43f21cabd3e6f7cd13b0a75daf1a8a404959c4f74c4dfde5"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:32db44a568e7801c47bad9f30a901c4f490c15765d1ccd5e8c2d41e002f8df9f"
+  value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:6f2871af84dd261434f3062769f4951cd6f1b0370ceb032416439541e303e831"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
   value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:bcfdeb6131c996fe5fa49ac1b8953b9d3af001165ccd831422424e9873b54ccb"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
@@ -102,7 +102,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:c1f1cc4806ae50085f63a3ac3e2155ec811c3238249ba7337a81159cd9e7acae"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:ce9fc7c5b594d7f8166b20b9de274b4b8a54f96d8b8687c5679afb2295634901"
+  value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:33f7a4a6f2e6ac64677cbd516e4d5acba007eb14306b78c15519685890a1e141"
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:abe8e149fc248b96dfb1464551d80dbd84c1aae7b912b08df872b3e7b874bdcd"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE

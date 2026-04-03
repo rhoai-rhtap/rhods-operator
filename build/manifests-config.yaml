@@ -240,7 +240,7 @@ additional_meta:
     git.commit: c8ad41448a14a9f17da19c682643d625b5a0a568
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
-    git.commit: 3b16d5b9a8f78c366c843320d6af28f127bcfa32
+    git.commit: 338eeefad30bfdf973dd2b53acea50558ec4e15c
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47

@@ -106,9 +106,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:abe8e149fc248b96dfb1464551d80dbd84c1aae7b912b08df872b3e7b874bdcd"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:73a2d032b7889edab84d95dbce56a23e5b263f66ae1ed154d17e9693280570f0"
+  value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:20aca9a86e59b5f8cbe3ac9655abb3366c67f96fb123e7f9f6b8ad02ac834d95"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:00b5f6c620bd83987da19e1ed76a7911b03e498d53f9295e84390b468445db85"
+  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:e8e40790c35def243e061a09c008a094e4efaec24eb44f9636e3742ec8eb5bce"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-pytorch-cuda-py312-rhel9@sha256:bc319665e6d9ba1708745621dbadeede122659c7c65dcb581955ff365150c439"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
@@ -116,7 +116,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-pytorch-rocm-py312-rhel9@sha256:54dd7874bfb8bd01543c804b564edb416b4367b4f761f92141f12dac873f58ab"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:3279ff1b72d15cb4683078c96da1ee732609211595f3b1f2b7ee42cf0f78b647"
+  value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:2735fa70583227424811f65146be4d4d85f79754cc664d103fc1048a508ef55e"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:03c0eeaef9d42e94fbdcda711175fb231b9db735a176c44a7331dd12737492ad"
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
@@ -168,13 +168,13 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:f0c4f5d7466fca06a040840b5328db7f4aab908a9e51ebdc9a1ee6eedd8329f9"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_DATASCIENCE_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-datascience-cpu-py312-rhel9@sha256:95a6401a6800f392cdab5289975549dd556d7c76494800bd4978f3ebe9819cf3"
+  value: "quay.io/rhoai/odh-workbench-jupyter-datascience-cpu-py312-rhel9@sha256:719212ac0d1c22a3274c49c50fadcd29af2e77affd76a03aef1685ce63c8b64e"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:eef12640f24953433a14a9c98649d1fdc6fc608448af348e887c4facc18dd615"
+  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:ee889ca3ffb0a5255aa5e4ca51afaa0388ad718fed853dc8efaba86fcab1d539"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:52380474af2f8cb64663b17e7071e92355ea53aa7c7a40ccfaed7d96bad928a7"
+  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:c69944c194ca80aa845a4ca6a55093a9e6247e39ce3a9e7ad624676c523d1ca8"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_ROCM_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:b0c042dff1e472b9917496d5e2de13ef088d33d9a3e176e84ea0e4643224ef5b"
+  value: "quay.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:c1c131021412cdc09fdb6e20519810eec4e5784ce2eab2f52e5290601b6c39b9"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py312-rhel9@sha256:7146574afcc40b3cc01f091b87c3797f6b5182480819841db9371e4a6f894abf"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

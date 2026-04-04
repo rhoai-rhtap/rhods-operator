@@ -228,13 +228,13 @@ additional_meta:
     git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
   odh-pipeline-runtime-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e0c95a412425c11967241627e1607ecff313a87a
+    git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e0c95a412425c11967241627e1607ecff313a87a
+    git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
     git.commit: 5cf2f01189b7c9db7c784bbb5d75f3bf1da394b9
@@ -309,19 +309,19 @@ additional_meta:
     git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e0c95a412425c11967241627e1607ecff313a87a
+    git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 7617561ac3b958ebf2313348fa85aa042e71fcb1
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e0c95a412425c11967241627e1607ecff313a87a
+    git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e0c95a412425c11967241627e1607ecff313a87a
+    git.commit: 96f46330cf426556678e7820a65710a3acde874e
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 96f46330cf426556678e7820a65710a3acde874e

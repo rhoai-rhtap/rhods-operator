@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 85527574ab63c99ccbf5044a68f50af74bba753b
+    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -300,13 +300,13 @@ additional_meta:
     git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff

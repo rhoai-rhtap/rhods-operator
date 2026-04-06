@@ -24,6 +24,10 @@ const (
 )
 
 var (
+	wvaImageParamMap = map[string]string{
+		"wva-controller-image": "RELATED_IMAGE_ODH_WORKLOAD_VARIANT_AUTOSCALER_CONTROLLER_IMAGE",
+	}
+
 	imageParamMap = map[string]string{
 		"odh-model-controller":    "RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE",
 		"caikit-standalone-image": "RELATED_IMAGE_ODH_CAIKIT_NLP_IMAGE",

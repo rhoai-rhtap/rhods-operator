@@ -48,7 +48,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
   value: quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:f03aa327a6101070281e7c572ee010c46ff7f96004da9202ea3ed3cb5e684eb9
 - name: RELATED_IMAGE_ODH_LLM_D_KV_CACHE_IMAGE
-  value: quay.io/rhoai/odh-llm-d-kv-cache-rhel9@sha256:cc220db1cc0722531a8e6fc68588d76e11b39ad0016a7dc1a00956cc03205265
+  value: quay.io/rhoai/odh-llm-d-kv-cache-rhel9@sha256:9d306b4c7d0a5ccddeb8c1e4d9ec56e59a414f2ad1a7f1766725d682621296a4
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
   value: quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:09e97fdc98df9c7d0a40bf5883bce7d039b914e72040a8480e97f1e57561ffa6
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE

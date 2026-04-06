@@ -9,7 +9,7 @@ map:
     src: config
     dest: kserve
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6
+    git.commit: ecf22f245cb800b241b34d0b9964688837476e8c
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 0b25e64cf337ec62b56ac59e4eafa07265f9fac9
+    git.commit: 465eb003c53173d9b596233a3965554a911b5a01
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -117,13 +117,13 @@ additional_meta:
     git.commit: 0fc610f9c7d1245abe26d30f8690071063d25592
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6
+    git.commit: ecf22f245cb800b241b34d0b9964688837476e8c
   odh-kserve-llmisvc-controller:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6
+    git.commit: ecf22f245cb800b241b34d0b9964688837476e8c
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6
+    git.commit: ecf22f245cb800b241b34d0b9964688837476e8c
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6

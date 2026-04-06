@@ -24,13 +24,13 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:2796b1700e80d5db262bc11af3ba4bcace5ca3b36e4329b04fc988229352e7b8"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
-  value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:77644855fe151a1af1a08ae123a6e9504cd3879d54236afeddaee423190002cd"
+  value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:d395295c3534e12755df22df651f9fe12fd0283b0c2a7776c3764f21cc4e75f4"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:5a39f11beedb850f777b85ece203b6cb7ed68b0cb075366aa6815b81250c4664"
+  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:218d65c503e88261654926c29095fabdc75dbd42651a448f7c7456e48fafcae7"
 - name: RELATED_IMAGE_ODH_KSERVE_LLMISVC_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-llmisvc-controller-rhel9@sha256:4eeb4317913f8f119a57f22aeb53d2510a2ba19ed47d450bc58f92929e9d0330"
+  value: "quay.io/rhoai/odh-kserve-llmisvc-controller-rhel9@sha256:95dd6ec82ec9b1ff4324432e2332f09b01e143d0fdf75c3f848eddd755e6310f"
 - name: RELATED_IMAGE_ODH_KSERVE_ROUTER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:8befeb67156969a84a9c638ee81ea058cb57fc69d366569c5b9882e2e0058e65"
+  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:3a5c3df5297d93ac47f5459b033bf6a02c36af6a88a9e3e4c632291fb7c5a6a8"
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:b0cb18b34835e27ee75f8c804c2cf5acdf367c45886c248989588d175052a813"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
@@ -48,7 +48,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
   value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:0b72999fbe70e3a72e81d42cdc5f5178a31993a517b0e2d5d7db1acbdca89438"
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
-  value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:a73e57bddd7f310315239ce7e9b41ef2ad00217d941d9a3f9b7901fd15b22f99"
+  value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:2f63fd94d15aa3ff7d9a316f47c49ab5b798ed3c961bbf0f02cbc5c207a9da14"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:a04302b4f8fdaacf919ec869656480413e22ddf1aec0ea66d3b52a6c5f2092a4"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE

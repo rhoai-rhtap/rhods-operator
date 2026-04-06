@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: fe1ea8b222c53aeab1625f254d79a6cfec5b48c8
+    git.commit: 85527574ab63c99ccbf5044a68f50af74bba753b
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 472a18cabf3112928370bbd644b0a650ae0cba02
+    git.commit: 0346cfd1caa4fa7e19995ca09cf147e331b71787
 additional_meta:
   odh-automl:
     git.url: https://github.com/red-hat-data-services/pipelines-components

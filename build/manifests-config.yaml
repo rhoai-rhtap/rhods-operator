@@ -276,7 +276,7 @@ additional_meta:
     git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
-    git.commit: 9c59742e1f8c74523a6baf545d90d44948962f1c
+    git.commit: d6df2038a9bcf83887c40aaa16acefe15ff187a1
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
     git.commit: 5a53c532767cb957a4a5382cf36c8e16aba9fd4f
@@ -324,4 +324,4 @@ additional_meta:
     git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 96f46330cf426556678e7820a65710a3acde874e
+    git.commit: 85527574ab63c99ccbf5044a68f50af74bba753b

@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
+    git.commit: 5ecd6f32c53c895389255083d808c2e6f0562b79
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: c97e3c60a1830bbc9b1a4c9091b90d468b08d8d7
+    git.commit: 487a5853c53eafe892801d15286a183245154bb9
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -111,7 +111,7 @@ additional_meta:
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 42c309a05c17dd4f976fde2a65e5673afdd0668f
+    git.commit: 2c7bd35af0598cf9d77f046a6bac07e2ab4cebd8
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: b1c39400bd7381d8d29d90958bb795a13c3e1a39
@@ -150,7 +150,7 @@ additional_meta:
     git.commit: 37609e5ad23e1e777b592636a935d826ad265e11
   odh-maas-controller:
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: c97e3c60a1830bbc9b1a4c9091b90d468b08d8d7
+    git.commit: 487a5853c53eafe892801d15286a183245154bb9
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
     git.commit: 2861583309ebf8a447ecedf0c975a0dfdf5228ab

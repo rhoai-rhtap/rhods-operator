@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 39b7c660f454aab4e626b9f895b250a7a4482196
+    git.commit: 15b7d8062937019d81f4fa9af9091da33169e24b
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 39b7c660f454aab4e626b9f895b250a7a4482196
+    git.commit: 15b7d8062937019d81f4fa9af9091da33169e24b
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: f834eb17e042a7b5b923c643164bb52bc9362acc
+    git.commit: a4228a1f3c3a6f272be090ae27b2661102869698
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: ad8c543a181a0fc83967f264d5e56b3874140882
+    git.commit: 46c85ff97ae028c7c4981a66e86b9cd6207b8ae4
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8
@@ -172,10 +172,10 @@ additional_meta:
     git.commit: 8f3744b7c04511c84895aeab25f3a2c0151fc70a
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 0e5e7097cdee87052d5ad4097950e28230c41a93
+    git.commit: b69ae34eb592a8b328fbc915337d0802c3af1d68
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 0e5e7097cdee87052d5ad4097950e28230c41a93
+    git.commit: b69ae34eb592a8b328fbc915337d0802c3af1d68
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
     git.commit: dc6c0e0ab194c221c59325f089d43039bef49fb7

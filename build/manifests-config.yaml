@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: b4651e6efc8172c1ae920bcb3e2d73c264754bc2
+    git.commit: df578ac1f9d14b9ef74f7bd759581e1ba9d707ee
   odh-workload-variant-autoscaler-controller:
     src: config
     dest: wva
@@ -147,7 +147,7 @@ additional_meta:
     git.commit: b5be5c0a1d6333010588ac61dd53596391062620
   odh-llm-d-routing-sidecar:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
-    git.commit: 37609e5ad23e1e777b592636a935d826ad265e11
+    git.commit: 23c8d3b6f355034057adcf554ce54eba0e55d29d
   odh-maas-controller:
     git.url: https://github.com/red-hat-data-services/models-as-a-service
     git.commit: 487a5853c53eafe892801d15286a183245154bb9

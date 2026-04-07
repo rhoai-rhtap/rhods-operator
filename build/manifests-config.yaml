@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 621ea320bd015b4cbf49c9c5e56cfb8871fd24a0
+    git.commit: fb369e85e2d614bc64404958e1487c4f69848741
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: 9e2de87f5738feeb6bd3cf21f0af52be49726d49
+    git.commit: 9c6812b8e92efec1a6fbcf8c5498313f3efac55d
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator
@@ -102,7 +102,7 @@ additional_meta:
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 18320d2b67fdaa93965d0900f58f6fe38f78d253
+    git.commit: 631f8b1321029f0d7af150f3dcdc6b752fbb0401
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 1865561bc6070426f538a196cb4d6fda7091f22b
@@ -177,13 +177,13 @@ additional_meta:
     git.commit: 1225fddf0d0db236c8a6f8f59656980c92503650
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
-    git.commit: 829cc51fa9c4b2e953d4534879b88b349accd7f6
+    git.commit: 55c65b3f37a0cb96456d59a8543f1366fd13b1ea
   odh-model-performance-data:
     git.url: https://github.com/red-hat-data-services/models-perf-benchmark-data
     git.commit: 3c435f0f4411299fa3eb26fb9be1998de4cdba84
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 16adb6b2e65ff7fe4c939540ebe05bb6a880b032
+    git.commit: 17017fc79617ea988e557c4995346db783149bdc
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
@@ -210,7 +210,7 @@ additional_meta:
     git.commit: b3fa122409c82f91e3ac976a2f016bf5dfbf1a0d
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: 9c70db7757802f55bff835e1888bb9ee01d4a8e2
+    git.commit: bcececf9f58d2bf36bae1a2f88f7c15e9345491a
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: 9cc43e53c35cec1600c1c17bd21bce4b1040f7e9

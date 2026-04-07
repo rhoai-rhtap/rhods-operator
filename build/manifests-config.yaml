@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 5ecd6f32c53c895389255083d808c2e6f0562b79
+    git.commit: d55fe78d5c89a6716e6ddf2f415523d67d373005
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -96,7 +96,7 @@ additional_meta:
     git.commit: 7f9560a9acc7d8998ddf20b25f26f6e34bfc1f2a
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: 5330f659fc57924336c24217efb0bc8b8a46c0dd
+    git.commit: 7f9560a9acc7d8998ddf20b25f26f6e34bfc1f2a
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25

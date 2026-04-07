@@ -56,7 +56,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MAAS_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-maas-controller-rhel9@sha256:814274ab1f159ccd051ecc48a6f405364e638eea8155e74d754aba011f2af3dc"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:dd83e403d6f0c76cb1f5d09484cbbae6a968af7d8dc535ceebf54400064e8977"
+  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:8e2f255f4f2f60595da2ce09fe9e4a4531f8cba131a4d716b8f2c6fb4561588c"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:5f49914622171107112257c91770fa48602f46ce796c5bdef55b5b99164caefb"
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
@@ -178,7 +178,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py312-rhel9@sha256:8b80f1ffc0e8da91608ae5460c62c9d20edb2b27a66550212fef545ac834a4ee"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:480986a2c804f9e4f8994b1a2290eac838da6ba1f702652eae3f3e992a877c3c"
+  value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:35e3992de003d8328f815f8f0780530131ca28eea9eaede5f93e4c5479d00d36"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-pytorch-rocm-py312-rhel9@sha256:399ca422b11d25e34f6eb2c47b35908f348abf3c7e22ea84e8b80378709cc2ef"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_CUDA_PY312_IMAGE

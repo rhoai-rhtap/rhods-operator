@@ -2,7 +2,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:7c8f0879976663f44899ab85bcf629ebd4594993c9c2d8649755a3863a37f337"
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
-  value: "quay.io/rhoai/odh-cli-rhel9@sha256:94602e1d8a4d9f7d82ef507062441bb57ced0828661b0764e39dc04e2cb0c9af"
+  value: "quay.io/rhoai/odh-cli-rhel9@sha256:67f08807555b00b2561ffa5a73c4ad63bdcd6d9a4bdc49ccf5d9026acd10ff7f"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
   value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:451cb104b59bdabec29cd9b61fa125d27e596d63eddcc313d349617411820f62"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
@@ -12,7 +12,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:a04df673c15d13f64e59b38b6748ba6aa92fd268b71cb07146a98862df4db52d"
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
-  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:eb0eed7ec6032fee12c4199852fd7e1f569289dafc9096afa47e72bedc368629"
+  value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:80ee6f1a5418fbab653e1bfd8a94161ffe70a70b7eeff3436b2a52c12e272cd4"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:42685f0d40eb722b9b3c3adb1f3210eb5794879b04f99cd0cbbfda7456fef012"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
@@ -150,7 +150,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
   value: "quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:705854f399e20ad1ec020854391131578b7fde834ebf30d9400c07860536f0db"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:79f51697baca3146d2c512d0e15f076e85ad62f3b15e83907550ebdc0997d141"
+  value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:bbd33c3e95b6e5278d9153d558a50c24e3e9203d2ce009ccdbabbe32655685ac"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:f00ec87916865107bafbe4d066c132a007f3ae97e567c06389b9ca24fdf3d0a7"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE

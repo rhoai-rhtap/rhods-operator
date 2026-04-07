@@ -26,11 +26,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
   value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:fd5b5213b360c9d1cdaea0bcec4d3325a427860f7dfcce1b00b218c568f9c472"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:25fd6fdadb0632862ab775c3fb85fa6ad985f346d0bb970a32f1128a07b28b1b"
+  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:4f630af88329826cdfb7faddd3d8a75a019fe971f9c027f4720a94a52f0638f9"
 - name: RELATED_IMAGE_ODH_KSERVE_LLMISVC_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-llmisvc-controller-rhel9@sha256:e4316d7224f442ed767a79baff16dff53fd0b370c4f10c4fae68b8c48fa2d427"
+  value: "quay.io/rhoai/odh-kserve-llmisvc-controller-rhel9@sha256:19ab9bef5b38b0d97a84361b4bc80b9ba30b42d85cd96cd78e60d4922ead3ef8"
 - name: RELATED_IMAGE_ODH_KSERVE_ROUTER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:14b4d462e70f95a97ec54d2fc39e9efb4d928fef54498b6f24edd1a03ee90c97"
+  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:706392ecb4f3c389ca1ce0ec87640ed6745bc176246c1edf3963e1c0357e284a"
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:b0cb18b34835e27ee75f8c804c2cf5acdf367c45886c248989588d175052a813"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE

@@ -114,7 +114,7 @@ additional_meta:
     git.commit: 2c749b919c757340a3e8fb0cad3ba262c32c48e9
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: b1c39400bd7381d8d29d90958bb795a13c3e1a39
+    git.commit: c07593739aaacfe487796d0350251f4b9b7af8ef
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: bf6c7951c5e113ef40085029e7bfc8d96d4e6d83
@@ -219,22 +219,22 @@ additional_meta:
     git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
   odh-pipeline-runtime-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 452467319ca170ba5602ddd34e09199c069bed5c
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
     git.commit: db858813603799135d675e849d54ca0b7d9f24d6
@@ -297,10 +297,10 @@ additional_meta:
     git.commit: 452467319ca170ba5602ddd34e09199c069bed5c
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: eb4acff0fa96805b3669d6a43bef8bf14c2cb15e
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
@@ -309,19 +309,19 @@ additional_meta:
     git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 452467319ca170ba5602ddd34e09199c069bed5c
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 452467319ca170ba5602ddd34e09199c069bed5c
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 2e159b294d11fd8a72dbc7c40832f7b634be34ff
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 85527574ab63c99ccbf5044a68f50af74bba753b
+    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc

@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 798863111ca94465b0602252658257dc6496cf3f
+    git.commit: 23210c118792bf3953102b2f21dafc7fe1ef2229
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 4c77f13ce61d8d73356166e2c0df37b1f62e28eb
+    git.commit: 9106d6967183b9a8e51cd40ec349763d477ee0ca
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -150,7 +150,7 @@ additional_meta:
     git.commit: 521a154ccae0614a6a1e925b2a8671ba048320fd
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
-    git.commit: b16b73dc872314fa22400c48c1e65f8f908f57be
+    git.commit: 6c2664663b90114e2dde2edb819de2b295651ae2
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
     git.commit: 057744dd6eace81be260d20d9971efaba754cfd4
@@ -177,7 +177,7 @@ additional_meta:
     git.commit: dec3a420b33459cdfdc7cc1c502f781eacb840a7
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 12991bb08d68bc7360a3a878c00a7e8e8590d2b5
+    git.commit: 7462f6c4dde02b8295acfdd75fa708f228657131
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 7a627dfc1443af931db8600447a3f916772cf6df
@@ -243,7 +243,7 @@ additional_meta:
     git.commit: b274b7313edf1b64dd9ee72d2c7a8b2372a578d5
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: 0aab4140f142c2b1c7f7faa2569fe495ecc77386
+    git.commit: a73ca915b1afa42ff5c9c150672cece6beb46c2a
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 9b5bd54f06a1f85d55e07f291a3c360aa89953f3

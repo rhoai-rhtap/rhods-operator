@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 15b7d8062937019d81f4fa9af9091da33169e24b
+    git.commit: 0416ac65c6b834cbfefc543abdfc4ca05a76a2ba
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 15b7d8062937019d81f4fa9af9091da33169e24b
+    git.commit: 0416ac65c6b834cbfefc543abdfc4ca05a76a2ba
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: 46c85ff97ae028c7c4981a66e86b9cd6207b8ae4
+    git.commit: 7e59c34ed040d903d4aebaecc86c2ebd27912897
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8

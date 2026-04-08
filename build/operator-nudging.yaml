@@ -6,7 +6,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-notebook-controller-rhel9@sha256:437f0d95c6da29c63786eff34f5d054655cfc021a907e960f4b4eb94ba873ae0"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:210b05d8ff2c188e18ac1f5cd4d8ba8aff873169ba630a0b886c265f526ec9d8"
+  value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:a12134b09fa9892a53271428881ff36d3040830f9d401b151247c748ccfe3602"
 - name: RELATED_IMAGE_ODH_MODELMESH_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-serving-controller-rhel9@sha256:cdf0494ffdb35d4d094aec39e9d394868174836ab24b9ff80b57cba2bba300c8"
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE

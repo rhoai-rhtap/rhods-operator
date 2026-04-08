@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: bd18283ce9c87706b5ba5135832e26c45c570ee5
+    git.commit: 4ec198b4ceec0af87a5facf88770aa31accf9be7
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -297,7 +297,7 @@ additional_meta:
     git.commit: 308d6c7c6c0647c9ebd7f7c4bd7c42177a03cc94
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d3622f5f89f24ca31edee5d75ad5f6ca178d9536
+    git.commit: 308d6c7c6c0647c9ebd7f7c4bd7c42177a03cc94
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 308d6c7c6c0647c9ebd7f7c4bd7c42177a03cc94

@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: aeb7c121c8a788163d72d64d9b610c2f905d0526
+    git.commit: 3c13064f017efcc389175901038357c2f0dc5ca8
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 3fe9b0d7709e614dd11ae22e3ffd140917acee3c
+    git.commit: 3f69607527a1be4c4894de01b5b5823092367fdd
   odh-spark-operator:
     src: config
     dest: sparkoperator

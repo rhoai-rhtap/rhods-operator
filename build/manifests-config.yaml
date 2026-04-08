@@ -14,17 +14,17 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: e6ea3ce711cb67a9aa099915216dc545fad801aa
+    git.commit: 9f87d2fef4c77bf00e7a986aa2b0fe55b7b28830
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: e6ea3ce711cb67a9aa099915216dc545fad801aa
+    git.commit: 9f87d2fef4c77bf00e7a986aa2b0fe55b7b28830
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: 923f249a64daa311378c08d71eb7e65ecdec07ec
+    git.commit: dcdb610c692d516843452fd09b17798a1a1463ac
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -99,10 +99,10 @@ additional_meta:
     git.commit: fb54e5b551beef70904bc20953142c07ea33851f
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: ac76bf6c1794ea8099f90b6a371d979775db5158
+    git.commit: 209ef9d17c51ab2eceb84c22b1307a0749398f5f
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: ac76bf6c1794ea8099f90b6a371d979775db5158
+    git.commit: 209ef9d17c51ab2eceb84c22b1307a0749398f5f
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
     git.commit: 38847da34a75bc43a6dab222e1066651beab208f
@@ -129,7 +129,7 @@ additional_meta:
     git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: 21ccbeda592138c09457fae0a7cd66e537a100ba
+    git.commit: d299575b4db51d1b92a6105ec687cabf029ff4ff
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: b1812d706caaa41b59092d55c090f3e02b1d3b2a
@@ -294,7 +294,7 @@ additional_meta:
     git.commit: 308d6c7c6c0647c9ebd7f7c4bd7c42177a03cc94
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d3622f5f89f24ca31edee5d75ad5f6ca178d9536
+    git.commit: 308d6c7c6c0647c9ebd7f7c4bd7c42177a03cc94
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: d3622f5f89f24ca31edee5d75ad5f6ca178d9536

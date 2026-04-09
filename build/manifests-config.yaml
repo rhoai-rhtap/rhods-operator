@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: bf0d664b41953de0b9865958b3d84c31585dd553
+    git.commit: 3c07abd952c478d0c4685488e28622845ce00047
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -91,7 +91,7 @@ additional_meta:
     git.commit: c97881b21f44a5a164cb96efcd563502206c8993
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 16457f46b09f8a928d2f08086cd456773d1ca0ae
+    git.commit: 72faf6554355e95dfe1d66cc4830aa8d80971793
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 8dfb3c282b66695a33c66af989166413ab47565e
@@ -238,7 +238,7 @@ additional_meta:
     git.commit: d0cc6aee5436709b3d1adad59c07a33b2c543d22
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: 19fb27931d0896836d6f1da7a63ebccf75954e92
+    git.commit: 3e83cda705110b44b8e3187bc740a782c05f9de8
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: a77ee60b4b6795650b0b9f6c0db397e0034d56b3

@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 1524c7f698d45a8a619c5fcee2f2af33824f5ef1
+    git.commit: 39321c89b4a572640408aa7d636e10f5ff42db7c
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 1524c7f698d45a8a619c5fcee2f2af33824f5ef1
+    git.commit: 39321c89b4a572640408aa7d636e10f5ff42db7c
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: daccac5005be89410fbd74d8de8316db712b88e0
+    git.commit: 73e18ed70b1f107d99f324a664c21b93f300c0b7
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 3c13064f017efcc389175901038357c2f0dc5ca8
+    git.commit: 6cc095c023ec778ba234b7127f98561993243a4c
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 3f69607527a1be4c4894de01b5b5823092367fdd
+    git.commit: bcbaf0ef058d650a0e239b68b2a1971fff4ef48a
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: 081097570ac50185ff9f0cbfb13601d89365e570
+    git.commit: 5ea50edae53983ba0ad16c7deec517ac844d849b
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8
@@ -163,7 +163,7 @@ additional_meta:
     git.commit: 3f569b79686074818752e451f2cb8de1c9cb8bbd
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 479ce5aad568d3ff13eace06738c7bab8c83f0a4
+    git.commit: 76d7c5660d4f6060824354b3010ad3ae9aeddd07
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 479ce5aad568d3ff13eace06738c7bab8c83f0a4

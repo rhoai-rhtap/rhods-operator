@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
+    git.commit: 1d0c9209383ab8f5e701de4e99d388daf39429c8
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -114,7 +114,7 @@ additional_meta:
     git.commit: c84bd3a771502d9e7d6f501815d6dd7e5bc44306
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: 0f55472a72ec114a8dc03bd8b09dd862421139da
+    git.commit: aa9c25ae1490c7ce46a7c171daf7f2a12fdd9c9d
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: c07593739aaacfe487796d0350251f4b9b7af8ef
@@ -213,7 +213,7 @@ additional_meta:
     git.commit: 8263de52b2e3b717f90ad7e475906ed0e41a6ee0
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
-    git.commit: bcececf9f58d2bf36bae1a2f88f7c15e9345491a
+    git.commit: afe089b32e177a6d05e5e9ae5965579d6a9ca0ea
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
     git.commit: 9cc43e53c35cec1600c1c17bd21bce4b1040f7e9

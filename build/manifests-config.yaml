@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 8263de52b2e3b717f90ad7e475906ed0e41a6ee0
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -192,25 +192,25 @@ additional_meta:
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
   odh-mod-arch-automl:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 8263de52b2e3b717f90ad7e475906ed0e41a6ee0
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-mod-arch-autorag:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 8263de52b2e3b717f90ad7e475906ed0e41a6ee0
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-mod-arch-eval-hub:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 3cdf092a40763f15c35734f753003d7f974c5682
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 83640773268ae9e71829e364ca6fde938c2513ab
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: bca66b8c2a426ffa3d059bfaf6ecebf3b050c030
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-mod-arch-mlflow:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 8263de52b2e3b717f90ad7e475906ed0e41a6ee0
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 8263de52b2e3b717f90ad7e475906ed0e41a6ee0
+    git.commit: e96a17a7d89b5717ef038bfec7d519c4a941aabd
   odh-must-gather:
     git.url: https://github.com/red-hat-data-services/must-gather
     git.commit: afe089b32e177a6d05e5e9ae5965579d6a9ca0ea

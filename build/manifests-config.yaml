@@ -39,12 +39,12 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: 85de65218b91131324d11453bf4dbe91b5ff8fe2
+    git.commit: 6776adeec751b0577c7f25775fe837884f5c6232
   odh-model-registry-operator:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: a19430d8af8f0d07d6f624375c39463ee9851a42
+    git.commit: 346ff7090147aa5c5423af74874b973390692a48
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -177,7 +177,7 @@ additional_meta:
     git.commit: dec3a420b33459cdfdc7cc1c502f781eacb840a7
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 1ceaa41492b8fc4ed0cbe040a6e72317ed853175
+    git.commit: 5c37d87ad15684fa8ba257e459f24d3e0442e55f
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 1ceaa41492b8fc4ed0cbe040a6e72317ed853175

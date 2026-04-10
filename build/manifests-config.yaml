@@ -144,7 +144,7 @@ additional_meta:
     git.commit: 92b8bbacfff2ed84cfa9a790fa82ff3f71415f8c
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
-    git.commit: db709f1bfa4401eaa2f7c7eb3232bb6d6286579c
+    git.commit: 6ae4d3770702961992b4fee924007d75e57a6195
   odh-llm-d-kv-cache:
     git.url: https://github.com/red-hat-data-services/llm-d-kv-cache
     git.commit: b5be5c0a1d6333010588ac61dd53596391062620

@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 01c2ae39e6d2bc2b645d5909d17fa23076329429
+    git.commit: f4553296ae2effc273b65485addb4b3139669731
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 6e044aae7f2c9eceaef8d24cd576c2ca09bb04ae
+    git.commit: 0f334c3f807518e1eedf65982ef4716d1c595351
   odh-spark-operator:
     src: config
     dest: sparkoperator

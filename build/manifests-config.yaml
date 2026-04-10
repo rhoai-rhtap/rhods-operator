@@ -144,13 +144,13 @@ additional_meta:
     git.commit: 92b8bbacfff2ed84cfa9a790fa82ff3f71415f8c
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
-    git.commit: 6ae4d3770702961992b4fee924007d75e57a6195
+    git.commit: 748c389fc14fd6833aecfc8ee56e75086fdef801
   odh-llm-d-kv-cache:
     git.url: https://github.com/red-hat-data-services/llm-d-kv-cache
     git.commit: b5be5c0a1d6333010588ac61dd53596391062620
   odh-llm-d-routing-sidecar:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
-    git.commit: 38466123ec8f74e2e63b8dba0a310456b2fcbd2d
+    git.commit: 748c389fc14fd6833aecfc8ee56e75086fdef801
   odh-maas-controller:
     git.url: https://github.com/red-hat-data-services/models-as-a-service
     git.commit: 0f334c3f807518e1eedf65982ef4716d1c595351

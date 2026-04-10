@@ -24,7 +24,7 @@ map:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: d5ddcef4a0fcece2864aec3e2a5233bd9df00bbf
+    git.commit: b65fb216d139d0ddb13d91331327bd543914ea51
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -99,7 +99,7 @@ additional_meta:
     git.commit: ccea1b560ee5e16cdf9cce60ffd5e2e18374fed0
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: 8ae4d4f45947f92cd67957092539087fe2b50385
+    git.commit: ccea1b560ee5e16cdf9cce60ffd5e2e18374fed0
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25

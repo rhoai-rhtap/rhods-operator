@@ -9,7 +9,7 @@ map:
     src: config
     dest: kserve
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
+    git.commit: 3f7251a333fc90607dd5bb1088351ed506e05fbc
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
@@ -129,7 +129,7 @@ additional_meta:
     git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
   odh-kserve-llmisvc-controller:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
+    git.commit: 3f7251a333fc90607dd5bb1088351ed506e05fbc
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
@@ -222,7 +222,7 @@ additional_meta:
     git.commit: b827bd5eaeab0417dbab8cf8427bf89307a41cc7
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
+    git.commit: b827bd5eaeab0417dbab8cf8427bf89307a41cc7
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 0f342ac45ff1cdec5ea20a091f6b05c57703a7cc
@@ -252,7 +252,7 @@ additional_meta:
     git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
+    git.commit: ce25b7568399e15121e5838bb4439bb90516a6d3
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47

@@ -126,13 +126,13 @@ additional_meta:
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
+    git.commit: 3f7251a333fc90607dd5bb1088351ed506e05fbc
   odh-kserve-llmisvc-controller:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 3f7251a333fc90607dd5bb1088351ed506e05fbc
   odh-kserve-router:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
+    git.commit: 3f7251a333fc90607dd5bb1088351ed506e05fbc
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 8c5e85713dfb8c49e51778185d41f6da078622fb
@@ -249,7 +249,7 @@ additional_meta:
     git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
+    git.commit: ab18255f824abfc81158f27ddcde53814169b50f
   odh-th06-rocm64-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: ce25b7568399e15121e5838bb4439bb90516a6d3

@@ -30,13 +30,13 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:808bedab1e0d99dccc8b48e3f7a6daa6998498bf8e6b17334a6a821699df123f"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
-  value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:787add31251c1f8ad26e43bfa76432cbab8c9549dc6c92e9813dff72598baf06"
+  value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:ff4eaa9ee564517cb1dfeb98831c8dc6ad7f8cabf34141a4316a929e2b7d0f2f"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:c5cea19d04c244a83363df74c4ae630779292c81c3c8a8365791ffde78d963a0"
 - name: RELATED_IMAGE_ODH_KSERVE_LLMISVC_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kserve-llmisvc-controller-rhel9@sha256:b25dba6ada95e9b07eeb0a39c9a33faf52c0a9cb44edc9535c6b6786d6c105f2"
 - name: RELATED_IMAGE_ODH_KSERVE_ROUTER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:03923fc3f9210f4d58d083a71c0c5c8a3829be993f2c2d666be78ba6c61f0dd9"
+  value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:dabd56ad82b894521f93ffbcaa423ef69adb1b82d0f5c89b3b13a8965616f49f"
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:041304340467f6cd39114653601ff5d3f588f601334fbd240ead61469ca6cf4d"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
@@ -130,7 +130,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:9e0779d588e677e3cbdad07b25bb483ee735490d2b4b159f190967e47b539789"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:0ce2c6a9163d524047f164b56ae36c3c13e936d04c7f7e0ec12baf5d435a9d34"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:32bde2544db33f3b90769ebba1618b6def712a27acd01a4ee03c7664d27be456"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:12844fe8d83249a04f062108718edbb3a0d74bb25b84d643e615a3d2c199ef52"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE

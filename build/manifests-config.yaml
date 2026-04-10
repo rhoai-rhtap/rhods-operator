@@ -288,7 +288,7 @@ additional_meta:
     git.commit: 70e9410cdade66f9aa8b1956c95933c3a1a7c6e0
   odh-trustyai-vllm-orchestrator-gateway:
     git.url: https://github.com/red-hat-data-services/vllm-orchestrator-gateway
-    git.commit: ad704f62ce47bd1b57c3e1c898636a34ccfc4627
+    git.commit: c84da0f5b3deb83f8f53b5032d3c8999dd463e5d
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
     git.commit: 0979a2cfbf2eed3a03a388001682368f009a0ae3

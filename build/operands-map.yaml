@@ -162,7 +162,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:83480f1addb7aa6a7666842109280eb129fe5474b01b07204e6beb4f0c042880"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:269533a5de08a211ee19b998effa2eb4e5c47331b1f2d4dd5db7150ee4436e64"
+  value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:510b5d974f30b24a4287457f148df90bdd3ca45cfb2e7a132b7ded0cfa210c88"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
   value: "quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:331b01723885f452778f5bd051f81c89a9bed1f3c01afb7d7a756746b51c9646"
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE

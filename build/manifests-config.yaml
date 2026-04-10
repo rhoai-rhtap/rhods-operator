@@ -24,7 +24,7 @@ map:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: b65fb216d139d0ddb13d91331327bd543914ea51
+    git.commit: 3ad4efab7b18b5a946ce44b7a024b31c856e1372
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -93,7 +93,7 @@ map:
 additional_meta:
   odh-ai-gateway-payload-processing:
     git.url: https://github.com/red-hat-data-services/ai-gateway-payload-processing
-    git.commit: bc7edb1c572a59cbf1422d2380c5d4fd68e1bf72
+    git.commit: 1265243e508393db1f46435a3bc9f9153ecfb23f
   odh-automl:
     git.url: https://github.com/red-hat-data-services/pipelines-components
     git.commit: ccea1b560ee5e16cdf9cce60ffd5e2e18374fed0
@@ -186,7 +186,7 @@ additional_meta:
     git.commit: 3c435f0f4411299fa3eb26fb9be1998de4cdba84
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: e77f4ba2a14d13a900a4a3fca4927894507d133e
+    git.commit: 3f98977751a408c40b543729073178a13b76d886
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca

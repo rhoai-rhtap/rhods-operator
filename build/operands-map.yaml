@@ -1,6 +1,6 @@
 relatedImages:
 - name: RELATED_IMAGE_ODH_AI_GATEWAY_PAYLOAD_PROCESSING_IMAGE
-  value: "quay.io/rhoai/odh-ai-gateway-payload-processing-rhel9@sha256:8d6b150573924ee5c714d26d24d9a73f3eb3f61ff289ea3da8be8fc0df905256"
+  value: "quay.io/rhoai/odh-ai-gateway-payload-processing-rhel9@sha256:5a3038e44b5842756b13538557b66afd823d93c7b87bf5914498693097c84e2a"
 - name: RELATED_IMAGE_ODH_AUTOML_IMAGE
   value: "quay.io/rhoai/odh-automl-rhel9@sha256:1c4cea8cbd84838c8393b8df35faa7d41d79321550d9b47b24eb04da2fb668bb"
 - name: RELATED_IMAGE_ODH_AUTORAG_IMAGE
@@ -16,7 +16,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-argo-workflowcontroller-rhel9@sha256:54068fe080f9f89ceaef66d866c0b6f10464c48aeb18506caf24b8429a7329b6"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:609fd5b272264a868e32da3872e09adabb8679d41cca7258413c9f6ae05143ed"
+  value: "quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel9@sha256:dfb747b92d5bfc18ac9267c21fd9234e25fce2310ec391b0b4b5a36f267f044e"
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
   value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:56932aa12805294be7b20bb7ad1b0af752b5cd701e5da1193f5df2073ca57806"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
@@ -82,7 +82,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:538bd52a2a5142ee2635c6925c537f58923fd3614dfc3146e2d40d3714cee4f5"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:ea4bf1e08ab4495f716fcad4bd083a79cdf6a3b1751f7684213d40c8f700d32f"
+  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:cc3e417883c6aceef7baa85806cba30c5314980eb9aa9f39080be2f9575d22d2"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
   value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:dec114ee0a7c2e2e0226338891b0c5069e9b1772cccfe45bea721f465fe9698d"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE

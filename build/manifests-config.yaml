@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: f4553296ae2effc273b65485addb4b3139669731
+    git.commit: b827bd5eaeab0417dbab8cf8427bf89307a41cc7
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -59,7 +59,7 @@ map:
     src: infra/feast-operator/config
     dest: feastoperator
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: b1c39400bd7381d8d29d90958bb795a13c3e1a39
+    git.commit: 5e053843414426489ee08c2e9b8dd64ddebb6689
   odh-llama-stack-k8s-operator:
     src: config
     dest: llamastackoperator
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 3f8d03f7156b5a118dfee0a2f2df3d55c1d39ff6
+    git.commit: e5cd745e0de05f2bdff2fb8e768ac3b7d56abd9d
 additional_meta:
   odh-ai-gateway-payload-processing:
     git.url: https://github.com/red-hat-data-services/ai-gateway-payload-processing

@@ -2,9 +2,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_AI_GATEWAY_PAYLOAD_PROCESSING_IMAGE
   value: "quay.io/rhoai/odh-ai-gateway-payload-processing-rhel9@sha256:643e0988ed920ff1ed6262fb8fe516aad2a929782547e3cd95e2627c644c3f2b"
 - name: RELATED_IMAGE_ODH_AUTOML_IMAGE
-  value: "quay.io/rhoai/odh-automl-rhel9@sha256:ee8d0d339fb4e7d8f140fb680c9656ccff013fa5a5840ca8e01fdb9709568e57"
+  value: "quay.io/rhoai/odh-automl-rhel9@sha256:681e6a5080005ccfd848820e96d40e8529c15e0ba4d3b448cf85dde8b074f530"
 - name: RELATED_IMAGE_ODH_AUTORAG_IMAGE
-  value: "quay.io/rhoai/odh-autorag-rhel9@sha256:312d32872a82e928eec210873ef0b5020c3f328633c665c68a390e3308828096"
+  value: "quay.io/rhoai/odh-autorag-rhel9@sha256:06a2892228510011c9081acf73fe140e46bd13e5aad6ecb9721f902ed5418ec5"
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:a8b24cd460c06f7a32f8a0b250ad3939684ff19e3d5152e603297399194f292d"
 - name: RELATED_IMAGE_ODH_CLI_IMAGE

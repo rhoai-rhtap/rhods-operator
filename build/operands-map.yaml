@@ -132,9 +132,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:f07c4cc722d00b06641e696299223df1a2d7f781fcb0c9f27f35359e8dee51e1"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:65c65c0b73f9b1371f1c48abf626a15429fe173d9bdd9fe7dbef578a51142645"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:c020e479ae17d6e120e6e6b246fdbb3372171737183210a7718d0baa35869e46"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:2b7412fa9db6d8dad3542173f3409c4113f0273f21bb07cc92a7e2ebc544b642"
+  value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:76140fa44798d92761d3b5d2f0adae27a026bd074d6b4bad39174f28ee58ecb1"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:6d3cc0b3eecd152770459a5ee6c55191e399f2f800f7bd43f94925a5830ff239"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE

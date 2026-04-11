@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 259e3698dfb8f89d75dcfd14ff568de0ddcd5f2b
+    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -39,7 +39,7 @@ map:
     src: config
     dest: modelcontroller
     git.url: https://github.com/red-hat-data-services/odh-model-controller
-    git.commit: 2f6121098037b275c03f897393aeb6f48a85175e
+    git.commit: cfd393b4c0717586d7f0c548e23d2c57b1aa0816
   odh-model-registry-operator:
     src: config
     dest: modelregistry
@@ -93,7 +93,7 @@ map:
 additional_meta:
   odh-ai-gateway-payload-processing:
     git.url: https://github.com/red-hat-data-services/ai-gateway-payload-processing
-    git.commit: 1265243e508393db1f46435a3bc9f9153ecfb23f
+    git.commit: 258df3eac9d908bb80b37cdafc85569cda41be4f
   odh-automl:
     git.url: https://github.com/red-hat-data-services/pipelines-components
     git.commit: ccea1b560ee5e16cdf9cce60ffd5e2e18374fed0

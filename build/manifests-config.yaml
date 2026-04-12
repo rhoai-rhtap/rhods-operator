@@ -228,19 +228,19 @@ additional_meta:
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
+    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
   odh-pipeline-runtime-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
+    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
+    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
+    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
     git.commit: 829f57acc9ae77eba8ec9b60a797601284c186ea
@@ -318,10 +318,10 @@ additional_meta:
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
+    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b
+    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: bcd7daa816a4e8c745812f6079ab9ce1e501594b

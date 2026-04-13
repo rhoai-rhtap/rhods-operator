@@ -144,7 +144,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:99a472986ee5b168f40b30ce15daeb16adb5548b49e25d7f4c646c593ea1c318"
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:f810b72f754864a6df0216075098ee683251f17fae5e4bd40738b64054f69241"
+  value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:ee62832250f03e02d04ff0b13d2a27c23efeec97f5ea243b8cd8e6358ebe2c7d"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:5d4f04ea67ebf8ea9c244947e790687741140f6f0aa92d1e7b18660c36cc31ad"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
@@ -204,7 +204,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:331b72057a947a8a197d38aff9f4eb2104c6395a356e82bf8c57dbdd7bc6ef50"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:0d545c5a56dd847cb535b38376cbd0f7162cecf6172eb0cdac11ffd4c203794f"
+  value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:3569fdf73d61f0455949a2a2bab6aaf387c788b898beb53f6c4420b35b2292f9"
 - name: RELATED_IMAGE_ODH_WORKLOAD_VARIANT_AUTOSCALER_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-workload-variant-autoscaler-controller-rhel9@sha256:5aa095633cab8e9736ce658b89cafb9a4658695d0ee1bde8a2625f0e5c000fa5"
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE

@@ -114,7 +114,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:5e383f3194c0b0c9f77a7d2450bb0d9b2c94d935e8396da4d54cf0e3369d1d13
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
-  value: quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:baf8ef50cae349943b69052447adf6da1d4a1eb7676139809434fa34ee032ccd
+  value: quay.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:3986139b833420f7b8d7bc06c52d7a05a576d2a280d04599f38e24dff7bcb987
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312-rhel9@sha256:1ccd2e49bdb1ef495b85c6a1830c5de6c26a283214ceb453d56a8e05e9309498
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE

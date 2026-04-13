@@ -225,13 +225,13 @@ additional_meta:
     git.commit: dc938b36874b11aaa0f5ce857e1554a9d4e540c5
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: cce4fe6dd3ddd13d20ae2d5e0e10a3673ffab503
@@ -240,7 +240,7 @@ additional_meta:
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
@@ -258,7 +258,7 @@ additional_meta:
     git.commit: 73ef59690910fa315185b4761edbe143d56c786b
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd68534ed4775e4d7227041e4c2c30693d9099a6
+    git.commit: aadfc2df4db16df860a3973ccc94786d82bccfa7
   odh-th06-cuda130-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 7e5f5c71128f5c11b229ef034e5ae29409e1eda6
@@ -312,19 +312,19 @@ additional_meta:
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 20307ff7d2e69243405fad586068286c7d18d6be
@@ -333,10 +333,10 @@ additional_meta:
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e1bc27ec85982eaa0eae7bd7eb47340b7b6fc756
+    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d

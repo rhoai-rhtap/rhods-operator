@@ -35,12 +35,12 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 30697b1c429a49d5e3cca2720cfedeae4fc510aa
+    git.commit: 6cc40103768ec80f946c080d58149d5176840dfb
   odh-kueue-controller:
     src: config
     dest: kueue
     git.url: https://github.com/red-hat-data-services/kueue
-    git.commit: 874c61a582a7ba6159b55f5e57e47c06bc655883
+    git.commit: 353261c242664e5bd09309591c3a688053134926
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator

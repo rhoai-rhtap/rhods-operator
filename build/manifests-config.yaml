@@ -74,7 +74,7 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 5461531537edd3a8e60212192297c6cd35388f16
+    git.commit: 62075cd7c9f42bf2cf45028ae2af675c5e86fa93
   odh-maas-api:
     src: deployment
     dest: maas
@@ -156,7 +156,7 @@ additional_meta:
     git.commit: 057744dd6eace81be260d20d9971efaba754cfd4
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 087b0a9b311ba8715905e6a674b67075fdb952db
+    git.commit: f7782c22e646336d931a2cdbdea575d9ff489836
   odh-ml-pipelines-driver:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: f7782c22e646336d931a2cdbdea575d9ff489836

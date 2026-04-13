@@ -104,7 +104,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
   value: quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:667f49be8472d394f5fff3d37f8570a4ea9ee8ac84134134582479978aee9d46
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
-  value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:6a23b003e27967ad34f1d2e8d69abbdef06b42db922a36a3f56e033540ad6294
+  value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:79dfc04a11c34a883b8a7bde7ebf0f7c87e70510c2da2f80c73be182ac4af193
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
   value: quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:edce209de9cd9d397e6711cfc32e989b4e3f09fab61dfe9a2e3fb9e3feac5fc9
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE

@@ -4,7 +4,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
   value: "quay.io/rhoai/odh-cli-rhel9@sha256:2baaa8987472d902e478efd9fe9307f25af729d0f9413313cd6cfe6974cd0b27"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
-  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:4672ee4b4a79d62fc6195837b46ace79116d3978ff1c95e5c9a89fd938d4634e"
+  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:04d8c0c2f52b1ac8e0a01f30a4e151bb0bd480dc05d5170bd3b4f59521f01a3e"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-argo-argoexec-rhel9@sha256:f4a4e48f04c5967aaa0f0257ef2d38769c9bbfe526a09edfe0b35d702c6a3eb1"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE
@@ -94,7 +94,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-mlflow-rhel9@sha256:3d549ca476d0c73a019c62a92d7e9441b29cb9af55977268cf6e64b494340747"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:a753ca9a8aa86de8b78a9daf04f0b9e3cd533a7299a8d1ef4a857b8f647a3414"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:7db342ae885ef0321eb67f89d26d1495fe4f9e70d3b945cdf5e8ee3db7b9524d"
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:25ceb0c47669c29ed652cce0e8292b2801c0e1c919db798502ceff00f919fb06"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE

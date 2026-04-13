@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 39321c89b4a572640408aa7d636e10f5ff42db7c
+    git.commit: 4ef8f127d8601680f2b576a04250b0d33069fe8d
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 39321c89b4a572640408aa7d636e10f5ff42db7c
+    git.commit: 4ef8f127d8601680f2b576a04250b0d33069fe8d
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 73e18ed70b1f107d99f324a664c21b93f300c0b7
+    git.commit: ba2d82e9d1e089da9005152472b8742fd76a56a3
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 6cc095c023ec778ba234b7127f98561993243a4c
+    git.commit: 9f34ddfa6c51d87b84a268813a2005fdb6da2305
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: bcbaf0ef058d650a0e239b68b2a1971fff4ef48a
+    git.commit: f3624e5bc4e51a93deb594c2296e0ee76b867dd3
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -121,7 +121,7 @@ additional_meta:
     git.commit: b5ee413500d9637f44e97558d253dc0a127c1fe6
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: 5ea50edae53983ba0ad16c7deec517ac844d849b
+    git.commit: 8528894189ee7530099e821237becfcf6aa0a4d0
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: 18360e17a926bd7392e0304d9b1dea52d61729a8

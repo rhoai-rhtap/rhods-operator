@@ -108,7 +108,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE
   value: quay.io/rhoai/odh-vllm-cpu-rhel9@sha256:edce209de9cd9d397e6711cfc32e989b4e3f09fab61dfe9a2e3fb9e3feac5fc9
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
-  value: quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:7503a4728b9bcbe7eb8a6241bc3c575a35299f60c54cc606c782dab0f73169b3
+  value: quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:3a14dd3654d223d66d8c0d01fe4f2a1cb23e14ba9dc2433c4b7c562a0ca12808
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
   value: quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:7cf2fb6da82a9ad2df3423c467b6d353d8623485d5a7d98eef46a193ad98de9d
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE

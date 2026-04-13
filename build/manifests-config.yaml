@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: e99b3044911b622e12eefd60164f479dc494a063
+    git.commit: cf86dd0f1bb718b96199a5740b85e19bbabd7fce
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: c689d01e04d8fed0d8cb6f748809b70afb0980e0
+    git.commit: d03868681010a985f444521a13f3285518ced316
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
@@ -227,7 +227,7 @@ additional_meta:
     git.commit: 2dcafbd81837447dfca4d0cf96a80c16150de33c
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: e69bd69119962f7aff5a456f250501888a6bc250
+    git.commit: d7a5a85c4d662abacf83c661ccbb6774cbe7e66e
   odh-model-performance-data:
     git.url: https://github.com/red-hat-data-services/models-perf-benchmark-data
     git.commit: 210844641de980d62e4ae869d5ca52381d31d5b6
@@ -275,4 +275,4 @@ additional_meta:
     git.commit: bcc6373ff8629fa67fe2708884948527456e36d0
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 717a4148610a65e3c9441e8c29b20a9fe5d14d5a
+    git.commit: 0046cff2c9a8860460fb4d378f70b1f4476460ae

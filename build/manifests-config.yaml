@@ -1,4 +1,16 @@
 map:
+  notebooks:
+    git.url: https://github.com/red-hat-data-services/notebooks
+    git.commit: github.ref_name
+    src: manifests
+    dest: notebooks
+    ref_type: branch
+  kserve:
+    git.url: https://github.com/red-hat-data-services/kserve
+    git.commit: github.ref_name
+    src: config
+    dest: kserve
+    ref_type: branch
   odh-kf-notebook-controller:
     src: components/notebook-controller/config
     dest: odh-notebook-controller/kf-notebook-controller

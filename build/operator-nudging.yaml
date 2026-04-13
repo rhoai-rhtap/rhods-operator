@@ -144,7 +144,7 @@ relatedImages:
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
   value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:b108c918445e5f83e4248f1991ba485587317579ae5d59aed7efc84d9b8fe27c
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
-  value: quay.io/rhoai/odh-trainer-rhel9@sha256:8c31381b0e726e92ff3969b827ded0d8cf92de0b7ef75cfa3fd37637c9d7506f
+  value: quay.io/rhoai/odh-trainer-rhel9@sha256:dbd037175f79d43a1f4af266f56a03b1f12bf38d8cfe2eac758a7e9bbc11c7a4
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
   value: quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:27ef1ab4ae2f5e2a649214777d90ff660a3b599a16b57d006b84cf888da7a65a
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE

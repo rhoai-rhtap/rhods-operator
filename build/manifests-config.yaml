@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
+    git.commit: e9828d0daf2fbcba8d050f95a2b23cd2e7146955
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -59,7 +59,7 @@ map:
     src: infra/feast-operator/config
     dest: feastoperator
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: 5e053843414426489ee08c2e9b8dd64ddebb6689
+    git.commit: 390d1ce73b7f363951f31b91d100f0814399ff42
   odh-llama-stack-k8s-operator:
     src: config
     dest: llamastackoperator
@@ -69,7 +69,7 @@ map:
     src: manifests
     dest: trainer
     git.url: https://github.com/red-hat-data-services/trainer
-    git.commit: 469d8566359c2ddbec4d6747d588e27d9d5c4a32
+    git.commit: 4098946141fe64eac39ae1265c7fb6fb2306d67e
   odh-mlflow-operator:
     src: config
     dest: mlflowoperator

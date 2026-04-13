@@ -70,7 +70,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_SCHEDULEDWORKFLOW_V2_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-scheduledworkflow-v2-rhel9@sha256:6137f39d8776c67c6522ce0d8b51a720695b49643c6d484b2d50925c1aa45357"
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:7a33eea483b26cef452b1cfaed6ad977f2ef9987cca0d0f88070338fb7611939"
+  value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:3826c1ddad4f911c99770bfa985554a857ef07a15ec41caeeb0439ad7f7c0ef9"
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
   value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:362d7d4a682fd07bf0c6b7a01d0357736330006d0a3312331b80ceb242038505"
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
@@ -138,7 +138,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH29_PY312_IMAGE
   value: "quay.io/rhoai/odh-training-cuda128-torch29-py312-rhel9@sha256:d3e69a8bb7dc19021ea1595403de4dc3a457f8d773eafcce118850fc782d716c"
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-training-operator-rhel9@sha256:58730e50183e9cd4eeca87dfb4834611902065693b0fc923d1087c1e8c681a1f"
+  value: "quay.io/rhoai/odh-training-operator-rhel9@sha256:c0e365aa35a9988a1ebd7cc79c7b07e8632157e3deb72d6016d62f2fd635aef8"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH24_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-rocm62-torch24-py311-rhel9@sha256:a43300074c68033fb7dc89b72657e5a3a87a425921eb5351f12203142e61408d"
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM62_TORCH25_PY311_IMAGE

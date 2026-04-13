@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: c8809b867f7ed88d754546420c25dfcd39f2ca42
+    git.commit: aa2bc90141b87a110d6895818a750cdb22ba86dc
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: f3624e5bc4e51a93deb594c2296e0ee76b867dd3
+    git.commit: 2b2c2ac5e6670db0e2b1db3ec5c3f0a05c64c129
   odh-spark-operator:
     src: config
     dest: sparkoperator
@@ -142,19 +142,19 @@ additional_meta:
     git.commit: 2ca5d0ac5498bb03d7067cb080b02ae5430d090e
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 087535347a1bb864830f554c7ed33bf24ec945b7
+    git.commit: 49d61103d585d103b90a6d4eb98f100ef00b465b
   odh-ml-pipelines-driver:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 087535347a1bb864830f554c7ed33bf24ec945b7
+    git.commit: 49d61103d585d103b90a6d4eb98f100ef00b465b
   odh-ml-pipelines-launcher:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 087535347a1bb864830f554c7ed33bf24ec945b7
+    git.commit: 49d61103d585d103b90a6d4eb98f100ef00b465b
   odh-ml-pipelines-persistenceagent-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 087535347a1bb864830f554c7ed33bf24ec945b7
+    git.commit: 49d61103d585d103b90a6d4eb98f100ef00b465b
   odh-ml-pipelines-scheduledworkflow-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: 087535347a1bb864830f554c7ed33bf24ec945b7
+    git.commit: 49d61103d585d103b90a6d4eb98f100ef00b465b
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
     git.commit: e704b7453a0aeb261fd194b5fa914ff8364d5e37

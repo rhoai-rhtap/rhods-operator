@@ -64,12 +64,12 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 328a620815c480dd98babfb859d27b050f7a9972
+    git.commit: 774bffed9bdbcac9c3e33abd60e0a7eb5caf538e
   odh-training-operator:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 659497744f95a78ea303c32e9d64fdb856fa7fca
+    git.commit: 700303ec75f77f53ecf0e2c5910bdca1d95370c2
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -89,7 +89,7 @@ additional_meta:
     git.commit: 4a7f4cc679c97b10a1c9ff5fac9957dcc783420d
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
-    git.commit: c760946896ff48a6b900f3bf35130621c60c85fd
+    git.commit: 62e7f2dc9f598bbce5e6325843196ee4f7d5f7ad
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 4b9ae7090c2c0be913bc614366042f425b3b0c6f

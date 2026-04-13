@@ -104,7 +104,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-spark-operator-rhel9@sha256:c9a75dc178f00c354190bd5664b1b9db2353b215baa3cc250f41ca9495d448b6
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
-  value: quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:7df1e79e43e43eebea00da3ef1d85f5848c0a58f2f27e27a30094d2627a561b7
+  value: quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:4088e9fc44238d63d1e70ccc3570da1dabeacfab99086d07085a0fe39fdb2a2f
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:5ed85c84c707277a1610a388050f06484af5f90c82282adddf39284b9d486b07
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE

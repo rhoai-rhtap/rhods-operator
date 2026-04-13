@@ -48,7 +48,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:302e2a3cb2e285ff5c1cba479eacbe8fb2324137f1f805c3c98853d4a2d59644"
 - name: RELATED_IMAGE_ODH_LLM_D_BATCH_GATEWAY_APISERVER
-  value: "quay.io/rhoai/odh-llm-d-batch-gateway-apiserver@sha256:b42cad24919f8b85b8033b9ad2207331d1ad17897f35790fcddf41f76e955bfb"
+  value: "quay.io/rhoai/odh-llm-d-batch-gateway-apiserver@sha256:2b151bbaba7ca7edc12840d8688e6a61066d8553616be1588bbccccdfb0804e0"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
   value: "quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:f8b4d54ed266acf1ea2fff6ea0614f47fcc03031df4cff0f1f804d60c22debb0"
 - name: RELATED_IMAGE_ODH_LLM_D_KV_CACHE_IMAGE
@@ -142,7 +142,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:fb9df7a9cf8d386b0fc6533f7332356b386b351a7e32e2bee2749859fb339cb8"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
-  value: "quay.io/rhoai/odh-trainer-rhel9@sha256:6d3cc0b3eecd152770459a5ee6c55191e399f2f800f7bd43f94925a5830ff239"
+  value: "quay.io/rhoai/odh-trainer-rhel9@sha256:ae96921f8b1e1de55e97a2d91c56e1716c469c346f528ac6ca4b044f8c703e74"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
   value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:800e2ba822aabc9a3b030e1a795e7853e8bd39e1b5bfdfe55bd8bc002670daed"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE

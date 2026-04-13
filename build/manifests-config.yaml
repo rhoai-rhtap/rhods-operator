@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 2dcafbd81837447dfca4d0cf96a80c16150de33c
+    git.commit: e05b544487220364688ae80ba0d70c49137ce6cf
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -110,7 +110,7 @@ additional_meta:
     git.commit: be4a300319cd7bd454e8c8f2413bdad727588030
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: f8c63e344800344dabc3bd79ced77e85f8cc17e5
+    git.commit: 2c32b4c35776364f58e5909b1a4cbf8700042232
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 0b5c6208e7202baf0b0b881536f6a1b8f987c2ff

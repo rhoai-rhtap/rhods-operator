@@ -1,12 +1,11 @@
 name: Operator Processor
 
 on:
-  # workflow_dispatch:  # disabled
+  workflow_dispatch:
   push:
     branches:
       - 'rhoai-2.1[6-9]+'
       - 'rhoai-2.2[0-9]+'  # Trigger the workflow on pushes to any rhoai-2.20 branch and above
-      - '!rhoai-2.25'
     paths:
       - build/operator-nudging.yaml
 
@@ -63,7 +62,7 @@ jobs:
           chmod +x $yq_filename
           ln -s $yq_filename yq
           cp $yq_filename /usr/local/bin/yq
-
+  
           pip install --default-timeout=100 -r utils/utils/operator-processor/requirements.txt
 
       - name: Execute Operator Processor
@@ -75,14 +74,14 @@ jobs:
           COMPONENT_SUFFIX=${RHOAI_VERSION/./-}
           ODH_OPERATOR_COMPONENT_NAME=odh-operator-${COMPONENT_SUFFIX}
           PUSH_PIPELINE_PATH=rhods-operator/.tekton/${ODH_OPERATOR_COMPONENT_NAME}-push.yaml
-
+          
           PATCH_YAML_PATH=RBC/bundle/bundle-patch.yaml
           OPERANDS_MAP_PATH=rhods-operator/build/operands-map.yaml
           NUDGING_YAML_PATH=rhods-operator/build/operator-nudging.yaml
           MANIFEST_CONFIG_PATH=rhods-operator/build/manifests-config.yaml
-
+          
           python3 utils/utils/operator-processor/operator-processor.py  -op process-operator-yamls --patch-yaml-path ${PATCH_YAML_PATH} --operands-map-path ${OPERANDS_MAP_PATH} --nudging-yaml-path ${NUDGING_YAML_PATH} --manifest-config-path ${MANIFEST_CONFIG_PATH} --rhoai-version ${BRANCH} --push-pipeline-yaml-path ${PUSH_PIPELINE_PATH} --push-pipeline-operation enable
-
+          
           echo "----- NUDGING_YAML ------"
           cat $NUDGING_YAML_PATH
           echo "----- OPERANDS_MAP ------"
@@ -119,10 +118,10 @@ jobs:
                   echo "git_commit = $git_commit"
                   echo "src = $src"
                   echo "dest = $dest"
-
+          
                   mkdir -p $component
                   cd $component
-
+          
                   git config --global init.defaultBranch ${BRANCH}
                   git init
                   git remote add origin $git_url
@@ -131,7 +130,7 @@ jobs:
                   echo "$src" >> .git/info/sparse-checkout
                   git fetch --depth=1 origin $git_commit
                   git checkout $git_commit
-
+          
                   cd ../
                   echo "current dir = $(pwd)"
                   
@@ -146,7 +145,7 @@ jobs:
                   cp -r $component/$src/* ${dest_dir_path}
               fi
           done < <(yq e '.map | keys' ${MANIFEST_CONFIG_PATH} )
-
+          
           cd ${{ github.workspace }}/rhods-operator/prefetched-manifests
           tree
 

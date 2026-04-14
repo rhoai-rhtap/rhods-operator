@@ -64,11 +64,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:a401a596e7c3c336b42ee5a6bc0ebf240201e4e95b8d7b628519f7888bc68ac0"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:821950a5af2be0f0db9d9f7631ae59444cf8d862729f68b22a456d74609d3454"
+  value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:83001b188afdbef4f81cc8c02d5caf3c097161d2e8e692300a7863a284bde8f0"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
   value: "quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:c61fd22a0da594a80fe4d5a4069608791221eb83f3c2db25cc7df6bea1b71acc"
 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
-  value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:b89d628ffbd1c8bf0f7c904a48f4f25d157889714c70eceb461758bbe926c43d"
+  value: "quay.io/rhoai/odh-llm-d-routing-sidecar-rhel9@sha256:da41938c23cff892b5ad3efa4c9047c5c5d7cabcbe6e2d78c35f23e2c3ac004a"
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:096bb0af0598e48bec380ab13a3a2cca003e077f39eef2011510335fc7ad28fe"
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE

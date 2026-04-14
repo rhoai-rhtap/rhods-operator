@@ -2,7 +2,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_AI_GATEWAY_PAYLOAD_PROCESSING_IMAGE
   value: "quay.io/rhoai/odh-ai-gateway-payload-processing-rhel9@sha256:c2a678281077c4f9e0f29918438647d10ffbb54c2bd16ad799a2b9271abb1e87"
 - name: RELATED_IMAGE_ODH_AUTOML_IMAGE
-  value: "quay.io/rhoai/odh-automl-rhel9@sha256:b5ef63ed16f628b9a528e91260c3655a27a795318146a2ef184bb0b1ac1f6f1e"
+  value: "quay.io/rhoai/odh-automl-rhel9@sha256:6d4da6c8201577db131f37d6a8572b13b6c1d01a64115b6685ffe8e053f5fe79"
 - name: RELATED_IMAGE_ODH_AUTORAG_IMAGE
   value: "quay.io/rhoai/odh-autorag-rhel9@sha256:14290a4e22a56093f8e2db5551d4774a3aee62dcb4e1964b5f72be09b485e856"
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
@@ -170,7 +170,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINING_ROCM64_TORCH29_PY312_IMAGE
   value: "quay.io/rhoai/odh-training-rocm64-torch29-py312-rhel9@sha256:a846fa930e3bf6763324b3957c16e75b9c28b7228618ba41f47895c5ba921a25"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_GARAK_LLS_PROVIDER_DSP_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:ac8666f2fb974dcf98495699786e9b1fc20fd94fca7a6d2e9761f89270d66222"
+  value: "quay.io/rhoai/odh-trustyai-garak-lls-provider-dsp-rhel9@sha256:dbcdc5257c72987e6ec40996d661200e99fa012160d051568384472b77cd1faa"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_NEMO_GUARDRAILS_SERVER_IMAGE
   value: "quay.io/rhoai/odh-trustyai-nemo-guardrails-server-rhel9@sha256:18bfe9a9f8d97219497c4a6348a2aed4c2ee60b3c81c7eedab29f51d20f065e8"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE

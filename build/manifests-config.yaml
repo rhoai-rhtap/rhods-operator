@@ -96,7 +96,7 @@ additional_meta:
     git.commit: 70174fb2b8f86cf1bcffa8c1e0fc46fdf27e4c8c
   odh-automl:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: 5ab5057194734a1c291be5ac4e411bf3f83383be
+    git.commit: fd3c7c5aa67212d45221ccc7f439195fbe1701e9
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
     git.commit: 5ab5057194734a1c291be5ac4e411bf3f83383be
@@ -303,7 +303,7 @@ additional_meta:
     git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
   odh-trustyai-garak-lls-provider-dsp:
     git.url: https://github.com/red-hat-data-services/llama-stack-provider-trustyai-garak
-    git.commit: 2f9607f251a6214fc095d5499b998d9456d5af29
+    git.commit: de469f02b61107f6002cb3851c3036509efc636e
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
     git.commit: e08bbdba2b82a9b4d62a5f75854c4dc00478b415

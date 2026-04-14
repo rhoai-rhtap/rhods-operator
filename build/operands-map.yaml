@@ -50,11 +50,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-k8s-operator-rhel9@sha256:302e2a3cb2e285ff5c1cba479eacbe8fb2324137f1f805c3c98853d4a2d59644"
 - name: RELATED_IMAGE_ODH_LLM_D_BATCH_GATEWAY_APISERVER_IMAGE
-  value: "quay.io/rhoai/odh-llm-d-batch-gateway-apiserver@sha256:2b151bbaba7ca7edc12840d8688e6a61066d8553616be1588bbccccdfb0804e0"
+  value: "quay.io/rhoai/odh-llm-d-batch-gateway-apiserver-rhel9@sha256:d895142c0413ff35559fe7e8f6710ab7161a83b2830acec1b6f68a63d7abf010"
 - name: RELATED_IMAGE_ODH_LLM_D_BATCH_GATEWAY_GC_IMAGE
-  value: "quay.io/rhoai/odh-llm-d-batch-gateway-gc@sha256:c8652b2a6d23eb46d603d85c4e1a9b1e113c48aee398c6ee0a2165c493bd1932"
+  value: "quay.io/rhoai/odh-llm-d-batch-gateway-gc-rhel9@sha256:694efceff09f312e9303a44b8daeb521dd42759823992bcee279241eb6e8ec4c"
 - name: RELATED_IMAGE_ODH_LLM_D_BATCH_GATEWAY_PROCESSOR_IMAGE
-  value: "quay.io/rhoai/odh-llm-d-batch-gateway-processor@sha256:f267b2a2b32cfa4f466217c945708b85fede032bd2fba03da3764ee241cde3e3"
+  value: "quay.io/rhoai/odh-llm-d-batch-gateway-processor-rhel9@sha256:868262aabe64791daaaccf4685b5f07d93fe028cb4dcf5b8ade1687f9721f1e4"
 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
   value: "quay.io/rhoai/odh-llm-d-inference-scheduler-rhel9@sha256:f8b4d54ed266acf1ea2fff6ea0614f47fcc03031df4cff0f1f804d60c22debb0"
 - name: RELATED_IMAGE_ODH_LLM_D_KV_CACHE_IMAGE
@@ -122,7 +122,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:ec73d34db1e499b5a8b11543be0d2d22863f71fb8b9a538206b48ef40cf57957"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:8dbb6215a12f9fc493347297d7e7aa3881dfe9eb27fb39ffe16ba77a511bbe0e"
+  value: "quay.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:cfde53038b932516a154c85da3b819146fd119477ebe42c489ad53687b717893"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_CUDA_PY312_IMAGE
   value: "quay.io/rhoai/odh-pipeline-runtime-pytorch-cuda-py312-rhel9@sha256:9083fce6464af59e11e5f94cdc62faa3e8fb21edbd95eb06d472424d3103bb31"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

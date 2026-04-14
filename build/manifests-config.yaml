@@ -147,13 +147,13 @@ additional_meta:
     git.commit: b958bff588f14b9c51ec7a00153c44309384d641
   odh-llm-d-batch-gateway-apiserver:
     git.url: https://github.com/red-hat-data-services/batch-gateway
-    git.commit: 3b4670d21ea5c22ef223b9c13a990379fe6fb262
+    git.commit: 25629b2848b45dff200da3e5f397bcbd71d33e7c
   odh-llm-d-batch-gateway-gc:
     git.url: https://github.com/red-hat-data-services/batch-gateway
-    git.commit: 39009908c02cdebab283abdc73f739659abf1b96
+    git.commit: 25629b2848b45dff200da3e5f397bcbd71d33e7c
   odh-llm-d-batch-gateway-processor:
     git.url: https://github.com/red-hat-data-services/batch-gateway
-    git.commit: 39009908c02cdebab283abdc73f739659abf1b96
+    git.commit: 25629b2848b45dff200da3e5f397bcbd71d33e7c
   odh-llm-d-inference-scheduler:
     git.url: https://github.com/red-hat-data-services/llm-d-inference-scheduler
     git.commit: 0a02ae169f10c6b0d3bc0be0b1fd421cc16072cc
@@ -240,7 +240,7 @@ additional_meta:
     git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: e69fbc4930fabf91b075b5c74a13c5b2bf734f9d
+    git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181

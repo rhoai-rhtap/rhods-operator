@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 15c1dc68400473cf666941027e1d33b5161b68c2
+    git.commit: d564409d2ec220514ca23faba661c49028ddbb57
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -260,7 +260,7 @@ additional_meta:
     git.commit: 5299828cf148d9c082ea8faa4e6c3b4f211b9845
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: be6989f1f971fa67ed3bebd1e07c2cf1072bdaff
+    git.commit: c7d0da7122eeaaeb80bee0d0741a488e3ffd6946
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
     git.commit: 0efdad153445797441cbc8d856505bcf6eebe592

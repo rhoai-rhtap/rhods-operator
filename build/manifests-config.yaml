@@ -126,7 +126,7 @@ additional_meta:
     git.commit: d3449484fa635aedacb9983ec1e1c72b7fc26b6d
   odh-kserve-storage-initializer:
     git.url: https://github.com/red-hat-data-services/kserve
-    git.commit: 3d84d005564ab690cf55e9c35fcb1b73d607a6d6
+    git.commit: d3449484fa635aedacb9983ec1e1c72b7fc26b6d
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
     git.commit: 2ffab8bfcfbfd4cd6f1d1acdf9b27a38bf6f008f

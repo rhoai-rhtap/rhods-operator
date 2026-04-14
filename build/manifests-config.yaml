@@ -144,7 +144,7 @@ additional_meta:
     git.commit: 5bf35d7ff48cc9ac4ec10aaba5e4f0276dc1cb26
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
-    git.commit: 92b8bbacfff2ed84cfa9a790fa82ff3f71415f8c
+    git.commit: b958bff588f14b9c51ec7a00153c44309384d641
   odh-llm-d-batch-gateway-apiserver:
     git.url: https://github.com/red-hat-data-services/batch-gateway
     git.commit: 3b4670d21ea5c22ef223b9c13a990379fe6fb262
@@ -168,7 +168,7 @@ additional_meta:
     git.commit: 8bdf2b9d4e0304e0928fc7068c10da0083c170cb
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 03d0864a8098f5af4d2ee77081e4ac78190e76d8
+    git.commit: 0256b7e39036963fbbe483e24a4c354c582ab1b6
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: 7e08eb70c4627ccb72ce5497938efeaf1b6f3754

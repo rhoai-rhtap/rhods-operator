@@ -84,7 +84,7 @@ map:
     src: config
     dest: sparkoperator
     git.url: https://github.com/red-hat-data-services/spark-operator
-    git.commit: df578ac1f9d14b9ef74f7bd759581e1ba9d707ee
+    git.commit: 03ebb566a47aadc897674d6c99ba717a3ef401e5
   odh-workload-variant-autoscaler-controller:
     src: config
     dest: wva
@@ -267,7 +267,7 @@ additional_meta:
     git.commit: 829f57acc9ae77eba8ec9b60a797601284c186ea
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
-    git.commit: 1c26b64d7ec99562a4cce112dff3e113f872dcb7
+    git.commit: b99b3bb221ea8de9045b7e8f95fd45fe261766bf
   odh-th06-cpu-torch291-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 15d4956e7eca437a69f2ea8c540e19701d9da3fd

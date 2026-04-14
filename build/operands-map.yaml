@@ -138,11 +138,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_RHAII_VALIDATOR_TOOLS_IMAGE
   value: "quay.io/rhoai/odh-rhaii-validator-tools-rhel9@sha256:c51a06e2c582c94d00db1d68d0e8e30b63d38ba3a811e7eb23ff8b3e3dd1b88c"
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-spark-operator-rhel9@sha256:30dd25d451c5891d17c033afdd397c98a7d43d730028ceecaeab23430401ce67"
+  value: "quay.io/rhoai/odh-spark-operator-rhel9@sha256:69c69f9d7c4a9733eaffa2df560b1cfd929d24419582361ad2a39533882dcdbb"
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:a657e147334ff3809639d73c30f32bcbd059e728e20c1a1bb57eb1736248454c"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:99a472986ee5b168f40b30ce15daeb16adb5548b49e25d7f4c646c593ea1c318"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:89bf68812899025c8405d55d7459ceb9f1cb39ab922ec531fa1ecd38fa9ef8dd"
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:ee62832250f03e02d04ff0b13d2a27c23efeec97f5ea243b8cd8e6358ebe2c7d"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE

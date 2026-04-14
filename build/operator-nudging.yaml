@@ -118,7 +118,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CAIKIT_NLP_IMAGE
   value: quay.io/rhoai/odh-caikit-nlp-rhel9@sha256:fcfa3d7198827d5824998c267af62bc7d917ef0c283eb7fa49f7066211c1e9f2
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE
-  value: quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:dc1230175012efcec130a6c73cae769c0b65807bc8904654bd9d0cc283de23f8
+  value: quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:5d9327ffc4a2e8481ded143d9ac8374dd5c4be252b2d3719269d6f22ff042693
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
   value: quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:56ba61b08def19edf9eb7dee7efac0402375fce2a92f6b6aec5c8d77af6af96c
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE

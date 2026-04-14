@@ -234,7 +234,7 @@ additional_meta:
     git.commit: 9cc43e53c35cec1600c1c17bd21bce4b1040f7e9
   odh-pipelines-components:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: 5ab5057194734a1c291be5ac4e411bf3f83383be
+    git.commit: fd3c7c5aa67212d45221ccc7f439195fbe1701e9
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181

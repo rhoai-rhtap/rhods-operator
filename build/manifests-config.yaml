@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181
+    git.commit: 25b36f3cdc16577c3f9d1fc4ff2565fb6b1db9e3
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -99,7 +99,7 @@ additional_meta:
     git.commit: ccea1b560ee5e16cdf9cce60ffd5e2e18374fed0
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: ccea1b560ee5e16cdf9cce60ffd5e2e18374fed0
+    git.commit: e3ac479c26b095a5465c393e402a41c1876e94a8
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
@@ -234,7 +234,7 @@ additional_meta:
     git.commit: 9cc43e53c35cec1600c1c17bd21bce4b1040f7e9
   odh-pipelines-components:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: e3ac479c26b095a5465c393e402a41c1876e94a8
+    git.commit: 5ab5057194734a1c291be5ac4e411bf3f83383be
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181

@@ -200,7 +200,7 @@ additional_meta:
     git.commit: 0f5f23e358044b713fb784274d63f1fbf7646db3
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
-    git.commit: 4006b01923d5b3ae03e494d672f2c2d04138357a
+    git.commit: 360522ad36f142767d3458390230dc69ab7a31b1
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
     git.commit: 7d116a2116ce1d3110d846bfd7da5cb49c5cb029

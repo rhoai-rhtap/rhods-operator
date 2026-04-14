@@ -52,7 +52,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MAAS_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-maas-controller-rhel9@sha256:b52ca89ebd312fdd268f0d2fac837b0d7055d2845e57e602b963ceec397c3e22"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:14839b731ffc0c788c655f310757cc939483c95e657ec8b20784ee849d87504d"
+  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:00cc3767afc651f32feb60c711219fe906002f4e0336d2f9e2555aeb7c9c0b42"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:6a7938d7d6bc07dabadcd0592bc0462ec32ef72d37f00548f13b9976a063d3b6"
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
@@ -124,7 +124,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:2d19bf685019ac6355027a129f6fc7d3be8fbcb5e272471375cce07dfcb47830"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE
-  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:293de5f2e2ac0e3538c622052a400c66b7d274297789f98532d54fcab4c1ebf6"
+  value: "quay.io/rhoai/odh-th06-cuda130-torch291-py312-rhel9@sha256:55e67bf742ba3f407491d47decde818e93d42589e36f4f831ab69381ccd2d50e"
 - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:c902d0eaf99f1cb98158c292536e564ce7c9b71f87f41ac1b9594a40fc7fc971"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE

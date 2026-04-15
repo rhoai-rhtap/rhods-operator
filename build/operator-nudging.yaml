@@ -76,7 +76,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:9092b7d7f380b2613ddb0c3e91ccf038ac4d39763822cb6b8425d4b14c7c28c3
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:147eb022ca9a98f5e679d93a5251b2262aa75e3ac1a93aefa55e0e1eaa6c65d4
+  value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:4f789088c536be28e992729fad30de3a200e5afbe27f198f8ae9a9902160f34b
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:8feefc2d1a191eb0a2b664b7c0bdaed76779cbdf56e980fa16b8f219e0e5e2f2
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE

@@ -59,7 +59,7 @@ map:
     src: infra/feast-operator/config
     dest: feastoperator
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: aa4755367bde599951ce9ab7aac3b4f8c4e8f48f
+    git.commit: 435c0ff53287803eb0c8881796f58288dfdc3826
   odh-llama-stack-k8s-operator:
     src: config
     dest: llamastackoperator
@@ -192,7 +192,7 @@ additional_meta:
     git.commit: 93722be320d301bd2f3b011ba02bf984b933d88c
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
-    git.commit: 2d6b2b9f457f18e77411dca2fd402828912d8702
+    git.commit: b1afbae47fbe08a147e3064d285cbf1cf39e7869
   odh-model-performance-data:
     git.url: https://github.com/red-hat-data-services/models-perf-benchmark-data
     git.commit: 3c435f0f4411299fa3eb26fb9be1998de4cdba84

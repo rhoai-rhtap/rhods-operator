@@ -20,7 +20,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_EVAL_HUB_IMAGE
   value: "quay.io/rhoai/odh-eval-hub-rhel9@sha256:d252489544fc4f800bded1c8630278508a3480ce35385f91acd881ecafe73ff5"
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:ba969834c9d062d81f053a5786b3230f657d89045903a60e4f1b7d5e57b8acb4"
+  value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:a6087bdd5c29004d7bd99a9fbe36fb9939e1142fc10ec95346baca4f0364cf2a"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
   value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:874eb9d78fe744ab66e3dba61a0967e4df5c126a074c4165a512fb8e7402f672"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
@@ -86,7 +86,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:65c2f5bfef566b5e030c9c147b723a12a3a30e850f76afca38283116e98af632"
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
-  value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:90fc40f41f63674e8ba8c5ebd52048b4731caf5075d9e8105ecb425e47709a62"
+  value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:e83ac1fbbb62620eb4dccbab760ea20c250548e3be822e2023e0e87f2fef78b4"
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:538bd52a2a5142ee2635c6925c537f58923fd3614dfc3146e2d40d3714cee4f5"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE

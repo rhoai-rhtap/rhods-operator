@@ -134,7 +134,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_TENSORFLOW_ROCM_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:eb5a49ed6330c6aa05c3ba3f2b322934e623011c402ce5afa1c1a28c4a58fbe6
 - name: RELATED_IMAGE_ODH_RHAII_CLUSTER_VALIDATOR_IMAGE
-  value: quay.io/rhoai/odh-rhaii-cluster-validator-rhel9@sha256:cf9b33fcbd58b8ad564c7cc29c1da23756c5fe2dde6ea7d644554900a89e9714
+  value: quay.io/rhoai/odh-rhaii-cluster-validator-rhel9@sha256:db4ae68d8518c43012b48ad7e403d8c752b92bca43ac81784d2cc6fe8b9c1106
 - name: RELATED_IMAGE_ODH_RHAII_VALIDATOR_TOOLS_IMAGE
   value: quay.io/rhoai/odh-rhaii-validator-tools-rhel9@sha256:c51a06e2c582c94d00db1d68d0e8e30b63d38ba3a811e7eb23ff8b3e3dd1b88c
 - name: RELATED_IMAGE_ODH_SPARK_OPERATOR_IMAGE

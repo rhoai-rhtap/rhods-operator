@@ -44,7 +44,7 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 58ec4718a415b5c7f3aec847042ce2b69102e158
+    git.commit: 3abc04637be041f80286a006bec965c98e407e7b
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -133,7 +133,7 @@ additional_meta:
     git.commit: 899f065fdbee448239336467b135d59b42315f9a
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: ecf7921e701d248170e9754767f4cecc147e425c
+    git.commit: f5782e66193f5e74bdb728ac1be0421af1f5a1fb
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: e2e4fed9db796b93cbb1e44f0e162af237226a6a
@@ -163,7 +163,7 @@ additional_meta:
     git.commit: 3f569b79686074818752e451f2cb8de1c9cb8bbd
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: a271c59d360652b672aa78616105be10512bb77b
+    git.commit: e3ce207493af7fe62bf4c9c24f61305a4fdc8369
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: a271c59d360652b672aa78616105be10512bb77b

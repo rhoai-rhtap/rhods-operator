@@ -1,7 +1,7 @@
 map:
   notebooks:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d564409d2ec220514ca23faba661c49028ddbb57
+    git.commit: e5e8e782286fe32bd32d24171bb6c786bd587c68
     src: manifests
     dest: workbenches/notebooks
     ref_type: branch
@@ -149,7 +149,7 @@ additional_meta:
     git.commit: 0f5f23e358044b713fb784274d63f1fbf7646db3
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 8b85b6b8eb5abfc3e3c0f7c468e4a6a7b1cac633
+    git.commit: e5e8e782286fe32bd32d24171bb6c786bd587c68
   odh-pipeline-runtime-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 8b85b6b8eb5abfc3e3c0f7c468e4a6a7b1cac633

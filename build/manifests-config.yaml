@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: df799d71fed36a7bbabe434100e91f3c07d44e56
+    git.commit: ae44fb9b2e18d2fb1fc89294a017a7ea41f6e1c4
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 688e56bee20ab89814ad090d2f0fb960ae6e997e
+    git.commit: ae44fb9b2e18d2fb1fc89294a017a7ea41f6e1c4
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: 3e873816e256ff7128fe5c6b5970a9dfb43b89b9
+    git.commit: 8fb37dac46e145d91c59588eab2cb74fed3f821a
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -74,12 +74,12 @@ map:
     src: config
     dest: mlflowoperator
     git.url: https://github.com/red-hat-data-services/mlflow-operator
-    git.commit: 2828de64a41601e70cfdf3267c73873f68c06e77
+    git.commit: 1a3af12f70ef52a395c4eb5483e14e8908f24811
   odh-maas-api:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: 186f0660a0a44c4a17c76cc16a8dbc525557e354
+    git.commit: fb09a13335972791d22d627710205424e986a81d
 additional_meta:
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
@@ -227,7 +227,7 @@ additional_meta:
     git.commit: 2dcafbd81837447dfca4d0cf96a80c16150de33c
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: fa50430308089eba3da5809b524ee25725cd10aa
+    git.commit: 561906d2531e25abd5e7f40fe52993c219c7442c
   odh-model-performance-data:
     git.url: https://github.com/red-hat-data-services/models-perf-benchmark-data
     git.commit: 210844641de980d62e4ae869d5ca52381d31d5b6
@@ -260,7 +260,7 @@ additional_meta:
     git.commit: 5299828cf148d9c082ea8faa4e6c3b4f211b9845
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 78cd03140da855d067e29c3f6c3a8c1e4bc2e0c6
+    git.commit: 6a24ba481bf28f41238aa727a5a3ee031430890b
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
     git.commit: 0efdad153445797441cbc8d856505bcf6eebe592

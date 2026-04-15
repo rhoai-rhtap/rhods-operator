@@ -64,7 +64,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:77e799abec30894241b6e00d07cf17f1b9e24346d40ce90d3eac2faae4e22c96"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:93c06d5229876490da8f10b67a62fbc97dfaabfe0a14eaf5e5a70ec9e0d20703"
+  value: "quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:d279a5e617d8c3969a432697c32fd7ef2acb56add0f0008abef4e65812bfa1fd"
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE
   value: "quay.io/rhoai/odh-built-in-detector-rhel9@sha256:928f8f92b0e079342ec1c9e055551795a83fe090eea9bcb7f64bf29e1f383ec2"
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE

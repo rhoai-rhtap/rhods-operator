@@ -143,7 +143,7 @@ additional_meta:
     git.commit: 4f4f110328dfa21292a4b0d9f4e7b298ec76d0e4
   odh-trustyai-vllm-orchestrator-gateway:
     git.url: https://github.com/red-hat-data-services/vllm-orchestrator-gateway
-    git.commit: 95c329a8d49a43ab2bf8d7299fcc037f9ee58995
+    git.commit: 3d24da6abf1fea20ec0b0009d0230a4d494365c5
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: 0f5f23e358044b713fb784274d63f1fbf7646db3

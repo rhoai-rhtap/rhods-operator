@@ -78,7 +78,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
   value: quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:147eb022ca9a98f5e679d93a5251b2262aa75e3ac1a93aefa55e0e1eaa6c65d4
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
-  value: quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:65cbdc71040c22e0dd1673d0f8662795793d4be12b80a35c4fa37c4167e36e74
+  value: quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:1a096ec89093b0745abefe63fdef53ccf40a751f0cf4981fdec8c6c632960df1
 - name: RELATED_IMAGE_ODH_TRUSTYAI_VLLM_ORCHESTRATOR_GATEWAY_IMAGE
   value: quay.io/rhoai/odh-trustyai-vllm-orchestrator-gateway-rhel9@sha256:d7879cb81376f29b42efc7152246b97591998a8bd46300a6ebc9ca73928d115b
 - name: RELATED_IMAGE_ODH_BUILT_IN_DETECTOR_IMAGE

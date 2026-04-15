@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: d9a19ed6e602383dfb74c872509aa8732d2fc395
+    git.commit: ff56c26edaf27f13c3e590dd486beb0c352e7ba2
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: e7140d52e3bc5c72d1beaf3cf07c37528ea0ff78
+    git.commit: da1e961bf28f9db47b30f9ba52b4f08a3177c258
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors

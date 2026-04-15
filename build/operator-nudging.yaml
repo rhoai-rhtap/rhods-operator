@@ -116,7 +116,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:67b365a18918c00dae37d1b370ef723ccf348165e791deab0b354590715059b7
 - name: RELATED_IMAGE_ODH_CAIKIT_NLP_IMAGE
-  value: quay.io/rhoai/odh-caikit-nlp-rhel9@sha256:fcfa3d7198827d5824998c267af62bc7d917ef0c283eb7fa49f7066211c1e9f2
+  value: quay.io/rhoai/odh-caikit-nlp-rhel9@sha256:97143117d65ee025d480f11ff065a41f834b02763e8e356c693aedec3b79918a
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE
   value: quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:db8f7437a73ecb79a2464574e765ce62880da8cd6e6fb4d9b7ed9feeb4ccf9f2
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE

@@ -66,7 +66,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MAAS_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-maas-controller-rhel9@sha256:19ead74e24c825d46bbaefe31f4e2e8bc90f2828c8927431e233cc1037bcfd3f
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: quay.io/rhoai/odh-mlflow-rhel9@sha256:a17e2645805d8bb1917e32c52db310624e84711f4f77ccf828fa5f156c382323
+  value: quay.io/rhoai/odh-mlflow-rhel9@sha256:636aa40ed03bc5836e83691ea144755cbd68cd6979389760a4525203be5ad3ec
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:085256f8214e3ee7111ff415ad14a1df0fce5f3620e51c26565ff99a8ab74d72
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE

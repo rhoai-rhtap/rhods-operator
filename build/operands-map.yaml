@@ -82,19 +82,19 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:ee75e4dcdc62edf3003aa6ec920b7c7d4c4dfa486ecda5a526c19ec9786d6f4b"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:3ee43054f6ccafb9d636f87a94a96bf1f733b6b87cab5dae77b7da1afad0d48e"
+  value: "quay.io/rhoai/odh-mod-arch-automl-rhel9@sha256:9528b351439f37661a68c7fecaf1b67742d5bdfce37ac551ad29561543337512"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:72c00cfea8a2acbebefef8fab7b89e284d7a5a04dbfc0c5f188df130a2b49a39"
+  value: "quay.io/rhoai/odh-mod-arch-autorag-rhel9@sha256:08195f0492e32dc2dbb106a47820186b713783c18ed0c6a65a00882d90b73b88"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_EVAL_HUB_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-eval-hub-rhel9@sha256:2eea7433c50a0c32ab9bac6da3eaa42c90122d8c0def55c798f8d418051de9e2"
+  value: "quay.io/rhoai/odh-mod-arch-eval-hub-rhel9@sha256:bc4630f4886ca4430c6b47fc6077f6d3eff6ffa29a51e7bcc4d71d90aeac9147"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:afb5b190bbf76cd83d0bd7d9a0e10737879d86dcb7c93746a2a20b495768de63"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:d57331aba7271a4e3d1dd9463f654664f722382ce50c016c150a4cab5704401d"
+  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:a9867fb7d3ec207e21790e04a1670220bdff6ceed3c5c5e0da991e6078a29b30"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MLFLOW_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-mlflow-rhel9@sha256:3d549ca476d0c73a019c62a92d7e9441b29cb9af55977268cf6e64b494340747"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:46237eb7a0a1e8488097b0a526c0e5435377158ac5ab302b020c55ee4b0cc4ce"
+  value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:27d46195da9e3227352be63cdb75b483cae8337873a0e95008322b274e1622a7"
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE
   value: "quay.io/rhoai/odh-must-gather-rhel9@sha256:25ceb0c47669c29ed652cce0e8292b2801c0e1c919db798502ceff00f919fb06"
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE

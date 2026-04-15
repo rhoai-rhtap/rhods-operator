@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 4335206edc2b00f14bb036c975171fe12c1dbf85
+    git.commit: e70d75ac3c88272198ce9be8f8c65eed78252486
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -99,7 +99,7 @@ additional_meta:
     git.commit: fd3c7c5aa67212d45221ccc7f439195fbe1701e9
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: 5ab5057194734a1c291be5ac4e411bf3f83383be
+    git.commit: fd3c7c5aa67212d45221ccc7f439195fbe1701e9
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
@@ -207,10 +207,10 @@ additional_meta:
     git.commit: 607d8d0e95e05142709ad8bb857ea0aef9f47ce6
   odh-mod-arch-automl:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 7797c2ed0487d7d8dad19f602e7d7beebb3fec04
+    git.commit: e70d75ac3c88272198ce9be8f8c65eed78252486
   odh-mod-arch-autorag:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 7797c2ed0487d7d8dad19f602e7d7beebb3fec04
+    git.commit: e70d75ac3c88272198ce9be8f8c65eed78252486
   odh-mod-arch-eval-hub:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: a5881796f3609d8440ad605e29bdbd1697ef00b7

@@ -18,7 +18,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
   value: "quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel9@sha256:27774e6b04607bdf4c7175cf969d4479b69933b434d0b5186494c58f1571df8a"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
-  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:a550ebf7e541499b695f73236ef79a3e3a77a1621ed589f6b5f015652bfcd39d"
+  value: "quay.io/rhoai/odh-trustyai-service-rhel9@sha256:0c2af2b1fd92816601af79c887393b3fecb73ebd662cabb606414fe476de2be1"
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:49c81fb66665bd6be7e970bdbbce4701bfa66a01daaf59369d1608c4ab270da2"
 - name: RELATED_IMAGE_ODH_CODEFLARE_OPERATOR_IMAGE
@@ -118,7 +118,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE
   value: "quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:1237f89a9c1f554371ce5a0fa493bceb5812f5af71418ee9d42460886bf1241c"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:aee3252ee6bc31e99fdd7e3c95afc9d7a4ce82abe4f329f1068ae7eeb36edf7f"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:a5820e6dc4d0d4cb0efeb8de145219a96fa22b3a3e6eb6327ddc27d6321f2f73"
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
   value: "quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:efda5c2aaf18b07031bd20761b9333e81f1edd2ab71d3c7c27aa0304f4097bca"
 - name: RELATED_IMAGE_ODH_VLLM_CPU_IMAGE

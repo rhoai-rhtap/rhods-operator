@@ -167,13 +167,13 @@ additional_meta:
     git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
   odh-pipeline-runtime-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-pipeline-runtime-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
   odh-pipeline-runtime-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d49e1926b91970a58592b352305034579462e906
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 3005b0f648061a005d5de13865289ca650b95c6e
@@ -188,22 +188,22 @@ additional_meta:
     git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-jupyter-minimal-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d49e1926b91970a58592b352305034579462e906
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-jupyter-pytorch-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
   odh-workbench-jupyter-tensorflow-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d49e1926b91970a58592b352305034579462e906
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-pipeline-runtime-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 9a6974840c854f136ef2370c0d9e3c7b7c59f511
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: d49e1926b91970a58592b352305034579462e906
@@ -215,10 +215,10 @@ additional_meta:
     git.commit: ecf40edece7aa2dbbb6b56e0021fd106fb5a4be7
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 0d9a9d68d8556f8e3ac58aa21ae72b273ecd738f
+    git.commit: 170271dc2eb5552361f20ecbdb0abff9c2eef2d6
   odh-openvino-model-server:
     git.url: https://github.com/red-hat-data-services/openvino_model_server
-    git.commit: ab34c1df7594399e27a29ee1a17cc8ea9cb7980e
+    git.commit: 21a7a52278aef3fd25220f2470cc9e2a1436db2d
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
     git.commit: 4894b7125381804a2bd3344d60e2fdcdf3c2672f
@@ -227,7 +227,7 @@ additional_meta:
     git.commit: 1781ba58e08f2edf685071f161bf673d6e506df4
   odh-vllm-rocm:
     git.url: https://github.com/red-hat-data-services/vllm-rocm
-    git.commit: 2b9ef6cc610db276d0af69118e90f7c257e30add
+    git.commit: 41f56162174c54b062c48ddb1314895f50e8d34a
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: e938de4d830aa6f30f11035b0dcf5e77014f2758
@@ -245,7 +245,7 @@ additional_meta:
     git.commit: d49e1926b91970a58592b352305034579462e906
   odh-pipeline-runtime-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: d49e1926b91970a58592b352305034579462e906
+    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
     git.commit: 73fe4b3d087698ac985d93b0207cdab70b4ce065

@@ -108,7 +108,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: "quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:3a14dd3654d223d66d8c0d01fe4f2a1cb23e14ba9dc2433c4b7c562a0ca12808"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:ee65196ff65f8b2bd0cd1cdcdbbe015a19fe0cfd7e0fa2bed2937503027bf1c6"
+  value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:c6546e8eee65c7316d047021cc8c7297de2679195d7cac2408ecfd94f7299ba5"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: "quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:5e383f3194c0b0c9f77a7d2450bb0d9b2c94d935e8396da4d54cf0e3369d1d13"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_PYTORCH_LLMCOMPRESSOR_CUDA_PY312_IMAGE

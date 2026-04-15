@@ -64,7 +64,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 7f7dc2d9475aaee1ab1dc6cb8cf23331bd5a6fbd
+    git.commit: 487e011b9219add34508ecace9506ccea1cd6b08
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -89,7 +89,7 @@ additional_meta:
     git.commit: 8f8b6a4894b730aa2d8a951f54417b6d4c212b79
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
-    git.commit: 9572c01d8f8f6c80f917a3772e2283dbe58252af
+    git.commit: 91f9bd13db837f751577f432b35369c6df974f8d
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: a43884ba4f2b05688c1903a7e54cd8a91663ad0f

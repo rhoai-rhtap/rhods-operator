@@ -324,10 +324,10 @@ additional_meta:
     git.commit: 5ff20813ef22dbf8764f50b0e3edb2c58a061f58
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181
+    git.commit: ac8b17264b1e1ab33cea54e9bdfa4f164a52efb8
   odh-workbench-jupyter-minimal-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181
+    git.commit: ac8b17264b1e1ab33cea54e9bdfa4f164a52efb8
   odh-workbench-jupyter-minimal-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: ac8b17264b1e1ab33cea54e9bdfa4f164a52efb8
@@ -339,7 +339,7 @@ additional_meta:
     git.commit: 5ff20813ef22dbf8764f50b0e3edb2c58a061f58
   odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 17aa8e445e001f9d9a1f6654a544545ac3dec181
+    git.commit: ac8b17264b1e1ab33cea54e9bdfa4f164a52efb8
   odh-workbench-jupyter-pytorch-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 5ff20813ef22dbf8764f50b0e3edb2c58a061f58

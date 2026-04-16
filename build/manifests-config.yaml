@@ -206,7 +206,7 @@ additional_meta:
     git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
   odh-workbench-jupyter-tensorflow-rocm-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: c92e297d4e94cb2edd9155164540cd4262937a96
+    git.commit: 12b3bb3048c766e3a292b02a294c36b6c8b33966
   odh-caikit-nlp:
     git.url: https://github.com/red-hat-data-services/caikit-nlp
     git.commit: ce29b181f6a988de8d4559d42a2aecf4b7617850

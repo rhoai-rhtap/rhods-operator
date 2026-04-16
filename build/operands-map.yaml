@@ -162,4 +162,4 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
   value: "quay.io/rhoai/odh-cli-rhel9@sha256:4ec9e89b2be23fe719a209e45c56817577e3b15d7b96b4e5eacbab64196b1598"
 - name: RELATED_IMAGE_ODH_OPERATOR_IMAGE
-  value: quay.io/rhoai/odh-rhel9-operator@sha256:200b02a0c0ce5e25687bcca627165084920eb07386990115d739c1ad1c9d38d7
+  value: quay.io/rhoai/odh-rhel9-operator@sha256:b3b5dd5baf72092f42d58debd4b1a60ed884a4d70b81b718b0d9f8a40955fc34

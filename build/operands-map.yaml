@@ -22,7 +22,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:a6087bdd5c29004d7bd99a9fbe36fb9939e1142fc10ec95346baca4f0364cf2a"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:c3a5eb6d92c6e921e50b483401295927adfc44d2b42eb9928a543d741d9a0d1e"
+  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:26d589d6be713f5014d4ff46f8ac0ac175cb5c16b97e16563e0feb226153bf9e"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:6f5f1528bc390140c1fa445756b94cb687cef6de6a71c190c30bd8cfc7028a3e"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE

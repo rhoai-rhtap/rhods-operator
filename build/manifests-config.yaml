@@ -165,7 +165,7 @@ additional_meta:
     git.commit: 38312e445820c2881bf041312f71ea08495228b5
   odh-maas-controller:
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: c04f0e2b68f545fbe2deca2ca9b19972e3baac0b
+    git.commit: cd60141fc66e2d2d651cb10ae3fc8066a01ff25d
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
     git.commit: 1cdcb88696ed55a9c7340b6e99d0a27d32525e27

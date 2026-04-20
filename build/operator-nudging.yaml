@@ -44,7 +44,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-notebook-controller-rhel8@sha256:42d0262bcdfe5ca7da86068c91b48143391cb93202b0ed2bcc89bc795d97372b
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
-  value: quay.io/rhoai/odh-training-operator-rhel8@sha256:198b23694809fa5de2bdf95ffe84e9073817a6849efe72f6e61c8946937fd779
+  value: quay.io/rhoai/odh-training-operator-rhel8@sha256:724894e26ae3b8fd317f28bbae5aabbc9d8182ec5aa408899e8d7c85989f54fc
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: quay.io/rhoai/odh-trustyai-service-rhel8@sha256:04801019f80b4bdf8407e8e9c37e4d4eb5a8408cddc833d4d71fe0e66bd488e5
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE

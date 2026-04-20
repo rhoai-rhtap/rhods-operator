@@ -34,7 +34,7 @@ map:
     src: config
     dest: trustyai
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 00a5ecf8654b90a8c579705abaf9122ecc5ec2c2
+    git.commit: 75447259963b7b60c84171129c767d20940d7878
   odh-model-controller:
     src: config
     dest: modelcontroller
@@ -197,7 +197,7 @@ additional_meta:
     git.commit: 15c1dc68400473cf666941027e1d33b5161b68c2
   odh-ta-lmes-driver:
     git.url: https://github.com/red-hat-data-services/trustyai-service-operator
-    git.commit: 00a5ecf8654b90a8c579705abaf9122ecc5ec2c2
+    git.commit: 75447259963b7b60c84171129c767d20940d7878
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
     git.commit: 468be4f5b7d3cf07ce98ce9588a0b6a5c1239e8e

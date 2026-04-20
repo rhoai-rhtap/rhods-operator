@@ -32,7 +32,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODELMESH_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-modelmesh-serving-controller-rhel8@sha256:0a62178ec0c0dbe3aa9ffcdc79d24dc2a0dc87db53a89a0c3410a6ae44564c65
 - name: RELATED_IMAGE_ODH_MODELMESH_IMAGE
-  value: quay.io/rhoai/odh-modelmesh-rhel8@sha256:dd4e7d99b195b3ab1d57bb4ced87dbc40991cbf5c37b402fd3c3a211f5581e4a
+  value: quay.io/rhoai/odh-modelmesh-rhel8@sha256:6e3df431987907bc49a2a4014af7f9eebfd548174264620a1f959bc165c46dc6
 - name: RELATED_IMAGE_ODH_MODELMESH_RUNTIME_ADAPTER_IMAGE
   value: quay.io/rhoai/odh-modelmesh-runtime-adapter-rhel8@sha256:074f932b8fa08276b56388a45131749c709f07901aade465c4db59022fb98b9e
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE

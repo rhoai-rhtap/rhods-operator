@@ -48,4 +48,4 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE
   value: quay.io/rhoai/odh-trustyai-service-rhel8@sha256:04801019f80b4bdf8407e8e9c37e4d4eb5a8408cddc833d4d71fe0e66bd488e5
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_OPERATOR_IMAGE
-  value: quay.io/rhoai/odh-trustyai-service-operator-rhel8@sha256:6ed50dda8a513b115d33ad40dcec4a2452d8a793742ccb9a43ea21e6159c8f36
+  value: quay.io/rhoai/odh-trustyai-service-operator-rhel8@sha256:4c7b0b6706324a277b4ed5e979728d332f587c19990d28ed32ba50c3530261ba

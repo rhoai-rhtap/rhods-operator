@@ -42,7 +42,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-model-registry-operator-rhel8@sha256:6c4db0b0fea5588a4a86bb856182dfa5a77eff671ba306c59b716c244659c203
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
-  value: quay.io/rhoai/odh-notebook-controller-rhel8@sha256:7dcd53658410e88a49f9ffdf648970ca4eae0114b4533f0a434764682ef866c2
+  value: quay.io/rhoai/odh-notebook-controller-rhel8@sha256:42d0262bcdfe5ca7da86068c91b48143391cb93202b0ed2bcc89bc795d97372b
 - name: RELATED_IMAGE_ODH_TRAINING_OPERATOR_IMAGE
   value: quay.io/rhoai/odh-training-operator-rhel8@sha256:198b23694809fa5de2bdf95ffe84e9073817a6849efe72f6e61c8946937fd779
 - name: RELATED_IMAGE_ODH_TRUSTYAI_SERVICE_IMAGE

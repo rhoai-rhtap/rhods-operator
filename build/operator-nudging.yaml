@@ -10,7 +10,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_OPERATOR_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-data-science-pipelines-operator-controller-rhel8@sha256:4195c0390ccd85cd7bc1d3cc73381cf7408b831d49d351a9d70fc5d6ab605613
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
-  value: quay.io/rhoai/odh-kf-notebook-controller-rhel8@sha256:31926729c693caf6f4a9730a16e4a2c7e858fd95d8e52faffc263dd224c01cf5
+  value: quay.io/rhoai/odh-kf-notebook-controller-rhel8@sha256:141976d68745788b3e34eabea8b1cf7742dbad38de1eb4d0e956e19c19c29cbc
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kuberay-operator-controller-rhel8@sha256:0cfb35e3494408ee016a1821a1ce4174c7414356fdeb3b73896e68e9afffbf02
 - name: RELATED_IMAGE_ODH_KUEUE_CONTROLLER_IMAGE

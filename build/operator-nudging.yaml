@@ -12,7 +12,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kf-notebook-controller-rhel8@sha256:31926729c693caf6f4a9730a16e4a2c7e858fd95d8e52faffc263dd224c01cf5
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
-  value: quay.io/rhoai/odh-kuberay-operator-controller-rhel8@sha256:0cfb35e3494408ee016a1821a1ce4174c7414356fdeb3b73896e68e9afffbf02
+  value: quay.io/rhoai/odh-kuberay-operator-controller-rhel8@sha256:d6ddbec8b90a3dbff06b68844e22b79af0474cff21118aae5b5697b9fac88b4d
 - name: RELATED_IMAGE_ODH_KUEUE_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kueue-controller-rhel8@sha256:992a15f72327b8079ff5089ad1b76a61da6eb1562638be01994cb086fd43ea36
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE

@@ -70,7 +70,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 6e4434e3461f91bb79114a623d1b26a6ece8e311
+    git.commit: 8f99de7a02dc5848894a09304ca30338f426aea3
 additional_meta:
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows

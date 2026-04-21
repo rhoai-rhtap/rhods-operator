@@ -198,7 +198,7 @@ additional_meta:
     git.commit: b110ad8f2868923791d98c68a54195c2e4da4b5f
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: c822ab6805cd5b91dca275e7c26be0866cd500b9
+    git.commit: 143532a549c97ee9fca5d969263012ad2460238b
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
@@ -315,13 +315,13 @@ additional_meta:
     git.commit: c84da0f5b3deb83f8f53b5032d3c8999dd463e5d
   odh-vllm-cpu:
     git.url: https://github.com/red-hat-data-services/vllm-cpu
-    git.commit: 0979a2cfbf2eed3a03a388001682368f009a0ae3
+    git.commit: f427c47459c618db71f200b50783423eb7b81ab3
   odh-vllm-gaudi:
     git.url: https://github.com/red-hat-data-services/vllm-gaudi
     git.commit: da9cb21c4d86f8cab9ae0a314e1ca8ce02f9bb68
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 5ff20813ef22dbf8764f50b0e3edb2c58a061f58
+    git.commit: 7672aee5fb81c51bad4336a11d35cdbeac375248
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: ac8b17264b1e1ab33cea54e9bdfa4f164a52efb8

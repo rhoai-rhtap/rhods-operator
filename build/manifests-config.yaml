@@ -140,7 +140,7 @@ additional_meta:
     git.commit: 927362bb9dd3a4363523cc0b83ef39a455d548bd
   odh-ml-pipelines-runtime-generic:
     git.url: https://github.com/red-hat-data-services/ilab-on-ocp
-    git.commit: 60b3630d5b9f38cd507604b2bd3d75def3ddf6f4
+    git.commit: 79dd3cb6fa836ae47e6fb29ace6d464aa519d9a0
   odh-ml-pipelines-scheduledworkflow-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: 927362bb9dd3a4363523cc0b83ef39a455d548bd

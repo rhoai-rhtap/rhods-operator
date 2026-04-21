@@ -40,7 +40,7 @@ map:
     src: config
     dest: kueue
     git.url: https://github.com/red-hat-data-services/kueue
-    git.commit: 5ecd5ab7ba9f3a554ad2b5cb8a60a3dd9f0da90c
+    git.commit: 24d5cfeb14af65ec8b21c5ed396b79259bdd4974
   odh-trustyai-service-operator:
     src: config
     dest: trustyai-service-operator
@@ -65,7 +65,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: f8306de6be58fc9893b1d4b5cfc9f77c40a32761
+    git.commit: 789eda98cf2f66da1d7ddfdb366dffe416052b6c
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -107,7 +107,7 @@ additional_meta:
     git.commit: df67b9e63572713ecd8af74a8b0ae91ee78072de
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 64cd96b5db1190886ca0fcac3536981a2c451a90
+    git.commit: 157ca66644f8b95149f26e799377d32343b33cfa
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 712a4cea16d28f33db66d0716c5d08aa9912e8ac

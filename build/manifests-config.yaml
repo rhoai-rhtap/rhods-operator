@@ -117,7 +117,7 @@ additional_meta:
     git.commit: 2eaefc15e3e43eecea2227af22051e0b42aec508
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
-    git.commit: cfb33e6a5b5b77b82ae9dc7a0e4844c64186559b
+    git.commit: 2f2ede6ec09bc7431e554eb3861e265d31458eec
   odh-fms-guardrails-orchestrator:
     git.url: https://github.com/red-hat-data-services/fms-guardrails-orchestrator
     git.commit: bf6c7951c5e113ef40085029e7bfc8d96d4e6d83

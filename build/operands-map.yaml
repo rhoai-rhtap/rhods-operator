@@ -46,7 +46,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MAAS_API_IMAGE
   value: "quay.io/rhoai/odh-maas-api-rhel9@sha256:032962f6dc3feb07b6cf59060cae4c227814f9a452cad46ba9161a66eb11b121"
 - name: RELATED_IMAGE_ODH_MLFLOW_IMAGE
-  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:fa308b80ea2d99fe9f963ff1492adedb19c0c2a658a3b582f8d754685fc84dee"
+  value: "quay.io/rhoai/odh-mlflow-rhel9@sha256:5eb8f7f38cb73ee10a96ae613a4dace571ef068c20d41f676b2a904c3f7693c6"
 - name: RELATED_IMAGE_ODH_MLFLOW_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-mlflow-operator-rhel9@sha256:dba5b8d6874f94473eb86621c87d99abbdf30e79161e41d7fdc5248b72aa875c"
 - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
@@ -64,7 +64,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_ML_PIPELINES_SCHEDULEDWORKFLOW_V2_IMAGE
   value: "quay.io/rhoai/odh-ml-pipelines-scheduledworkflow-v2-rhel9@sha256:01ebed766e8452b09ec194706ac84dba7fdfcd6410f1029e4ffc3f636bed99fb"
 - name: RELATED_IMAGE_ODH_MODEL_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:5a2043e00a43ffa294af243281cba8152ab22cb044af5c882e9ab060b786dce7"
+  value: "quay.io/rhoai/odh-model-controller-rhel9@sha256:5bc319e3d9fbd927dba33798dfddb0e81e1fcf4460b3a72de6dd71436b5b0d48"
 - name: RELATED_IMAGE_ODH_MODEL_METADATA_COLLECTION_IMAGE
   value: "quay.io/rhoai/odh-model-metadata-collection-rhel9@sha256:b6bb233c0d20cc093ffe1be4cabc14777c52c08fd67e4b807db286c6081424cc"
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE

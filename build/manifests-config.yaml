@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: e1c6f7b81beec5de51a38ecdd3bf97f44a3078a9
+    git.commit: 3ce6ceb96c3dc749ae624fde8701e11c17c447ed
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: e1c6f7b81beec5de51a38ecdd3bf97f44a3078a9
+    git.commit: 3ce6ceb96c3dc749ae624fde8701e11c17c447ed
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines
@@ -29,7 +29,7 @@ map:
     src: ray-operator/config
     dest: ray
     git.url: https://github.com/red-hat-data-services/kuberay
-    git.commit: bf56babd1286167f092a91fd620ad8223051777c
+    git.commit: 6d22e8b05a0baf1e84616ddcaa5977e38e0c6215
   odh-trustyai-service-operator:
     src: config
     dest: trustyai
@@ -245,7 +245,7 @@ additional_meta:
     git.commit: 1b18b755cd32a80157d58b4052ba1e30ea63b402
   odh-workbench-codeserver-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: b7be837d7e9e4e94345693368f8c5724d3844a7e
+    git.commit: 2383f04621be82b7db3c06e70d900d9e39c3d4c0
   odh-workbench-jupyter-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 2383f04621be82b7db3c06e70d900d9e39c3d4c0

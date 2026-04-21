@@ -54,12 +54,12 @@ map:
     src: config
     dest: modelregistry
     git.url: https://github.com/red-hat-data-services/model-registry-operator
-    git.commit: 08a2e91a7612271a5aa7cb5973cf1707ba0bf1b1
+    git.commit: 0ea73e308dea57c462d1feb0aabbb2f0fba8bdc3
   odh-modelmesh-serving-controller:
     src: config
     dest: modelmeshserving
     git.url: https://github.com/red-hat-data-services/modelmesh-serving
-    git.commit: e5e2e21c2c62930c8c636c6129768d9b3b116b5d
+    git.commit: ac4fcd7bdab123941fab0007b74cc348c571b617
   odh-dashboard:
     src: manifests
     dest: dashboard
@@ -152,13 +152,13 @@ additional_meta:
     git.commit: d3846116ecc24f4e1ebe1ddbcd16a596d9081c43
   odh-modelmesh-runtime-adapter:
     git.url: https://github.com/red-hat-data-services/modelmesh-runtime-adapter
-    git.commit: b90a7a7dda3ab3b37378e324e0462185aba430ee
+    git.commit: 7e108d396f4255891c4474a8cf6bfb5af67001ce
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
     git.commit: 73fe4b3d087698ac985d93b0207cdab70b4ce065
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 5c71a8b9f5acafb8180e3d69b2c8a535dfdcc742
+    git.commit: 38ec2401887eed7c758ecb1cc05530bde217ca9f
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: e20b3a2cb72bdbdce1f515a7cdcb0abcc28a1728

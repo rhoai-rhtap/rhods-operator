@@ -91,7 +91,7 @@ additional_meta:
     git.commit: c97881b21f44a5a164cb96efcd563502206c8993
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 6dfc1799a80fc7f216bc513c455eabef9c1b6c38
+    git.commit: a98ea1d15e1dca7fbcaeb0ed9f7f48d7528ddaf5
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 62e4de49bf764a1b6eb08b4eb7725b48f0e7aafd
@@ -100,7 +100,7 @@ additional_meta:
     git.commit: 62e4de49bf764a1b6eb08b4eb7725b48f0e7aafd
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: d2230ecd80156a88f1a488f0453ff46f70f82861
+    git.commit: d90d996e6fb4380e6938dbe40b02f1cbe800e795
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 4205e055702a7e4439cdfe23a29c0b2f49e3ea63

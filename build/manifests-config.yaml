@@ -86,7 +86,7 @@ additional_meta:
     git.commit: d373757b7dd29dfb70f69947bdd70cb12ebae452
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: a9f224590869c3e01ab1fbbfeb2339806bfb1384
+    git.commit: 83dc85286b6bbe424e8c68db088825c4eebec365
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
     git.commit: 6840f9df53eb3f51dbda6d4226ff2fc333bd2d70
@@ -113,7 +113,7 @@ additional_meta:
     git.commit: 8474e58e57d339db779efa2654dd28adebd3592f
   odh-kube-auth-proxy:
     git.url: https://github.com/red-hat-data-services/kube-auth-proxy
-    git.commit: fa5ff09dc4de718520359dcfd8e2c5bcae6b6aa1
+    git.commit: 0f23917e42b018cc905ce181adf06e79b6429b8e
   odh-llama-stack-core:
     git.url: https://github.com/red-hat-data-services/llama-stack-distribution
     git.commit: ed7a98e2693398dd7d89feb5257b70ac684c524e

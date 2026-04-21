@@ -70,7 +70,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: 4f4affd5dafa60ea3a42cd5da2610e8d3b6e362b
+    git.commit: 6e4434e3461f91bb79114a623d1b26a6ece8e311
 additional_meta:
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
@@ -80,7 +80,7 @@ additional_meta:
     git.commit: c5743e449ed3a6e1fa98022df9d64a974cdc614d
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
-    git.commit: cba7aadc25e55b5aab813068e1583e8ed97c4c7f
+    git.commit: a622e7a1a423ee742b90b2c122fe860b0e1523ef
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
     git.commit: a0c4ff95c7a742d2cb4b492a313e0ac9cc707cfb

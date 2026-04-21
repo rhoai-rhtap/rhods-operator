@@ -84,7 +84,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-notebook-controller-rhel9@sha256:41cd6121b9454c86965cf2831dddfc866a210fe23e0a647125197c1ba22aca5e
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
-  value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:457728f1040dc2afc37d60e0f6abbb62aafcf67ec3d746853d8becdfe169242c
+  value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:bcd9d16eb9a680558ca35f04919cb937f58f1d96673d6bb54d9797393880dde8
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:13b4dfba6c3d2de7ed44507d5a4f5d7e6cab93d2ae2f69b03ed0d2bfc7d35dff
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_MINIMAL_CPU_PY312_IMAGE

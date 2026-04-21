@@ -24,7 +24,7 @@ map:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: bcf29d6ceee67aefb5952cbb098670f8146f9bce
+    git.commit: 3bc787d4e1faadc893aa72fb759865377969a2b3
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -92,7 +92,7 @@ additional_meta:
     git.commit: 41ae5026d7aaa0a86322c0f5dee1150ae814edc5
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 41ae5026d7aaa0a86322c0f5dee1150ae814edc5
+    git.commit: f58566382e257807c051b791d2df5e705b768c6a
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: 0b5c6208e7202baf0b0b881536f6a1b8f987c2ff
@@ -125,7 +125,7 @@ additional_meta:
     git.commit: a76c891b1b126dc767e194bdaf8779b0f91406cf
   odh-mlflow:
     git.url: https://github.com/red-hat-data-services/mlflow
-    git.commit: 6a24ba481bf28f41238aa727a5a3ee031430890b
+    git.commit: a95ef8e62549bd03418ceb53dc76de33abcec1ae
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
     git.commit: 17003494b3ec2350502fd2de78ef5348c7d69b05

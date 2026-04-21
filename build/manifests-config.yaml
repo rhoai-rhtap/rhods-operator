@@ -89,7 +89,7 @@ map:
     src: config
     dest: wva
     git.url: https://github.com/red-hat-data-services/workload-variant-autoscaler
-    git.commit: 63b6911bb789e5fbc800e526cea2cc5168a2543c
+    git.commit: 64c104fc254e32fb7af16a00008c61b61d0a7e56
 additional_meta:
   odh-ai-gateway-payload-processing:
     git.url: https://github.com/red-hat-data-services/ai-gateway-payload-processing

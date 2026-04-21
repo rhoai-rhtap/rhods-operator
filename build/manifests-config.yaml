@@ -54,7 +54,7 @@ map:
     src: manifests
     dest: trainingoperator
     git.url: https://github.com/red-hat-data-services/training-operator
-    git.commit: ff56c26edaf27f13c3e590dd486beb0c352e7ba2
+    git.commit: a6bb54ee8ea59bf5502c841ccd2e68d09e962eb8
   odh-feast-operator:
     src: infra/feast-operator/config
     dest: feastoperator
@@ -273,7 +273,7 @@ additional_meta:
     git.commit: 985c9dcabbf6786d3fe1b62cb637a39a7f8c27c6
   odh-trustyai-nemo-guardrails-server:
     git.url: https://github.com/red-hat-data-services/NeMo-Guardrails
-    git.commit: e9486455898fc9da635d8fd6977ab30a76ac6887
+    git.commit: 8acbb7b1e21ffac0ef22c9835fd7242cf856054c
   odh-trustyai-service:
     git.url: https://github.com/red-hat-data-services/trustyai-explainability
     git.commit: 0b6c6adac064a2646df362608ecc4615a40a2c98

@@ -14,12 +14,12 @@ map:
     src: components/notebook-controller/config
     dest: workbenches/kf-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 3591bc07f5ab190a52a31435c2252694021b8d71
+    git.commit: 72ed317726158ddb7c6b3ee4b6bc5c5e52b33991
   odh-notebook-controller:
     src: components/odh-notebook-controller/config
     dest: workbenches/odh-notebook-controller
     git.url: https://github.com/red-hat-data-services/kubeflow
-    git.commit: 3591bc07f5ab190a52a31435c2252694021b8d71
+    git.commit: 72ed317726158ddb7c6b3ee4b6bc5c5e52b33991
   odh-data-science-pipelines-operator-controller:
     src: config
     dest: datasciencepipelines

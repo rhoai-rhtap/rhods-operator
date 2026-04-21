@@ -18,7 +18,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:296fc3767a8fdce5ee1af13cf95f472a05acb8b0e716d584f72d44e4e8c81619"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
-  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:4e94115c9d697223bb1878070db50036791336f90fd1fb28dc1c677dc26838ed"
+  value: "quay.io/rhoai/odh-guardrails-detector-huggingface-runtime-rhel9@sha256:4aed3105f6be8c6582c5011b1994ca7b07a10dbe398c4ba30f62870e58d186f5"
 - name: RELATED_IMAGE_ODH_KF_NOTEBOOK_CONTROLLER_IMAGE
   value: "quay.io/rhoai/odh-kf-notebook-controller-rhel9@sha256:d8f387f59c96d3432012a8cc485beb09ecd7b90ce6565a531014efcb34eed7be"
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
@@ -102,7 +102,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:97e9b27424d00a0128dcd74669feb7ce578fbc2b7e9fa9f8652acd4312967e62"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:b740bedd22c926cb6f7c255a7fe61b9f82ac20a0aeef9cacf7de22bf021523da"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:753b727e476bc6739f54a25ace93343e0cfdc48a617f560e12d6e9065e7df5f3"
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:8237ffd4be9dacf0a62f3ff2b9004b53957325d8737224219c3867daacd614a8"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
@@ -158,6 +158,6 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TENSORFLOW_ROCM_PY312_IMAGE
   value: "quay.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:008a7832d98c7b7fcf198be99e53f7992ff48172b1f5690d6fccdf31a797c493"
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
-  value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:bdf9ad016d9e25d90615975a25eabcb1ee9f170cd023396eda0ff8d8b1dcf8e6"
+  value: "quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:d3b5c981d42cf1384c51e409ce40b962ece07a45ff798750f57f88556013c4a3"
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:a049b22bef996832c0572ef931b107f7805f3bf5f8ba1361835a5662e0db6f9a"

@@ -101,7 +101,7 @@ additional_meta:
     git.commit: ce32c9f4a8d6eec26d0c3a2d5fada030de91ad5e
   odh-guardrails-detector-huggingface-runtime:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
-    git.commit: 0f5f23e358044b713fb784274d63f1fbf7646db3
+    git.commit: d373757b7dd29dfb70f69947bdd70cb12ebae452
   odh-kserve-agent:
     git.url: https://github.com/red-hat-data-services/kserve
     git.commit: 8474e58e57d339db779efa2654dd28adebd3592f
@@ -200,7 +200,7 @@ additional_meta:
     git.commit: 7ca28dcc67f29abb343a2eebc52e40bc8377ee19
   odh-ta-lmes-job:
     git.url: https://github.com/red-hat-data-services/lm-evaluation-harness
-    git.commit: 468be4f5b7d3cf07ce98ce9588a0b6a5c1239e8e
+    git.commit: 714110ef43742677d32a715e4a16ff06e45bf66a
   odh-training-cuda121-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: 2cc0897cc2d43af33d2d0772a6620e277fcf6ded
@@ -275,4 +275,4 @@ additional_meta:
     git.commit: 2383f04621be82b7db3c06e70d900d9e39c3d4c0
   odh-workbench-jupyter-trustyai-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
-    git.commit: 15c1dc68400473cf666941027e1d33b5161b68c2
+    git.commit: 2383f04621be82b7db3c06e70d900d9e39c3d4c0

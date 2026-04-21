@@ -128,7 +128,7 @@ additional_meta:
     git.commit: 96cf0e6b9170aa51fb2de6e3ecba5e5cfaee7b0d
   odh-mlmd-grpc-server:
     git.url: https://github.com/red-hat-data-services/ml-metadata
-    git.commit: b06fd3e04ef5e71e5671fa8ed46b04aa1c43adb5
+    git.commit: cce0b4cf20682063d7fe2f5174be9961e94aec0d
   odh-mlserver:
     git.url: https://github.com/red-hat-data-services/MLServer
     git.commit: 0efdad153445797441cbc8d856505bcf6eebe592

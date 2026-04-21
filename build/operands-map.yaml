@@ -70,11 +70,11 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MODEL_PERFORMANCE_DATA_IMAGE
   value: "quay.io/rhoai/odh-model-performance-data-rhel9@sha256:85b5c8f88b4b34479a5b38100ef0a1d67da28e703f1873a85625d48ef77ad653"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:c83d31b8a8a92fb70a2259911e97f023be41e79e7e6b0d261f83d14f525e6f06"
+  value: "quay.io/rhoai/odh-model-registry-rhel9@sha256:9739f8af4ef7e15692b7dde7507e0a8328195d3f2bcc7a3f0c4aff73e532ad0a"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_JOB_ASYNC_UPLOAD_IMAGE
   value: "quay.io/rhoai/odh-model-registry-job-async-upload-rhel9@sha256:2bd539e4f2f2487978ead02eb6e3781c82f8e7a0f865d45f44903809bd1329b6"
 - name: RELATED_IMAGE_ODH_MODEL_REGISTRY_OPERATOR_IMAGE
-  value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:f3f62a85595d820b358351a8e543b9b8673f7a6e677d883de08937ef2085c603"
+  value: "quay.io/rhoai/odh-model-registry-operator-rhel9@sha256:4cc814fdfa848b1b050d5fab1fc4de02515c1fc42777ce8814be458c067d54da"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:a1a6711aa99356c29773c855b6eccd324c2662b492522ae21fe9ebc3f27326ae"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE

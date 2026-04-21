@@ -138,7 +138,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_VLLM_GAUDI_IMAGE
   value: quay.io/rhoai/odh-vllm-gaudi-rhel9@sha256:d6a57c3d95153fba5db3bb4831f08133ecf9a08f0843a9e4945b92138e435d78
 - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_DATASCIENCE_CPU_PY312_IMAGE
-  value: quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:f2f8f74be9ff5177be5a8c1aa820a0df7ef3b68c57cabec1a8bd808d89cddb73
+  value: quay.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:fe4e6b033457a6afc26aa72324307fefef3a1ac87a05c13b9ea78d27050866f7
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_DATASCIENCE_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-datascience-cpu-py312-rhel9@sha256:5df8a78f5bfe594302574bc93e6d0fe52fc38563e95a0e9ca627bb662799bde7
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_MINIMAL_CPU_PY312_IMAGE

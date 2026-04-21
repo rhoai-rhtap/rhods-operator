@@ -32,7 +32,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:a7ec6ee01c7a9e56dc5c2c51c842c726a441e085f794d5aca9e3f8a388341ffc
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE
-  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:4027ce7319cb9c9fbed1e736b440c0fa6e8bfeb5a4433a4c753402642a1839af
+  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:e33c43a09c4e9ac667f9fd78080bc26bc72bd3280febda3e8cc7986f41d17e3a
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:5e383f3194c0b0c9f77a7d2450bb0d9b2c94d935e8396da4d54cf0e3369d1d13
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
@@ -160,4 +160,4 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_WORKBENCH_JUPYTER_TRUSTYAI_CPU_PY312_IMAGE
   value: quay.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:bdf9ad016d9e25d90615975a25eabcb1ee9f170cd023396eda0ff8d8b1dcf8e6
 - name: RELATED_IMAGE_OSE_KUBE_RBAC_PROXY_IMAGE
-  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:4027ce7319cb9c9fbed1e736b440c0fa6e8bfeb5a4433a4c753402642a1839af
+  value: quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:e33c43a09c4e9ac667f9fd78080bc26bc72bd3280febda3e8cc7986f41d17e3a

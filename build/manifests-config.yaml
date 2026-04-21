@@ -79,7 +79,7 @@ map:
     src: deployment
     dest: maas
     git.url: https://github.com/red-hat-data-services/models-as-a-service
-    git.commit: fb09a13335972791d22d627710205424e986a81d
+    git.commit: f035ac61d7d9b31b96915d9992b569ed9513c623
 additional_meta:
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
@@ -134,19 +134,19 @@ additional_meta:
     git.commit: 0efdad153445797441cbc8d856505bcf6eebe592
   odh-ml-pipelines-api-server-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: bef5310c5ad5d0983b2f43d8d0d723a67e47bdf6
+    git.commit: 1917c624b48a9a35dc3abb819100bad02fdd3a6a
   odh-ml-pipelines-driver:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: c0b95b26f3cff43f28f0d22763663c2f2ae54d90
+    git.commit: 1917c624b48a9a35dc3abb819100bad02fdd3a6a
   odh-ml-pipelines-launcher:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: bef5310c5ad5d0983b2f43d8d0d723a67e47bdf6
+    git.commit: 1917c624b48a9a35dc3abb819100bad02fdd3a6a
   odh-ml-pipelines-persistenceagent-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: bef5310c5ad5d0983b2f43d8d0d723a67e47bdf6
+    git.commit: 1917c624b48a9a35dc3abb819100bad02fdd3a6a
   odh-ml-pipelines-scheduledworkflow-v2:
     git.url: https://github.com/red-hat-data-services/data-science-pipelines
-    git.commit: c0b95b26f3cff43f28f0d22763663c2f2ae54d90
+    git.commit: 1917c624b48a9a35dc3abb819100bad02fdd3a6a
   odh-model-metadata-collection:
     git.url: https://github.com/red-hat-data-services/model-metadata-collection
     git.commit: 104ce8db5078acb37320a0a17f9f8b57b68f7feb
@@ -164,7 +164,7 @@ additional_meta:
     git.commit: 2dcafbd81837447dfca4d0cf96a80c16150de33c
   odh-mod-arch-maas:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 1931fdedb571556fee06d38b9bd588a04dd60a9b
+    git.commit: 810fb3df6537a8cbae166cee28f5ed1adb28b699
   odh-mod-arch-model-registry:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: a7710047559b05520df5b7076eee6e63f1ae9445

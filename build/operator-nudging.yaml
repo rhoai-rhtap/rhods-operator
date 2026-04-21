@@ -36,7 +36,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:f3de099f8443c23d23bfddb4526218bc09185e1a22c8706e04b5a3d3148cc8ea
 - name: RELATED_IMAGE_ODH_KUEUE_CONTROLLER_IMAGE
-  value: quay.io/rhoai/odh-kueue-controller-rhel9@sha256:7384b3982c13b090d57378d7ed4846e0681f24c037af4202d11d0f6d789cb313
+  value: quay.io/rhoai/odh-kueue-controller-rhel9@sha256:d37cb08a0a7884f668cf8b4d3781a71ded0816fb5486edd245283f1671e03b0e
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE
   value: quay.io/rhoai/odh-llama-stack-core-rhel9@sha256:efb5e49c775f24cd3c4438680930c2bc936525eb991348508bf07d305f7613f1
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE

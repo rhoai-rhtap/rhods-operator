@@ -24,7 +24,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
   value: "quay.io/rhoai/odh-kserve-agent-rhel9@sha256:31f9bd351b5b302806b2218271e93d27dc6b9431266dc1e76d3eece31914c0b7"
 - name: RELATED_IMAGE_ODH_KSERVE_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:f0e0eff81752a8661b32cf5e4f4eab8182fc30c89bed9774faf1cccc6f9621a1"
+  value: "quay.io/rhoai/odh-kserve-controller-rhel9@sha256:18b6cbb4632013be885fbb529fbe6d74f6bf0d021aaae796d1c8a1eceefa44b4"
 - name: RELATED_IMAGE_ODH_KSERVE_ROUTER_IMAGE
   value: "quay.io/rhoai/odh-kserve-router-rhel9@sha256:a1517a715ffc545068ef6c343824feb181cd8e9b2c3c5e9c8b68d67670335976"
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
@@ -76,7 +76,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_MOD_ARCH_GEN_AI_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-gen-ai-rhel9@sha256:ebb0daf380ad7b29768ce5fbf4cab0f6c33710b8cad6e52c39427acb15a67cf6"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MAAS_IMAGE
-  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:77368ecf930252b99d5178860aa8624eb7a31dd8cb114acf9742927007e0f303"
+  value: "quay.io/rhoai/odh-mod-arch-maas-rhel9@sha256:8bff9b3b3064b93b19f667cb1623b338ee47cc99d66653b08842c2e917d0d3f4"
 - name: RELATED_IMAGE_ODH_MOD_ARCH_MODEL_REGISTRY_IMAGE
   value: "quay.io/rhoai/odh-mod-arch-model-registry-rhel9@sha256:af337b28b3e6a283761aa4e7585e9fabc318ae9844b8df30d1f2f90829ecb5ef"
 - name: RELATED_IMAGE_ODH_MUST_GATHER_IMAGE

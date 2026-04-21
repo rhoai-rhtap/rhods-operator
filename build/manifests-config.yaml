@@ -158,7 +158,7 @@ additional_meta:
     git.commit: a00285c05a340555a68f206c31e82c0cb3a7e981
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: c91dbacaf124c8f905bb15e5c215f6559309298d
+    git.commit: 34ba95ab4e2c41d780ed5918527754c7b8508b75
   odh-mod-arch-gen-ai:
     git.url: https://github.com/red-hat-data-services/odh-dashboard
     git.commit: 092390224f65b47ce231c655e37fd59f2d3ffc82

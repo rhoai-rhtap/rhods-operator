@@ -24,7 +24,7 @@ map:
     src: config
     dest: datasciencepipelines
     git.url: https://github.com/red-hat-data-services/data-science-pipelines-operator
-    git.commit: b0836197ad9ba3c44bbc92d326a5cc2e5d2466fa
+    git.commit: 9678810fe674990203704a01cea4a802efb9433e
   odh-kuberay-operator-controller:
     src: ray-operator/config
     dest: ray
@@ -96,16 +96,16 @@ additional_meta:
     git.commit: 0fc610f9c7d1245abe26d30f8690071063d25592
   odh-cli:
     git.url: https://github.com/red-hat-data-services/odh-cli
-    git.commit: 8b0841a4d9eb60fa2f9b63085f4297c8b6a3749a
+    git.commit: a85228419984d03cb9be7b1e07b6008e8088f0bf
   odh-data-science-pipelines-argo-argoexec:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 3fcf21ef0c7892e4e9257c9d0a3097916ece3456
+    git.commit: bfea3336b7a94f7b8979d95a53076a3831ce35b9
   odh-data-science-pipelines-argo-workflowcontroller:
     git.url: https://github.com/red-hat-data-services/argo-workflows
-    git.commit: 3fcf21ef0c7892e4e9257c9d0a3097916ece3456
+    git.commit: bfea3336b7a94f7b8979d95a53076a3831ce35b9
   odh-eval-hub:
     git.url: https://github.com/red-hat-data-services/eval-hub
-    git.commit: d0b5cda875c80bb309a9d673c9cabfbbc958cc1a
+    git.commit: af0bc602418a7ccbb5d59f3d498f36f2615f84a8
   odh-feature-server:
     git.url: https://github.com/red-hat-data-services/feast
     git.commit: ba57cf509265c440aa1e85cd74a7079f2c8165b8

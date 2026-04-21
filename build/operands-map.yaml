@@ -4,7 +4,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CLI_IMAGE
   value: "quay.io/rhoai/odh-cli-rhel9@sha256:3e68a902f4542f9adb69ffed13596723012185be085370702950c8a45846ce17"
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
-  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:d1464488453f9d2f18d7702af46b85e5bea7f3f581f8061fcc30ac83e443fd6f"
+  value: "quay.io/rhoai/odh-dashboard-rhel9@sha256:54d0813c45cc5f0e8a6db2f4e241cdd6161965a3f1489f4cb43ecc773baef0b6"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE
   value: "quay.io/rhoai/odh-data-science-pipelines-argo-argoexec-rhel9@sha256:3f21ca6f3a02169d84db2593b1e1e512dcca575e75b0f6b4d6393a4999fbf895"
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_WORKFLOWCONTROLLER_IMAGE
@@ -30,7 +30,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_KSERVE_STORAGE_INITIALIZER_IMAGE
   value: "quay.io/rhoai/odh-kserve-storage-initializer-rhel9@sha256:589406dd19ad80caaafb3a9ab68bd31f996de8791bc337772fe5c0cb9e3ccc71"
 - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
-  value: "quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:356ecedb07900f9e71eed8a532813fd21a4059376727747ca998d6435a345dde"
+  value: "quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:ca4f7111d32830922ed2ee8cd9d0cbde05a99569040eabe6f35ce37a79ea95b1"
 - name: RELATED_IMAGE_ODH_KUBE_AUTH_PROXY_IMAGE
   value: "quay.io/rhoai/odh-kube-auth-proxy-rhel9@sha256:e33c43a09c4e9ac667f9fd78080bc26bc72bd3280febda3e8cc7986f41d17e3a"
 - name: RELATED_IMAGE_ODH_LLAMA_STACK_CORE_IMAGE

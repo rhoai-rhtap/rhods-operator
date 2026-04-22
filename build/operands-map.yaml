@@ -152,9 +152,9 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TRAINER_IMAGE
   value: "quay.io/rhoai/odh-trainer-rhel9@sha256:c16eafee072da9be93149a7fd4867b53b0f6f18078f60b8ef2f29e1221231d8b"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA121_TORCH24_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:800e2ba822aabc9a3b030e1a795e7853e8bd39e1b5bfdfe55bd8bc002670daed"
+  value: "quay.io/rhoai/odh-training-cuda121-torch24-py311-rhel9@sha256:a25a0a11da7f5a5f9f6c0962ef33dd6158d40061048c33742ac87755dba8dfea"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA124_TORCH25_PY311_IMAGE
-  value: "quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:b87631245e1dcaeae40b91a7df1267d63a17d6bf62bc46fbe71d31f5480295cb"
+  value: "quay.io/rhoai/odh-training-cuda124-torch25-py311-rhel9@sha256:db0797ffbc35d0ee9f06a9fc3f86e68cc63232856ba6289cfac6c20db963d803"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH28_PY312_IMAGE
   value: "quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:273dc9d1263de0bd197212fa83b861414263ca2784935101644dc6340e0c910b"
 - name: RELATED_IMAGE_ODH_TRAINING_CUDA128_TORCH29_PY312_IMAGE

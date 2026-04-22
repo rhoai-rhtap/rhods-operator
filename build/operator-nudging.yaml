@@ -6,7 +6,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_CAIKIT_TGIS_SERVING_IMAGE
   value: quay.io/rhoai/odh-caikit-tgis-serving-rhel9@sha256:1237f89a9c1f554371ce5a0fa493bceb5812f5af71418ee9d42460886bf1241c
 - name: RELATED_IMAGE_ODH_CODEFLARE_OPERATOR_IMAGE
-  value: quay.io/rhoai/odh-codeflare-operator-rhel9@sha256:1207c0bd471b9503a746a2b3d219f42d31cbdd6ee4cb9a73d1cf8362146d7e85
+  value: quay.io/rhoai/odh-codeflare-operator-rhel9@sha256:349202d7f354ba4fdb1b6f16f6b9f434b9101acc3c2f6db5d63a7948a097f90f
 - name: RELATED_IMAGE_ODH_DASHBOARD_IMAGE
   value: quay.io/rhoai/odh-dashboard-rhel9@sha256:eb330c7e57334212340b642d391b091fac2a1e4d726baf8f3cefabe256944966
 - name: RELATED_IMAGE_ODH_DATA_SCIENCE_PIPELINES_ARGO_ARGOEXEC_IMAGE

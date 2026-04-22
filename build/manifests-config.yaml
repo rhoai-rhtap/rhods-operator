@@ -49,7 +49,7 @@ map:
     src: manifests
     dest: dashboard
     git.url: https://github.com/red-hat-data-services/odh-dashboard
-    git.commit: 91d0620c9839db912b97164e863c0a4248084ee3
+    git.commit: 7406f834718541880445ab4f1f400257797fd7a1
   odh-training-operator:
     src: manifests
     dest: trainingoperator
@@ -96,10 +96,10 @@ additional_meta:
     git.commit: 49253d44e9eb4e61c516bc7b7a7cbe04f12a6706
   odh-automl:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: a71ed557cc30ca8f2bb8264ba735aa610cb047aa
+    git.commit: df472b598be1561c0caa6e21bd71bd1755aa9a89
   odh-autorag:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: fc2a90e9e8eae3bedcf7b922026e918530a56a7d
+    git.commit: df472b598be1561c0caa6e21bd71bd1755aa9a89
   odh-built-in-detector:
     git.url: https://github.com/red-hat-data-services/guardrails-detectors
     git.commit: a55ca5676643af12cca5879657c207ba3b242b25
@@ -234,7 +234,7 @@ additional_meta:
     git.commit: 9cc43e53c35cec1600c1c17bd21bce4b1040f7e9
   odh-pipelines-components:
     git.url: https://github.com/red-hat-data-services/pipelines-components
-    git.commit: a71ed557cc30ca8f2bb8264ba735aa610cb047aa
+    git.commit: df472b598be1561c0caa6e21bd71bd1755aa9a89
   odh-pipeline-runtime-datascience-cpu-py312:
     git.url: https://github.com/red-hat-data-services/notebooks
     git.commit: 5ff20813ef22dbf8764f50b0e3edb2c58a061f58
@@ -291,13 +291,13 @@ additional_meta:
     git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb
   odh-training-rocm62-torch24-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
+    git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb
   odh-training-rocm62-torch25-py311:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
+    git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb
   odh-training-rocm64-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
+    git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb
   odh-training-rocm64-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb

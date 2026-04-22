@@ -16,7 +16,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_FEAST_OPERATOR_IMAGE
   value: "quay.io/rhoai/odh-feast-operator-rhel9@sha256:fe3df768d52d21d9363ff03b982674113630c4f9fd2cb4e052ff03db1556ad61"
 - name: RELATED_IMAGE_ODH_FEATURE_SERVER_IMAGE
-  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:c04e2db9d90c88aa11b3aca4a66b8cb5226529cb582f6bbd9dc1ef6bc59dcb36"
+  value: "quay.io/rhoai/odh-feature-server-rhel9@sha256:a17f5150d23712f736427228b119acd7ec2d1bd65d892626a2887fcbac552737"
 - name: RELATED_IMAGE_ODH_FMS_GUARDRAILS_ORCHESTRATOR_IMAGE
   value: "quay.io/rhoai/odh-fms-guardrails-orchestrator-rhel9@sha256:ab907be0956bd0dabf6f01baad72c5abdb659ab4871774230e29b4d5cb42c6ac"
 - name: RELATED_IMAGE_ODH_GUARDRAILS_DETECTOR_HUGGINGFACE_RUNTIME_IMAGE
@@ -120,7 +120,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_TA_LMES_DRIVER_IMAGE
   value: "quay.io/rhoai/odh-ta-lmes-driver-rhel9@sha256:1aaddb663f5f934262753d163baef8c5094c93e5a0494b193f19f97ff2fb7e3f"
 - name: RELATED_IMAGE_ODH_TA_LMES_JOB_IMAGE
-  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:ae3d55a32ce6a9b63667a414a7ff80f72f83831afb42319b05632f522700779d"
+  value: "quay.io/rhoai/odh-ta-lmes-job-rhel9@sha256:ba39dc26d2eed3186934a5c18e0b14c5f790310de8d763f95b85752f51a78be0"
 - name: RELATED_IMAGE_ODH_TH06_CPU_TORCH291_PY312_IMAGE
   value: "quay.io/rhoai/odh-th06-cpu-torch291-py312-rhel9@sha256:59b74c241dd8eecb40d0c6eae7f287e981483a7de8a010daf51f6f1ee80bc2c2"
 - name: RELATED_IMAGE_ODH_TH06_CUDA130_TORCH291_PY312_IMAGE

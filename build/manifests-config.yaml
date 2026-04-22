@@ -198,7 +198,7 @@ additional_meta:
     git.commit: b110ad8f2868923791d98c68a54195c2e4da4b5f
   odh-model-registry:
     git.url: https://github.com/red-hat-data-services/model-registry
-    git.commit: 143532a549c97ee9fca5d969263012ad2460238b
+    git.commit: a62861b1a63ea76965bb2df97d9a033c9c6e34ec
   odh-model-registry-job-async-upload:
     git.url: https://github.com/red-hat-data-services/model-registry
     git.commit: 862c263d3c9a779296b4d154f50b1317e4129fca
@@ -285,7 +285,7 @@ additional_meta:
     git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb
   odh-training-cuda128-torch28-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
-    git.commit: fd9fe2ce1ecdb75e7f076cd22b3a54ea59d26a47
+    git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb
   odh-training-cuda128-torch29-py312:
     git.url: https://github.com/red-hat-data-services/distributed-workloads
     git.commit: abd05e20514cc38d915a96ef9769e9324126a4bb

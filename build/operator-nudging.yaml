@@ -116,7 +116,7 @@ relatedImages:
 - name: RELATED_IMAGE_ODH_NOTEBOOK_CONTROLLER_IMAGE
   value: quay.io/rhoai/odh-notebook-controller-rhel9@sha256:94cda540f87874dae30d6faf0dd38e2d0e28a7a3257c7ac78843f01357c80726
 - name: RELATED_IMAGE_ODH_OPENVINO_MODEL_SERVER_IMAGE
-  value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:d5c6e43dbe87d6dd0313d090c3b6b33ef922f41d52e568a34bf846ec23072954
+  value: quay.io/rhoai/odh-openvino-model-server-rhel9@sha256:450bbfbc4d4daba12aac258bbeac61d94a24dd0deb359bc56dd1a7209d822bea
 - name: RELATED_IMAGE_ODH_PIPELINES_COMPONENTS_IMAGE
   value: quay.io/rhoai/odh-pipelines-components-rhel9@sha256:4f99955f71aa912737d78e0bdaf0750d08a20bac097977e311d2046b27f4bd87
 - name: RELATED_IMAGE_ODH_PIPELINE_RUNTIME_DATASCIENCE_CPU_PY312_IMAGE

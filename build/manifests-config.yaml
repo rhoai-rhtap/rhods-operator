@@ -56,3 +56,6 @@ map:
   odh-workload-variant-autoscaler-controller:
     src: config
     dest: wva
+  odh-ai-fifth-demo:
+    src: config/manifests
+    dest: opt/manifests/odh-ai-fifth-demo

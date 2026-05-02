@@ -59,3 +59,6 @@ map:
   odh-ai-fifth-demo:
     src: config/manifests
     dest: opt/manifests/odh-ai-fifth-demo
+  odh-ai-sixth-demo:
+    src: config/manifests
+    dest: opt/manifests/odh-ai-sixth-demo

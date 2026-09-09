@@ -163,7 +163,7 @@ jobs:
           if [[ "$BRANCH" =~ ^rhoai- ]]; then
             RHOAI_VERSION=v${BRANCH/rhoai-/}
           else
-            DEFAULT_BRANCH=$(git ls-remote --heads origin 'refs/heads/rhoai-*' | \
+            DEFAULT_BRANCH=$(git ls-remote --heads https://github.com/${{ steps.config.outputs.org }}/rhods-operator.git 'refs/heads/rhoai-*' | \
               sed 's|.*refs/heads/||' | \
               grep -E '^rhoai-[0-9]+\.[0-9]+$' | \
               sort -t. -k1,1n -k2,2n | tail -1)
